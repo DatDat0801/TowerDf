@@ -1,0 +1,419 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: popup
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tap_to_close
+    - profile_popup
+    - avatar_select
+    - more_game_txt
+    - support_txt
+    - community_txt
+    - giftcode_txt
+    - patch_note_txt
+    - patch_note_version
+    - setting_txt
+    - image_txt
+    - country_txt
+    - in_use_txt
+    - not_in_use_txt
+    - in_use_by_txt
+    - since_txt
+    - id_txt
+    - version_txt
+    - language_txt
+    - change_name
+    - enter_name_box
+    - letters_limit
+    - name_contain_special_characters
+    - name_too_short_or_long
+    - invalid_name
+    - already_exists_name
+    - change_successful
+    - data_save
+    - link_info
+    - last_save
+    - data_save_note
+    - linking_failed
+    - notice_txt
+    - data_save_question
+    - save_limit
+    - limit_txt
+    - save_success
+    - save_failed
+    - save_limit_notice
+    - restore_question
+    - restore_complete
+    - restore_failed
+    - graphic_txt
+    - enable_vibrate
+    - disable_vibrate
+    - enable_battery_saver
+    - disable_battery_saver
+    - enable_notice
+    - disable_notice
+    - enter_giftcode_box
+    - claim_giftcode
+    - claim_giftcode_failed
+    - used_giftcode_toast
+    - giftcode_check_internet
+    - result_check_internet
+    - error_occured
+    - giftcode_login_first
+    - require_login_first
+    - quit_notice
+    - locked_mode_notice
+    - tower_upgrade_txt
+    - upgrade_successful
+    - tower_reset_notice
+    - copy_to_clipboard
+    - hero_skill_reset_notice
+    - insufficient_skill_point
+    - skill_point_guide
+    - hero_exp_guide
+    - level_txt
+    - stamina_next
+    - stamina_full
+    - tap_to_start
+    - news_txt
+    - congratulation_txt
+    - max_level_hero_txt
+    - level_max_skill_txt
+    - stat_txt
+    - reset_successful
+    - backstory_txt
+    - need_hero_txt
+    - hero_unlocked
+    - locked_mode_normal
+    - insufficient_resource
+    - pre_register_reward_txt
+    - pre_register_thank_txt
+    - unlock_upgrade_tower
+    - replay_notice
+    - quit_game_notice
+    - warning_txt
+    - daily_reward_txt
+    - daily_quest_txt
+    - day_count_txt
+    - checkin_progress
+    - login_successful_txt
+    - no_data_found
+    - upgrade_activated
+    - upgrade_info
+    - properties_txt
+    - bonus_txt
+    - upgrade_condition_txt
+    - purchase_save_notice
+    - purchase_failed
+    - warning_iap
+    - warning_internet_save_data
+    - warning_internet_lost_data
+    - unlock_upgrade_tower_tut
+    - not_equip_spell
+    - start_battle_to_use
+    - spell_unlock_condition
+    - insuficent_shade
+    - insuficent_unique_shard
+    - insuficent_resource
+    - unlock_hero_to_equip
+    - unlock_hero_to_equip_rune
+    - normal_spell_rate
+    - premium_spell_rate
+    - normal_spell_name
+    - premium_spell_rname
+    - cannot_select_more_hero
+    - spell_upgrade_require
+    - reset_in_txt
+    - refresh_in_txt
+    - achievement_txt
+    - free_in
+    - complete_challenge_txt
+    - hero_not_been_unlock_txt
+    - defeat_boss_achievement_direction
+    - normal_rune_rate
+    - premium_rune_rate
+    - normal_rune_name
+    - premium_rune_name
+    - full_inventory_txt
+    - equip_slot_full_txt
+    - full_inventory_require_space_txt
+    - dismantle_warning_txt_1
+    - dismantle_warning_txt_2
+    - basic_attributes_txt
+    - bonus_attributes_txt
+    - set_of_pieces_txt
+    - set_required_txt
+    - enhance_successful_txt
+    - selected_rune_txt
+    - dismantle_slots_full_txt
+    - reward_ads_txt
+    - watch_ads_txt
+    - check_internet_warning_txt
+    - no_ads_available_txt
+    - go_to_shop_question_txt
+    - watch_previous_ads_first
+    - ios_loading_screen_txt
+    - loading_screen_common_txt
+    - dont_ask_again_today
+    - dismantle_warning_txt_3
+    - dismantle_warning_txt_4
+    - new_nightmare_unlock
+    - buy_now_title_txt
+    - buy_now_slogan_title_txt
+    - buy_now_1st_purchase_txt
+    - first_purchase_bonus_title_txt
+    - first_purchase_bonus_slogan_txt
+    - first_purchase_bonus_warning
+    - free_progress_txt
+    - premium_progress_txt
+    - checkin_day
+    - stage_txt
+    - end_time_txt
+    - already_receive_txt
+    - rune_pack_name_txt
+    - purchased_txt
+    - unlock_nightmare_txt
+    - hero_pre_trial_tag_txt
+    - hero_pre_trial_toast_txt
+    - hero_pre_trial_dialog_txt
+    - rating_title
+    - require_rating_txt
+    - unlock_spell_txt
+    - unlock_spell_txt_1
+    - equip_spell_remind_txt
+    - unlock_rune_txt
+    - unlock_rune_txt_1
+    - equip_rune_remind_txt
+    - remain_txt
+    - get_more_txt
+    - refill_stamina_title_txt
+    - owned_txt
+    - new_mode_unlocked_txt
+    - already_own_this_pack_txt
+    - already_own_this_hero_txt
+    - already_own_this_item_txt
+    - run_out_resource_txt
+    - buy_or_wait_txt
+    - available_txt
+    - no_more_purchase_txt
+    - out_of_stock_txt
+    - surrender_notice_txt
+    values:
+    - Ketuk untuk menutup
+    - Profil
+    - Avatar
+    - Permainan Lainnya
+    - Dukung
+    - Masyarakat
+    - Giftcode
+    - Versi
+    - <color=#815329>Versi {0}</color>
+    - Konfigurasi
+    - Gambar
+    - Negara
+    - Dilengkapi
+    - Tidak dilengkapi
+    - Dilengkapi oleh {0}
+    - Sejak
+    - 'ID:'
+    - Versi
+    - Bahasa
+    - Ganti Nama
+    - Masukkan nama baru di sini...
+    - <color=#E73F44>(4-18 huruf, kecualikan karakter khusus)</color>
+    - Nama harus mengecualikan karakter khusus
+    - Panjangnya dari 4-18 karakter!
+    - Nama tidak valid
+    - Nama ini sudah ada
+    - Perubahan berhasil
+    - Data yang disimpan
+    - Sudah ditautkan dengan
+    - Terakhir disimpan
+    - Harap tautkan ke akun untuk menyimpan data Anda
+    - Tautan gagal
+    - Pemberitahuan
+    - Apakah Anda ingin menyimpan data Anda?
+    - 'Batasi penghematan: {0}/{1}'
+    - 'Membatasi:'
+    - Berhasil menyimpan data
+    - Gagal menyimpan data
+    - Anda telah mencapai batas penyimpanan Anda untuk hari itu
+    - Apakah Anda ingin memulihkan data Anda?\n <color=#e85253>*Data Anda saat ini
+      akan ditimpa</color>
+    - Pemulihan data berhasil
+    - Pemulihan data gagal
+    - Grafis
+    - Aktifkan getar
+    - Matikan getar
+    - Aktifkan mode penghemat baterai
+    - Matikan mode penghemat baterai
+    - Hidupkan notifikasi
+    - Matikan notifikasi
+    - Masukkan gifcode di sini...
+    - Anda telah menerima hadiah Anda
+    - Gifcode tidak valid
+    - Giftcode ini telah digunakan atau telah kedaluwarsa. Harap masukkan giftcode
+    - Tidak dapat terhubung ke server. Silakan periksa internet Anda
+    - Tidak dapat menyimpan hasil. Silakan periksa internet Anda
+    - Terjadi kesalahan. Silakan hubungi tim dukungan untuk bantuan
+    - Anda harus masuk ke akun Anda untuk menggunakan giftcode
+    - Silahkan login ke akun anda terlebih dahulu
+    - Anda akan keluar ke layar utama.\n Apakah Anda yakin ingin keluar dari pertempuran?
+    - Mode saat ini terkunci. Raih 3 bintang di Tahap {0} dengan kesulitan normal
+      untuk membuka kunci
+    - Peningkatan menara
+    - Upgrade berhasil
+    - Semua menara yang ditingkatkan akan disetel ulang. Apakah kamu yakin?
+    - Berhasil disalin
+    - Semua keterampilan akan disetel ulang. Apakah kamu yakin?
+    - Poin Keterampilan tidak mencukupi
+    - Poin keterampilan digunakan untuk meningkatkan keterampilan. Dapatkan lebih
+      banyak dengan menaikkan level pahlawan.
+    - Dapatkan EXP pahlawan dari pertempuran atau gunakan kristal untuk meningkatkan
+      level mereka secara instan!
+    - 'Tingkat: {0} / {1}'
+    - 'Energi berikutnya:'
+    - 'Mengisi waktu:'
+    - Ketuk untuk bermain
+    - Berita
+    - Selamat
+    - Tingkat maksimal tercapai!
+    - Tingkat maksimal
+    - Statistik
+    - Setel ulang berhasil
+    - Cerita
+    - Kamu membutuhkan minimal 1 Hero untuk memulai tahap
+    - '{0} tidak terkunci'
+    - Selesaikan Tahap sebelumnya untuk membuka kunci
+    - Tidak cukup {0}.
+    - Hadiah pra pendaftaran
+    - Terima kasih atas pra pendaftaran Empire Defender!
+    - Masuk Tahap {0} untuk membuka kunci
+    - Apakah Anda ingin bermain lagi?
+    - Apakah Anda yakin ingin keluar dari permainan?
+    - Peringatan
+    - Hadiah harian
+    - Misi harian
+    - Hari {0}
+    - 'Kemajuan: {0} / {1}'
+    - Berhasil masuk
+    - Tidak ada data ditemukan
+    - Telah ditingkatkan
+    - 1. <color=#eb9e15>Bintang perak</color> digunakan untuk membuka kunci level
+      peningkatan dasar.\n \n 2. <color=#eb9e15>Bintang emas</color> digunakan untuk
+      membuka kunci level lanjutan.\n \n 3. Lengkapi tingkat kesulitan <color=#eb9e15>Normal</color>
+      untuk mengumpulkan bintang perak.\n \n 4. Tingkat kesulitan <color=#eb9e15>Mimpi
+      buruk</color> lengkap untuk mengumpulkan bintang emas.
+    - Properti
+    - Naik tingkat
+    - Tingkatkan level sebelumnya terlebih dahulu
+    - Data penyimpanan lokal Anda mungkin hilang. Pastikan Anda terhubung ke akun
+      {0} Anda
+    - Pembelian Anda gagal. Pastikan internet Anda stabil
+    - Gagal memuat informasi pembelian, harap periksa sambungan jaringan Anda dan
+      penautan toko Anda.
+    - Gagal menyimpan data Anda. Silakan periksa koneksi jaringan Anda.
+    - I tuoi dati andranno persi. Sei sicuro?
+    - Lanjutkan bermain tutorial untuk membuka kunci
+    - Pahlawan tidak dilengkapi dengan mantra apa pun
+    - Mulai pertempuran untuk digunakan
+    - Selesaikan tahap {0} untuk membuka kunci
+    - Fragmen tidak cukup
+    - Fragmen {0} tidak cukup
+    - Tidak cukup sumber daya
+    - Buka kunci pahlawan sebelum melengkapi mantra
+    - Buka kunci pahlawan sebelum melengkapi Rune
+    - Tingkat normal
+    - Tingkat Premium
+    - Mantra normal
+    - Mantra Premium
+    - Formasinya sudah penuh
+    - 'Jumlah {0} fragmen diperlukan: {1}'
+    - 'Setel ulang di:'
+    - 'Setel ulang di:'
+    - Prestasi
+    - 'Gratis di:'
+    - Selesaikan tantangan untuk mengklaim hadiah!
+    - Pahlawan ini belum dibuka kuncinya. Apakah Anda ingin membukanya sekarang?
+    - Kalahkan bos di panggung {0}
+    - Tingkat Normal
+    - Tingkat Premium
+    - Rune normal
+    - Rune Premium
+    - Inventaris Anda penuh.
+    - Slot {0} penuh
+    - Tolong bongkar Rune lainnya
+    - Harap hapus Rune sebelum dibongkar
+    - Yakin ingin membongkar {0} dan mendapatkan materi di bawah ini?
+    - Atribut dasar
+    - Atribut bonus
+    - 'Set isi {0} Rune:'
+    - Membutuhkan {0} {1}
+    - Tingkatkan sukses
+    - 'Rune yang dipilih:'
+    - Slot membongkar penuh
+    - Iklan hadiah
+    - Tonton {0} iklan
+    - Silakan periksa koneksi internet anda
+    - Tidak ada iklan yang tersedia
+    - Ingin membeli lebih banyak {0}?
+    - Silahkan tonton iklan sebelumnya terlebih dahulu
+    - Memuat - tidak mengunduh data tambahan
+    - Memuat - tidak mengunduh data tambahan
+    - Jangan tanya lagi hari ini
+    - Anda memilih Rune dengan kelangkaan tinggi untuk dibongkar. Apakah anda yakin
+      ingin melanjutkan?
+    - Anda belum memilih Rune untuk dibongkar
+    - Selesaikan Normal sulit untuk membuka kesulitan Mimpi buruk
+    - Beli sekarang
+    - Buka kunci kemajuan premium dan hadiah eksklusif
+    - Beli sekarang untuk mendapatkan <color=#ff3960>Bonus pembelian pertama</color>
+    - Bonus pembelian pertama
+    - <color=#ffe960>Beli paket apa saja</color> untuk mendapatkan bonus ini!
+    - Lakukan dengan benar selama acara untuk menerima keuntungan besar
+    - Gratis
+    - Premium
+    - Kehadiran 5 hari
+    - Tahap
+    - 'Akhir waktu:'
+    - Anda telah menerima bonus ini
+    - Paket Rune
+    - Terjual
+    - '{0} kesulitan tidak terkunci'
+    - Uji coba
+    - Ini adalah Pahlawan default untuk percobaan
+    - Oh... Halo petualang. Apakah Anda melawan Orc? Mari kita bergabung!
+    - Apakah kamu menyukai permainan ini?
+    - Jika kamu suka Empire Warrior TD, silahkan memberi nilai.\nTerima kasih banyak
+      atas dukunganmu!
+    - 'Anda telah membuka kunci Mantra. '
+    - Apakah Anda ingin mencobanya sekarang?
+    - Anda belum melengkapi Mantra untuk Pahlawan. Apakah Anda ingin melengkapi sekarang?
+    - 'Anda telah membuka kunci sistem Rune. '
+    - Apakah Anda ingin mencobanya sekarang?
+    - Anda belum melengkapi Rune untuk Pahlawan. Apakah Anda ingin melengkapi sekarang?
+    - 'Tetap:'
+    - Apakah Anda ingin mendapatkan lebih banyak?
+    - Isi ulang stamina
+    - Terjual
+    - Mode baru yang dapat dimainkan tidak terkunci
+    - Anda sudah memiliki paket ini
+    - Anda sudah memiliki Pahlawan ini
+    - Anda sudah memiliki barang ini
+    - Anda telah kehabisan {0}.
+    - Apakah Anda ingin membeli sekarang atau menunggu
+    - 'Tersedia:'
+    - Tidak ada lagi {0} yang tersedia
+    - Kehabisan persediaan
+    - Hasil saat ini tidak akan disimpan. Apa kamu yakin?

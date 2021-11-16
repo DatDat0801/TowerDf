@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: upgrade_tower
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tower_up_name_2001_0
+    - tower_up_name_2001_1
+    - tower_up_name_2001_2
+    - tower_up_name_2001_3
+    - tower_up_name_2001_4
+    - tower_up_name_2001_5
+    - tower_up_name_2002_0
+    - tower_up_name_2002_1
+    - tower_up_name_2002_2
+    - tower_up_name_2002_3
+    - tower_up_name_2002_4
+    - tower_up_name_2002_5
+    - tower_up_name_2003_0
+    - tower_up_name_2003_1
+    - tower_up_name_2003_2
+    - tower_up_name_2003_3
+    - tower_up_name_2003_4
+    - tower_up_name_2003_5
+    - tower_up_name_2004_0
+    - tower_up_name_2004_1
+    - tower_up_name_2004_2
+    - tower_up_name_2004_3
+    - tower_up_name_2004_4
+    - tower_up_name_2004_5
+    - tower_up_des_2001_0
+    - tower_up_des_2001_1
+    - tower_up_des_2001_2
+    - tower_up_des_2001_3
+    - tower_up_des_2001_4
+    - tower_up_des_2001_5
+    - tower_up_des_2002_0
+    - tower_up_des_2002_1
+    - tower_up_des_2002_2
+    - tower_up_des_2002_3
+    - tower_up_des_2002_4
+    - tower_up_des_2002_5
+    - tower_up_des_2003_0
+    - tower_up_des_2003_1
+    - tower_up_des_2003_2
+    - tower_up_des_2003_3
+    - tower_up_des_2003_4
+    - tower_up_des_2003_5
+    - tower_up_des_2004_0
+    - tower_up_des_2004_1
+    - tower_up_des_2004_2
+    - tower_up_des_2004_3
+    - tower_up_des_2004_4
+    - tower_up_des_2004_5
+    values:
+    - Scout
+    - "Tir per\xE7ant"
+    - "Pluie de Fl\xE8ches"
+    - "Archer d'\xE9lite"
+    - "Fl\xE8che barbel\xE9e"
+    - "Fl\xE8che de Destruction"
+    - Voyance
+    - "Magie p\xE9n\xE9trante"
+    - "T\xE9l\xE9portation ultime"
+    - "Magie avanc\xE9e"
+    - "Pluie de m\xE9t\xE9orites"
+    - Magie de la Destruction
+    - Vision ancienne
+    - "Protecteur g\xE9ant"
+    - Essence de feu
+    - Fureur de protecteur
+    - Sismique fatale
+    - "S\xE9isme destructeur"
+    - "Entra\xEEnement d'endurance"
+    - "\xC9p\xE9e renforc\xE9e"
+    - Renforcement
+    - "Sac m\xE9dical"
+    - "Soldat d'\xE9lite"
+    - "Fant\xF4me de Gloire"
+    - "Augmenter la port\xE9e d'attaque de <color=#69ae10>{0}%</color>"
+    - Augmenter le taux critique de <color=#69ae10>{0}%</color> pour les attaques
+      de base
+    - "Les attaques de base peuvent toucher plusieurs cibles \xE0 la fois, jusqu'\xE0
+      <color=#69ae10>{0}</color> cibles"
+    - "Augmente les d\xE9g\xE2ts d'attaque physique de <color=#69ae10>{0}%</color>"
+    - "Augmente <color=#69ae10>{0}%</color> de d\xE9g\xE2ts par fl\xE8che de Tir
+      rapide"
+    - "Chaque fl\xE8che de l'attaque de base a <color=#69ae10>{0}%</color> de chances
+      d'infliger <color=#69ae10>{1}%</color> de d\xE9g\xE2ts critiques"
+    - "Augmenter la port\xE9e d'attaque de <color=#69ae10>{0}%</color>"
+    - "Augmente les d\xE9g\xE2ts magiques de <color=#69ae10>{0}%</color>"
+    - "T\xE9l\xE9portez l'ennemi au point de d\xE9part"
+    - "R\xE9duit les d\xE9g\xE2ts perdus lorsque vous touchez plusieurs ennemis de
+      <color=#69ae10>{0}%</color>"
+    - "Ajouter <color=#69ae10>{0}</color> attaque pour la comp\xE9tence Frappe Magique"
+    - "Chaque coup d'une attaque de base explose et inflige <color=#69ae10>{0}</color>
+      d\xE9g\xE2ts magiques suppl\xE9mentaires"
+    - "Augmenter la port\xE9e d'attaque de <color=#69ae10>{0}%</color>"
+    - "Augmente les d\xE9g\xE2ts d'attaque physique de <color=#69ae10>{0}%</color>"
+    - "Les attaques de base ont <color=#69ae10>{0}%</color> de chances de lancer
+      une pierre enflamm\xE9e, infligeant <color=#69ae10>{1}</color> d\xE9g\xE2ts
+      et mettant le feu au sol pendant <color=#69ae10>{2}</color> secondes. La zone
+      de feu inflige <color=#69ae10>{3}</color> de d\xE9g\xE2ts toutes les <color=#69ae10>{4}</color>
+      secondes"
+    - Augmente la vitesse d'attaque de <color=#69ae10>{0}%</color>
+    - "Augmente <color=#69ae10>{0}%</color> de d\xE9g\xE2ts pour la comp\xE9tence
+      Frappe Sismique"
+    - "Chaque fissure dans le sol de Frappe Sismique g\xE9n\xE8re un essaim de roches,
+      infligeant {0} d\xE9g\xE2ts suppl\xE9mentaires et r\xE9duisant la vitesse de
+      d\xE9placement de l'ennemi de {1} %"
+    - Augmente PV de <color=#69ae10>{0}%</color> pour les troupes
+    - "Augmente les d\xE9g\xE2ts d'attaque physique de <color=#69ae10>{0}%</color>"
+    - "<color=#69ae10>{0}</color> plus de troupes rejoignent l'\xE9quipe"
+    - "<color=#69ae10>{0}%</color> de r\xE9duction du temps de r\xE9apparition"
+    - "Conf\xE8re <color=#69ae10>{0}%</color> d'armure et <color=#69ae10>{1}%</color>
+      de r\xE9sistance magique aux serviteurs"
+    - "\xC0 la mort, les troupes prendront la forme d'un fant\xF4me et durent <color=#69ae10>{0}</color>
+      secondes. L'\xE9tat fant\xF4me est invuln\xE9rable et les troupes dispara\xEEtront
+      apr\xE8s l'expiration de la dur\xE9e"

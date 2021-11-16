@@ -1,0 +1,674 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2850d3429ad340d9a97000a6d05efc53, type: 3}
+  m_Name: HeroData1004
+  m_EditorClassIdentifier: 
+  stats:
+  - id: 1004
+    health: 680
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 13
+    resistance: 25
+    damage: 16
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 1
+    maxExp: 0
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 709
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 13.6
+    resistance: 26.1
+    damage: 16.7
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 2
+    maxExp: 33
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 739
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 14.2
+    resistance: 27.2
+    damage: 17.4
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 3
+    maxExp: 44
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 768
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 14.8
+    resistance: 28.3
+    damage: 18.1
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 4
+    maxExp: 57
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 797
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 15.4
+    resistance: 29.4
+    damage: 18.8
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 5
+    maxExp: 76
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 827
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 16
+    resistance: 30.5
+    damage: 19.5
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 6
+    maxExp: 100
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 856
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 16.6
+    resistance: 31.6
+    damage: 20.2
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 7
+    maxExp: 132
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 885
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 17.2
+    resistance: 32.7
+    damage: 20.9
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 8
+    maxExp: 175
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 914
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 17.8
+    resistance: 33.8
+    damage: 21.6
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 9
+    maxExp: 230
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 944
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 18.4
+    resistance: 34.9
+    damage: 22.3
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 10
+    maxExp: 304
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 973
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 19
+    resistance: 36
+    damage: 23
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 11
+    maxExp: 401
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1002
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 19.6
+    resistance: 37.1
+    damage: 23.7
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 12
+    maxExp: 530
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1032
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 20.2
+    resistance: 38.2
+    damage: 24.4
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 13
+    maxExp: 700
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1061
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 20.8
+    resistance: 39.3
+    damage: 25.1
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 14
+    maxExp: 923
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1090
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 21.4
+    resistance: 40.4
+    damage: 25.8
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 15
+    maxExp: 1219
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1120
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 22
+    resistance: 41.5
+    damage: 26.5
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 16
+    maxExp: 1609
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1149
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 22.6
+    resistance: 42.6
+    damage: 27.2
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 17
+    maxExp: 2124
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1178
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 23.2
+    resistance: 43.7
+    damage: 27.9
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 18
+    maxExp: 2803
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1207
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 23.8
+    resistance: 44.8
+    damage: 28.6
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 19
+    maxExp: 3701
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1237
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 24.4
+    resistance: 45.9
+    damage: 29.3
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 20
+    maxExp: 4885
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1266
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 25
+    resistance: 47
+    damage: 30
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 21
+    maxExp: 6448
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1295
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 25.6
+    resistance: 48.1
+    damage: 30.7
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 22
+    maxExp: 8511
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1325
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 26.2
+    resistance: 49.2
+    damage: 31.4
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 23
+    maxExp: 11235
+    heroClasses: 010000000400000007000000
+  - id: 1004
+    health: 1354
+    moveSpeed: 2.5
+    attackSpeed: 0.8
+    armor: 26.8
+    resistance: 50.3
+    damage: 32.1
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 80
+    timeRevive: 40
+    damageType: 1
+    blockEnemy: 4
+    timeTriggerRegeneration: 3
+    searchTarget: 2
+    priorityTarget: 0300000000000000
+    detectMeleeAttack: 0.4
+    detectRangeAttack: 3.6
+    detectBlock: 1
+    level: 24
+    maxExp: 14830
+    heroClasses: 010000000400000007000000
+  active:
+  - level: 1
+    cooldown: 45
+    timeLife: 4
+    damagePerSecond: 8
+  - level: 2
+    cooldown: 40
+    timeLife: 5
+    damagePerSecond: 12
+  - level: 3
+    cooldown: 35
+    timeLife: 6.5
+    damagePerSecond: 20
+  passive1:
+  - level: 1
+    ratioReductionSpeed: 0.4
+    modifierType: 3
+  - level: 2
+    ratioReductionSpeed: 0.55
+    modifierType: 3
+  - level: 3
+    ratioReductionSpeed: 0.75
+    modifierType: 3
+  passive2:
+  - level: 1
+    chance: 0.1
+    detectRange: 2
+    timeLife: 3
+  - level: 2
+    chance: 0.15
+    detectRange: 2
+    timeLife: 4
+  - level: 3
+    chance: 0.25
+    detectRange: 2
+    timeLife: 6
+  passive3:
+  - level: 1
+    cooldown: 35
+    regionDetect: 3.6
+    regenHpPerSecond: 300
+    ratioIncreaseAtkSpeed: 0.1
+    timeLife: 5
+    modifierType: 3
+  - level: 2
+    cooldown: 30
+    regionDetect: 3.6
+    regenHpPerSecond: 500
+    ratioIncreaseAtkSpeed: 0.15
+    timeLife: 7
+    modifierType: 3
+  - level: 3
+    cooldown: 20
+    regionDetect: 3.6
+    regenHpPerSecond: 850
+    ratioIncreaseAtkSpeed: 0.23
+    timeLife: 10
+    modifierType: 3
+  poisonStatuses:
+  - level: 1
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 2
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 3
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 4
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 5
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 6
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 7
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 8
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 9
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 10
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 11
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 12
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 13
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 14
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 15
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 16
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 17
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 18
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 19
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 20
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 21
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 22
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 23
+    timeLife: 3
+    hpPerSecond: 2.5
+  - level: 24
+    timeLife: 3
+    hpPerSecond: 2.5

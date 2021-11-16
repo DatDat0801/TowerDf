@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd90c9be62c45bba35de853b20c5423, type: 3}
+  m_Name: TowerCost
+  m_EditorClassIdentifier: 
+  sellRate: 0.7
+  raiseCosts:
+    keys: d1070000d2070000d3070000d4070000
+    values:
+    - id: 2001
+      raiseLevelCost: 500000006900000091000000
+      raiseSkill1Cost: 780000008700000096000000
+      raiseSkill2Cost: b4000000
+    - id: 2002
+      raiseLevelCost: 6400000082000000aa000000
+      raiseSkill1Cost: 8c000000a0000000b4000000
+      raiseSkill2Cost: c8000000
+    - id: 2003
+      raiseLevelCost: 82000000b4000000f0000000
+      raiseSkill1Cost: c8000000f000000018010000
+      raiseSkill2Cost: 2c010000
+    - id: 2004
+      raiseLevelCost: 3c0000005500000078000000
+      raiseSkill1Cost: 780000006400000064000000
+      raiseSkill2Cost: a0000000

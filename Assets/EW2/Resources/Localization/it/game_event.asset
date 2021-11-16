@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: game_event
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - quest_not_unlocked_txt
+    - hero_chalenge_txt
+    - hero_chalenge_slogan_txt
+    - hero_chalenge_rule_txt
+    - glory_road_rule_txt
+    - medal_redeem_warning_txt
+    - glory_road_premium_warning_txt
+    - already_unlock_premium_txt
+    - event_daily_reward_title_txt
+    - event_daily_slogan_txt
+    - premium_glory_road_item_txt
+    - glory_road_title_txt
+    - glory_road_slogan_txt
+    - glory_road_slogan_2_txt
+    - hero_academy_event_name_txt
+    - medal_exchange_txt
+    - buy_now_direction_popup
+    - full_basic_progress_notice
+    - unlock_premium_progress_notice
+    - claim_hero_notice
+    - nhero_challenge_title_txt
+    - nhero_event_name_txt
+    - nhero_mission_txt
+    - nhero_mission_slogan_txt
+    - event_quest_nhero_txt
+    - hero_mission_rule
+    - hero_required_formation
+    - event_quest_pf5_txt
+    - event_quest_nhero_pf5_txt
+    - event_quest_pf5m_txt
+    - event_quest_nhero_pf10m_txt
+    - event_quest_nhero_pf20m_txt
+    - event_quest_nhero_lv5_txt
+    - event_quest_nhero_spell_txt
+    - event_quest_nhero_rune_txt
+    - nhero_bundle_txt
+    - hero_bundle_slogan_txt
+    - hero_bundle_level_tag_txt
+    - hero_backpack_txt
+    - event_crystal_pack_txt
+    - event_rune_pack_txt
+    - event_spell_pack_txt
+    values:
+    - Le missioni non sono ancora sbloccate
+    - Sfida dell'eroe
+    - Accetta la sfida e fai la tua cronaca epica
+    - "1. Completa le missioni di ogni giorno per ottenere una ricompensa e raccogliere
+      la medaglia.\n \n 2. Le missioni vengono sbloccate di giorno in giorno. Le
+      missioni incompiute dei giorni precedenti possono essere continuate il giorno
+      successivo."
+    - "3. Le medaglie raccolte possono essere riscattate per ricompense nella strada
+      della Gloria. Ogni pietra miliare di ricompensa richiede una certa quantit\xE0
+      di medaglia.\n \n 4. Il progresso Premium deve essere sbloccato per ricevere
+      le ricompense. Acquista il pacchetto Buy Now per sbloccarlo."
+    - "<color=#E73F44>*Nota: Dopo la fine dell'evento, la Medaglia rimanente cambier\xE0
+      automaticamente in Cristalli.</color>"
+    - Aggiorna i progressi per ricevere le ricompense premium
+    - "Hai gi\xE0 aggiornato i progressi premium"
+    - Regali giornalieri
+    - Accumula medaglie e ricevi grandi ricompense
+    - Strada della gloria premium
+    - Strada della gloria
+    - Raccogli le medaglie, aggiorna i progressi
+    - E recluta un nuovo eroe!
+    - Accademia degli Eroi
+    - "La tua <color=#815329>{0}</color> Medaglia \xE8 stata convertita in <color=#815329>{1}</color>
+      Cristalli\n \n Tasso di cambio: <color=#815329>1</color> Medaglia = <color=#815329>5</color>
+      Cristalli"
+    - "Unisciti a <color=#FFD700>{0}</color> per ottenere questo eroe e ancora pi\xF9
+      risorse!"
+    - Hai sbloccato l'ultima ricompensa dei progressi di base.
+    - Ma ci sono ancora molte preziose ricompense su <color=#815329>{0}</color>.
+      Prendiamoli!
+    - Rivendica il tuo eroe in Strada della gloria premium
+    - Nuovo eroe - Nuova sfida
+    - Il prescelto discende
+    - Missione Eroe
+    - Durante l'evento, completa le missioni per richiedere i premi!
+    - Prova l'ultimo eroe {0}
+    - 'Completa le missioni per ricevere ricompense interessanti.
+
+
+      *Nota:
+      le missioni vengono conteggiate solo durante il tempo dell''evento.'
+    - Richiedi {0} nella formazione
+    - "Ottieni 3 stelle al livello {0} a difficolt\xE0 Normale"
+    - Raggiungi 3 stelle al livello {0} normale usando {1}
+    - "Ottieni 3 stelle nel livello di difficolt\xE0 {0} Incubo"
+    - Raggiungi 3 stelle al livello {0} dell'incubo usando {1}
+    - "Usa l'abilit\xE0 {0} di {1} {2} volte"
+    - '{0} raggiunge il livello {1}'
+    - Equipaggia una Incantesimo per {0}
+    - Equipaggia una Rune per {0}
+    - Pacchetto Eroe
+    - Scegline solo uno
+    - Livello {0}!
+    - Zaino eroico
+    - Pacchetto Cristalli
+    - Pacchetto Rune
+    - Pacchetto Incantesimo

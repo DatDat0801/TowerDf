@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - enemy_name_3001
+    - enemy_name_3002
+    - enemy_name_3003
+    - enemy_name_3004
+    - enemy_name_3005
+    - enemy_name_3006
+    - enemy_name_3007
+    - enemy_name_3008
+    - enemy_name_3009
+    - enemy_name_3010
+    - enemy_name_3011
+    - enemy_name_3012
+    - enemy_name_3013
+    - enemy_name_3014
+    - enemy_name_3015
+    - enemy_name_3016
+    - enemy_name_3017
+    - enemy_name_3018
+    - enemy_name_3019
+    - enemy_name_3020
+    - enemy_name_3021
+    - enemy_name_3022
+    - enemy_name_3023
+    - enemy_name_3024
+    - enemy_name_3025
+    - enemy_name_3026
+    - enemy_name_3027
+    - enemy_name_3028
+    - enemy_name_3029
+    - enemy_name_3030
+    - enemy_name_3031
+    - enemy_name_3032
+    - enemy_name_3033
+    - enemy_name_3034
+    - enemy_name_3035
+    - enemy_name_3036
+    - enemy_name_3037
+    - enemy_des_3001
+    - enemy_des_3002
+    - enemy_des_3003
+    - enemy_des_3004
+    - enemy_des_3005
+    - enemy_des_3006
+    - enemy_des_3007
+    - enemy_des_3008
+    - enemy_des_3009
+    - enemy_des_3010
+    - enemy_des_3011
+    - enemy_des_3012
+    - enemy_des_3013
+    - enemy_des_3014
+    - enemy_des_3015
+    - enemy_des_3016
+    - enemy_des_3017
+    - enemy_des_3018
+    - enemy_des_3019
+    - enemy_des_3020
+    - enemy_des_3021
+    - enemy_des_3022
+    - enemy_des_3023
+    - enemy_des_3024
+    - enemy_des_3025
+    - enemy_des_3026
+    - enemy_des_3027
+    - enemy_des_3028
+    - enemy_des_3029
+    - enemy_des_3030
+    - enemy_des_3031
+    - enemy_des_3032
+    - enemy_des_3033
+    - enemy_des_3034
+    - enemy_des_3035
+    - enemy_des_3036
+    - enemy_des_3037
+    - enemy_skill_3001
+    - enemy_skill_3002
+    - enemy_skill_3003
+    - enemy_skill_3004
+    - enemy_skill_3005
+    - enemy_skill_3006
+    - enemy_skill_3007
+    - enemy_skill_3008
+    - enemy_skill_3009
+    - enemy_skill_3010
+    - enemy_skill_3011
+    - enemy_skill_3012
+    - enemy_skill_3013
+    - enemy_skill_3014
+    - enemy_skill_3015
+    - enemy_skill_3016
+    - enemy_skill_3017
+    - enemy_skill_3018
+    - enemy_skill_3019
+    - enemy_skill_3020
+    - enemy_skill_3021
+    - enemy_skill_3022
+    - enemy_skill_3023
+    - enemy_skill_3024
+    - enemy_skill_3025
+    - enemy_skill_3026
+    - enemy_skill_3027
+    - enemy_skill_3028
+    - enemy_skill_3029
+    - enemy_skill_3030
+    - enemy_skill_3031
+    - enemy_skill_3032
+    - enemy_skill_3033
+    - enemy_skill_3034
+    - enemy_skill_3035
+    - enemy_skill_3036
+    - enemy_skill_3037
+    - enemy_warn_3002
+    - enemy_warn_3003
+    - enemy_warn_3005
+    - enemy_warn_3006
+    - enemy_warn_3007
+    - enemy_warn_3008
+    - enemy_warn_3009
+    - enemy_warn_3010
+    - enemy_warn_3011
+    - enemy_warn_3012
+    - enemy_warn_3013
+    - enemy_warn_3014
+    - enemy_warn_3015
+    - enemy_warn_3016
+    - enemy_warn_3017
+    - enemy_warn_3020
+    - enemy_warn_3021
+    - enemy_warn_3022
+    - enemy_warn_3023
+    - enemy_warn_3024
+    - enemy_warn_3025
+    - enemy_warn_3026
+    - enemy_warn_3027
+    - enemy_warn_3028
+    - enemy_warn_3029
+    - enemy_warn_3030
+    - enemy_warn_3031
+    - enemy_warn_3032
+    - enemy_warn_3033
+    - enemy_warn_3034
+    - enemy_warn_3035
+    - enemy_warn_3036
+    - enemy_warn_3037
+    values:
+    - Goblin
+    - Goblin Ranger
+    - Goblin Assassin
+    - Orc
+    - Orc Marauder
+    - Orc Shaman
+    - Orc Druid
+    - Cursed Goblin
+    - Ogre
+    - Goblin Barrel
+    - Morg
+    - Morg Rider
+    - Dark Wing
+    - Fly Goblin
+    - Ogre
+    - Cursed Goblin
+    - Corrupted Protector
+    - Little Protector
+    - Little Protector
+    - Gul'ak the Dark Eye
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Goblins are the basic infantry in evil army
+    - These Goblins are annoying and are capable of attacking from a long distance.
+    - Be careful of assassins. They are quick and hard to stop.
+    - Orcs is the main infantry of evil army. They are stronger than Goblins.
+    - They are warmonger and bloodlust warriors. They were born to serve the war.
+    - Shamans are capable of inspiring the Orc's morale. Don't let them play the
+      magic drums.
+    - These weird Orcs have learned natural magic. Destroy them first.
+    - Cursed Goblins are creatures of an ancient curse. They live between the lines
+      of life and death and they have the ability to summon the dead.
+    - Ogres are big but goofy creatures. They are the vanguard with high defense.
+    - This is a weird idea of the Goblins. They are used to break through enemy defenses.
+    - The hybrid wolves are quick and dangerous. They were tamed by the Orcs.
+    - The wolf rider is one of the elite and dangerous forces of the evil army.
+    - The Dark Wings are summoned by Narazal. They still exist from the great battle
+      many years ago until now.
+    - This is Goblin's assault team. They use the Dark Wings to slip through the
+      enemy's line.
+    - Ogre are big but goofy creatures. They are the vanguard with high defense.
+    - Cursed Goblins are creatures of an ancient curse. They live between the lines
+      of life and death and they have the ability to summon the dead.
+    - An ancient Protector sealed by royal wizards. However, due to the magic from
+      the demon sword Durandal possessed by King Jave I, he was corrupted and became
+      a servant of the devil.
+    - The Little protectors were created from the fragments of the Corrupted Protector
+    - The Little protectors were created from the fragments of the Corrupted Protector
+    - Gul'ak was Moggun's younger brother and was the next leader of Bloodwolf clan.
+      He was controlled by the demon sword Durandal and became one of the generals
+      of the evil army.
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Rage
+    - Exhort drum
+    - Healing
+    - Summoning
+    - Stun strike
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Stun strike. Rage
+    - Summoning. Dark flame
+    - Rapid rock. Splitting
+    - 
+    - 
+    - Dark cage. Dark thorn. Summoning. Soul breaker
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '- Attack from distance'
+    - '- High movement speed\n - Attack from distance'
+    - '- Average endurance\n - Becomes rage when HP is low'
+    - '- Low movement speed\n - Buff movement speed for nearby allies'
+    - '- Healing nearby allies\n - Attack from distance'
+    - '- Summoning enemies\n - Attack from distance'
+    - '- High endurance\n - Can stun its opponent\n - Low movement speed'
+    - '- High movement speed\n - Broke into many Goblins'
+    - '- High movement speed\n - Causing Bleed to its opponent'
+    - '- Causing Bleed to its opponent'
+    - '- Flying monster'
+    - '- Flying monster'
+    - '- High endurance\n - Can stun its opponent\n - Becomes rage when HP is low\n
+      - Low movement speed'
+    - '- Summoning enemies\n - Control the towers\n - Attack from distance'
+    - '- High endurance\n - Can attack from distance\n - Dealing damage in large
+      area\n - Can stun its opponent'
+    - '- Summoning enemies\n - Can attack from distance\n - Dealing damage in large
+      area\n - Can stun its opponent'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

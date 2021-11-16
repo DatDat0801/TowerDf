@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: upgrade_tower
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tower_up_name_2001_0
+    - tower_up_name_2001_1
+    - tower_up_name_2001_2
+    - tower_up_name_2001_3
+    - tower_up_name_2001_4
+    - tower_up_name_2001_5
+    - tower_up_name_2002_0
+    - tower_up_name_2002_1
+    - tower_up_name_2002_2
+    - tower_up_name_2002_3
+    - tower_up_name_2002_4
+    - tower_up_name_2002_5
+    - tower_up_name_2003_0
+    - tower_up_name_2003_1
+    - tower_up_name_2003_2
+    - tower_up_name_2003_3
+    - tower_up_name_2003_4
+    - tower_up_name_2003_5
+    - tower_up_name_2004_0
+    - tower_up_name_2004_1
+    - tower_up_name_2004_2
+    - tower_up_name_2004_3
+    - tower_up_name_2004_4
+    - tower_up_name_2004_5
+    - tower_up_des_2001_0
+    - tower_up_des_2001_1
+    - tower_up_des_2001_2
+    - tower_up_des_2001_3
+    - tower_up_des_2001_4
+    - tower_up_des_2001_5
+    - tower_up_des_2002_0
+    - tower_up_des_2002_1
+    - tower_up_des_2002_2
+    - tower_up_des_2002_3
+    - tower_up_des_2002_4
+    - tower_up_des_2002_5
+    - tower_up_des_2003_0
+    - tower_up_des_2003_1
+    - tower_up_des_2003_2
+    - tower_up_des_2003_3
+    - tower_up_des_2003_4
+    - tower_up_des_2003_5
+    - tower_up_des_2004_0
+    - tower_up_des_2004_1
+    - tower_up_des_2004_2
+    - tower_up_des_2004_3
+    - tower_up_des_2004_4
+    - tower_up_des_2004_5
+    values:
+    - Zwiadowca
+    - "Przeszywaj\u0105cy strza\u0142"
+    - "Deszcz strza\u0142"
+    - "Elitarny \u0141ucznik"
+    - "Kolczasta Strza\u0142a"
+    - "Strza\u0142a Zniszczenia"
+    - Jasnowidzenie
+    - "Przenikaj\u0105ca Magia"
+    - Ostateczna Teleportacja
+    - Zaawansowana magia
+    - "Deszcz meteoryt\xF3w"
+    - Magia Zniszczenia
+    - "Staro\u017Cytna wizja"
+    - "Ochraniacz mi\u0119\u015Bni"
+    - Esencja ognia
+    - "Furia obro\u0144cy"
+    - "\u015Amiertelna sejsmika"
+    - "Trz\u0119sienie ziemi zniszczenia"
+    - "Trening wytrzyma\u0142o\u015Bciowy"
+    - Wzmocniony miecz
+    - Wzmocnienie
+    - "Zio\u0142owa torba"
+    - "Elitarny \u017Bo\u0142nierz"
+    - "Duch Chwa\u0142y"
+    - "Zwi\u0119ksz zasi\u0119g ataku o <color=#69ae10>{0}%</color>"
+    - "Zwi\u0119ksz <color=#69ae10>{0}%</color> wsp\xF3\u0142czynnik trafie\u0144
+      krytycznych podstawowych atak\xF3w"
+    - "Podstawowe ataki mog\u0105 trafi\u0107 wiele cel\xF3w naraz, do <color=#69ae10>{0}</color>
+      cel\xF3w"
+    - "Zwi\u0119ksz obra\u017Cenia fizyczne o <color=#69ae10>{0}%</color>"
+    - "Zwi\u0119ksz <color=#69ae10>{0}%</color> obra\u017Cenia na strza\u0142\u0119
+      szybkiego ognia"
+    - "Ka\u017Cda strza\u0142a podstawowego ataku ma <color=#69ae10>{0}%</color>
+      szans\u0119 na zadanie <color=#69ae10>{1}%</color> obra\u017Ce\u0144 krytycznych"
+    - "Zwi\u0119ksz zasi\u0119g ataku o <color=#69ae10>{0}%</color>"
+    - "Zwi\u0119ksz magiczne obra\u017Cenia o <color=#69ae10>{0}%</color>"
+    - Teleportuj wroga do punktu startowego
+    - "Zmniejsza obra\u017Cenia tracone po trafieniu wielu wrog\xF3w o <color=#69ae10>{0}%</color>"
+    - "Dodaj ataki <color=#69ae10>{0}</color> dla umiej\u0119tno\u015Bci Magic Strike"
+    - "Ka\u017Cde trafienie podstawowego ataku eksploduje i zadaje <color=#69ae10>{0}</color>
+      dodatkowe obra\u017Cenia magiczne"
+    - "Zwi\u0119ksz zasi\u0119g ataku o <color=#69ae10>{0}%</color>"
+    - "Zwi\u0119ksz obra\u017Cenia fizyczne o <color=#69ae10>{0}%</color>"
+    - "Podstawowe ataki maj\u0105 <color=#69ae10>{0}%</color> szans\u0119 na rzucenie
+      p\u0142on\u0105cym kamieniem, zadaj\u0105c <color=#69ae10>{1}</color> obra\u017Cenia
+      i podpalaj\u0105c ziemi\u0119 na <color=#69ae10>{2}</color> sekund. Strefa
+      ognia zadaje <color=#69ae10>{3}</color> obra\u017Ce\u0144 co <color=#69ae10>{4}</color>
+      sekund"
+    - "Zwi\u0119ksz pr\u0119dko\u015B\u0107 ataku o <color=#69ae10>{0}%</color>"
+    - "Zwi\u0119ksz <color=#69ae10>{0}%</color> obra\u017Cenia dla umiej\u0119tno\u015Bci
+      Seismic Strike"
+    - "Ka\u017Cde p\u0119kni\u0119cie w ziemi Seismic Strike tworzy r\xF3j kamieni,
+      zadaj\u0105c {0} dodatkowe obra\u017Cenia i zmniejszaj\u0105c pr\u0119dko\u015B\u0107
+      ruchu wroga o <color=#69ae10>{1}%</color>"
+    - "Zwi\u0119ksz zdrowie o <color=#69ae10>{0}%</color> dla \u017Co\u0142nierzy"
+    - "Zwi\u0119ksz obra\u017Cenia fizyczne o <color=#69ae10>{0}%</color>"
+    - "<color=#69ae10>{0}</color> do oddzia\u0142u do\u0142\u0105cza wi\u0119cej
+      \u017Co\u0142nierzy"
+    - "<color=#69ae10>{0}%</color> skr\xF3cenie czasu odrodzenia"
+    - "Wzmocnienie Zwi\u0119kszenie umiej\u0119tno\u015Bci wi\u0119cej <color=#69ae10>{0}%</color>
+      pancerza i <color=#69ae10>{1}%</color> odporno\u015Bci na magi\u0119"
+    - "Po \u015Bmierci \u017Co\u0142nierze przybior\u0105 form\u0119 ducha i b\u0119d\u0105
+      trwa\u0107 przez <color=#69ae10>{0}</color> sekund. Forma ducha jest niezniszczalna,
+      a oddzia\u0142y znikn\u0105 po up\u0142ywie czasu trwania"

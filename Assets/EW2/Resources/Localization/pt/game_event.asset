@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: game_event
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - quest_not_unlocked_txt
+    - hero_chalenge_txt
+    - hero_chalenge_slogan_txt
+    - hero_chalenge_rule_txt
+    - glory_road_rule_txt
+    - medal_redeem_warning_txt
+    - glory_road_premium_warning_txt
+    - already_unlock_premium_txt
+    - event_daily_reward_title_txt
+    - event_daily_slogan_txt
+    - premium_glory_road_item_txt
+    - glory_road_title_txt
+    - glory_road_slogan_txt
+    - glory_road_slogan_2_txt
+    - hero_academy_event_name_txt
+    - medal_exchange_txt
+    - buy_now_direction_popup
+    - full_basic_progress_notice
+    - unlock_premium_progress_notice
+    - claim_hero_notice
+    - nhero_challenge_title_txt
+    - nhero_event_name_txt
+    - nhero_mission_txt
+    - nhero_mission_slogan_txt
+    - event_quest_nhero_txt
+    - hero_mission_rule
+    - hero_required_formation
+    - event_quest_pf5_txt
+    - event_quest_nhero_pf5_txt
+    - event_quest_pf5m_txt
+    - event_quest_nhero_pf10m_txt
+    - event_quest_nhero_pf20m_txt
+    - event_quest_nhero_lv5_txt
+    - event_quest_nhero_spell_txt
+    - event_quest_nhero_rune_txt
+    - nhero_bundle_txt
+    - hero_bundle_slogan_txt
+    - hero_bundle_level_tag_txt
+    - hero_backpack_txt
+    - event_crystal_pack_txt
+    - event_rune_pack_txt
+    - event_spell_pack_txt
+    values:
+    - "As miss\xF5es ainda n\xE3o foram desbloqueadas"
+    - Desafio Heroico
+    - "Aceite o desafio e fa\xE7a sua cr\xF4nica \xE9pica"
+    - "1. Complete as miss\xF5es de cada dia para obter recompensas e coletar Medalha.\n
+      \n 2. As miss\xF5es s\xE3o desbloqueadas durante o dia. Miss\xF5es inacabadas
+      de dias anteriores podem ser continuadas no dia seguinte."
+    - "3.As medalhas coletadas ser\xE3o usadas para progredir na Estrada da gl\xF3ria.
+      Cada recompensa requer um n\xFAmero de medalhas para desbloquear\n \n 4. Os
+      jogadores podem ganhar recompensas mais valiosas por meio do Pr\xEAmio Estrada
+      da gl\xF3ria comprando o pacote Compre agora"
+    - "<color=#E73F44>* Observa\xE7\xE3o: ap\xF3s o t\xE9rmino do evento, as medalhas
+      que n\xE3o forem usadas ser\xE3o automaticamente transformadas em cristais.</color>"
+    - Atualize o progresso para receber recompensas
+    - "Voc\xEA j\xE1 atualizou o progresso premium"
+    - "Presentes Di\xE1rios"
+    - Acumule Medalhas e receba grandes recompensas
+    - "Estrada Gl\xF3ria Premium"
+    - "Estrada da Gl\xF3ria"
+    - Colete medalhas, atualize o progresso
+    - "E recrute o Novo Her\xF3i!"
+    - "Academia de her\xF3is"
+    - "Suas <color=#815329>{0}</color> Medalhas restantes foram convertidas em <color=#815329>{1}</color>
+      Cristais\n \n Taxa de c\xE2mbio: <color=#815329>1</color> medalha = <color=#815329>5</color>
+      Cristais"
+    - "Junte-se a <color=#FFD700>{0}</color> para obter este her\xF3i e ainda mais
+      recursos!"
+    - "Voc\xEA desbloqueou a \xFAltima recompensa do progresso b\xE1sico."
+    - "Mas ainda h\xE1 muitas recompensas valiosas em <color=#815329>{0}</color>.
+      Vamos peg\xE1-los!"
+    - "Reivindique seu her\xF3i em Estrada Gl\xF3ria Premium"
+    - "Novo Her\xF3i - Novo Desafio"
+    - a descida escolhida
+    - "Miss\xE3o Heroica"
+    - "Durante o evento, conclua miss\xF5es para reivindicar recompensas!"
+    - "Experimente o mais recente her\xF3i {0}"
+    - "Complete miss\xF5es para receber recompensas atraentes.\n\n* Nota: as miss\xF5es
+      s\xE3o contadas apenas durante o tempo do evento."
+    - "Requer {0} na forma\xE7\xE3o"
+    - "Obtenha 3 estrelas no n\xEDvel {0} na dificuldade normal"
+    - "Alcance 3 estrelas no Est\xE1gio {0} normal usando {1}"
+    - "Obtenha 3 estrelas no n\xEDvel de dificuldade {0} Pesadelo"
+    - "Alcance 3 estrelas no Est\xE1gio {0} Pesadelo usando {1}"
+    - Use a habilidade {0} de {1} {2} vezes
+    - "{0} atinge o n\xEDvel {1}"
+    - "Equipe qualquer Feiti\xE7o para {0}"
+    - Equipe qualquer Runa para {0}
+    - Pacote Hero
+    - Escolha apenas um
+    - "N\xEDvel {0}!"
+    - Mochila heroica
+    - Pacote de cristal
+    - Pacote de Runa
+    - "Pacote de Feiti\xE7o"

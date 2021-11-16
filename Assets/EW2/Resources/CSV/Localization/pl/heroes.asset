@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: heroes
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_class_assassin
+    - hero_class_melee
+    - hero_class_ranged
+    - hero_class_tank
+    - hero_class_summoner
+    - hero_class_aoe
+    - hero_class_control
+    - hero_class_buff
+    - hero_class_debuff
+    - hero_name_1001
+    - hero_name_1002
+    - hero_name_1003
+    - hero_name_1004
+    - hero_name_1005
+    - hero_name_1006
+    - hero_tag_1001
+    - hero_tag_1002
+    - hero_tag_1003
+    - hero_tag_1004
+    - hero_tag_1005
+    - hero_tag_1006
+    - hero_nameskill1001_0
+    - hero_nameskill1001_1
+    - hero_nameskill1001_2
+    - hero_nameskill1001_3
+    - hero_nameskill1002_0
+    - hero_nameskill1002_1
+    - hero_nameskill1002_2
+    - hero_nameskill1002_3
+    - hero_nameskill1003_0
+    - hero_nameskill1003_1
+    - hero_nameskill1003_2
+    - hero_nameskill1003_3
+    - hero_nameskill1004_0
+    - hero_nameskill1004_1
+    - hero_nameskill1004_2
+    - hero_nameskill1004_3
+    - hero_nameskill1005_0
+    - hero_nameskill1005_1
+    - hero_nameskill1005_2
+    - hero_nameskill1005_3
+    - hero_skill1001_des_0
+    - hero_skill1001_des_1
+    - hero_skill1001_des_2
+    - hero_skill1001_des_3
+    - hero_skill1002_des_0
+    - hero_skill1002_des_1
+    - hero_skill1002_des_2
+    - hero_skill1002_des_3
+    - hero_skill1003_des_0
+    - hero_skill1003_des_1
+    - hero_skill1003_des_2
+    - hero_skill1003_des_3
+    - hero_skill1004_des_0
+    - hero_skill1004_des_1
+    - hero_skill1004_des_2
+    - hero_skill1004_des_3
+    - hero_skill1005_des_0
+    - hero_skill1005_des_1
+    - hero_skill1005_des_2
+    - hero_skill1005_des_3
+    - hero_story_1001
+    - hero_story_1002
+    - hero_story_1003
+    - hero_story_1004
+    - hero_story_1005
+    values:
+    - Morderca
+    - Bijatyka
+    - Dystansowy
+    - "Czo\u0142g"
+    - "Przywo\u0142ywacz"
+    - Obszar
+    - Kontroler
+    - Buff
+    - Debuff
+    - Klaudia
+    - Arius
+    - "Ne\u2019taan"
+    - Marco
+    - Nerocat
+    - Akashi
+    - "Dow\xF3dca ksi\u0119\u017Cniczki"
+    - "Stra\u017Cnik Yggdrasil"
+    - "Potomkowie Krwawych Wilk\xF3w"
+    - Tajemniczy Zielarz
+    - "Ob\u0142\u0105kana czarodziejka"
+    - Niewidzialny szermierz
+    - "Ca\u0142kowity Atak"
+    - "\u0141amacz Stra\u017Cy Przedniej"
+    - Dzielne Serce
+    - Ochraniacz
+    - "Burza Ognistych Strza\u0142"
+    - "Szybka Strza\u0142a"
+    - Wzmocniony celownik
+    - "Wybuchowa Strza\u0142a"
+    - Linia Chaosuos
+    - "Sprowokowa\u0107"
+    - "Rozw\u015Bcieczy\u0107"
+    - Wysysacz krwi
+    - "Bombardowanie Trucizn\u0105"
+    - lepki Szlam
+    - Mikstura Ciszy
+    - "Zio\u0142o lecznicze"
+    - Hiper Eksplozja!
+    - "Po\u017Cegnanie detonacja"
+    - Wielokrotnie wybuch
+    - "Oszo\u0142omiony wybuchowy"
+    - "Claudia wyskakuje wysoko w powietrze, a nast\u0119pnie wbija sw\xF3j miecz
+      w ziemi\u0119, zadaj\u0105c {0} obra\u017Ce\u0144 fizycznych i og\u0142uszaj\u0105c
+      pobliskich wrog\xF3w na {1} sek."
+    - "Normalne ataki Claudii mog\u0105 zada\u0107 obra\u017Cenia obszarowe r\xF3wne
+      {0}% jej podstawowych obra\u017Ce\u0144 pobliskim wrogom"
+    - "Zmniejsza {0}% obra\u017Ce\u0144 fizycznych, jakie otrzymuje Klaudiusz."
+    - "Kaudia tworzy tarcz\u0119 ochronn\u0105, kt\xF3ra mo\u017Ce poch\u0142on\u0105\u0107
+      do {0} obra\u017Ce\u0144 i zwi\u0119ksza pancerz fizyczny o {1}% dla siebie
+      i pobliskich sojusznik\xF3w."
+    - "Arius wystrzeliwuje 4 serie strza\u0142 w wybrany obszar. Pierwsza seria strza\u0142
+      zadaje obra\u017Cenia r\xF3wne {0}% obra\u017Ce\u0144 fizycznych Ariusa. Pozosta\u0142e
+      serie zadaj\u0105 obra\u017Cenia r\xF3wne {1}% pierwszej serii. Ziemia zapali\u0142a
+      si\u0119 i spowodowa\u0142a stan podpalenia przechodz\u0105cych wrog\xF3w.
+      Status trwa {2} sekundy i zadaje {3} obra\u017Ce\u0144 na {4} sekundy."
+    - "Normalne ataki Ariusa maj\u0105 {0}% szans na wystrzelenie {1} strza\u0142
+      jednocze\u015Bnie w cel. "
+    - "Zwi\u0119ksza {0}% zasi\u0119gu Aryi."
+    - "Arius wycelowa\u0142 we wroga z odleg\u0142o\u015Bci r\xF3wnej {0}-krotno\u015Bci
+      jego zasi\u0119gu. Wystrzeliwuje strza\u0142\u0119, kt\xF3ra zadaje {1}% obra\u017Ce\u0144
+      obszarowych celowi i okolicznym wrogom."
+    - "Ne'taan przybiera form\u0119 chaosu, natychmiast regeneruj\u0105c {0}% swoich
+      maksymalnych P\u017B. W tej formie ataki podstawowe zadaj\u0105 dodatkowe obra\u017Cenia
+      fizyczne r\xF3wne {1}% maksymalnego HP."
+    - "Po zaatakowaniu podstawowym atakiem Ne'taan ma {0}% szansy na aktywacj\u0119
+      prowokacji i zyskanie {1}% pancerza na {2} sekundy. Prowokacja zmusza wszystkich
+      wrog\xF3w w okolicy do Ciszy i rzuca si\u0119 na niego. Lataj\u0105cy wrogowie
+      s\u0105 odporni na prowokacj\u0119."
+    - "Kiedy zostanie zaatakowany podstawowymi atakami, Ne'taan ma {0}% szansy na
+      Kontratak na ka\u017Cdy odebrany atak. "
+    - "Ne'taan leczy {0} HP za ka\u017Cdego zabitego wroga."
+    - "Marco zmusza Pomp\u0119 do wyplucia du\u017Cego stawu z trucizn\u0105, kt\xF3ry
+      zadaje {0} obra\u017Ce\u0144 na sekund\u0119 wszystkim wrogom w okolicy. Staw
+      z trucizn\u0105 trwa {1} sekund"
+    - "Staw Trucizny Bombardowania Trucizn\u0105 zmniejsza pr\u0119dko\u015B\u0107
+      poruszania si\u0119 wrog\xF3w o {0}%"
+    - "Marco ma {0}% szansy na rzucenie specjalnej mikstury, kt\xF3ra ucisza wrog\xF3w
+      na danym obszarze. Cisza trwa {1} sekund"
+    - "Pompka wypluwa zio\u0142a, kt\xF3re przywracaj\u0105 {0} P\u017B co sekund\u0119,
+      gdy sojuszniczy bohaterowie pojawiaj\u0105 si\u0119 w zasi\u0119gu. Zio\u0142a
+      zwi\u0119kszaj\u0105 szybko\u015B\u0107 ataku tych bohater\xF3w o {1}% na {2}
+      sekundy"
+    - "Nerocat wystrzeliwuje kul\u0119 energii, kt\xF3ra zadaje {0} obra\u017Ce\u0144
+      obszarowi. Hiper Eksplozja! zostanie skr\xF3cony o {1} sekund\u0119 za ka\u017Cdego
+      wroga zniszczonego tym zakl\u0119ciem"
+    - "Za ka\u017Cdego wroga zabitego przez Nerocata istnieje {0}% na wywo\u0142anie
+      wybuchu, kt\xF3ry zadaje {1} obra\u017Ce\u0144. Eksplozj\u0119 mo\u017Cna po\u0142\u0105czy\u0107,
+      je\u015Bli wrogowie s\u0105 kolejno niszczeni. "
+    - "Po u\u017Cyciu Hiper Eksplozja! Nerocat zwi\u0119ksza pr\u0119dko\u015B\u0107
+      ataku o {0}%, a jej normalny atak mo\u017Ce zadawa\u0107 obra\u017Cenia obszarowe.
+      Umiej\u0119tno\u015B\u0107 trwa\u0142a {1} sekund."
+    - "Hiper Eksplozja! od NeroCat mo\u017Ce og\u0142usza\u0107 wrog\xF3w i trwa\u0107
+      przez {0} sekund."
+    - "Klaudia jest c\xF3rk\u0105 pana Alzacji. Jej ojciec zgin\u0105\u0142 na Crescent
+      Island, gdy armia z\u0142a nagle zaatakowa\u0142a kr\xF3lestwo. Zg\u0142osi\u0142a
+      si\u0119 na ochotnika, by poprowadzi\u0107 armi\u0119, by pom\u015Bci\u0107
+      swojego ojca i odkry\u0107 spisek stoj\u0105cy za powrotem z\u0142a."
+    - "Arius jest przyjacielem Arryn i opiekunem Yggdrasil. Kiedy armia demon\xF3w
+      zaatakowa\u0142a Yggdrasil, zwr\xF3ci\u0142 si\u0119 do Klaudia i poprosi\u0142
+      j\u0105 o sojusz z lud\u017Ami, w zamian pom\xF3g\u0142 jej w odkryciu spisku
+      tej niespodziewanej inwazji."
+    - "Ne'taan to hybrydowy ork, syn przyw\xF3dcy klanu Krwawych Wilk\xF3w i czarodziejki.
+      Jego wuj, Gul'ak, zabi\u0142 jego matk\u0119, przej\u0105\u0142 prawo do dziedziczenia
+      i sprawi\u0142, \u017Ce ca\u0142y klan uleg\u0142 diab\u0142u. Ne'taan postanowi\u0142
+      zem\u015Bci\u0107 si\u0119 na Gul'aku i pokona\u0107 mroczne si\u0142y, aby
+      uwolni\u0107 sw\xF3j klan."
+    - "Marco jest sierot\u0105 mieszkaj\u0105cym w po\u0142udniowym lesie Ionii.
+      Marco znalaz\u0142 swojego jaszczurczego przyjaciela Pomp w pobli\u017Cu Szarego
+      Bagna. Oboje \u017Cyli spokojnie, dop\xF3ki nie przybyli orkowie i nie zniszczyli
+      lasu. Marco i Pomp zbuntowali si\u0119 przeciwko Orkom, by chroni\u0107 sw\xF3j
+      las."
+    - "Nerocat pierwotnie by\u0142a szlachetn\u0105 dam\u0105 w Endii. W m\u0142odym
+      wieku zosta\u0142a wys\u0142ana do Kr\xF3lewskiej Akademii Magii. By\u0142a
+      znana jako utalentowana, a jednocze\u015Bnie arogancka i niesforna wied\u017Ama.
+      Po uko\u0144czeniu studi\xF3w oswoi\u0142a uroczego kota o imieniu Mew i rzuci\u0142a
+      wyzwanie ka\u017Cdemu, by udowodni\u0142, \u017Ce jest najsilniejsz\u0105 czarownic\u0105
+      w ka\u017Cdym wieku."

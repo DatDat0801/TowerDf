@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: currency_type
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - name_type_0
+    - name_type_2
+    - name_type_3
+    - currency_0
+    - currency_1
+    - currency_2
+    - currency_3
+    - currency_4
+    - currency_5
+    - currency_6
+    - currency_7
+    - currency_8
+    - currency_9
+    - currency_10
+    - currency_11
+    - currency_12
+    - currency_13
+    - currency_14
+    - currency_15
+    - currency_16
+    - inventory_random_rune
+    - inventory_rune_pack_random
+    - inventory_spell_pack_random
+    - currency_0_des
+    - currency_1_des
+    - currency_2_des
+    - currency_3_des
+    - currency_4_des
+    - currency_5_des
+    - currency_6_des
+    - currency_7_des
+    - currency_8_des
+    - currency_9_des
+    - currency_10_des
+    - currency_11_des
+    - currency_12_des
+    - currency_13_des
+    - currency_14_des
+    - currency_15_des
+    - currency_16_des
+    - inventory_rune_des
+    - inventory_spell_des
+    - inventory_spell_fragment_des
+    - inventory_unique_spell_fragment_des
+    - inventory_random_rune_item
+    - inventory_rune_pack_random_des
+    - inventory_spell_pack_random_des
+    - inventory_spell_pack_random_des_1
+    values:
+    - "Ti\u1EC1n t\u1EC7"
+    - "V\u1EADt ph\u1EA9m"
+    - "Anh h\xF9ng"
+    - "Ng\u1ECDc"
+    - "Tinh th\u1EC3"
+    - "Kinh nghi\u1EC7m"
+    - "Th\u1EC3 l\u1EF1c"
+    - "Xu Qu\xE1n qu\xE2n"
+    - "Ch\xECa Ph\xE9p C\u01A1 b\u1EA3n"
+    - "Ch\xECa Ph\xE9p Cao c\u1EA5p"
+    - "\u0110i\u1EC3m VIP"
+    - "Sao b\u1EA1c"
+    - "Sao v\xE0ng"
+    - "\u0110i\u1EC3m k\u1EF9 n\u0103ng"
+    - "Ch\xECa \u1EA4n th\u1EA1ch C\u01A1 b\u1EA3n"
+    - "Ch\xECa \u1EA4n th\u1EA1ch Cao c\u1EA5p"
+    - "B\u1ED9t ph\xE9p"
+    - "\u0110i\u1EC3m ho\u1EA1t \u0111\u1ED9ng"
+    - "Huy hi\u1EC7u"
+    - "V\xE9"
+    - "\u1EA4n th\u1EA1ch {0}"
+    - "G\xF3i \u1EA4n th\u1EA1ch"
+    - "G\xF3i Ph\xE9p"
+    - "Ti\u1EC1n t\u1EC7 cao c\u1EA5p"
+    - "Ti\u1EC1n t\u1EC7 c\u01A1 b\u1EA3n"
+    - "T\xEDch \u0111i\u1EC3m kinh nghi\u1EC7m \u0111\u1EC3 l\xEAn c\u1EA5p Anh h\xF9ng
+      c\u1EE7a b\u1EA1n"
+    - "B\u1EA1n c\u1EA7n c\xF3 \u0111\u1EE7 Th\u1EC3 l\u1EF1c \u0111\u1EC3 chi\u1EBFn
+      \u0111\u1EA5u"
+    - "M\u1ED9t lo\u1EA1i ti\u1EC1n t\u1EC7 \u0111\u1EB7c bi\u1EC7t, nh\u1EADn \u0111\u01B0\u1EE3c
+      khi \u0111\u1EA1t th\u1EE9 h\u1EA1ng cao trong Gi\u1EA3i \u0111\u1EA5u, d\xF9ng
+      \u0111\u1EC3 mua c\xE1c v\u1EADt ph\u1EA9m trong C\u1EEDa h\xE0ng \u0110\u1EA5u
+      tr\u01B0\u1EDDng"
+    - "Ch\xECa kh\xF3a \u0111\u1EC3 tri\u1EC7u h\u1ED3i Ph\xE9p C\u01A1 b\u1EA3n"
+    - "Ch\xECa kh\xF3a \u0111\u1EC3 tri\u1EC7u h\u1ED3i Ph\xE9p Cao c\u1EA5p"
+    - "T\xEDch \u0110i\u1EC3m VIP \u0111\u1EC3 t\u0103ng c\u1EA5p \u0111\u1ED9 VIP
+      c\u1EE7a b\u1EA1n"
+    - "\u0110\u01B0\u1EE3c s\u1EED d\u1EE5ng \u0111\u1EC3 n\xE2ng c\u1EA5p c\xE1c
+      c\u1EA5p \u0111\u1ED9 c\u01A1 b\u1EA3n c\u1EE7a tr\u1EE5"
+    - "\u0110\u01B0\u1EE3c s\u1EED d\u1EE5ng \u0111\u1EC3 n\xE2ng c\u1EA5p c\xE1c
+      c\u1EA5p \u0111\u1ED9 n\xE2ng cao c\u1EE7a tr\u1EE5"
+    - "\u0110\u01B0\u1EE3c s\u1EED d\u1EE5ng \u0111\u1EC3 n\xE2ng c\u1EA5p c\xE1c
+      k\u1EF9 n\u0103ng c\u1EE7a Anh h\xF9ng"
+    - "Ch\xECa kh\xF3a \u0111\u1EC3 tri\u1EC7u h\u1ED3i \u1EA4n th\u1EA1ch C\u01A1
+      b\u1EA3n"
+    - "Ch\xECa kh\xF3a \u0111\u1EC3 tri\u1EC7u h\u1ED3i \u1EA4n th\u1EA1ch Cao c\u1EA5p"
+    - "Nguy\xEAn li\u1EC7u \u0111\u1EC3 n\xE2ng c\u1EA5p \u1EA4n th\u1EA1ch"
+    - "S\u1EED d\u1EE5ng \u0111\u1EC3 m\u1EDF r\u01B0\u01A1ng trong ti\u1EBFn tr\xECnh
+      c\u1EE7a nhi\u1EC7m v\u1EE5 h\u1EB1ng ng\xE0y"
+    - "S\u1EED d\u1EE5ng \u0111\u1EC3 nh\u1EADn qu\xE0 trong ti\u1EBFn tr\xECnh c\u1EE7a
+      \u0110\u01B0\u1EDDng Vinh quang"
+    - "B\u1EA1n c\u1EA7n c\xF3 v\xE9 n\xE0y \u0111\u1EC3 tham gia Gi\u1EA3i \u0111\u1EA5u"
+    - "Trang b\u1ECB gi\xFAp gia t\u0103ng s\u1EE9c m\u1EA1nh c\u1EE7a Anh h\xF9ng"
+    - "C\xE1c Ph\xE9p thu\u1EADt c\u1ED5 x\u01B0a \u0111\u01B0\u1EE3c phong \u1EA5n
+      nh\u01B0 m\u1ED9t lo\u1EA1i trang b\u1ECB. Trang b\u1ECB Ph\xE9p cho Anh h\xF9ng
+      \u0111\u1EC3 c\xF3 th\xEAm nh\u1EEFng k\u1EF9 n\u0103ng m\u1EDBi trong tr\u1EADn
+      chi\u1EBFn."
+    - "Nguy\xEAn li\u1EC7u \u0111\u1EC3 chuy\u1EC3n h\xF3a th\xE0nh c\xE1c M\u1EA3nh
+      Ph\xE9p c\xF9ng \u0111\u1ED9 hi\u1EBFm"
+    - "Nguy\xEAn li\u1EC7u \u0111\u1EC3 n\xE2ng c\u1EA5p {0} c\xF9ng \u0111\u1ED9
+      hi\u1EBFm"
+    - "D\xF9ng \u0111\u1EC3 tri\u1EC7u h\u1ED3i ng\u1EABu nhi\xEAn {0} \u1EA4n th\u1EA1ch
+      c\xF3 \u0111\u1ED9 hi\u1EBFm t\u1EEB {1} \u0111\u1EBFn {2}"
+    - "D\xF9ng \u0111\u1EC3 tri\u1EC7u h\u1ED3i ng\u1EABu nhi\xEAn {0} \u1EA4n th\u1EA1ch
+      {1}"
+    - "D\xF9ng \u0111\u1EC3 tri\u1EC7u h\u1ED3i {0} Ph\xE9p"
+    - "D\xF9ng \u0111\u1EC3 tri\u1EC7u h\u1ED3i ng\u1EABu nhi\xEAn {0} Ph\xE9p {1}"

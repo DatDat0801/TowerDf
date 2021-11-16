@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - enemy_name_3001
+    - enemy_name_3002
+    - enemy_name_3003
+    - enemy_name_3004
+    - enemy_name_3005
+    - enemy_name_3006
+    - enemy_name_3007
+    - enemy_name_3008
+    - enemy_name_3009
+    - enemy_name_3010
+    - enemy_name_3011
+    - enemy_name_3012
+    - enemy_name_3013
+    - enemy_name_3014
+    - enemy_name_3015
+    - enemy_name_3016
+    - enemy_name_3017
+    - enemy_name_3018
+    - enemy_name_3019
+    - enemy_name_3020
+    - enemy_name_3021
+    - enemy_name_3022
+    - enemy_name_3023
+    - enemy_name_3024
+    - enemy_name_3025
+    - enemy_name_3026
+    - enemy_name_3027
+    - enemy_name_3028
+    - enemy_name_3029
+    - enemy_name_3030
+    - enemy_name_3031
+    - enemy_name_3032
+    - enemy_name_3033
+    - enemy_name_3034
+    - enemy_name_3035
+    - enemy_name_3036
+    - enemy_name_3037
+    - enemy_des_3001
+    - enemy_des_3002
+    - enemy_des_3003
+    - enemy_des_3004
+    - enemy_des_3005
+    - enemy_des_3006
+    - enemy_des_3007
+    - enemy_des_3008
+    - enemy_des_3009
+    - enemy_des_3010
+    - enemy_des_3011
+    - enemy_des_3012
+    - enemy_des_3013
+    - enemy_des_3014
+    - enemy_des_3015
+    - enemy_des_3016
+    - enemy_des_3017
+    - enemy_des_3018
+    - enemy_des_3019
+    - enemy_des_3020
+    - enemy_des_3021
+    - enemy_des_3022
+    - enemy_des_3023
+    - enemy_des_3024
+    - enemy_des_3025
+    - enemy_des_3026
+    - enemy_des_3027
+    - enemy_des_3028
+    - enemy_des_3029
+    - enemy_des_3030
+    - enemy_des_3031
+    - enemy_des_3032
+    - enemy_des_3033
+    - enemy_des_3034
+    - enemy_des_3035
+    - enemy_des_3036
+    - enemy_des_3037
+    - enemy_skill_3001
+    - enemy_skill_3002
+    - enemy_skill_3003
+    - enemy_skill_3004
+    - enemy_skill_3005
+    - enemy_skill_3006
+    - enemy_skill_3007
+    - enemy_skill_3008
+    - enemy_skill_3009
+    - enemy_skill_3010
+    - enemy_skill_3011
+    - enemy_skill_3012
+    - enemy_skill_3013
+    - enemy_skill_3014
+    - enemy_skill_3015
+    - enemy_skill_3016
+    - enemy_skill_3017
+    - enemy_skill_3018
+    - enemy_skill_3019
+    - enemy_skill_3020
+    - enemy_skill_3021
+    - enemy_skill_3022
+    - enemy_skill_3023
+    - enemy_skill_3024
+    - enemy_skill_3025
+    - enemy_skill_3026
+    - enemy_skill_3027
+    - enemy_skill_3028
+    - enemy_skill_3029
+    - enemy_skill_3030
+    - enemy_skill_3031
+    - enemy_skill_3032
+    - enemy_skill_3033
+    - enemy_skill_3034
+    - enemy_skill_3035
+    - enemy_skill_3036
+    - enemy_skill_3037
+    - enemy_warn_3002
+    - enemy_warn_3003
+    - enemy_warn_3005
+    - enemy_warn_3006
+    - enemy_warn_3007
+    - enemy_warn_3008
+    - enemy_warn_3009
+    - enemy_warn_3010
+    - enemy_warn_3011
+    - enemy_warn_3012
+    - enemy_warn_3013
+    - enemy_warn_3014
+    - enemy_warn_3015
+    - enemy_warn_3016
+    - enemy_warn_3017
+    - enemy_warn_3020
+    - enemy_warn_3021
+    - enemy_warn_3022
+    - enemy_warn_3023
+    - enemy_warn_3024
+    - enemy_warn_3025
+    - enemy_warn_3026
+    - enemy_warn_3027
+    - enemy_warn_3028
+    - enemy_warn_3029
+    - enemy_warn_3030
+    - enemy_warn_3031
+    - enemy_warn_3032
+    - enemy_warn_3033
+    - enemy_warn_3034
+    - enemy_warn_3035
+    - enemy_warn_3036
+    - enemy_warn_3037
+    values:
+    - "\u54E5\u5E03\u6797"
+    - "\u54E5\u5E03\u6797\u6E38\u4FA0"
+    - "\u54E5\u5E03\u6797\u523A\u5BA2"
+    - "\u517D\u4EBA"
+    - "\u517D\u4EBA\u63A0\u593A\u8005"
+    - "\u517D\u4EBA\u8428\u6EE1"
+    - "\u517D\u4EBA\u5FB7\u9C81\u4F0A"
+    - "\u53D7\u8BC5\u5492\u7684\u54E5\u5E03\u6797"
+    - "\u98DF\u4EBA\u9B54"
+    - "\u54E5\u5E03\u6797\u6876"
+    - "\u6469\u683C"
+    - "\u6469\u683C\u9A91\u58EB"
+    - "\u98DE\u9F20"
+    - "\u98DE\u7FD4\u7684\u54E5\u5E03\u6797"
+    - "\u98DF\u4EBA\u9B54"
+    - "\u53D7\u8BC5\u5492\u7684\u54E5\u5E03\u6797"
+    - "\u5815\u843D\u7684\u4FDD\u62A4\u8005"
+    - "\u5C0F\u4FDD\u62A4\u8005"
+    - "\u5C0F\u4FDD\u62A4\u8005"
+    - "\u9ED1\u6697\u4E4B\u773C\u53E4\u5C14\u963F\u514B"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "\u54E5\u5E03\u6797\u662F\u90AA\u6076\u519B\u961F\u4E2D\u7684\u57FA\u672C\u6B65\u5175"
+    - "\u8FD9\u4E9B\u54E5\u5E03\u6797\u5F88\u70E6\u4EBA\uFF0C\u80FD\u591F\u8FDC\u8DDD\u79BB\u653B\u51FB\u3002"
+    - "\u5C0F\u5FC3\u523A\u5BA2\u3002\u4ED6\u4EEC\u901F\u5EA6\u5F88\u5FEB\uFF0C\u96BE\u4EE5\u963B\u6B62\u3002"
+    - "\u517D\u4EBA\u662F\u90AA\u6076\u519B\u961F\u7684\u4E3B\u8981\u6B65\u5175\u3002\u4ED6\u4EEC\u6BD4\u54E5\u5E03\u6797\u66F4\u5F3A\u5927\u3002"
+    - "\u4ED6\u4EEC\u662F\u597D\u6218\u8005\u548C\u55DC\u8840\u6218\u58EB\u3002\u4ED6\u4EEC\u5929\u751F\u5C31\u662F\u4E3A\u6218\u4E89\u670D\u52A1\u7684\u3002"
+    - "\u8428\u6EE1\u80FD\u591F\u9F13\u821E\u517D\u4EBA\u7684\u58EB\u6C14\u3002\u4E0D\u8981\u8BA9\u4ED6\u4EEC\u6F14\u594F\u9B54\u9F13\u3002"
+    - "\u8FD9\u4E9B\u5947\u602A\u7684\u517D\u4EBA\u5DF2\u7ECF\u5B66\u4F1A\u4E86\u81EA\u7136\u9B54\u6CD5\u3002\u5148\u6D88\u706D\u4ED6\u4EEC\u3002"
+    - "\u53D7\u8BC5\u5492\u7684\u54E5\u5E03\u6797\u662F\u4E00\u79CD\u53E4\u8001\u7684\u8BC5\u5492\u751F\u7269\u3002\u4ED6\u4EEC\u751F\u6D3B\u5728\u5728\u751F\u4E0E\u6B7B\u7684\u754C\u9650\u4E4B\u95F4\uFF0C\u62E5\u6709\u53EC\u5524\u6B7B\u8005\u7684\u80FD\u529B\u3002"
+    - "\u98DF\u4EBA\u9B54\u662F\u4E00\u79CD\u5E9E\u5927\u800C\u7B28\u62D9\u7684\u751F\u7269\u3002\u4ED6\u4EEC\u662F\u5177\u6709\u9AD8\u9632\u5FA1\u529B\u7684\u5148\u950B\u90E8\u961F\u3002"
+    - "\u8FD9\u662F\u54E5\u5E03\u6797\u7684\u4E00\u4E2A\u5947\u602A\u7684\u60F3\u6CD5\u3002\u5B83\u4EEC\u7528\u4E8E\u7A81\u7834\u654C\u4EBA\u7684\u9632\u5FA1\u3002"
+    - "\u6DF7\u8840\u72FC\u901F\u5EA6\u5FEB\uFF0C\u800C\u4E14\u5371\u9669\u3002\u5B83\u4EEC\u88AB\u517D\u4EBA\u9A6F\u670D\u3002"
+    - "\u72FC\u9A91\u5175\u662F\u90AA\u6076\u519B\u961F\u4E2D\u7684\u7CBE\u82F1\u548C\u5371\u9669\u529B\u91CF\u4E4B\u4E00\u3002"
+    - "\u98DE\u9F20\u7531\u7EB3\u62C9\u8428\u5C14\u53EC\u5524\u3002\u4ECE\u591A\u5E74\u524D\u7684\u5927\u6218\u5230\u73B0\u5728\uFF0C\u4ED6\u4EEC\u4F9D\u7136\u5B58\u5728\u3002"
+    - "\u8FD9\u662F\u54E5\u5E03\u6797\u7684\u7A81\u51FB\u961F\u3002\u4ED6\u4EEC\u4F7F\u7528\u98DE\u9F20\u6ED1\u8FC7\u654C\u4EBA\u7684\u9632\u7EBF\u3002"
+    - "\u98DF\u4EBA\u9B54\u662F\u5927\u800C\u611A\u8822\u7684\u751F\u7269\u3002\u4ED6\u4EEC\u662F\u5177\u6709\u9AD8\u9632\u5FA1\u529B\u7684\u5148\u950B\u90E8\u961F\u3002"
+    - "\u53D7\u8BC5\u5492\u7684\u54E5\u5E03\u6797\u662F\u4E00\u79CD\u53E4\u8001\u7684\u8BC5\u5492\u751F\u7269\u3002\u4ED6\u4EEC\u751F\u6D3B\u5728\u5728\u751F\u4E0E\u6B7B\u7684\u754C\u9650\u4E4B\u95F4\uFF0C\u62E5\u6709\u53EC\u5524\u6B7B\u8005\u7684\u80FD\u529B\u3002"
+    - "\u4E00\u79CD\u88AB\u7687\u5BB6\u5DEB\u5E08\u5C01\u5370\u7684\u53E4\u8001\u4FDD\u62A4\u8005\u3002\u7136\u800C\uFF0C\u7531\u4E8E\u6770\u592B\u4E00\u4E16\u56FD\u738B\u6240\u62E5\u6709\u7684\u6076\u9B54\u4E4B\u5251\u675C\u5170\u8FBE\u5C14\u7684\u9B54\u6CD5\uFF0C\u4ED6\u5815\u843D\u6210\u4E86\u6076\u9B54\u7684\u4EC6\u4EBA\u3002"
+    - "\u5C0F\u4FDD\u62A4\u8005\u662F\u7531\u5815\u843D\u4FDD\u62A4\u8005\u7684\u788E\u7247\u521B\u9020\u51FA\u6765\u7684"
+    - "\u5C0F\u4FDD\u62A4\u8005\u662F\u7531\u5815\u843D\u4FDD\u62A4\u8005\u7684\u788E\u7247\u521B\u9020\u51FA\u6765\u7684"
+    - "\u53E4\u5C14\u963F\u514B\u662F\u83AB\u6839\u7684\u5F1F\u5F1F\uFF0C\u4E5F\u662F\u8840\u72FC\u90E8\u65CF\u7684\u4E0B\u4E00\u4EFB\u9886\u8896\u3002\u4ED6\u88AB\u6076\u9B54\u4E4B\u5251\u675C\u5170\u8FBE\u5C14\u63A7\u5236\uFF0C\u6210\u4E3A\u90AA\u6076\u519B\u961F\u7684\u5C06\u9886\u4E4B\u4E00\u3002"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "\u72C2\u6012"
+    - "\u529D\u8BEB\u9F13"
+    - "\u6CBB\u6108"
+    - "\u53EC\u5524"
+    - "\u7729\u6655\u6253\u51FB"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "\u7729\u6655\u6253\u51FB\u3002\u72C2\u6012"
+    - "\u53EC\u5524\u3002\u9ED1\u6697\u706B\u7130"
+    - "\u5FEB\u901F\u6447\u6EDA\u3002\u5206\u88C2"
+    - 
+    - 
+    - "\u9ED1\u6697\u56DA\u7B3C\u3002\u9ED1\u6697\u4E4B\u523A\u3002\u53EC\u5524\u3002\u7075\u9B42\u7834\u574F\u8005"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "- \u8FDC\u8DDD\u79BB\u653B\u51FB"
+    - "- \u9AD8\u79FB\u52A8\u901F\u5EA6\\n - \u8FDC\u8DDD\u79BB\u653B\u51FB"
+    - "- \u5E73\u5747\u8010\u529B\\n - HP\u4F4E\u65F6\u53D8\u5F97\u72C2\u66B4"
+    - "- \u4F4E\u79FB\u52A8\u901F\u5EA6\\n - \u4E3A\u9644\u8FD1\u76DF\u53CB\u63D0\u4F9B\u79FB\u52A8\u901F\u5EA6\u52A0\u6210"
+    - "- \u6CBB\u7597\u9644\u8FD1\u7684\u76DF\u53CB\\n - \u8FDC\u8DDD\u79BB\u653B\u51FB"
+    - "- \u53EC\u5524\u654C\u4EBA\\n - \u8FDC\u8DDD\u79BB\u653B\u51FB"
+    - "- \u9AD8\u8010\u529B\\n - \u53EF\u4EE5\u51FB\u6655\u5BF9\u624B\\n - \u4F4E\u79FB\u52A8\u901F\u5EA6"
+    - "- \u9AD8\u79FB\u52A8\u901F\u5EA6\\n - \u95EF\u5165\u8BB8\u591A\u54E5\u5E03\u6797"
+    - "- \u9AD8\u79FB\u52A8\u901F\u5EA6\\n - \u5BFC\u81F4\u5BF9\u624B\u6D41\u8840"
+    - "- \u5BFC\u81F4\u5BF9\u624B\u6D41\u8840"
+    - "- \u98DE\u884C\u602A\u7269"
+    - "- \u98DE\u884C\u602A\u7269"
+    - "- \u9AD8\u8010\u529B\\n - \u53EF\u4EE5\u51FB\u6655\u5BF9\u624B\\n - HP\u4F4E\u65F6\u53D8\u5F97\u72C2\u66B4\\n
+      - \u4F4E\u79FB\u52A8\u901F\u5EA6"
+    - "- \u53EC\u5524\u654C\u4EBA\\n - \u63A7\u5236\u5854\u697C\\n - \u8FDC\u8DDD\u79BB\u653B\u51FB"
+    - "- \u9AD8\u8010\u529B\\n - \u53EF\u4EE5\u8FDC\u8DDD\u79BB\u653B\u51FB\\n -
+      \u5728\u5927\u8303\u56F4\u5185\u9020\u6210\u4F24\u5BB3\\n - \u53EF\u4EE5\u51FB\u6655\u5BF9\u624B"
+    - "- \u53EC\u5524\u654C\u4EBA\\n - \u53EF\u4EE5\u8FDC\u8DDD\u79BB\u653B\u51FB\\n
+      - \u5728\u5927\u8303\u56F4\u5185\u9020\u6210\u4F24\u5BB3\\n - \u53EF\u4EE5\u51FB\u6655\u5BF9\u624B"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

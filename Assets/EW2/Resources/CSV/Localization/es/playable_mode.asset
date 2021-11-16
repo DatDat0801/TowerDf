@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: playable_mode
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_defense_name_txt
+    - defensive_point_title_txt
+    - lobby_txt
+    - best_record_waves_txt
+    - current_record_waves_txt
+    - season_end_txt
+    - trial_left_txt
+    - trial_txt
+    - reward_milestone_txt
+    - select_base_txt
+    - hero_selection_txt
+    - unlock_base_txt
+    - turn_left_txt
+    - leaderboard_txt
+    - rank_txt
+    - player_txt
+    - formation_txt
+    - new_record_txt
+    - no_more_trial_txt
+    - result_txt
+    - last_trial_notice_txt
+    - hero_required_txt
+    - hero_defense_rule
+    - buff_name_7001
+    - buff_name_7002
+    - buff_name_7003
+    - buff_name_7004
+    - buff_name_7005
+    - buff_name_7006
+    - buff_des_7001
+    - buff_des_7002
+    - buff_des_7003
+    - buff_des_7004
+    - buff_des_7005
+    - buff_des_7006
+    - defensive_point_name_8001
+    - defensive_point_name_8004
+    - defensive_point_name_8005
+    - defensive_point_skill_8001
+    - defensive_point_skill_8004
+    - defensive_point_skill_8005
+    - defensive_point_des_8001
+    - defensive_point_des_8004
+    - defensive_point_des_8005
+    - hero_defens_map_name_1
+    - hero_defens_map_name_2
+    - tournament_ban_txt
+    - tournament_nerf_txt
+    - tournament_buff_txt
+    - ban_spell_notice_txt
+    - tower_selection_txt
+    - tower_required_txt
+    - hall_of_fame_txt
+    - join_tournament_txt
+    - unrank_txt
+    - tournament_ticket_txt
+    - tournament_shop_title
+    - purchase_ticket_popup_title_txt
+    - change_buff_txt
+    - change_hero_pair_txt
+    - change_buff_status_txt
+    - change_price_alert_txt
+    - waves_cleared_record_txt
+    - ban_notice_txt
+    - ban_alert_txt
+    - congratulation_notice_txt
+    - season_rank_txt
+    - tournament_rules_title
+    - tournament_rule_map_title
+    - tournament_rule_limit_title
+    - tournament_rule_grand_title
+    - tournament_rule_season_title
+    - tournament_rule_buff_title
+    - tournament_rule_nerf_title
+    - tournament_rule_ban_title
+    - tournament_rule_map
+    - tournament_rule_limit
+    - tournament_rule_grand
+    - tournament_rule_season
+    - tournament_rule_buff
+    - tournament_rule_nerf
+    - tournament_rule_ban
+    - tournament_rank_0
+    - tournament_rank_1
+    - tournament_rank_2
+    - tournament_rank_3
+    - tournament_rank_4
+    - tournament_rank_5
+    - tournament_rank_6
+    - tournament_rank_7
+    - tournament_buff_201
+    - tournament_buff_202
+    - tournament_buff_203
+    - tournament_buff_204
+    - tournament_buff_205
+    - tournament_buff_206
+    - tournament_buff_207
+    - tournament_buff_208
+    - tournament_buff_209
+    - tournament_buff_210
+    - tournament_buff_211
+    - tournament_nerf_101
+    - tournament_nerf_102
+    - tournament_nerf_103
+    - tournament_nerf_104
+    - tournament_nerf_105
+    - tournament_nerf_106
+    - tournament_nerf_107
+    - tournament_nerf_108
+    - tournament_nerf_109
+    - tournament_nerf_110
+    - tournament_nerf_111
+    values:
+    - "Defensa del h\xE9roe"
+    - Base
+    - "Vest\xEDbulo"
+    - "Mejor r\xE9cord: {0} olas"
+    - 'Registro actual: {0}'
+    - 'Tiempo restante: '
+    - 'Prueba: {0}'
+    - Prueba
+    - '{0} olas'
+    - "Selecci\xF3n de base"
+    - "Selecci\xF3n de h\xE9roe"
+    - Desbloquea esta base
+    - 'Turno restante: {0}'
+    - "Gr\xE1ficos"
+    - Rango
+    - Jugador
+    - "Formaci\xF3n"
+    - Nuevo record
+    - No mas prueba
+    - Resultado
+    - "Acaba de usar su \xFAltima prueba."
+    - "Necesitas al menos 2 h\xE9roes"
+    - "Los h\xE9roes est\xE1n en peligro al intentar proteger una base de un ej\xE9rcito
+      de demonios. No hay tiempo para construir torres, deben usar su fuerza para
+      detener al enemigo.\\n\\nEn este modo, puedes controlar hasta 5 h\xE9roes.\\n\\nSolo
+      puedes controlar h\xE9roes y no puedes construir torres.\\n\\nEl objetivo es
+      defender una base de alianza. Cuando se destruye la base, el juego termina.
+      Las bases te ayudar\xE1n a subir de nivel a tus h\xE9roes en medio de una batalla.
+      Desbloquea nuevas bases para equipar a los h\xE9roes con habilidades pasivas.\\n\\nPuedes
+      usar oro para mejorar las estad\xEDsticas del h\xE9roe justo en la batalla.
+      Toque la Base en el mapa para actualizar.\\n\\nRecibir\xE1s recompensas de
+      acuerdo con cada logro. Defi\xE9ndete tanto como puedas para obtener recompensas
+      m\xE1s valiosas.\\n\\nLos mapas y las tablas de clasificaci\xF3n se actualizar\xE1n
+      cada temporada. Est\xE9 preparado para enfrentar nuevos desaf\xEDos."
+    - Mejora de ataque
+    - Mejora de la defensa
+    - Mejora de hechizos
+    - Mejora de enfriamiento
+    - "Mejora cr\xEDtica"
+    - Mejora de Salud
+    - "Aumenta {0} da\xF1os para todos los h\xE9roes."
+    - "Aumenta {0} de armadura y {1} de resistencia m\xE1gica para todos los h\xE9roes."
+    - "Aumenta un {0}% el da\xF1o infligido por la habilidad activa de hechizos."
+    - "Disminuye un {0}% de tiempo de reutilizaci\xF3n para todos los h\xE9roes."
+    - "Aumenta {0} da\xF1os cr\xEDticos para todos los h\xE9roes."
+    - "Aumenta {0} puntos de vida m\xE1ximos para todos los h\xE9roes."
+    - La Fortaleza
+    - Diosa de la naturaleza
+    - Torre del trueno
+    - Las bases importantes deben protegerse a toda costa.
+    - "Recupera 5 Salud cada 6 segundos para todos los h\xE9roes."
+    - "Despu\xE9s de cada 2 ataques, el h\xE9roe tiene la capacidad de lanzar un
+      rayo que inflige 3 de da\xF1o. El rayo rebota hasta otros 4 enemigos. El da\xF1o
+      por cada rebote disminuir\xE1 en un 5%."
+    - "Esta antigua fortaleza fue construida por humanos y se mantiene fuerte contra
+      los ataques del ej\xE9rcito malvado."
+    - Una diosa misteriosa adorada por los habitantes de la naturaleza. Creen que
+      la diosa tiene la capacidad de curar y bendecir a los guerreros de la jungla.
+    - "Esta torre m\xE1gica es donde muchos grandes magos viven y estudian magia.
+      Los magos infundieron su poder en la torre para que pudiera ayudar a los defensores
+      a controlar el trueno."
+    - "\xDAltima l\xEDnea de defensa"
+    - Batalla del bosque
+    - Prohibir
+    - Debilitado
+    - Mejorar
+    - "Hechizo est\xE1 prohibido"
+    - "Selecci\xF3n de torre"
+    - Necesitas al menos 4 torres
+    - "Sal\xF3n de la fama"
+    - "\xDAnete a la lucha para ser honrado"
+    - No clasificado
+    - Billete
+    - Tienda de torneos
+    - Compra de Billete
+    - Cambio
+    - "Cambiar h\xE9roes"
+    - Cambiar Estado
+    - "El precio aumentar\xE1 cada vez que cambie"
+    - Oleada
+    - No puedes usar estos elementos
+    - "Tu h\xE9roe no puede usar este objeto. Quieres cambiarlo?"
+    - Hai raggiunto il grado di {0} in questa stagione. Ecco la tua ricompensa
+    - Temporada
+    - Torneo
+    - 'Mapas del torneo '
+    - "L\xEDmite de reproducci\xF3n"
+    - "Sal\xF3n de la fama"
+    - Temporada
+    - Mejorar
+    - Debilitado
+    - Prohibir
+    - Todos los jugadores compiten en el mismo nivel sin fin
+    - "Todos los d\xEDas, los jugadores obtienen {0} juegos gratis. Si se agota el
+      n\xFAmero de giros gratis, el jugador debe usar Gema o mirar un anuncio para
+      obtener m\xE1s. El n\xFAmero de reproducciones se actualizar\xE1 todos los
+      d\xEDas."
+    - "Este es el lugar para honrar los r\xE9cords m\xE1s altos de todos los tiempos.
+      \xA1Sigue intentando cada temporada ser honrado aqu\xED!"
+    - "Cada temporada dura 2 semanas. El r\xE9cord m\xE1s alto que obtengan los jugadores
+      en cada temporada se contar\xE1 para clasificar en el <Sal\xF3n de la Fama>. "
+    - "Si tu formaci\xF3n tiene 2 h\xE9roes a pedido, se mejorar\xE1 cualquier estad\xEDstica.
+      Puedes usar Cristales, Gema y ver anuncios para cambiar aleatoriamente el par
+      de h\xE9roes predeterminado y el tipo de estad\xEDstica mejorada."
+    - "Si usa un h\xE9roe debilitado en su formaci\xF3n, se reducir\xE1 una de las
+      estad\xEDsticas de ese h\xE9roe. Ese h\xE9roe tampoco aparecer\xE1 en el par
+      de h\xE9roes solicitado."
+    - "No podr\xE1 utilizar art\xEDculos prohibidos. La lista de art\xEDculos prohibidos
+      se actualizar\xE1 despu\xE9s de cada temporada."
+    - Bronce
+    - Plata
+    - Oro
+    - "Pl\xE1tino"
+    - Diamante
+    - "\xC9lite"
+    - Maestro
+    - Rey
+    - Aumentar Salud en {0}
+    - Aumentar Armadura en {0}
+    - "Aumentar Resist\xE9ncia m\xE1gica en {0}"
+    - "Aumentar Da\xF1o en {0}"
+    - Aumentar Velocidad de movimiento en {0}%
+    - Aumentar Velocidad de Ataque en {0}%
+    - Aumentar Regeneracion de salud en {0}%
+    - "Disminuir Tiempo de reaparici\xF3n en {0}%"
+    - "Aumentar Da\xF1o cr\xEDtico en {0}%"
+    - "Aumentar Probabilidad de Cr\xEDtico en {0}%"
+    - Disminuir Tiempo de carga de habilidad en {0}%
+    - Disminuir Salud en {0}
+    - Disminuir Armadura en {0}
+    - "Disminuir Resist\xE9ncia m\xE1gica en {0}"
+    - "Disminuir Da\xF1o en {0}"
+    - Disminuir Velocidad de movimiento en {0}%
+    - Disminuir Velocidad de Ataque en {0}%
+    - Disminuir Regeneracion de salud en {0}%
+    - "Aumentar Tiempo de reaparici\xF3n en {0}%"
+    - "Disminuir Da\xF1o cr\xEDtico en {0}%"
+    - "Disminuir Probabilidad de Cr\xEDtico en {0}%"
+    - Aumentar Tiempo de carga de habilidad en {0}%

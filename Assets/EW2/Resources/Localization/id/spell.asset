@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: spell
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - spell_name_4001
+    - spell_name_4002
+    - spell_name_4003
+    - spell_name_4004
+    - spell_name_4005
+    - spell_name_4006
+    - spell_name_4011
+    - active_description_4001
+    - active_description_4002
+    - active_description_4003
+    - active_description_4004
+    - active_description_4005
+    - active_description_4006
+    - active_description_4011
+    - passive_description_4001
+    - passive_description_4002
+    - passive_description_4003
+    - passive_description_4004
+    - passive_description_4005
+    - passive_description_4006
+    - passive_description_4011
+    - spell_default_description_all
+    - spell_default_description_4001
+    - spell_default_description_4002
+    - spell_default_description_4003
+    - spell_default_description_4004
+    - spell_default_description_4005
+    - spell_default_description_4006
+    - spell_default_description_4011
+    values:
+    - Badai Salju
+    - Membakar Guntur
+    - Ledakan Roh
+    - Penjaga Bintang
+    - Berkah Alam
+    - Ranjau Darat Ajaib
+    - Totem Kuno
+    - 'Membekukan musuh di area yang dipilih selama <color=#bb5c14>{0}</color> detik.
+      Setelah es mencair, musuh akan menjadi Dingin selama <color=#bb5c14>{1}</color>
+      detik
+
+
+      * Kebal dengan musuh terbang'
+    - Buat guntur dan api yang jatuh di area tertentu dan berikan <color=#bb5c14>{0}</color>
+      kerusakan
+    - Menciptakan ledakan yang menimbulkan <color=#bb5c14>{0}</color> kerusakan pada
+      musuh di area tertentu
+    - Memanggil Penjaga untuk bergabung dalam pertarungan. Memberikan <color=#bb5c14>{0}</color>
+      kerusakan saat mendarat di area yang ditargetkan. Penjaga memiliki <color=#bb5c14>{1}</color>
+      HP dan <color=#bb5c14>{2}</color> kerusakan.
+    - Memulihkan <color=#bb5c14>{0}</color> HP per detik ke semua sekutu di area
+      target. Durasi <color=#bb5c14>{1}</color> detik
+    - Ranjau khusus ditempatkan di jalan, memberikan <color=#bb5c14>{0}</color> kerusakan
+      pada musuh yang menginjaknya
+    - 'Memanggil totem dengan <color=#bb5c14>{0}</color> HP yang bertahan selama
+      <color=#bb5c14>{1}</color> detik, menciptakan area terkutuk yang menarik semua
+      musuh dengan kemampuan menyerang. Musuh di area tersebut menerima <color=#bb5c14>{2}</color>
+      kerusakan per detik.
+
+
+      * Kebal dengan musuh terbang'
+    - 'Setiap serangan dasar Pahlawan memiliki <color=#bb5c14>{0}%</color> peluang
+      untuk membekukan musuh.
+
+
+      *Kebal terhadap Bos dan Mini Boss'
+    - Serangan dasar Pahlawan memiliki rasio <color=#bb5c14>{0}%</color> menyebabkan
+      Membakar kepada musuh. Membakar memiliki durasi <color=#bb5c14>{1}</color>
+      detik. Laju Membakar per serangan dasar tidak akan dihitung jika Membakar masih
+      dalam durasi
+    - Serangan musuh memiliki peluang <color=#bb5c14>{0}%</color> untuk memicu ledakan
+      pada tubuh pahlawan. Semua musuh dalam jangkauan termasuk penyerang menerima
+      <color=#bb5c14>{1}</color> kerusakan dari ledakan itu
+    - Saat Penjaga Bintang muncul, hero menerima aura pelindung. Selama keberadaan
+      Penjaga Bintang, hero menerima lebih banyak <color=#bb5c14>{0}%</color> Armor
+      dan <color=#bb5c14>{1}%</color> Magic Resist
+    - Pahlawan memiliki kemampuan untuk regen sebesar <color=#bb5c14>{0}</color>
+      dari HP maksimum per detik bahkan dalam pertempuran.
+    - Musuh yang diserang oleh serangan dasar pahlawan akan memiliki <color=#bb5c14>{0}%</color>
+      kemungkinan meledak. Semua musuh dalam ledakan menerima <color=#bb5c14>{1}</color>
+      kerusakan
+    - 'Setelah setiap <color=#bb5c14>{0}</color> serangan, Pahlawan mengeluarkan
+      kutukan yang menakutkan semua musuh di sekitarnya.
+
+
+      * Kebal terhadap
+      musuh terbang'
+    - Mantra yang dilengkapi ke Pahlawan untuk menambah keterampilan ekstra dalam
+      pertempuran
+    - Bekukan musuh di suatu area dan beri Pahlawan yang dilengkapi Mantra ini kesempatan
+      untuk membekukan musuh di setiap serangan dasar
+    - Menyebabkan ledakan di suatu area dan memberi Pahlawan yang dilengkapi dengan
+      Mantra ini kemampuan untuk membakar musuh
+    - Membuat ledakan yang menghancurkan musuh dan memungkinkan Pahlawan yang dilengkapi
+      Mantra meledak saat diserang
+    - Panggil Penjaga Bintang dan tingkatkan pertahanan Pahlawan yang dilengkapi
+      dengan Mantra ini
+    - Menyembuhkan sekutu dan memberi Pahlawan yang dilengkapi dengan Mantra ini
+      kemampuan untuk meregenerasi HP dalam pertempuran
+    - Atur jebakan di sepanjang jalan dan berikan Pahlawan kemampuan untuk menyebabkan
+      serangan eksplosif
+    - Memanggil totem untuk menarik dan mengutuk musuh. Pahlawan memiliki kemampuan
+      untuk menyebabkan Terrify saat dilengkapi dengan Mantra ini.

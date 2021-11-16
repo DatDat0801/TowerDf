@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: worldmap
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - name_quest
+    - name_shop
+    - name_upgrade
+    - name_encyclopedia
+    - name_hero
+    - name_rune
+    - name_hero_trial
+    - name_tournament
+    - starthere
+    - result_name
+    - dailygift_name
+    - unlock
+    - max_number
+    - time_backup_late
+    - time_restore_late
+    - name_campaign
+    - campaign_number_normal
+    - campaign_number_hard
+    - tournament_rank_current
+    - hero_number
+    - giftcode_name
+    - giftcode_input
+    - current_name
+    - current_stage
+    - sell_details
+    - limit_level
+    - crystal_name
+    - require_connect_update
+    - not_update_score
+    - update_score_complete
+    - invest_details
+    - invest_buy_details
+    - invest_allday_details
+    - invest_nextday_details
+    - name_crystal_mine
+    - crystal_mine_production_rate
+    - crystal_mine_storage
+    - crystal_mine_current_storage
+    - crystal_mine_current
+    - crystal_mine_next
+    - crystal_mine_speed_up_upgrade
+    - setting_low
+    - setting_medium
+    - setting_high
+    - setting_graphics
+    - update_score
+    - free_gift
+    - name_gacha
+    - region_name_w1_0
+    - region_name_w1_1
+    - region_name_w1_2
+    - region_name_w1_3
+    - region_name_w1_4
+    - region_name_w1_5
+    values:
+    - "\u4EFB\u52A1"
+    - "\u5546\u5E97"
+    - "\u5347\u7EA7"
+    - "\u767E\u79D1\u5168\u4E66"
+    - "\u82F1\u96C4"
+    - "\u9F7F\u8F6E"
+    - "\u82F1\u96C4\u7684\u6311\u6218"
+    - "\u6BD4\u8D5B"
+    - "\u5728\u8FD9\u91CC\u5F00\u59CB"
+    - "\u7ED3\u679C"
+    - "\u62A5\u5230"
+    - "\u5F00\u9501"
+    - "\u60A8\u4ECA\u5929\u5DF2\u8FBE\u5230\u4E86\u6700\u5927\u6570\u91CF\u7684\u5907\u4EFD"
+    - "\u6700\u540E\u7684\u4FDD\u5B58"
+    - "\u4E0A\u6B21\u52A0\u8F7D"
+    - "\u4E16\u754C"
+    - "\u666E\u901A\u661F"
+    - "\u6076\u68A6\u661F"
+    - "\u9526\u6807\u8D5B\u5C42"
+    - "\u62E5\u6709\u7684\u82F1\u96C4"
+    - "\u793C\u7269\u7801"
+    - "\u5728\u8FD9\u91CC\u8F93\u5165\u793C\u7269\u4EE3\u7801..."
+    - "\u73B0\u5728"
+    - "\u5F53\u524D\u9636\u6BB5"
+    - "\u4F60\u60F3\u5356\u8FD9\u4E2A\u7269\u54C1\u4EE5\uFF1A"
+    - "\u8FBE\u5230\u6700\u9AD8\u7B49\u7EA7"
+    - "\u6676\u4F53"
+    - "\u4F60\u8981\u8FDE\u63A5\u5230\u4E92\u8054\u7F51\u624D\u53EF\u4EE5\u66F4\u65B0\u4F60\u7684\u5206\u6570\u3002
+      \u91CD\u8BD5\uFF1F"
+    - "\u672C\u8D5B\u5B63\u5DF2\u7ECF\u7ED3\u675F\u3002 \u4F60\u7684\u5206\u6570\u4E0D\u80FD\u66F4\u65B0\u3002"
+    - "\u66F4\u65B0\u5206\u6570\u6210\u529F"
+    - "\u4F60\u6BCF\u5929\u53EF\u4EE5\u6536\u5230\u4E00\u6B21\u793C\u7269\u3002"
+    - "\u8D2D\u4E70\u540E\u7B2C\u4E00\u5929\u7ACB\u5373\u6536\u5230{0}\u5B9D\u77F3\u3002
+      \u5956\u52B1\u53D1\u900130\u5929"
+    - "{0}\u5929\u7684\u5956\u52B1"
+    - "\u540E\u5929\u7684\u5956\u52B1"
+    - "\u82F1\u96C4\u5DE1\u903B\u961F"
+    - "\u751F\u4EA7\u7387"
+    - "\u5B58\u50A8"
+    - "\u5F53\u524D\u5B58\u50A8"
+    - "\u73B0\u5728"
+    - "\u4E0B\u4E00\u4E2A"
+    - "\u52A0\u901F"
+    - "\u4F4E"
+    - "\u4E2D"
+    - "\u9AD8"
+    - "\u56FE\u50CF"
+    - "\u66F4\u65B0\u5206\u6570"
+    - "\u8D60\u54C1"
+    - "\u53EC\u5524"
+    - "\u6069\u8FEA\u4E9A\u5E1D\u56FD"
+    - "\u65B0\u6708\u5C9B"
+    - "\u963F\u5C14\u8428\u65AF"
+    - "\u4E16\u754C\u6811\u4E4B\u5730"
+    - "\u7070\u8272\u6CBC\u6CFD"
+    - "\u4F0A\u5179\u6208\u5C14\u8981\u585E"

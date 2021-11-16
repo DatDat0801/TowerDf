@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: tower
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tower_name_2001_0
+    - tower_name_2001_1
+    - tower_name_2001_2
+    - tower_name_2002_0
+    - tower_name_2002_1
+    - tower_name_2002_2
+    - tower_name_2003_0
+    - tower_name_2003_1
+    - tower_name_2003_2
+    - tower_name_2004_0
+    - tower_name_2004_1
+    - tower_name_2004_2
+    - tower_name_2005_0
+    - tower_name_2005_1
+    - tower_name_2005_2
+    - tower_name_2006_0
+    - tower_name_2006_1
+    - tower_name_2006_2
+    - tower_name_2007_0
+    - tower_name_2007_1
+    - tower_name_2007_2
+    - tower_name_2008_0
+    - tower_name_2008_1
+    - tower_name_2008_2
+    - tower_name_2009_0
+    - tower_name_2009_1
+    - tower_name_2009_2
+    - tower_name_2010_0
+    - tower_name_2010_1
+    - tower_name_2010_2
+    - tower_name_2011_0
+    - tower_name_2011_1
+    - tower_name_2011_2
+    - tower_name_2012_0
+    - tower_name_2012_1
+    - tower_name_2012_2
+    - tower_des_2001_0
+    - tower_des_2001_1
+    - tower_des_2001_2
+    - tower_des_2002_0
+    - tower_des_2002_1
+    - tower_des_2002_2
+    - tower_des_2003_0
+    - tower_des_2003_1
+    - tower_des_2003_2
+    - tower_des_2004_0
+    - tower_des_2004_1
+    - tower_des_2004_2
+    - tower_des_2005_0
+    - tower_des_2005_1
+    - tower_des_2005_2
+    - tower_des_2006_0
+    - tower_des_2006_1
+    - tower_des_2006_2
+    - tower_des_2007_0
+    - tower_des_2007_1
+    - tower_des_2007_2
+    - tower_des_2008_0
+    - tower_des_2008_1
+    - tower_des_2008_2
+    - tower_des_2009_0
+    - tower_des_2009_1
+    - tower_des_2009_2
+    - tower_des_2010_0
+    - tower_des_2010_1
+    - tower_des_2010_2
+    - tower_des_2011_0
+    - tower_des_2011_1
+    - tower_des_2011_2
+    - tower_des_2012_0
+    - tower_des_2012_1
+    - tower_des_2012_2
+    - tower_skill_2001_0
+    - tower_skill_2001_1
+    - tower_skill_2002_0
+    - tower_skill_2002_1
+    - tower_skill_2003_0
+    - tower_skill_2003_1
+    - tower_skill_2004_0
+    - tower_skill_2004_1
+    - tower_skill_2005_0
+    - tower_skill_2005_1
+    - tower_skill_2006_0
+    - tower_skill_2006_1
+    - tower_skill_2007_0
+    - tower_skill_2007_1
+    - tower_skill_2008_0
+    - tower_skill_2008_1
+    - tower_skill_2009_0
+    - tower_skill_2009_1
+    - tower_skill_2010_0
+    - tower_skill_2010_1
+    - tower_skill_2011_0
+    - tower_skill_2011_1
+    - tower_skill_2012_0
+    - tower_skill_2012_1
+    - tower_skill_des_2001_0
+    - tower_skill_des_2001_1
+    - tower_skill_des_2002_0
+    - tower_skill_des_2002_1
+    - tower_skill_des_2003_0
+    - tower_skill_des_2003_0_update
+    - tower_skill_des_2003_1
+    - tower_skill_des_2004_0
+    - tower_skill_des_2004_1
+    - tower_skill_des_2005_0
+    - tower_skill_des_2005_1
+    - tower_skill_des_2006_0
+    - tower_skill_des_2006_1
+    - tower_skill_des_2007_0
+    - tower_skill_des_2007_1
+    - tower_skill_des_2008_0
+    - tower_skill_des_2008_1
+    - tower_skill_des_2009_0
+    - tower_skill_des_2009_1
+    - tower_skill_des_2010_0
+    - tower_skill_des_2010_1
+    - tower_skill_des_2011_0
+    - tower_skill_des_2011_1
+    - tower_skill_des_2012_0
+    - tower_skill_des_2012_1
+    values:
+    - Cazador
+    - Arquero
+    - Arquero Maestro
+    - Hechicero Potencial
+    - Hechicero de Batalla
+    - Hechicero Experto
+    - Protector
+    - Protector Acorazado
+    - Protector Legendario
+    - Milicia
+    - "Infanter\xEDa Experta"
+    - "Palad\xEDn de Alsace"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Los cazadores en la regi\xF3n de Alsace son reclutados y entrenados por Claudia
+      como una fuerza de defensa b\xE1sica, son capaces de atacar a los enemigos
+      que vuelan y a los que est\xE1n en el suelo."
+    - "Los cazadores est\xE1n bien entrenados para convertirse en buenos arqueros,
+      y son capaces de disparar m\xE1s r\xE1pido y m\xE1s lejos"
+    - "Los Arqueros Maestros Experimentados pueden disparar flechas pesadas r\xE1pidamente,
+      las cuales tienen un formidable poder de ruptura"
+    - "Formaci\xF3n de hechiceros de Endia Sus hechizos son muy efectivos contra
+      los enemigos que tienen armadura pesada"
+    - "Hechiceros con experiencia real en el combate. Su magia es fortalecida con
+      gran da\xF1o"
+    - "Excelentes hechiceros con un poder m\xE1gico fenomenal, que pueden arrasar
+      con la formaci\xF3n del enemigo"
+    - "Las almas de los protectores ancestrales est\xE1n selladas en piedras m\xE1gicas.
+      Cuando son invocadas, se van a transformar en guerreros de piedra gigantes
+      que atacan a los enemigos que van por tierra"
+    - "El Protector Acorazado es m\xE1s agresivo, es capaz de lanzar rocas que producen
+      un da\xF1o masivo"
+    - "El poderoso Protector puede arrasar y controlar a los enemigos en una \xE1rea
+      amplia"
+    - "La fuerza inicial del ejercito de la resistencia tiene un entrenamiento b\xE1sico
+      y puede bloquear la ruta de los enemigos."
+    - "Los soldados de la infanter\xEDa con gran experiencia en la batalla est\xE1n
+      bien equipados. Son guerreros valientes y absolutamente leales a Claudia"
+    - "Los caballeros resilientes de Claudia. Son guerreros que han pasado por muchas
+      batallas junto a Claudia, son absolutamente leales y est\xE1n listos para destruir
+      a todos los enemigos en el camino."
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Fuego R\xE1pido"
+    - Moral de Alsace
+    - "Golpe M\xE1gico"
+    - "Portal M\xE1gico"
+    - "Golpe S\xEDsmico"
+    - "Ola S\xEDsmica"
+    - Contraataque
+    - Fortificar
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "El arquero maestro dispara {0} veces de forma consecutiva. Cada flecha produce
+      un da\xF1o f\xEDsico de {1}"
+    - "Incrementa la velocidad del ataque en un {0}% para las torres amigas que est\xE9n
+      en el rango"
+    - "El hechicero lanza una habilidad m\xE1gica al cielo, emitiendo golpes m\xE1gicos
+      sobre {0} enemigos. Cada ataque produce un da\xF1o m\xE1gico de {1}"
+    - "Invoca un portal m\xE1gico que teletransporta a {0} enemigos hacia atr\xE1s,
+      por una distancia determinada"
+    - "El Protector azota el suelo, lo cual crea {0} grietas y produce un da\xF1o
+      de {1} a todos los enemigos que alcanza"
+    - "Las grietas explotan, lo cual produce un da\xF1o extra de {0}, y reduce la
+      velocidad de movimiento del enemigo en un {1}%"
+    - "El Protector genera olas s\xEDsmicas, lo cual produce un da\xF1o de {0}, y
+      reduce la velocidad de todos los enemigos en el \xE1rea de efecto."
+    - "Cuando es atacado por un ataque mel\xE9, cada Palad\xEDn de Alsace tiene una
+      probabilidad del {0}% de lanzar un Contraataque y de producir un da\xF1o de
+      \xE1rea de {1}"
+    - "Incrementa la armadura en un {0}% y la resistencia m\xE1gica en un {1}% a
+      los Paladines de Alsace"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

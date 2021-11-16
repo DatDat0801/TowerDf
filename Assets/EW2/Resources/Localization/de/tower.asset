@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: tower
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tower_name_2001_0
+    - tower_name_2001_1
+    - tower_name_2001_2
+    - tower_name_2002_0
+    - tower_name_2002_1
+    - tower_name_2002_2
+    - tower_name_2003_0
+    - tower_name_2003_1
+    - tower_name_2003_2
+    - tower_name_2004_0
+    - tower_name_2004_1
+    - tower_name_2004_2
+    - tower_des_2001_0
+    - tower_des_2001_1
+    - tower_des_2001_2
+    - tower_des_2002_0
+    - tower_des_2002_1
+    - tower_des_2002_2
+    - tower_des_2003_0
+    - tower_des_2003_1
+    - tower_des_2003_2
+    - tower_des_2004_0
+    - tower_des_2004_1
+    - tower_des_2004_2
+    - tower_skill_2001_0
+    - tower_skill_2001_1
+    - tower_skill_2002_0
+    - tower_skill_2002_1
+    - tower_skill_2003_0
+    - tower_skill_2003_1
+    - tower_skill_2004_0
+    - tower_skill_2004_1
+    - tower_skill_des_2001_0
+    - tower_skill_des_2001_1
+    - tower_skill_des_2002_0
+    - tower_skill_des_2002_1
+    - tower_skill_des_2003_0
+    - tower_skill_des_2003_0_update
+    - tower_skill_des_2003_1
+    - tower_skill_des_2004_0
+    - tower_skill_des_2004_1
+    values:
+    - "J\xE4ger"
+    - "Bogensch\xFCtze"
+    - "Meister-Bogensch\xFCtze"
+    - Potentieller Zauberer
+    - Kampf-Zauberer
+    - Adept-Zauberer
+    - "Besch\xFCtzer"
+    - "Gepanzerter Besch\xFCtzer"
+    - "Legend\xE4rer Besch\xFCtzer"
+    - Miliz
+    - Kampferprobte Infanterie
+    - Alsace-Paladin
+    - "J\xE4ger in der Alsace-Region werden von Claudia rekrutiert und trainiert,
+      um Basis-Verteidigungskr\xE4fte zu sein, die Gegner in der Luft und am Boden
+      bek\xE4mpfen k\xF6nnen."
+    - "Die J\xE4ger haben gutes Training erhalten, um gute Bogensch\xFCtzen zu werden,
+      die schneller und weiter schie\xDFen k\xF6nnen."
+    - "Kampferprobte Meister-Bogensch\xFCtzen k\xF6nnen schwere Pfeile, die eine
+      sehr hohe Durchschlagskraft besitzen, schnell schie\xDFen"
+    - "Wird von Endia-Zauberern trainiert. Seine Zauber sind gegen Gegner mit schwerer
+      R\xFCstung sehr effektiv."
+    - "Zauberer mit echter Kampferfahrung. Je mehr Schaden sie erleiden, desto st\xE4rker
+      wird ihre Magie"
+    - "Ausgezeichnete Zauberer mit au\xDFergew\xF6hnlicher magischer Kraft, die die
+      gegnerische Formation im Nu erledigen kann"
+    - "Die Seelen der antiken Besch\xFCtzer sind in magischen Steinen versiegelt.
+      Wenn sie beschw\xF6rt werden, verwandeln sie sich in gigantische Steinkrieger,
+      die Gegner am Boden angreifen"
+    - "Gepanzerte Besch\xFCtzer sind aggressiver und k\xF6nnen Felsen werfen, die
+      massiven Schaden verursachen"
+    - "Der m\xE4chtige Besch\xFCtzer kann Gegner in einem gro\xDFen Bereich besiegen
+      und kontrollieren"
+    - Die vorderste Reihe der Widerstandsarmee, hat die Grundausbildung durchgemacht
+      und kann den Pfad des Gegners blockieren
+    - "Infanteriesoldaten mit sehr viel Kampferfahrung, sehr gut ausger\xFCstet.
+      Sie sind mutige Krieger und Claudia sehr treu"
+    - "Die robusten Ritter von Claudia. Sie sind schon seit vielen K\xE4mpfen Krieger
+      f\xFCr Claudia, loyal bis aufs Blut und bereit, s\xE4mtliche Gegner auf ihrem
+      Weg zu zerst\xF6ren."
+    - Schnellfeuer
+    - Alsace-Moral
+    - Magischer Schlag
+    - Magisches Portal
+    - Seismischer Schlag
+    - Seismische Welle
+    - Konterangriff
+    - "St\xE4rken"
+    - "Meister-Bogensch\xFCtze schie\xDFt {0} Mal hintereinander. Jeder Pfeil verursacht
+      {1} physischen Schaden"
+    - "Erh\xF6ht Angriffsgeschwindigkeit von freundlichem Turm in Reichweite um {0}
+      %"
+    - "Der Magier schie\xDFt einen magischen Zauber in die Luft und beschw\xF6rt
+      magische Schl\xE4ge auf {0} Gegner. Jeder Angriff verursacht {1} magischen
+      Schaden"
+    - "Beschw\xF6rt ein magisches Portal, das {0} Gegner um eine bestimmte Distanz
+      nach hinten teleporiert"
+    - "Der Besch\xFCtzer haut auf den Boden, erschafft {0} Risse und verursacht allen
+      Gegnern, die getroffen werden, {1} Schaden"
+    - Risse, die explodieren, verursachen {0} Bonusschaden und reduzieren die gegnerische
+      Bewegungsgeschwindigkeit um {1} %
+    - "Der Besch\xFCtzer erschafft seismische Wellen, verursacht {0} Schaden und
+      verlangsamt alle Gegner im betroffenen Bereich"
+    - "Wenn der Alsace-Paladin von einem Nahkampf-Angriff getroffen wird, hat er
+      eine Chance von {0} %, einen Konterangriff auszuf\xFChren und {1} Bereichsschaden
+      zu verursachen"
+    - "Erh\xF6ht die R\xFCstung vom Alsace-Paladin um {0} % und den magischen Widerstand
+      vom Alsace-Paladin um {1} %"

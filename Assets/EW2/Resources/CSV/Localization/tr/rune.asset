@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: rune
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - rune_name_0
+    - rune_name_1
+    - rune_name_2
+    - rune_name_3
+    - rune_name_4
+    - rune_name_5
+    - rune_name_6
+    - rune_name_7
+    - rune_name_8
+    - rune_name_9
+    - rune_name_10
+    - rune_name_11
+    - bonus_damage_rune_des
+    - bonus_damage_chance_enhanced
+    - bonus_damage_condition_enhanced
+    - bonus_damage_rune_set_des
+    - rune_set_basic_des
+    - rune_set_basic_des_percent
+    - rune_set_basic_des_6
+    - rune_set_basic_des_9
+    - rune_detail_des_0
+    - rune_detail_des_1
+    - rune_detail_des_2
+    - rune_detail_des_3
+    - rune_detail_des_4
+    - rune_detail_des_5
+    - rune_detail_des_6
+    - rune_detail_des_7
+    - rune_detail_des_8
+    - rune_detail_des_9
+    - rune_detail_des_10
+    - rune_detail_des_11
+    values:
+    - "G\xFC\xE7 r\xFCn\xFC"
+    - "Koruma r\xFCn\xFC"
+    - "Dayan\u0131kl\u0131l\u0131k r\xFCn\xFC"
+    - "Can r\xFCn\xFC"
+    - "\u015Eiddet r\xFCn\xFC"
+    - "\xD6fke r\xFCn\xFC"
+    - "\xD6l\xFCms\xFCzl\xFCk r\xFCn\xFC"
+    - "\xD6l\xFCm r\xFCn\xFC"
+    - "Hayat r\xFCn\xFC"
+    - "Bilgelik r\xFCn\xFC"
+    - "Ist\u0131rap r\xFCn\xFC"
+    - "Sefalet r\xFCn\xFC"
+    - "Normal sald\u0131r\u0131, d\xFC\u015Fman\u0131n {2}% {1}'sine e\u015Fit ilave
+      ger\xE7ek hasar vermek i\xE7in %{0} \u015Fansa sahiptir"
+    - "Hasar verme \u015Fans\u0131"
+    - "D\xFC\u015Fman\u0131n {0} de\u011Ferine e\u015Fit"
+    - "D\xFC\u015Fman\u0131n {1} de\u011Ferine g\xF6re %{0} ger\xE7ek hasar"
+    - "Rune ta\u015F\u0131 \xFCst\xFCne almadan \xF6nce ilk{0} de\u011Feri + {1}"
+    - "Rune ta\u015F\u0131 \xFCst\xFCne almadan \xF6nce ilk {0} de\u011Feri + %{1}"
+    - "Rune ta\u015F\u0131 \xFCst\xFCne almadan \xF6nce {0} - {1} saniye"
+    - "Rune ta\u015F\u0131 \xFCst\xFCne almadan \xF6nce bekleme s\xFCresi %{0} azal\u0131r"
+    - "Sava\u015F\xE7\u0131 Hasar g\xFCc\xFCn\xFC art\u0131ran Rune ta\u015F\u0131"
+    - "Sava\u015F\xE7\u0131 Z\u0131rh\u0131n\u0131 art\u0131ran Rune ta\u015F\u0131"
+    - "Sava\u015F\xE7\u0131 B\xFCy\xFC Direncini art\u0131ran Rune ta\u015F\u0131"
+    - "Sava\u015F\xE7\u0131 Sa\u011Fl\u0131\u011F\u0131n\u0131 art\u0131ran Rune
+      Ta\u015F\u0131"
+    - "Sava\u015F\xE7\u0131 Sald\u0131r\u0131 H\u0131z\u0131n\u0131 art\u0131ran
+      Rune ta\u015F\u0131"
+    - "Sava\u015F\xE7\u0131 Kritik Hasar g\xFCc\xFCn\xFC art\u0131ran Rune ta\u015F\u0131"
+    - "Sava\u015F\xE7\u0131 \u0130yile\u015Fme h\u0131z\u0131n\u0131 art\u0131ran
+      Rune ta\u015F\u0131"
+    - "Sava\u015F\xE7\u0131 Kritik Oran\u0131n\u0131 art\u0131ran Rune ta\u015F\u0131"
+    - "Sava\u015F\xE7\u0131 D\xFC\u015Fmandan Sa\u011Fl\u0131k Transferini art\u0131ran
+      Rune ta\u015F\u0131"
+    - "Sava\u015F\xE7\u0131 Bekleme S\xFCresini azaltan Rune ta\u015F\u0131"
+    - "D\xFC\u015Fmanlar\u0131n Z\u0131rh\u0131na verilen hasara g\xF6re bonus kazanma
+      \u015Fans\u0131n\u0131 art\u0131ran Rune ta\u015F\u0131"
+    - "D\xFC\u015Fmanlar\u0131n B\xFCy\xFC Direncine verilen hasara g\xF6re bonus
+      kazanma \u015Fans\u0131n\u0131 art\u0131ran Rune ta\u015F\u0131"

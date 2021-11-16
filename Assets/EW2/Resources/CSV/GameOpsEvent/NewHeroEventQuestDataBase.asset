@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9695884081674eedbbd6e4f7dd816393, type: 3}
+  m_Name: NewHeroEventQuestDataBase
+  m_EditorClassIdentifier: 
+  newHeroEventQuestBases:
+  - questId: 0
+    targetType: 41
+    questType: 6
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 50
+        itemType: -1
+      numberRequire: 1
+      stageUnlock: 0
+      victim: ed030000
+  - questId: 1
+    targetType: 32
+    questType: 4
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 50
+        itemType: -1
+      numberRequire: 1
+      stageUnlock: 0
+      victim: 04000000
+  - questId: 2
+    targetType: 32
+    questType: 4
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 50
+        itemType: -1
+      numberRequire: 1
+      stageUnlock: 0
+      victim: 09000000
+  - questId: 3
+    targetType: 32
+    questType: 4
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 50
+        itemType: -1
+      numberRequire: 1
+      stageUnlock: 0
+      victim: 13000000
+  - questId: 4
+    targetType: 42
+    questType: 4
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 50
+        itemType: -1
+      numberRequire: 1
+      stageUnlock: 0
+      victim: 04000000ed030000
+  - questId: 5
+    targetType: 42
+    questType: 4
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 50
+        itemType: -1
+      numberRequire: 1
+      stageUnlock: 0
+      victim: 09000000ed030000
+  - questId: 6
+    targetType: 42
+    questType: 4
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 50
+        itemType: -1
+      numberRequire: 1
+      stageUnlock: 0
+      victim: 13000000ed030000
+  - questId: 7
+    targetType: 43
+    questType: 4
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 50
+        itemType: -1
+      numberRequire: 1
+      stageUnlock: 0
+      victim: 04000000ed030000
+  - questId: 8
+    targetType: 43
+    questType: 4
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 50
+        itemType: -1
+      numberRequire: 1
+      stageUnlock: 0
+      victim: 09000000ed030000
+  - questId: 9
+    targetType: 44
+    questType: 6
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 50
+        itemType: -1
+      numberRequire: 30
+      stageUnlock: 0
+      victim: ed030000
+  - questId: 10
+    targetType: 45
+    questType: 2
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 2
+        id: 1
+        number: 40
+        itemType: 2
+      numberRequire: 1
+      stageUnlock: 0
+      victim: 05000000ed030000
+  - questId: 11
+    targetType: 45
+    questType: 2
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 2
+        id: 1
+        number: 40
+        itemType: 2
+      numberRequire: 1
+      stageUnlock: 0
+      victim: 0a000000ed030000
+  - questId: 12
+    targetType: 45
+    questType: 2
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 2
+        id: 2
+        number: 60
+        itemType: 2
+      numberRequire: 1
+      stageUnlock: 0
+      victim: 0f000000ed030000
+  - questId: 13
+    targetType: 45
+    questType: 2
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 2
+        id: 2
+        number: 60
+        itemType: 2
+      numberRequire: 1
+      stageUnlock: 0
+      victim: 14000000ed030000
+  - questId: 14
+    targetType: 46
+    questType: 6
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 50
+        itemType: -1
+      numberRequire: 1
+      stageUnlock: 7
+      victim: ed030000
+  - questId: 15
+    targetType: 47
+    questType: 7
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 50
+        itemType: -1
+      numberRequire: 1
+      stageUnlock: 10
+      victim: ed030000

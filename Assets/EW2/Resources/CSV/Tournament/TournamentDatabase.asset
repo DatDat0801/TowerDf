@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b167181e9654c7b98e4472d62a847a3, type: 3}
+  m_Name: TournamentDatabase
+  m_EditorClassIdentifier: 
+  heroUnitDb:
+  - heroId: 1001
+  - heroId: 1002
+  - heroId: 1003
+  - heroId: 1004
+  - heroId: 1005
+  - heroId: 0
+  - heroId: 0
+  - heroId: 0
+  - heroId: 0
+  - heroId: 0
+  - heroId: 0
+  - heroId: 0
+  - heroId: 0
+  - heroId: 0
+  towerUnitDb:
+  - towerId: 2001
+  - towerId: 2002
+  - towerId: 2003
+  - towerId: 2004
+  - towerId: 0
+  - towerId: 0
+  - towerId: 0
+  - towerId: 0
+  - towerId: 0
+  - towerId: 0
+  - towerId: 0
+  - towerId: 0
+  - towerId: 0
+  - towerId: 0
+  spellUnitDb:
+  - spellId: 4001
+  - spellId: 40011
+  - spellId: 40012
+  - spellId: 4003
+  - spellId: 40031
+  - spellId: 40032
+  - spellId: 0
+  - spellId: 0
+  - spellId: 0
+  - spellId: 0
+  - spellId: 0
+  - spellId: 0
+  - spellId: 0
+  - spellId: 0
+  mapsPool:
+  - tournamentMapId: 0
+    worldId: 0
+    mapId: 14
+  - tournamentMapId: 1
+    worldId: 0
+    mapId: 21

@@ -1,0 +1,307 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: playable_mode
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_defense_name_txt
+    - defensive_point_title_txt
+    - lobby_txt
+    - best_record_waves_txt
+    - current_record_waves_txt
+    - season_end_txt
+    - trial_left_txt
+    - trial_txt
+    - reward_milestone_txt
+    - select_base_txt
+    - hero_selection_txt
+    - unlock_base_txt
+    - turn_left_txt
+    - leaderboard_txt
+    - rank_txt
+    - player_txt
+    - formation_txt
+    - new_record_txt
+    - no_more_trial_txt
+    - result_txt
+    - last_trial_notice_txt
+    - hero_required_txt
+    - hero_defense_rule
+    - buff_name_7001
+    - buff_name_7002
+    - buff_name_7003
+    - buff_name_7004
+    - buff_name_7005
+    - buff_name_7006
+    - buff_des_7001
+    - buff_des_7002
+    - buff_des_7003
+    - buff_des_7004
+    - buff_des_7005
+    - buff_des_7006
+    - defensive_point_name_8001
+    - defensive_point_name_8004
+    - defensive_point_name_8005
+    - defensive_point_skill_8001
+    - defensive_point_skill_8004
+    - defensive_point_skill_8005
+    - defensive_point_des_8001
+    - defensive_point_des_8004
+    - defensive_point_des_8005
+    - hero_defens_map_name_1
+    - hero_defens_map_name_2
+    - tournament_ban_txt
+    - tournament_nerf_txt
+    - tournament_buff_txt
+    - ban_spell_notice_txt
+    - tower_selection_txt
+    - tower_required_txt
+    - hall_of_fame_txt
+    - join_tournament_txt
+    - unrank_txt
+    - tournament_ticket_txt
+    - tournament_shop_title
+    - purchase_ticket_popup_title_txt
+    - change_buff_txt
+    - change_hero_pair_txt
+    - change_buff_status_txt
+    - change_price_alert_txt
+    - waves_cleared_record_txt
+    - ban_notice_txt
+    - ban_alert_txt
+    - congratulation_notice_txt
+    - season_rank_txt
+    - tournament_rules_title
+    - tournament_rule_map_title
+    - tournament_rule_limit_title
+    - tournament_rule_grand_title
+    - tournament_rule_season_title
+    - tournament_rule_buff_title
+    - tournament_rule_nerf_title
+    - tournament_rule_ban_title
+    - tournament_rule_map
+    - tournament_rule_limit
+    - tournament_rule_grand
+    - tournament_rule_season
+    - tournament_rule_buff
+    - tournament_rule_nerf
+    - tournament_rule_ban
+    - tournament_rank_0
+    - tournament_rank_1
+    - tournament_rank_2
+    - tournament_rank_3
+    - tournament_rank_4
+    - tournament_rank_5
+    - tournament_rank_6
+    - tournament_rank_7
+    - tournament_buff_201
+    - tournament_buff_202
+    - tournament_buff_203
+    - tournament_buff_204
+    - tournament_buff_205
+    - tournament_buff_206
+    - tournament_buff_207
+    - tournament_buff_208
+    - tournament_buff_209
+    - tournament_buff_210
+    - tournament_buff_211
+    - tournament_nerf_101
+    - tournament_nerf_102
+    - tournament_nerf_103
+    - tournament_nerf_104
+    - tournament_nerf_105
+    - tournament_nerf_106
+    - tournament_nerf_107
+    - tournament_nerf_108
+    - tournament_nerf_109
+    - tournament_nerf_110
+    - tournament_nerf_111
+    values:
+    - "Anh h\xF9ng chi\u1EBFn"
+    - "C\u1EE9 \u0111i\u1EC3m"
+    - "Ph\xF2ng ch\u1EDD"
+    - "K\u1EF7 l\u1EE5c: {0} tr\u1EADn"
+    - "S\u1ED1 tr\u1EADn: {0}"
+    - "K\u1EBFt th\xFAc trong: "
+    - "Ch\u01A1i th\u1EED: {0}"
+    - "Th\u1EED"
+    - "{0} tr\u1EADn"
+    - "Ch\u1ECDn c\u1EE9 \u0111i\u1EC3m"
+    - "Ch\u1ECDn anh h\xF9ng"
+    - "M\u1EDF kh\xF3a c\u1EE9 \u0111i\u1EC3m"
+    - "L\u01B0\u1EE3t ch\u01A1i: {0}"
+    - "X\u1EBFp h\u1EA1ng"
+    - "H\u1EA1ng"
+    - "Ng\u01B0\u1EDDi ch\u01A1i"
+    - "\u0110\u1ED9i h\xECnh"
+    - "K\u1EF7 l\u1EE5c m\u1EDBi"
+    - "H\u1EBFt l\u01B0\u1EE3t ch\u01A1i th\u1EED"
+    - "K\u1EBFt qu\u1EA3"
+    - "B\u1EA1n \u0111\xE3 d\xF9ng h\u1EBFt l\u01B0\u1EE3t ch\u01A1i th\u1EED."
+    - "B\u1EA1n c\u1EA7n \xEDt nh\u1EA5t 2 Anh h\xF9ng"
+    - "C\xE1c anh h\xF9ng l\xE2m nguy khi c\u1ED1 g\u1EAFng b\u1EA3o v\u1EC7 m\u1ED9t
+      c\u0103n c\u1EE9 kh\u1ECFi cu\u1ED9c t\u1EA5n c\xF4ng c\u1EE7a \u0111\u1ED9i
+      qu\xE2n qu\u1EF7 d\u1EEF. Kh\xF4ng c\xF3 th\u1EDDi gian \u0111\u1EC3 x\xE2y
+      th\xE1p, h\u1ECD ph\u1EA3i d\xF9ng s\u1EE9c m\u1EA1nh c\u1EE7a m\xECnh \u0111\u1EC3
+      ng\u0103n ch\u1EB7n k\u1EBB \u0111\u1ECBch.\n\nTrong ch\u1EBF \u0111\u1ED9
+      n\xE0y, b\u1EA1n c\xF3 th\u1EC3 \u0111i\u1EC1u khi\u1EC3n t\u1ED1i \u0111a
+      5 anh h\xF9ng.\n\nB\u1EA1n ch\u1EC9 c\xF3 th\u1EC3 \u0111i\u1EC1u khi\u1EC3n
+      anh h\xF9ng v\xE0 kh\xF4ng th\u1EC3 x\xE2y tr\u1EE5.\n\nM\u1EE5c ti\xEAu l\xE0
+      b\u1EA3o v\u1EC7 m\u1ED9t c\u0103n c\u1EE9 c\u1EE7a li\xEAn minh. Khi c\u0103n
+      c\u1EE9 b\u1ECB ph\xE1 h\u1EE7y, tr\xF2 ch\u01A1i s\u1EBD k\u1EBFt th\xFAc.
+      C\u0103n c\u1EE9 s\u1EBD gi\xFAp b\u1EA1n t\u0103ng c\u1EA5p s\u1EE9c m\u1EA1nh
+      cho anh h\xF9ng ngay gi\u1EEFa tr\u1EADn chi\u1EBFn. M\u1EDF kh\xF3a c\xE1c
+      c\u0103n c\u1EE9 m\u1EDBi \u0111\u1EC3 trang b\u1ECB th\xEAm c\xE1c k\u1EF9
+      n\u0103ng b\u1ECB \u0111\u1ED9ng cho anh h\xF9ng.\n\nB\u1EA1n c\xF3 th\u1EC3
+      d\xF9ng v\xE0ng ki\u1EBFm \u0111\u01B0\u1EE3c \u0111\u1EC3 n\xE2ng c\u1EA5p
+      c\xE1c ch\u1EC9 s\u1ED1 c\u1EE7a Anh h\xF9ng ngay trong tr\u1EADn chi\u1EBFn.
+      B\u1EA5m v\xE0o C\u1EE9 \u0111i\u1EC3m tr\xEAn b\u1EA3n \u0111\u1ED3 \u0111\u1EC3
+      n\xE2ng c\u1EA5p.\n\nB\u1EA1n s\u1EBD nh\u1EADn ph\u1EA7n th\u01B0\u1EDFng
+      theo t\u1EEBng m\u1ED1c th\xE0nh t\xEDch. Ph\xF2ng th\u1EE7 l\xE2u nh\u1EA5t
+      c\xF3 th\u1EC3 \u0111\u1EC3 nh\u1EADn th\xEAm nhi\u1EC1u ph\u1EA7n th\u01B0\u1EDFng
+      gi\xE1 tr\u1ECB.\n\nB\u1EA3n \u0111\u1ED3 v\xE0 b\u1EA3ng x\u1EBFp h\u1EA1ng
+      s\u1EBD \u0111\u01B0\u1EE3c l\xE0m m\u1EDBi m\u1ED7i m\xF9a. H\xE3y chu\u1EA9n
+      b\u1ECB \u0111\u1EC3 \u0111\u1ED1i m\u1EB7t v\u1EDBi cac th\u1EED th\xE1ch
+      m\u1EDBi."
+    - "T\u0103ng t\u1EA5n c\xF4ng"
+    - "T\u0103ng ph\xF2ng ng\u1EF1"
+    - "C\u01B0\u1EDDng h\xF3a Ph\xE9p"
+    - "Gi\u1EA3m h\u1ED3i chi\xEAu"
+    - "T\u0103ng ch\xED m\u1EA1ng"
+    - "T\u0103ng m\xE1u"
+    - "T\u0103ng {0} s\xE1t th\u01B0\u01A1ng cho t\u1EA5t c\u1EA3 anh h\xF9ng"
+    - "T\u0103ng {0} gi\xE1p v\xE0 {1} kh\xE1ng ph\xE9p cho t\u1EA5t c\u1EA3 anh
+      h\xF9ng"
+    - "T\u0103ng {0}% s\xE1t th\u01B0\u01A1ng g\xE2y ra b\u1EDFi k\u1EF9 n\u0103ng
+      ch\u1EE7 \u0111\u1ED9ng c\u1EE7a Ph\xE9p"
+    - "Gi\u1EA3m {0}% th\u1EDDi gian h\u1ED3i chi\xEAu cho t\u1EA5t c\u1EA3 anh h\xF9ng"
+    - "T\u0103ng {0} s\xE1t th\u01B0\u01A1ng ch\xED m\u1EA1ng cho t\u1EA5t c\u1EA3
+      anh h\xF9ng"
+    - "T\u0103ng {0} l\u01B0\u1EE3ng m\xE1u t\u1ED1i \u0111a cho t\u1EA5t c\u1EA3
+      anh h\xF9ng"
+    - "Ph\xE1o \u0111\xE0i"
+    - "N\u1EEF th\u1EA7n t\u1EF1 nhi\xEAn"
+    - "Th\xE1p l\xF4i k\xEDch"
+    - "M\u1ED9t c\u0103n c\u1EE9 quan tr\u1ECDng c\u1EA7n \u0111\u01B0\u1EE3c b\u1EA3o
+      v\u1EC7 b\u1EB1ng m\u1ECDi gi\xE1."
+    - "H\u1ED3i 5 m\xE1u m\u1ED7i 6 gi\xE2y cho t\u1EA5t c\u1EA3 anh h\xF9ng"
+    - "C\u1EE9 m\u1ED7i 2 \u0111\xF2n \u0111\xE1nh, anh h\xF9ng l\u1EA1i tung ra
+      m\u1ED9t \u0111\xF2n gi\u1EADt s\xE9t g\xE2y 3 s\xE1t th\u01B0\u01A1ng. \u0110\xF2n
+      s\xE9t gi\u1EADt lan sang t\u1ED1i \u0111a 4 k\u1EBB \u0111\u1ECBch kh\xE1c.
+      S\xE1t th\u01B0\u01A1ng c\u1EE7a m\u1ED7i l\u1EA7n n\u1EA3y gi\u1EA3m 5%."
+    - "Ph\xE1o \u0111\xE0i c\u1ED5 n\xE0y \u0111\u01B0\u1EE3c x\xE2y d\u1EF1ng b\u1EDFi
+      con ng\u01B0\u1EDDi v\xE0 v\u1EABn ki\xEAn c\u1ED1 tr\u01B0\u1EDBc nh\u1EEFng
+      cu\u1ED9c t\u1EA5n c\xF4ng c\u1EE7a qu\xE2n \u0111o\xE0n \xE1c qu\u1EF7."
+    - "M\u1ED9t n\u1EEF th\u1EA7n b\xED \u1EA9n \u0111\u01B0\u1EE3c t\xF4n th\u1EDD
+      b\u1EDFi c\xE1c c\u01B0 d\xE2n c\u1EE7a t\u1EF1 nhi\xEAn. H\u1ECD tin r\u1EB1ng
+      n\u1EEF th\u1EA7n c\xF3 kh\u1EA3 n\u0103ng ch\u1EEFa tr\u1ECB v\xE0 ban ph\u01B0\u1EDBc
+      l\xE0nh cho nh\u1EEFng chi\u1EBFn binh c\u1EE7a r\u1EEBng xanh."
+    - "Ng\u1ECDn th\xE1p ma thu\u1EADt n\xE0y l\xE0 n\u01A1i m\xE0 nhi\u1EC1u ph\xE1p
+      s\u01B0 v\u0129 \u0111\u1EA1i sinh s\u1ED1ng v\xE0 nghi\xEAn c\u1EE9u ph\xE1p
+      thu\u1EADt. C\xE1c ph\xE1p s\u01B0 \u0111\xE3 \u0111\xE3 truy\u1EC1n s\u1EE9c
+      m\u1EA1nh c\u1EE7a m\xECnh v\xE0o ng\u1ECDn th\xE1p \u0111\u1EC3 n\xF3 c\xF3
+      th\u1EC3 gi\xFAp nh\u1EEFng ng\u01B0\u1EDDi ph\xF2ng th\u1EE7 \u0111i\u1EC1u
+      khi\u1EC3n \u0111\u01B0\u1EE3c s\u1EA5m s\xE9t."
+    - "C\u1EE9 \u0111i\u1EC3m cu\u1ED1i c\xF9ng"
+    - "Tr\u1EADn chi\u1EBFn trong r\u1EEBng"
+    - Ban
+    - Nerf
+    - Buff
+    - "Ph\xE9p b\u1ECB ban"
+    - "Ch\u1ECDn th\xE1p ph\xF2ng th\u1EE7"
+    - "B\u1EA1n c\u1EA7n ch\u1ECDn \u0111\u1EE7 4 Th\xE1p ph\xF2ng th\u1EE7"
+    - "S\u1EA3nh \u0111\u01B0\u1EDDng danh v\u1ECDng"
+    - "Tham gia Gi\u1EA3i \u0111\u1EA5u \u0111\u1EC3 \u0111\u01B0\u1EE3c vinh danh"
+    - "Ch\u01B0a \u0111\u01B0\u1EE3c x\u1EBFp h\u1EA1ng"
+    - "V\xE9"
+    - "C\u1EEDa h\xE0ng Gi\u1EA3i \u0111\u1EA5u"
+    - "Mua v\xE9"
+    - "\u0110\u1ED5i buff"
+    - "\u0110\u1ED5i c\u1EB7p anh h\xF9ng"
+    - "\u0110\u1ED5i buff"
+    - "M\u1ED7i l\u1EA7n thay \u0111\u1ED5i s\u1EBD t\u1ED1n th\xEAm chi ph\xED"
+    - "Tr\u1EADn"
+    - "B\u1EA1n kh\xF4ng th\u1EC3 s\u1EED d\u1EE5ng Th\xE1p v\xE0 Ph\xE9p b\u1ECB
+      c\u1EA5m"
+    - "Anh h\xF9ng c\u1EE7a b\u1EA1n \u0111ang trang b\u1ECB Ph\xE9p b\u1ECB ban.
+      B\u1EA1n c\xF3 mu\u1ED1n thay \u0111\u1ED5i Ph\xE9p kh\xF4ng?"
+    - "B\u1EA1n \u0111\xE3 \u0111\u1EA1t h\u1EA1ng {0} trong m\xF9a gi\u1EA3i n\xE0y.
+      \u0110\xE2y l\xE0 ph\u1EA7n th\u01B0\u1EDFng c\u1EE7a b\u1EA1n"
+    - "H\u1EA1ng m\xF9a gi\u1EA3i"
+    - "Lu\u1EADt l\u1EC7 gi\u1EA3i \u0111\u1EA5u"
+    - "B\u1EA3n \u0111\u1ED3 gi\u1EA3i \u0111\u1EA5u"
+    - "Gi\u1EDBi h\u1EA1n l\u01B0\u1EE3t ch\u01A1i"
+    - "S\u1EA3nh \u0111\u01B0\u1EDDng danh v\u1ECDng"
+    - "M\xF9a gi\u1EA3i"
+    - "Quy t\u1EAFc Buff"
+    - "Quy t\u1EAFc Nerf"
+    - "Quy t\u1EAFc Ban"
+    - "T\u1EA5t c\u1EA3 ng\u01B0\u1EDDi ch\u01A1i thi \u0111\u1EA5u tr\xEAn c\xF9ng
+      m\u1ED9t b\u1EA3n \u0111\u1ED3, ch\u1EBF \u0111\u1ED9 th\u1EE7 th\xE0nh v\xF4
+      t\u1EADn"
+    - "M\u1ED7i ng\xE0y ng\u01B0\u1EDDi ch\u01A1i s\u1EBD c\xF3 {0} l\u01B0\u1EE3t
+      ch\u01A1i mi\u1EC5n ph\xED. N\u1EBFu ch\u01A1i h\u1EBFt, ng\u01B0\u1EDDi ch\u01A1i
+      c\u1EA7n ph\u1EA3i d\xF9ng Ng\u1ECDc ho\u1EB7c xem qu\u1EA3ng c\xE1o \u0111\u1EC3
+      \u0111\u01B0\u1EE3c th\xEAm. S\u1ED1 l\u01B0\u1EE3ng l\u01B0\u1EE3t ch\u01A1i
+      s\u1EBD \u0111\u01B0\u1EE3c l\xE0m m\u1EDBi li\xEAn t\u1EE5c m\u1ED7i ng\xE0y."
+    - "S\u1EA3nh \u0111\u01B0\u1EDDng danh v\u1ECDng s\u1EBD ghi nh\u1EADn nh\u1EEFng
+      th\xE0nh t\xEDch cao nh\u1EA5t qua t\u1EA5t c\u1EA3 c\xE1c m\xF9a gi\u1EA3i.
+      H\xE3y lu\xF4n c\u1ED1 g\u1EAFng \u1EDF m\u1ED7i m\xF9a gi\u1EA3i \u0111\u1EC3
+      \u0111\u01B0\u1EE3c ghi danh t\u1EA1i \u0111\xE2y!"
+    - "M\u1ED7i m\xF9a gi\u1EA3i k\xE9o d\xE0i 2 tu\u1EA7n. K\u1EF7 l\u1EE5c cao
+      nh\u1EA5t \u1EDF m\u1ED7i M\xF9a th\u01B0\u1EDDng s\u1EBD \u0111\u01B0\u1EE3c
+      t\xEDnh \u0111\u1EC3 x\xE9t th\u1EE9 h\u1EA1ng trong S\u1EA3nh \u0111\u01B0\u1EDDng
+      danh v\u1ECDng."
+    - "N\u1EBFu \u0111\u1ED9i h\xECnh c\u1EE7a b\u1EA1n c\xF3 2 Anh h\xF9ng theo
+      y\xEAu c\u1EA7u th\xEC s\u1EBD \u0111\u01B0\u1EE3c t\u0103ng c\u01B0\u1EDDng
+      m\u1ED9t ch\u1EC9 s\u1ED1 b\u1EA5t k\u1EF3. B\u1EA1n c\xF3 th\u1EC3 d\xF9ng
+      Tinh th\u1EC3, Ng\u1ECDc v\xE0 xem qu\u1EA3ng c\xE1o \u0111\u1EC3 thay \u0111\u1ED5i
+      ng\u1EABu nhi\xEAn 2 Anh h\xF9ng \u0111\u01B0\u1EE3c ch\u1ECDn v\xE0 lo\u1EA1i
+      ch\u1EC9 s\u1ED1 \u0111\u01B0\u1EE3c c\u01B0\u1EDDng h\xF3a."
+    - "N\u1EBFu b\u1EA1n s\u1EED d\u1EE5ng anh h\xF9ng b\u1ECB nerf trong \u0111\u1ED9i
+      h\xECnh, m\u1ED9t ch\u1EC9 s\u1ED1 c\u1EE7a anh h\xF9ng \u0111\xF3 s\u1EBD
+      b\u1ECB gi\u1EA3m. Anh h\xF9ng \u0111\xF3 c\u0169ng s\u1EBD kh\xF4ng xu\u1EA5t
+      hi\u1EC7n trong c\u1EB7p anh h\xF9ng \u0111\u01B0\u1EE3c y\xEAu c\u1EA7u \u0111\u1EC3
+      \u0111\u01B0\u1EE3c buff."
+    - "B\u1EA1n kh\xF4ng th\u1EC3 s\u1EED d\u1EE5ng Th\xE1p v\xE0 Ph\xE9p b\u1ECB
+      ban. Danh s\xE1ch ban s\u1EBD thay \u0111\u1ED5i sau m\u1ED7i m\xF9a gi\u1EA3i"
+    - "\u0110\u1ED3ng"
+    - "B\u1EA1c"
+    - "V\xE0ng "
+    - "B\u1EA1ch Kim"
+    - "Kim C\u01B0\u01A1ng"
+    - "\u01AFu T\xFA"
+    - "Cao Th\u1EE7"
+    - "\u0110\u1EBF v\u01B0\u01A1ng"
+    - "T\u0103ng {0} M\xE1u"
+    - "T\u0103ng {0} Gi\xE1p"
+    - "T\u0103ng {0} Kh\xE1ng ph\xE9p"
+    - "T\u0103ng {0} S\xE1t th\u01B0\u01A1ng"
+    - "T\u0103ng {0}% T\u1ED1c \u0111\u1ED9 di chuy\u1EC3n"
+    - "T\u0103ng {0}% T\u1ED1c \u0111\u1ED9 \u0111\xE1nh"
+    - "T\u0103ng {0}% H\u1ED3i m\xE1u"
+    - "Gi\u1EA3m {0} Th\u1EDDi gian h\u1ED3i sinh"
+    - "T\u0103ng {0} S\xE1t th\u01B0\u01A1ng ch\xED m\u1EA1ng"
+    - "T\u0103ng {0} T\u1EC9 l\u1EC7 ch\xED m\u1EA1ng"
+    - "Gi\u1EA3m {0} H\u1ED3i chi\xEAu"
+    - "Gi\u1EA3m {0} M\xE1u"
+    - "Gi\u1EA3m {0} Gi\xE1p"
+    - "Gi\u1EA3m {0} Kh\xE1ng ph\xE9p"
+    - "Gi\u1EA3m {0} S\xE1t th\u01B0\u01A1ng"
+    - "Gi\u1EA3m {0}% T\u1ED1c \u0111\u1ED9 di chuy\u1EC3n"
+    - "Gi\u1EA3m {0}% T\u1ED1c \u0111\u1ED9 \u0111\xE1nh"
+    - "Gi\u1EA3m {0}% H\u1ED3i m\xE1u"
+    - "T\u0103ng {0} Th\u1EDDi gian h\u1ED3i sinh"
+    - "Gi\u1EA3m {0} S\xE1t th\u01B0\u01A1ng ch\xED m\u1EA1ng"
+    - "Gi\u1EA3m {0} T\u1EC9 l\u1EC7 ch\xED m\u1EA1ng"
+    - "T\u0103ng {0} H\u1ED3i chi\xEAu"

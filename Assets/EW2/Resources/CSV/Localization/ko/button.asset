@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: button
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - btn_ok
+    - btn_language
+    - btn_exit
+    - btn_continue
+    - btn_replay
+    - btn_start
+    - btn_quit
+    - btn_buy
+    - btn_reset
+    - btn_upgrade
+    - btn_claim
+    - btn_yes
+    - btn_no
+    - btn_setting
+    - btn_backup
+    - btnr_restore
+    - btn_show_achievement
+    - btn_select
+    - btn_skip
+    - btn_next
+    - rewards
+    - collect
+    - send
+    - btnskip_tutorial
+    - sell_name
+    - compose_name
+    - enhance_name
+    - equip_name
+    - unequip_name
+    - stop_name
+    - free_name
+    - notnow_name
+    - reward_video_claim
+    - reward_video_received
+    - btn_i_played_before
+    - later_name
+    - reward_ads
+    - view_video_reward
+    - watched_video
+    - btn_retry
+    - btn_learnmore
+    - btn_auto_select
+    - btn_level_up_hero
+    - btn_name
+    - btn_try_again
+    - btn_cancel
+    - btn_offerwall
+    - btn_replace
+    - btn_check_it_out
+    - btn_cloud_save
+    - low_setting_btn
+    - medium_setting_btn
+    - high_setting_btn
+    - home_btn
+    - btn_confirm
+    - more_info_btn
+    - less_info_btn
+    - btn_google
+    - btn_apple
+    - btn_unlock_now
+    - btn_unlock
+    - btn_unlock_hero
+    - btn_connect
+    - convert_btn
+    - summon_btn
+    - sort_by_level
+    - Sort_by_rarity
+    - level_max_btn
+    - go_to_btn
+    - go_to_shop_btn
+    - claim_all
+    - dismantle_btn
+    - enhance_btn
+    - max_enhanced_btn
+    - get_more_btn
+    - rate_btn
+    - check_btn
+    - change_btn
+    - reroll_btn
+    - surrender_btn
+    - prepare_btn
+    values:
+    - "\uD655\uC778"
+    - "\uD55C\uAE00"
+    - "\uB098\uAC00\uAE30"
+    - "\uACC4\uC18D\uD558\uAE30"
+    - "\uC7AC\uC2DC\uC791"
+    - "\uC2DC\uC791"
+    - "\uB098\uAC00\uAE30"
+    - "\uAD6C\uB9E4"
+    - "\uCD08\uAE30\uD654"
+    - "\uC5C5\uADF8\uB808\uC774\uB4DC"
+    - "\uD68D\uB4DD"
+    - "\uC608"
+    - "\uC544\uB2C8\uC624"
+    - "\uC124\uC815"
+    - "\uC800\uC7A5"
+    - "\uBD88\uB7EC\uC624\uAE30"
+    - "\uC5C5\uC801"
+    - "\uC120\uD0DD"
+    - "\uC2A4\uD0B5"
+    - "\uB2E4\uC74C"
+    - "\uBCF4\uC0C1"
+    - "\uC218\uC9D1"
+    - "\uC804\uC1A1"
+    - "\uD29C\uD1A0\uB9AC\uC5BC \uC2A4\uD0B5"
+    - "\uD310\uB9E4"
+    - "\uC870\uD569"
+    - "\uAC15\uD654"
+    - "\uC7A5\uCC29"
+    - "\uD574\uC81C"
+    - "\uC815\uC9C0"
+    - "\uBB34\uB8CC"
+    - "\uB2EB\uAE30"
+    - "\uAD11\uACE0 \uBCF4\uAE30"
+    - "\uD68D\uB4DD\uD568"
+    - "\uAE30\uC874 \uC720\uC800"
+    - "\uB098\uC911\uC5D0"
+    - "\uBCF4\uC0C1\uD615 \uAD11\uACE0"
+    - "\uC9E7\uC740 \uAD11\uACE0\uB97C \uBCF4\uACE0 \uBCF4\uC0C1\uC744 \uD68D\uB4DD\uD558\uC138\uC694"
+    - "\uC2DC\uCCAD\uD568"
+    - "\uB2E4\uC2DC \uD574 \uBCF4\uB2E4"
+    - "\uB354 \uBCF4\uAE30"
+    - "\uC790\uB3D9 \uC120\uD0DD"
+    - "\uB808\uBCA8\uC5C5"
+    - "\uC774\uB984"
+    - "\uB2E4\uC2DC \uC2DC\uB3C4\uD558\uC2ED\uC2DC\uC624"
+    - "\uCDE8\uC18C"
+    - "\uBB34\uB8CC \uD06C\uB9AC\uC2A4\uD0C8"
+    - Replace
+    - "\uD655\uC778 \uD574\uBD10"
+    - "\uB85C\uADF8\uC778"
+    - "\uC800"
+    - "\uC911"
+    - "\uACE0"
+    - "\uD648"
+    - "\uD655\uC778"
+    - "\uB354"
+    - "\uC228\uAE30\uAE30"
+    - "Google \uACC4\uC815"
+    - "Apple \uACC4\uC815"
+    - "\uC9C0\uAE08 \uD574\uC81C\uD558\uC138\uC694!"
+    - "\uD574\uC81C"
+    - "\uC9C0\uAE08 \uAD6C\uB9E4"
+    - "\uC5F0\uACB0"
+    - "\uC804\uD658"
+    - "\uC18C\uD658"
+    - "\uB808\uBCA8\uC5D0 \uB530\uB77C"
+    - "\uD76C\uADC0\uC131\uC5D0 \uB530\uB77C"
+    - "\uCD5C\uB300 \uB808\uBCA8"
+    - "\uC774\uB3D9"
+    - "\uC9C0\uAE08 \uD68D\uB4DD\uD558\uC138\uC694!"
+    - "\uD68D\uB4DD"
+    - "\uD574\uCCB4"
+    - "\uAC15\uD654"
+    - "\uCD5C\uB300 \uAC15\uD654"
+    - "\uB354 \uB9CE\uC774 \uD68D\uB4DD\uD558\uC138\uC694"
+    - "\uD3C9\uAC00"
+    - "{0} \uD655\uC778"
+    - "\uBCC0\uD654"
+    - "\uB2E4\uC2DC \uD574 \uBCF4\uB2E4"
+    - "\uD56D\uBCF5"
+    - "\uC900\uBE44\uD558\uB2E4"

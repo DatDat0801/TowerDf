@@ -1,0 +1,439 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: popup
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tap_to_close
+    - profile_popup
+    - avatar_select
+    - more_game_txt
+    - support_txt
+    - community_txt
+    - giftcode_txt
+    - patch_note_txt
+    - patch_note_version
+    - setting_txt
+    - image_txt
+    - country_txt
+    - in_use_txt
+    - not_in_use_txt
+    - in_use_by_txt
+    - since_txt
+    - id_txt
+    - version_txt
+    - language_txt
+    - change_name
+    - enter_name_box
+    - letters_limit
+    - name_contain_special_characters
+    - name_too_short_or_long
+    - invalid_name
+    - already_exists_name
+    - change_successful
+    - data_save
+    - link_info
+    - last_save
+    - data_save_note
+    - linking_failed
+    - notice_txt
+    - data_save_question
+    - save_limit
+    - limit_txt
+    - save_success
+    - save_failed
+    - save_limit_notice
+    - restore_question
+    - restore_complete
+    - restore_failed
+    - graphic_txt
+    - enable_vibrate
+    - disable_vibrate
+    - enable_battery_saver
+    - disable_battery_saver
+    - enable_notice
+    - disable_notice
+    - enter_giftcode_box
+    - claim_giftcode
+    - claim_giftcode_failed
+    - used_giftcode_toast
+    - giftcode_check_internet
+    - result_check_internet
+    - error_occured
+    - giftcode_login_first
+    - require_login_first
+    - quit_notice
+    - locked_mode_notice
+    - tower_upgrade_txt
+    - upgrade_successful
+    - tower_reset_notice
+    - copy_to_clipboard
+    - hero_skill_reset_notice
+    - insufficient_skill_point
+    - skill_point_guide
+    - hero_exp_guide
+    - level_txt
+    - stamina_next
+    - stamina_full
+    - tap_to_start
+    - news_txt
+    - congratulation_txt
+    - max_level_hero_txt
+    - level_max_skill_txt
+    - stat_txt
+    - reset_successful
+    - backstory_txt
+    - need_hero_txt
+    - hero_unlocked
+    - locked_mode_normal
+    - insufficient_resource
+    - pre_register_reward_txt
+    - pre_register_thank_txt
+    - unlock_upgrade_tower
+    - replay_notice
+    - quit_game_notice
+    - warning_txt
+    - daily_reward_txt
+    - daily_quest_txt
+    - day_count_txt
+    - checkin_progress
+    - login_successful_txt
+    - no_data_found
+    - upgrade_activated
+    - upgrade_info
+    - properties_txt
+    - bonus_txt
+    - upgrade_condition_txt
+    - purchase_save_notice
+    - purchase_failed
+    - warning_iap
+    - warning_internet_save_data
+    - warning_internet_lost_data
+    - unlock_upgrade_tower_tut
+    - not_equip_spell
+    - start_battle_to_use
+    - spell_unlock_condition
+    - insuficent_shade
+    - insuficent_unique_shard
+    - insuficent_resource
+    - unlock_hero_to_equip
+    - unlock_hero_to_equip_rune
+    - normal_spell_rate
+    - premium_spell_rate
+    - normal_spell_name
+    - premium_spell_rname
+    - cannot_select_more_hero
+    - spell_upgrade_require
+    - reset_in_txt
+    - refresh_in_txt
+    - achievement_txt
+    - free_in
+    - complete_challenge_txt
+    - hero_not_been_unlock_txt
+    - defeat_boss_achievement_direction
+    - normal_rune_rate
+    - premium_rune_rate
+    - normal_rune_name
+    - premium_rune_name
+    - full_inventory_txt
+    - equip_slot_full_txt
+    - full_inventory_require_space_txt
+    - dismantle_warning_txt_1
+    - dismantle_warning_txt_2
+    - basic_attributes_txt
+    - bonus_attributes_txt
+    - set_of_pieces_txt
+    - set_required_txt
+    - enhance_successful_txt
+    - selected_rune_txt
+    - dismantle_slots_full_txt
+    - reward_ads_txt
+    - watch_ads_txt
+    - check_internet_warning_txt
+    - no_ads_available_txt
+    - go_to_shop_question_txt
+    - watch_previous_ads_first
+    - ios_loading_screen_txt
+    - loading_screen_common_txt
+    - dont_ask_again_today
+    - dismantle_warning_txt_3
+    - dismantle_warning_txt_4
+    - new_nightmare_unlock
+    - buy_now_title_txt
+    - buy_now_slogan_title_txt
+    - buy_now_1st_purchase_txt
+    - first_purchase_bonus_title_txt
+    - first_purchase_bonus_slogan_txt
+    - first_purchase_bonus_warning
+    - free_progress_txt
+    - premium_progress_txt
+    - checkin_day
+    - stage_txt
+    - end_time_txt
+    - already_receive_txt
+    - rune_pack_name_txt
+    - purchased_txt
+    - unlock_nightmare_txt
+    - hero_pre_trial_tag_txt
+    - hero_pre_trial_toast_txt
+    - hero_pre_trial_dialog_txt
+    - rating_title
+    - require_rating_txt
+    - unlock_spell_txt
+    - unlock_spell_txt_1
+    - equip_spell_remind_txt
+    - unlock_rune_txt
+    - unlock_rune_txt_1
+    - equip_rune_remind_txt
+    - remain_txt
+    - get_more_txt
+    - refill_stamina_title_txt
+    - owned_txt
+    - new_mode_unlocked_txt
+    - already_own_this_pack_txt
+    - already_own_this_hero_txt
+    - already_own_this_item_txt
+    - run_out_resource_txt
+    - buy_or_wait_txt
+    - available_txt
+    - no_more_purchase_txt
+    - out_of_stock_txt
+    - surrender_notice_txt
+    values:
+    - "Kapatmak i\xE7in dokunun"
+    - Profil
+    - "Avatar se\xE7imi"
+    - Daha fazla oyun
+    - Destek
+    - Topluluk
+    - Hediye Kodu
+    - Yama notu
+    - <color=#815329>Versiyon{0}</color>
+    - Ayarlar
+    - "G\xF6r\xFCnt\xFC"
+    - "\xDClke"
+    - "\xDCst\xFCne al\u0131nd\u0131"
+    - "\xDCst\xFCne al\u0131nmad\u0131"
+    - "{0} \xFCst\xFCne ald\u0131"
+    - "Olu\u015Fturulma"
+    - 'Kimlik:'
+    - Versiyon
+    - Diller
+    - "\u0130sim de\u011Fi\u015Ftir"
+    - Buraya yeni isim girin...
+    - "<color=#E73F44>(4-18 harf, \xF6zel karakterler hari\xE7)</color>"
+    - "\u0130sminiz \xF6zel karakterler i\xE7ermemelidir"
+    - "Uzunluk 4-18 karakter aras\u0131nda olmal\u0131!"
+    - "\u0130sim hatal\u0131"
+    - "Bu isim zaten al\u0131nm\u0131\u015F"
+    - "De\u011Fi\u015Ftirme ba\u015Far\u0131l\u0131"
+    - Bilgiler kaydedildi
+    - "\u015Euraya ba\u011Fland\u0131"
+    - "Son kay\u0131t"
+    - "Bilgilerinizi kaydetmek i\xE7in bir hesaba ba\u011Flan\u0131n"
+    - "Hesap ba\u011Flant\u0131s\u0131 ba\u015Far\u0131s\u0131z"
+    - "Uyar\u0131"
+    - Bilgilerinizi kaydetmek ister misiniz?
+    - "Bug\xFCnk\xFC kaydetme limitiniz: {0}/{1}"
+    - "S\u0131n\u0131r:"
+    - "Bilgiler ba\u015Far\u0131yla kaydedildi"
+    - "Bilgileri kaydetme ba\u015Far\u0131s\u0131z"
+    - "Bug\xFCnk\xFC kaydetme limitine ula\u015Ft\u0131n\u0131z"
+    - "Bilgilerinizi geri y\xFCklemek ister misiniz?\\n\\n <color=#e85253>*Mevcut
+      bilgilerinizin \xFCzerine kaydedilecek</color>"
+    - "Geri y\xFCkleme tamamland\u0131"
+    - "Geri y\xFCkleme ba\u015Far\u0131s\u0131z"
+    - Grafik
+    - "Titre\u015Fimleri a\xE7"
+    - "Titre\u015Fimleri kapat"
+    - "Pil korumay\u0131 a\xE7"
+    - "Pil korumay\u0131 kapat"
+    - "Bildirimleri a\xE7"
+    - Bildirimleri kapat
+    - "\xD6d\xFCl kodunu buraya girin..."
+    - "\xD6d\xFCl\xFC ald\u0131n\u0131z"
+    - "\xD6d\xFCl kodu hatal\u0131"
+    - "Bu \xF6d\xFCl kodu kullan\u0131lm\u0131\u015F veya eski L\xFCtfen ba\u015Fka
+      bir \xF6d\xFCl kodu girin"
+    - "Sunucuya ba\u011Flan\u0131lam\u0131yor \u0130nternet ba\u011Flant\u0131n\u0131z\u0131
+      kontrol edin"
+    - "Sonu\xE7lar kaydedilemiyor \u0130nternet ba\u011Flant\u0131n\u0131z\u0131
+      kontrol edin"
+    - "Bir hata olu\u015Ftu. Yard\u0131m i\xE7in l\xFCtfen destek ekibiyle ileti\u015Fime
+      ge\xE7in"
+    - "\xD6d\xFCl kodunu kullanmak i\xE7in hesab\u0131n\u0131za giri\u015F yapman\u0131z
+      gerekiyor"
+    - "L\xFCtfen \xF6nce hesab\u0131n\u0131za giri\u015F yap\u0131n"
+    - "Ana men\xFCden \xE7\u0131k\u0131yorsunuz\\n Sava\u015F\u0131 terk etmek istedi\u011Finize
+      emin misiniz?"
+    - "Mevcut mod kilitli. A\xE7mak i\xE7in normal zorlukta {0}. B\xF6l\xFCmde 3
+      y\u0131ld\u0131za ula\u015F\u0131n"
+    - "Kule y\xFCkseltme"
+    - "Y\xFCkseltme ba\u015Far\u0131l\u0131"
+    - "Y\xFCkseltilmi\u015F t\xFCm kuleler s\u0131f\u0131rlanacak. Emin misiniz?"
+    - "Panoya kopyaland\u0131"
+    - "T\xFCm yetenek seviyeleri s\u0131f\u0131rlanacak. Emin misiniz?"
+    - "Yetersiz Yetenek puan\u0131"
+    - "Yetenek puanlar\u0131, yetenekleri y\xFCkseltmek i\xE7in kullan\u0131l\u0131r.
+      Sava\u015F\xE7\u0131 seviyesini y\xFCkselterek daha \xE7ok kazan\u0131n."
+    - "Sava\u015Ftan sava\u015F\xE7\u0131 tecr\xFCbe puan\u0131 kazan\u0131n veya
+      kristalleri kullan\u0131p an\u0131nda seviye y\xFCkseltin!"
+    - Seviye:{0}/{1}
+    - "Sonraki g\xFC\xE7:"
+    - "Tam g\xFC\xE7:"
+    - "Ba\u015Flamak i\xE7in dokunun"
+    - Haberler
+    - Tebrikler
+    - "Max. seviyeye ula\u015F\u0131ld\u0131!"
+    - Maks. seviye
+    - "De\u011Ferler"
+    - "S\u0131f\u0131rlama ba\u015Far\u0131l\u0131"
+    - Arkaplan
+    - "B\xF6l\xFCme ba\u015Flamak i\xE7in en az 1 Sava\u015F\xE7\u0131ya ihtiyac\u0131n\u0131z
+      var"
+    - "{0} a\xE7\u0131ld\u0131"
+    - "A\xE7mak i\xE7in \xF6nceki B\xF6l\xFCm\xFC tamamlay\u0131n"
+    - Yetersiz {0}.
+    - "Erken kay\u0131t \xF6d\xFClleri"
+    - "Empire Defender'a erken kay\u0131t yapt\u0131rd\u0131\u011F\u0131n\u0131z
+      i\xE7in te\u015Fekk\xFCrler!"
+    - "A\xE7mak i\xE7in {0}. B\xF6l\xFCm\xFC oynay\u0131n"
+    - Yeniden oynamak istiyor musunuz?
+    - "Oyundan \xE7\u0131kmak istedi\u011Finden emin misin?"
+    - Dikkat
+    - "G\xFCnl\xFCk \xD6d\xFCl"
+    - "G\xFCnl\xFCk G\xF6rev"
+    - "G\xFCn {0}"
+    - "\u0130lerleme: {0}/{1}"
+    - "Giri\u015F Ba\u015Far\u0131l\u0131"
+    - "Bilgi bulunamad\u0131"
+    - "Y\xFCkseltildi"
+    - "1. <color=#eb9e15>G\xFCm\xFC\u015F y\u0131ld\u0131zlar</color> temel y\xFCkseltme
+      seviyelerinde kullan\u0131l\u0131r.\\n \\n 2. <color=#eb9e15>Alt\u0131n y\u0131ld\u0131zlar</color>
+      ileri y\xFCkseltme seviyelerinde kullan\u0131l\u0131r.\\n \\n 3. G\xFCm\xFC\u015F
+      y\u0131ld\u0131zlar\u0131 toplamak i\xE7in b\xF6l\xFCmleri <color=#eb9e15>Normal
+      zorlukta</color> tamamlay\u0131n.\\n \\n 4. Alt\u0131n y\u0131ld\u0131zlar\u0131
+      toplamak i\xE7in b\xF6l\xFCmleri <color=#eb9e15> Kabus zorlu\u011Funda</color>
+      tamamlay\u0131n."
+    - "\xD6zellikler"
+    - Seviye atlama
+    - "\u0130lk ba\u015Fta \xF6nceki seviyeye y\xFCkseltin"
+    - "Yerel kaydetme bilginiz kaybolmu\u015F olabilir. {0} hesab\u0131n\u0131za
+      ba\u011Fl\u0131 oldu\u011Funuzdan emin olun"
+    - "Sat\u0131n alman\u0131z ba\u015Far\u0131s\u0131z. \u0130nternet ba\u011Flant\u0131n\u0131z\u0131n
+      iyi oldu\u011Fundan emin olun"
+    - "Sat\u0131n alma bilgisi y\xFCklenemedi, l\xFCtfen internet ve ma\u011Faza
+      ba\u011Flant\u0131n\u0131z\u0131 kontrol edin."
+    - "Verileriniz kaydedilemedi. L\xFCtfen a\u011F ba\u011Flant\u0131n\u0131z\u0131
+      kontrol edin."
+    - Verileriniz kaybolacak. Emin misin?
+    - "A\xE7mak i\xE7in e\u011Fitim b\xF6l\xFCm\xFCn\xFC oynamaya devam edin"
+    - "Sava\u015F\xE7\u0131 \xFCst\xFCnde hi\xE7 b\xFCy\xFC g\xFCc\xFC yok"
+    - "Kullanmak i\xE7in sava\u015F\u0131 ba\u015Flat\u0131n"
+    - "A\xE7mak i\xE7in {0}. b\xF6l\xFCm\xFC tamamlay\u0131n"
+    - "Yetersiz Par\xE7a"
+    - "Yetersiz {0} Par\xE7as\u0131"
+    - Yetersiz kaynak
+    - "B\xFCy\xFC g\xFCc\xFCn\xFC \xFCst\xFCne almadan sava\u015F\xE7\u0131y\u0131
+      a\xE7"
+    - "Rune ta\u015F\u0131n\u0131 \xFCst\xFCne almadan sava\u015F\xE7\u0131y\u0131
+      a\xE7"
+    - "Normal b\xFCy\xFC oran\u0131"
+    - "Premium b\xFCy\xFC oran\u0131"
+    - "Normal b\xFCy\xFC"
+    - "Premium b\xFCy\xFC"
+    - Birlik kapasitesi dolu
+    - "{0} par\xE7as\u0131ndan gerekli miktar:{1}"
+    - "S\u0131f\u0131rlanacak:"
+    - "S\u0131f\u0131rlanacak:"
+    - "Ba\u015Far\u0131lar"
+    - 'Aktif olacak:'
+    - "\xD6d\xFClleri kazanmak i\xE7in d\xFCellolar\u0131 tamamla!"
+    - "Bu sava\u015F\xE7\u0131 hen\xFCz a\xE7\u0131lmad\u0131. \u015Eimdi a\xE7mak
+      ister misin?"
+    - "{0}. b\xF6l\xFCm sonu canavar\u0131n\u0131 \xF6ld\xFCr"
+    - "Normal Rune ta\u015F\u0131 oran\u0131"
+    - "Premium Rune ta\u015F\u0131 oran\u0131"
+    - "Normal Rune ta\u015F\u0131"
+    - "Premium Rune ta\u015F\u0131"
+    - Envanteriniz doldu.
+    - "{0} yuvalar\u0131 dolu"
+    - "Yer a\xE7mak i\xE7in di\u011Fer Rune ta\u015Flar\u0131n\u0131 s\xF6k\xFCn"
+    - "S\xF6kmek i\xE7in \xF6nce Rune ta\u015F\u0131n\u0131 \xFCst\xFCn\xFCzden \xE7\u0131kart\u0131n"
+    - "{0} s\xF6kerek a\u015Fa\u011F\u0131daki maddeleri almak istedi\u011Finize
+      emin misiniz?"
+    - "Temel \xF6zellikler"
+    - "Bonus \xF6zellikler"
+    - "{0} Rune ta\u015F\u0131 seti:"
+    - '{0}{1} gerekiyor'
+    - "Y\xFCkseltme ba\u015Far\u0131l\u0131"
+    - "Se\xE7ilen Rune ta\u015F\u0131:"
+    - "S\xF6k\xFCm yuvalar\u0131 dolu"
+    - "\xD6d\xFCl reklamlar\u0131"
+    - '{0} Reklam izleyin'
+    - "L\xFCtfen internet ba\u011Flant\u0131n\u0131z\u0131 kontrol edin"
+    - Mevcut reklam yok
+    - "Daha \xE7ok {0} almak ister misiniz?"
+    - "L\xFCtfen ilk ba\u015Fta \xF6nceki reklamlar\u0131 izleyin"
+    - "Y\xFCkleniyor - ilave veri indirilmiyor"
+    - "Y\xFCkleniyor"
+    - "Bug\xFCn i\xE7in tekrar sorma"
+    - "\xC7ok ender Rune ta\u015Flar\u0131n\u0131 s\xF6kmek \xFCzere se\xE7tiniz.
+      Devam etmek istedi\u011Finize emin misiniz?"
+    - "S\xF6kmek i\xE7in bir Rune ta\u015F\u0131 se\xE7mediniz"
+    - "Kabus seviyesini a\xE7mak i\xE7in \xF6nce Normal zorluk seviyesini tamamlay\u0131n"
+    - "\u015Eimdi al\u0131n"
+    - "Premium oyun s\xFCrecini ve \xF6zel \xF6d\xFClleri hemen a\xE7ar"
+    - "<color=#ffe960>\u0130lk sat\u0131n alma bonusu</color> kazanmak i\xE7in \u015Fimdi
+      al\u0131n"
+    - "\u0130lk sat\u0131n alma bonusu"
+    - "Bu bonusu kazanmak i\xE7in <color=#ffe960>herhangi bir paket sat\u0131n al\u0131n!</color>"
+    - "Kazan\xE7l\u0131 \xE7\u0131kmak i\xE7in etkinlik zaman\u0131nda almak i\xE7in
+      elinizi \xE7abuk tutun"
+    - "\xDCcretsiz"
+    - Premium
+    - "{0} g\xFCn oyuna girin"
+    - "B\xF6l\xFCm"
+    - "Biti\u015F zaman\u0131:"
+    - "Bu bonusu zaten kazand\u0131n\u0131z"
+    - "Rune Ta\u015F\u0131 Paketi"
+    - "Sat\u0131n al\u0131nd\u0131"
+    - "{0} zorluk seviyesi a\xE7\u0131ld\u0131"
+    - Deneysel
+    - "Bu, deneme i\xE7in varsay\u0131lan Kahramand\u0131r"
+    - "Och... Cze\u015B\u0107 poszukiwacze przyg\xF3d. Czy walczysz z Orkiem? Do\u0142\u0105czmy!"
+    - "Bu oyunu be\u011Fendin mi?"
+    - "Empire Defender TD'yi seviyorsan\u0131z, l\xFCtfen de\u011Ferlendirin.\\nDeste\u011Finiz
+      i\xE7in \xE7ok te\u015Fekk\xFCr ederiz!"
+    - "B\xFCy\xFC kilidini a\xE7t\u0131n\u0131z. "
+    - "\u015Eimdi denemek ister misin?"
+    - "Kahramanlar i\xE7in B\xFCy\xFC donatmad\u0131n\u0131z. \u015Eimdi donatmak
+      ister misin?"
+    - "Rune kilidini a\xE7t\u0131n\u0131z. "
+    - "\u015Eimdi denemek ister misin?"
+    - "Kahramanlar i\xE7in Rune donatmad\u0131n\u0131z. \u015Eimdi donatmak ister
+      misin?"
+    - 'Geriye kalmak:'
+    - "Daha fazlas\u0131n\u0131 m\u0131 almak istiyorsun?"
+    - "Doldurma dayan\u0131kl\u0131l\u0131\u011F\u0131"
+    - "Sat\u0131n al\u0131nd\u0131"
+    - "Yeni oynanabilir modun kilidi a\xE7\u0131ld\u0131"
+    - Bu pakete zaten sahipsin
+    - Bu Kahramana zaten sahipsin
+    - "Bu \xF6\u011Feye zaten sahipsiniz"
+    - '{0}iniz bitti.'
+    - "\u015Eimdi sat\u0131n almak m\u0131 yoksa beklemek mi istiyorsunuz"
+    - 'Mevcut:'
+    - "Art\u0131k {0} mevcut de\u011Fil"
+    - "Stoklar t\xFCkendi"
+    - "Mevcut sonu\xE7lar kaydedilmeyecek. Emin misin?"

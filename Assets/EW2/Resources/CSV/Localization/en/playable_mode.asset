@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: playable_mode
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_defense_name_txt
+    - defensive_point_title_txt
+    - lobby_txt
+    - best_record_waves_txt
+    - current_record_waves_txt
+    - season_end_txt
+    - trial_left_txt
+    - trial_txt
+    - reward_milestone_txt
+    - select_base_txt
+    - hero_selection_txt
+    - unlock_base_txt
+    - turn_left_txt
+    - leaderboard_txt
+    - rank_txt
+    - player_txt
+    - formation_txt
+    - new_record_txt
+    - no_more_trial_txt
+    - result_txt
+    - last_trial_notice_txt
+    - hero_required_txt
+    - hero_defense_rule
+    - buff_name_7001
+    - buff_name_7002
+    - buff_name_7003
+    - buff_name_7004
+    - buff_name_7005
+    - buff_name_7006
+    - buff_des_7001
+    - buff_des_7002
+    - buff_des_7003
+    - buff_des_7004
+    - buff_des_7005
+    - buff_des_7006
+    - defensive_point_name_8001
+    - defensive_point_name_8004
+    - defensive_point_name_8005
+    - defensive_point_skill_8001
+    - defensive_point_skill_8004
+    - defensive_point_skill_8005
+    - defensive_point_des_8001
+    - defensive_point_des_8004
+    - defensive_point_des_8005
+    - hero_defens_map_name_1
+    - hero_defens_map_name_2
+    - tournament_ban_txt
+    - tournament_nerf_txt
+    - tournament_buff_txt
+    - ban_spell_notice_txt
+    - tower_selection_txt
+    - tower_required_txt
+    - hall_of_fame_txt
+    - join_tournament_txt
+    - unrank_txt
+    - tournament_ticket_txt
+    - tournament_shop_title
+    - purchase_ticket_popup_title_txt
+    - change_buff_txt
+    - change_hero_pair_txt
+    - change_buff_status_txt
+    - change_price_alert_txt
+    - waves_cleared_record_txt
+    - ban_notice_txt
+    - ban_alert_txt
+    - congratulation_notice_txt
+    - season_rank_txt
+    - tournament_rules_title
+    - tournament_rule_map_title
+    - tournament_rule_limit_title
+    - tournament_rule_grand_title
+    - tournament_rule_season_title
+    - tournament_rule_buff_title
+    - tournament_rule_nerf_title
+    - tournament_rule_ban_title
+    - tournament_rule_map
+    - tournament_rule_limit
+    - tournament_rule_grand
+    - tournament_rule_season
+    - tournament_rule_buff
+    - tournament_rule_nerf
+    - tournament_rule_ban
+    - tournament_rank_0
+    - tournament_rank_1
+    - tournament_rank_2
+    - tournament_rank_3
+    - tournament_rank_4
+    - tournament_rank_5
+    - tournament_rank_6
+    - tournament_rank_7
+    - tournament_buff_201
+    - tournament_buff_202
+    - tournament_buff_203
+    - tournament_buff_204
+    - tournament_buff_205
+    - tournament_buff_206
+    - tournament_buff_207
+    - tournament_buff_208
+    - tournament_buff_209
+    - tournament_buff_210
+    - tournament_buff_211
+    - tournament_nerf_101
+    - tournament_nerf_102
+    - tournament_nerf_103
+    - tournament_nerf_104
+    - tournament_nerf_105
+    - tournament_nerf_106
+    - tournament_nerf_107
+    - tournament_nerf_108
+    - tournament_nerf_109
+    - tournament_nerf_110
+    - tournament_nerf_111
+    values:
+    - Hero Defense
+    - Base
+    - Lobby
+    - 'Best record: {0} waves'
+    - 'Current record: {0}'
+    - 'Season ends in: '
+    - 'Trial left: {0}'
+    - Trial
+    - '{0} waves'
+    - Base selection
+    - Hero selection
+    - Unlock this base
+    - 'Turn remain: {0}'
+    - Leaderboard
+    - Rank
+    - Player
+    - Formation
+    - New record
+    - No more trial
+    - Result
+    - You just use up your last trial.
+    - You need at least 2 Heroes
+    - Heroes are in danger trying to protect a base from an army of demons. No time
+      to build towers, they must use their strength to stop the enemy.\n\nIn this
+      mode, you can control up to 5 heroes.\n\nYou can only control heroes and cannot
+      build towers.\n\nThe goal is to defend an alliance base. When the base is destroyed,
+      the game is over. Bases will help you level up your heroes right in the middle
+      of a battle. Unlock new bases to equip heroes with passive skills.\n\nYou can
+      use gold to upgrade the Hero's stats right in the battle. Tap to the Base on
+      the map to upgrade.\n\nYou will receive rewards according to each achievement
+      milestone. Defend as long as you can to get more valuable rewards.\n\nMaps
+      and leaderboards will be refreshed every season. Be prepared to face new challenges.
+    - Attack Enhancement
+    - Defense Enhancement
+    - Spell Enhancement
+    - Cooldown Enhancement
+    - Critical Enhancement
+    - HP Enhancement
+    - Increases {0} damages for all heroes
+    - Increases {0} armor and {1} magic resistance for all heroes
+    - Increases {0}% damage of active skill of spells
+    - Decreases {0}% of cooldown for all heroes
+    - Increases {0} critical damage for all heroes
+    - Increases {0} max HP for all heroes
+    - The Fortress
+    - Goddess of Nature
+    - Tower of Thunder
+    - An important base that need to be protected at all cost.
+    - Recovers 5 HP per 6 seconds for all heroes
+    - After every 2 attacks, the hero has the ability to strike a thunderbolt that
+      deals 3 damage. Thunderbolt bounces up to 4 other enemies. Damage for each
+      bounce will decrease by 5%.
+    - This ancient fortress was built by humans and is still being solid against
+      the attacks of the evil army.
+    - A mysterious goddess worshiped by the inhabitants of nature. They believe that
+      the goddess has the ability to heal and bless the warriors of the jungle.
+    - This magical tower is where many great magicians reside and learn magic. The
+      magicians infused their power into the tower so that it could help the defenders
+      control the thunder.
+    - Last standing
+    - Battle of forest
+    - Ban
+    - Nerf
+    - Buff
+    - Spell banned
+    - Tower selection
+    - You need at least 4 Towers
+    - Hall of Fame
+    - Join the Tournament to be honored
+    - Unranked
+    - Ticket
+    - Tournament Shop
+    - Purchase ticket
+    - Change buff
+    - Change hero pair
+    - Change buff
+    - Price will increase every time you change
+    - Waves
+    - You cannot use banned items
+    - Your hero is equipping a banned Spell. Do you want to change the Spell?
+    - You have reached rank {0} in this season. Let's claim your reward
+    - Season ranking
+    - Tournament Rules
+    - Tournament stages
+    - Play Limit
+    - Hall of Fame
+    - Season ranking
+    - Buff rule
+    - Nerf rule
+    - Ban rule
+    - All players compete on the same endless level.
+    - Every day players get {0} free plays. If the number of free plays is exhausted,
+      the player needs to use Gems or watch ads to get more. The number of plays
+      will be refreshed every day.
+    - 'This is the place to honor the highest records of all time. Keep trying every
+      season to be honored here! '
+    - Each Season lasts for 2 weeks. The highest record that players get in each
+      Season will be counted to rank in Hall of Fame.
+    - If your formation has 2 buffed Heroes, one of their stats will be enhanced.
+      You can use Crystal, Gem and watch ads to randomly change the 2 selected Heroes
+      and their enhanced stat.
+    - If you use a weakened hero in your formation, one of their stats will be reduced.
+      That hero will also not appear in the buffed hero pair.
+    - You will not be able to use tower and banned spell. The ban list will be changed
+      after each season.
+    - Bronze
+    - Silver
+    - Gold
+    - Platinum
+    - Diamond
+    - Elite
+    - Master
+    - King
+    - Increases {0} HP
+    - Increases {0} Armor
+    - Increases {0} Magic Resistance
+    - Increases {0} Damage
+    - Increases {0}% Move Spd
+    - Increases {0}% Atk Spd
+    - Increases {0}% Hp Regeneration
+    - Decreases {0}% Respawn time
+    - Increases {0}% Crit Damage
+    - Increases {0}% Crit Rate
+    - Decreases {0}% Skill cooldown
+    - Decreases {0} HP
+    - Decreases {0} Armor
+    - Decreases {0} Magic Resistance
+    - Decreases {0} Damage
+    - Decreases {0}% Move Spd
+    - Decreases {0}% Atk Spd
+    - Decreases {0}% Hp Regeneration
+    - Increases {0}% Respawn time
+    - Decreases {0}% Crit Damage
+    - Decreases {0}% Crit Rate
+    - Increases {0}% Skill cooldown

@@ -1,0 +1,2523 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed712f831a00f64499254bc794fc72d, type: 3}
+  m_Name: Map_0_9_1
+  m_EditorClassIdentifier: 
+  stageId: 9
+  worldId: 0
+  modeId: 1
+  mapStatBase:
+    stamina: 5
+    gold: 820
+    lifePoint: 20
+    condition2Star: 14
+    condition3Star: 19
+  waveInfos:
+  - wave: 0
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 4
+    spacing: 2.3
+    delaySpawn: 0
+  - wave: 0
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 4
+    spacing: 2
+    delaySpawn: 5
+  - wave: 0
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 4
+    spacing: 2.5
+    delaySpawn: 3
+  - wave: 0
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 4
+    spacing: 2
+    delaySpawn: 6
+  - wave: 0
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3003
+    amount: 5
+    spacing: 2
+    delaySpawn: 10
+  - wave: 0
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3003
+    amount: 5
+    spacing: 2
+    delaySpawn: 10
+  - wave: 0
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3003
+    amount: 5
+    spacing: 2
+    delaySpawn: 16
+  - wave: 0
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3003
+    amount: 5
+    spacing: 2
+    delaySpawn: 16
+  - wave: 1
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3001
+    amount: 5
+    spacing: 2.5
+    delaySpawn: 0
+  - wave: 1
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3001
+    amount: 5
+    spacing: 2.5
+    delaySpawn: 0
+  - wave: 1
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3001
+    amount: 5
+    spacing: 2.5
+    delaySpawn: 0
+  - wave: 1
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3001
+    amount: 5
+    spacing: 2.5
+    delaySpawn: 0
+  - wave: 1
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3002
+    amount: 3
+    spacing: 2
+    delaySpawn: 1
+  - wave: 1
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3002
+    amount: 3
+    spacing: 2
+    delaySpawn: 1
+  - wave: 1
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3002
+    amount: 3
+    spacing: 2
+    delaySpawn: 1
+  - wave: 1
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3002
+    amount: 3
+    spacing: 2
+    delaySpawn: 1
+  - wave: 1
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3013
+    amount: 2
+    spacing: 4
+    delaySpawn: 20
+  - wave: 1
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3013
+    amount: 2
+    spacing: 4
+    delaySpawn: 20
+  - wave: 1
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3013
+    amount: 2
+    spacing: 4
+    delaySpawn: 20
+  - wave: 1
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3013
+    amount: 2
+    spacing: 4
+    delaySpawn: 20
+  - wave: 2
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 5
+  - wave: 2
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 5
+  - wave: 2
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3014
+    amount: 3
+    spacing: 3.5
+    delaySpawn: 8.6
+  - wave: 2
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3014
+    amount: 3
+    spacing: 3
+    delaySpawn: 4.5
+  - wave: 2
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3014
+    amount: 3
+    spacing: 3.8
+    delaySpawn: 6.5
+  - wave: 2
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3014
+    amount: 3
+    spacing: 3.5
+    delaySpawn: 10.8
+  - wave: 3
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 8
+    spacing: 2.3
+    delaySpawn: 2
+  - wave: 3
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 8
+    spacing: 2.3
+    delaySpawn: 2
+  - wave: 3
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 8
+    spacing: 2.3
+    delaySpawn: 2
+  - wave: 3
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 8
+    spacing: 2.3
+    delaySpawn: 2
+  - wave: 3
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3004
+    amount: 2
+    spacing: 3
+    delaySpawn: 0
+  - wave: 3
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 3
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 3
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 3.5
+  - wave: 3
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 5
+  - wave: 3
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.3
+  - wave: 3
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3004
+    amount: 2
+    spacing: 2.5
+    delaySpawn: 6
+  - wave: 3
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 3
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 18
+  - wave: 3
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 20
+  - wave: 3
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 18
+  - wave: 3
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 22
+  - wave: 4
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3004
+    amount: 5
+    spacing: 3
+    delaySpawn: 0
+  - wave: 4
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3004
+    amount: 5
+    spacing: 3
+    delaySpawn: 0
+  - wave: 4
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3004
+    amount: 5
+    spacing: 2.5
+    delaySpawn: 0
+  - wave: 4
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3004
+    amount: 5
+    spacing: 2.8
+    delaySpawn: 0
+  - wave: 4
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3005
+    amount: 2
+    spacing: 3
+    delaySpawn: 6
+  - wave: 4
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3005
+    amount: 2
+    spacing: 3
+    delaySpawn: 6
+  - wave: 4
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3005
+    amount: 2
+    spacing: 3
+    delaySpawn: 6
+  - wave: 4
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3005
+    amount: 2
+    spacing: 3
+    delaySpawn: 6
+  - wave: 4
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 4
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 4
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 4
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 5
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3012
+    amount: 3
+    spacing: 4.5
+    delaySpawn: 4
+  - wave: 5
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3012
+    amount: 3
+    spacing: 4.6
+    delaySpawn: 5.8
+  - wave: 5
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3014
+    amount: 3
+    spacing: 4
+    delaySpawn: 3
+  - wave: 5
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3014
+    amount: 3
+    spacing: 4
+    delaySpawn: 3
+  - wave: 5
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 6
+  - wave: 5
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 5
+    spacing: 2.3
+    delaySpawn: 0
+  - wave: 5
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 5
+    spacing: 2
+    delaySpawn: 0
+  - wave: 5
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 5
+    spacing: 2
+    delaySpawn: 0
+  - wave: 5
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 5
+    spacing: 2.1
+    delaySpawn: 0
+  - wave: 5
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3004
+    amount: 3
+    spacing: 2.5
+    delaySpawn: 3
+  - wave: 5
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3004
+    amount: 3
+    spacing: 2.5
+    delaySpawn: 3
+  - wave: 5
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3004
+    amount: 3
+    spacing: 2.5
+    delaySpawn: 3
+  - wave: 5
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3004
+    amount: 3
+    spacing: 2.5
+    delaySpawn: 3
+  - wave: 5
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3005
+    amount: 2
+    spacing: 3.5
+    delaySpawn: 2
+  - wave: 5
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3005
+    amount: 2
+    spacing: 3.2
+    delaySpawn: 2
+  - wave: 5
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3005
+    amount: 2
+    spacing: 3.6
+    delaySpawn: 2
+  - wave: 5
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3005
+    amount: 2
+    spacing: 3.4
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 6
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 6
+  - wave: 6
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 6
+  - wave: 6
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 6
+  - wave: 6
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 6
+  - wave: 6
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 6
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2.5
+  - wave: 6
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3004
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 6
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 6
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 7
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3003
+    amount: 10
+    spacing: 3
+    delaySpawn: 0
+  - wave: 7
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3003
+    amount: 10
+    spacing: 3
+    delaySpawn: 0
+  - wave: 7
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3003
+    amount: 10
+    spacing: 3
+    delaySpawn: 0
+  - wave: 7
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3003
+    amount: 10
+    spacing: 3
+    delaySpawn: 0
+  - wave: 7
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3001
+    amount: 10
+    spacing: 3
+    delaySpawn: 2
+  - wave: 7
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3001
+    amount: 10
+    spacing: 3
+    delaySpawn: 2
+  - wave: 7
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3001
+    amount: 10
+    spacing: 3
+    delaySpawn: 2
+  - wave: 7
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3001
+    amount: 10
+    spacing: 3
+    delaySpawn: 2
+  - wave: 7
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3010
+    amount: 2
+    spacing: 3.5
+    delaySpawn: 4
+  - wave: 7
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3010
+    amount: 2
+    spacing: 3.5
+    delaySpawn: 4
+  - wave: 7
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3010
+    amount: 2
+    spacing: 3.5
+    delaySpawn: 4
+  - wave: 7
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3010
+    amount: 2
+    spacing: 3.5
+    delaySpawn: 4
+  - wave: 7
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3004
+    amount: 3
+    spacing: 2.5
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3004
+    amount: 3
+    spacing: 2.5
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3004
+    amount: 3
+    spacing: 2.5
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3004
+    amount: 3
+    spacing: 2.5
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 7
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3004
+    amount: 5
+    spacing: 2
+    delaySpawn: 1
+  - wave: 7
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3004
+    amount: 5
+    spacing: 2
+    delaySpawn: 1
+  - wave: 7
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3004
+    amount: 5
+    spacing: 2
+    delaySpawn: 1
+  - wave: 7
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3004
+    amount: 5
+    spacing: 2
+    delaySpawn: 1
+  - wave: 7
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3008
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 7
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3008
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 8
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 8
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 8
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 8
+  - wave: 8
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 10
+  - wave: 8
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 3.3
+  - wave: 8
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 4.5
+  - wave: 8
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 8
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 5
+  - wave: 8
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3007
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 8
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 9
+  - wave: 8
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 6
+  - wave: 8
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 4
+  - wave: 8
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 6
+  - wave: 8
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3007
+    amount: 1
+    spacing: 0
+    delaySpawn: 5
+  - wave: 8
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 10
+  - wave: 8
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 10
+  - wave: 8
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 10
+  - wave: 8
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 10
+  - wave: 8
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 4
+  - wave: 8
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 4
+  - wave: 8
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 4
+  - wave: 8
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3009
+    amount: 1
+    spacing: 0
+    delaySpawn: 4
+  - wave: 8
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3007
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 8
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3007
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 8
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3007
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 8
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3007
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3001
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3002
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3004
+    amount: 7
+    spacing: 3
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3004
+    amount: 7
+    spacing: 3
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3004
+    amount: 7
+    spacing: 3
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3004
+    amount: 7
+    spacing: 3
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3008
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 9
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3008
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 9
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3008
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 9
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3008
+    amount: 1
+    spacing: 0
+    delaySpawn: 0
+  - wave: 9
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3005
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 4
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 6
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 4.5
+  - wave: 9
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 9
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 9
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 1
+  - wave: 9
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 0.2
+  - wave: 9
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.8
+  - wave: 9
+    gateSpawnId: 1
+    line: 2
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 1
+    line: 3
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 1
+    line: 4
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.3
+  - wave: 9
+    gateSpawnId: 1
+    line: 5
+    enemyId: 3013
+    amount: 1
+    spacing: 0
+    delaySpawn: 0.3
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3014
+    amount: 1
+    spacing: 0
+    delaySpawn: 0.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 4
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 5
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 6
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 3.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 5
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 4.3
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 3.8
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 4.5
+  - wave: 9
+    gateSpawnId: 0
+    line: 0
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 2
+  - wave: 9
+    gateSpawnId: 0
+    line: 1
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 1.5
+  - wave: 9
+    gateSpawnId: 2
+    line: 6
+    enemyId: 3011
+    amount: 1
+    spacing: 0
+    delaySpawn: 3
+  - wave: 9
+    gateSpawnId: 2
+    line: 7
+    enemyId: 3012
+    amount: 1
+    spacing: 0
+    delaySpawn: 0.3

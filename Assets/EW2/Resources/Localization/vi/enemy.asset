@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - enemy_name_3001
+    - enemy_name_3002
+    - enemy_name_3003
+    - enemy_name_3004
+    - enemy_name_3005
+    - enemy_name_3006
+    - enemy_name_3007
+    - enemy_name_3008
+    - enemy_name_3009
+    - enemy_name_3010
+    - enemy_name_3011
+    - enemy_name_3012
+    - enemy_name_3013
+    - enemy_name_3014
+    - enemy_name_3015
+    - enemy_name_3016
+    - enemy_name_3017
+    - enemy_name_3018
+    - enemy_name_3019
+    - enemy_name_3020
+    - enemy_des_3001
+    - enemy_des_3002
+    - enemy_des_3003
+    - enemy_des_3004
+    - enemy_des_3005
+    - enemy_des_3006
+    - enemy_des_3007
+    - enemy_des_3008
+    - enemy_des_3009
+    - enemy_des_3010
+    - enemy_des_3011
+    - enemy_des_3012
+    - enemy_des_3013
+    - enemy_des_3014
+    - enemy_des_3015
+    - enemy_des_3016
+    - enemy_des_3017
+    - enemy_des_3018
+    - enemy_des_3019
+    - enemy_des_3020
+    - enemy_skill_3005
+    - enemy_skill_3006
+    - enemy_skill_3007
+    - enemy_skill_3008
+    - enemy_skill_3009
+    - enemy_skill_3015
+    - enemy_skill_3016
+    - enemy_skill_3017
+    - enemy_skill_3020
+    - enemy_warn_3002
+    - enemy_warn_3003
+    - enemy_warn_3005
+    - enemy_warn_3006
+    - enemy_warn_3007
+    - enemy_warn_3008
+    - enemy_warn_3009
+    - enemy_warn_3010
+    - enemy_warn_3011
+    - enemy_warn_3012
+    - enemy_warn_3013
+    - enemy_warn_3014
+    - enemy_warn_3015
+    - enemy_warn_3016
+    - enemy_warn_3017
+    - enemy_warn_3020
+    values:
+    - Goblin
+    - "Cung th\u1EE7 Goblin"
+    - "S\xE1t th\u1EE7 Goblin"
+    - Orc
+    - "Orc chi\u1EBFn binh"
+    - "Orc th\u1EA7y ph\xE1p"
+    - "Orc thu\u1EADt s\u01B0"
+    - "Goblin h\u1EAFc \xE1m"
+    - Ogre
+    - "Th\xF9ng Goblin"
+    - "S\xF3i Morg"
+    - "K\u1ECB s\u0129 Morg"
+    - "D\u01A1i qu\u1EF7"
+    - Goblin bay
+    - Ogre
+    - "Goblin h\u1EAFc \xE1m"
+    - "V\u1EC7 th\u1EA7n tha h\xF3a"
+    - "V\u1EC7 th\u1EA7n nh\u1ECF"
+    - "V\u1EC7 th\u1EA7n nh\u1ECF"
+    - "Gul'ak Ma nh\xE3n"
+    - "Goblin l\xE0 nh\u1EEFng b\u1ED9 binh c\u1EA5p th\u1EA5p trong qu\xE2n \u0111o\xE0n
+      qu\u1EF7 d\u1EEF."
+    - "Nh\u1EEFng t\xEAn Goblin phi\u1EC1n ph\u1EE9c c\xF3 kh\u1EA3 n\u0103ng t\u1EA5n
+      c\xF4ng t\u1EEB kho\u1EA3ng c\xE1ch xa."
+    - "H\xE3y c\u1EA9n th\u1EADn l\u0169 s\xE1t th\u1EE7. Ch\xFAng nhanh nh\u1EB9n
+      v\xE0 kh\xF3 \u0111\u1EC3 ng\u0103n ch\u1EB7n."
+    - "Orc l\xE0 b\u1ED9 binh ch\u1EE7 l\u1EF1c c\u1EE7a qu\xE2n \u0111o\xE0n qu\u1EF7
+      d\u1EEF, m\u1EA1nh m\u1EBD h\u01A1n nhi\u1EC1u so v\u1EDBi Goblin."
+    - "\u0110\xE2y l\xE0 nh\u1EEFng chi\u1EBFn binh hi\u1EBFu chi\u1EBFn v\xE0 kh\xE1t
+      m\xE1u, \u0111\u01B0\u1EE3c sinh ra ch\u1EC9 \u0111\u1EC3 ph\u1EE5c v\u1EE5
+      chi\u1EBFn tranh."
+    - "C\xE1c th\u1EA7y ph\xE1p c\xF3 kh\u1EA3 n\u0103ng kh\xEDch l\u1EC7 tinh th\u1EA7n
+      cho l\u0169 Orc. \u0110\u1EEBng \u0111\u1EC3 ch\xFAng gi\xF3ng l\xEAn h\u1ED3i
+      tr\u1ED1ng ma thu\u1EADt!"
+    - "\u0110\xE1m Orc qu\xE1i \u0111\u1EA3n n\xE0y \u0111\xE3 h\u1ECDc \u0111\u01B0\u1EE3c
+      ph\xE9p thu\u1EADt t\u1EF1 nhi\xEAn. H\xE3y ti\xEAu di\u1EC7t ch\xFAng tr\u01B0\u1EDBc."
+    - "Nh\u1EEFng Goblin h\u1EAFc \xE1m l\xE0 t\u1EA1o v\u1EADt c\u1EE7a m\u1ED9t
+      l\u1EDDi nguy\u1EC1n c\u1ED5 x\u01B0a. Ch\xFAng s\u1ED1ng gi\u1EEFa l\u1EB1n
+      ranh sinh t\u1EED v\xE0 c\xF3 kh\u1EA3 n\u0103ng tri\u1EC7u h\u1ED3i ng\u01B0\u1EDDi
+      ch\u1EBFt."
+    - "Ogre l\xE0 nh\u1EEFng sinh v\u1EADt to l\u1EDBn nh\u01B0ng ng\u1ED1c ngh\u1EBFch.
+      Ch\xFAng l\xE0 qu\xE2n ti\xEAn phong v\u1EDBi s\u1EE9c ch\u1ED1ng ch\u1ECBu
+      cao."
+    - "\u0110\xE2y l\xE0 m\u1ED9t s\xE1ng ki\u1EBFn qu\xE1i d\u1ECB c\u1EE7a \u0111\xE1m
+      Goblin. Ch\xFAng \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng \u0111\u1EC3 \u0111\u1ED9t
+      ph\xE1 ph\xF2ng tuy\u1EBFn c\u1EE7a \u0111\u1ED1i ph\u01B0\u01A1ng."
+    - "Nh\u1EEFng con s\xF3i lai nhanh nh\u1EB9n v\xE0 nguy hi\u1EC3m. Ch\xFAng \u0111\u01B0\u1EE3c
+      thu\u1EA7n h\xF3a b\u1EDFi \u0111\xE1m Orc."
+    - "K\u1ECB s\u0129 s\xF3i l\xE0 m\u1ED9t trong nh\u1EEFng l\u1EF1c l\u01B0\u1EE3ng
+      tinh nhu\u1EC7 v\xE0 nguy hi\u1EC3m c\u1EE7a qu\xE2n \u0111o\xE0n qu\u1EF7
+      d\u1EEF."
+    - "\u0110\xE1m d\u01A1i qu\u1EF7 \u0111\u01B0\u1EE3c tri\u1EC7u h\u1ED3i b\u1EDFi
+      Narazal. Ch\xFAng v\u1EABn c\xF2n t\u1ED3n t\u1EA1i t\u1EEB tr\u1EADn \u0111\u1EA1i
+      chi\u1EBFn nhi\u1EC1u n\u0103m tr\u01B0\u1EDBc cho \u0111\u1EBFn b\xE2y gi\u1EDD."
+    - "To\xE1n qu\xE2n \u0111\u1ED9t k\xEDch c\u1EE7a Goblin. Ch\xFAng l\u1EE3i d\u1EE5ng
+      l\u0169 d\u01A1i qu\u1EF7 \u0111\u1EC3 l\u1ECDt qua ph\xF2ng tuy\u1EBFn c\u1EE7a
+      \u0111\u1ED1i ph\u01B0\u01A1ng."
+    - "Ogre l\xE0 nh\u1EEFng sinh v\u1EADt to l\u1EDBn nh\u01B0ng ng\u1ED1c ngh\u1EBFch.
+      Ch\xFAng l\xE0 qu\xE2n ti\xEAn phong v\u1EDBi s\u1EE9c ch\u1ED1ng ch\u1ECBu
+      cao."
+    - "Nh\u1EEFng Goblin h\u1EAFc \xE1m l\xE0 t\u1EA1o v\u1EADt c\u1EE7a m\u1ED9t
+      l\u1EDDi nguy\u1EC1n c\u1ED5 x\u01B0a. Ch\xFAng s\u1ED1ng gi\u1EEFa l\u1EB1n
+      ranh sinh t\u1EED v\xE0 c\xF3 kh\u1EA3 n\u0103ng tri\u1EC7u h\u1ED3i nh\u1EEFng
+      k\u1EBB \u0111\xE3 ch\u1EBFt."
+    - "M\u1ED9t V\u1EC7 th\u1EA7n c\u1ED5 \u0111\u1EA1i \u0111\u01B0\u1EE3c phong
+      \u1EA5n b\u1EDFi c\xE1c ph\xE1p s\u01B0 ho\xE0ng gia. Tuy nhi\xEAn, do ma thu\u1EADt
+      t\u1EEB qu\u1EF7 ki\u1EBFm Durandal m\xE0 vua Jave I s\u1EDF h\u1EEFu, ng\xE0i
+      \u0111\xE3 b\u1ECB tha h\xF3a v\xE0 tr\u1EDF th\xE0nh b\u1EC1 t\xF4i c\u1EE7a
+      qu\u1EF7 d\u1EEF."
+    - "C\xE1c V\u1EC7 th\u1EA7n nh\u1ECF \u0111\u01B0\u1EE3c t\u1EA1o n\xEAn t\u1EEB
+      m\u1EA3nh v\u1EE1 c\u1EE7a nh\u1EEFng V\u1EC7 th\u1EA7n C\u1ED5 \u0111\u1EA1i"
+    - "C\xE1c V\u1EC7 th\u1EA7n nh\u1ECF \u0111\u01B0\u1EE3c t\u1EA1o n\xEAn t\u1EEB
+      m\u1EA3nh v\u1EE1 c\u1EE7a nh\u1EEFng V\u1EC7 th\u1EA7n C\u1ED5 \u0111\u1EA1i"
+    - "Gul'ak v\u1ED1n l\xE0 em trai c\u1EE7a Moggun v\xE0 l\xE0 th\u1EE7 l\u0129nh
+      \u0111\u1EDDi sau c\u1EE7a t\u1ED9c Bloodwolf. H\u1EAFn b\u1ECB thao t\xFAng
+      b\u1EDFi qu\u1EF7 ki\u1EBFm Durandal v\xE0 tr\u1EDF th\xE0nh m\u1ED9t trong
+      nh\u1EEFng th\u1ED1ng l\u0129nh c\u1EE7a qu\xE2n \u0111o\xE0n qu\u1EF7 d\u1EEF."
+    - "Ph\xE1t cu\u1ED3ng"
+    - "Ti\u1EBFng tr\u1ED1ng kh\xEDch l\u1EC7"
+    - "H\u1ED3i ph\u1EE5c"
+    - "Thu\u1EADt tri\u1EC7u h\u1ED3i"
+    - "\u0110\u1EADp cho\xE1ng"
+    - "\u0110\u1EADp cho\xE1ng. Ph\xE1t cu\u1ED3ng"
+    - "Thu\u1EADt tri\u1EC7u h\u1ED3i. Ng\u1ECDn l\u1EEDa b\xF3ng t\u1ED1i"
+    - "Li\xEAn ho\xE0n th\u1EA1ch. Ph\xE2n t\xE1ch"
+    - "L\u1ED3ng h\u1EAFc \xE1m. Gai h\u1EAFc \xE1m. Thu\u1EADt tri\u1EC7u h\u1ED3i.
+      To\xE1i h\u1ED3n"
+    - "- T\u1EA5n c\xF4ng t\u1EA7m xa"
+    - "- Di chuy\u1EC3n nhanh\n - T\u1EA5n c\xF4ng t\u1EA7m xa"
+    - "- Ch\u1ED1ng ch\u1ECBu trung b\xECnh\n - Ph\xE1t cu\u1ED3ng khi HP xu\u1ED1ng
+      th\u1EA5p"
+    - "- Di chuy\u1EC3n ch\u1EADm\n - T\u0103ng t\u1ED1c \u0111\u1ED9 di chuy\u1EC3n
+      cho \u0111\u1ED3ng b\u1ECDn"
+    - "- H\u1ED3i m\xE1u cho \u0111\u1ED3ng b\u1ECDn xung quanh\n - T\u1EA5n c\xF4ng
+      t\u1EA7m xa"
+    - "- Tri\u1EC7u h\u1ED3i k\u1EBB \u0111\u1ECBch\n - T\u1EA5n c\xF4ng t\u1EA7m
+      xa"
+    - "- Ch\u1ED1ng ch\u1ECBu t\u1ED1t\n - C\xF3 th\u1EC3 l\xE0m cho\xE1ng \u0111\u1ED1i
+      th\u1EE7\n - Di chuy\u1EC3n ch\u1EADm"
+    - "- Di chuy\u1EC3n nhanh\n - V\u1EE1 th\xE0nh nhi\u1EC1u Goblin"
+    - "- Di chuy\u1EC3n nhanh\n - G\xE2y Ch\u1EA3u m\xE1u cho \u0111\u1ED1i th\u1EE7"
+    - "- G\xE2y ch\u1EA3y m\xE1u cho \u0111\u1ED1i th\u1EE7"
+    - "- Qu\xE1i bay"
+    - "- Qu\xE1i bay"
+    - "- Ch\u1ED1ng ch\u1ECBu t\u1ED1t\n - C\xF3 th\u1EC3 l\xE0m cho\xE1ng \u0111\u1ED1i
+      th\u1EE7\n - Ph\xE1t cu\u1ED3ng khi HP xu\u1ED1ng th\u1EA5p\n - Di chuy\u1EC3n
+      ch\u1EADm"
+    - "- Tri\u1EC7u h\u1ED3i k\u1EBB \u0111\u1ECBch\n - Kh\u1ED1ng ch\u1EBF tr\u1EE5\n
+      - T\u1EA5n c\xF4ng t\u1EA7m xa"
+    - "- Ch\u1ED1ng ch\u1ECBu t\u1ED1t\n - C\xF3 th\u1EC3 \u0111\xE1nh xa\n - G\xE2y
+      s\xE1t th\u01B0\u01A1ng di\u1EC7n r\u1ED9ng\n - C\xF3 th\u1EC3 l\xE0m cho\xE1ng
+      \u0111\u1ED1i th\u1EE7"
+    - "- Tri\u1EC7u h\u1ED3i k\u1EBB \u0111\u1ECBch\n - C\xF3 th\u1EC3 \u0111\xE1nh
+      xa\n - G\xE2y s\xE1t th\u01B0\u01A1ng di\u1EC7n r\u1ED9ng\n - C\xF3 th\u1EC3
+      l\xE0m cho\xE1ng \u0111\u1ED1i th\u1EE7"

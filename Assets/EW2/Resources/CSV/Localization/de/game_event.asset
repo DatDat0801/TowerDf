@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: game_event
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - quest_not_unlocked_txt
+    - hero_chalenge_txt
+    - hero_chalenge_slogan_txt
+    - hero_chalenge_rule_txt
+    - glory_road_rule_txt
+    - medal_redeem_warning_txt
+    - glory_road_premium_warning_txt
+    - already_unlock_premium_txt
+    - event_daily_reward_title_txt
+    - event_daily_slogan_txt
+    - premium_glory_road_item_txt
+    - glory_road_title_txt
+    - glory_road_slogan_txt
+    - glory_road_slogan_2_txt
+    - hero_academy_event_name_txt
+    - medal_exchange_txt
+    - buy_now_direction_popup
+    - full_basic_progress_notice
+    - unlock_premium_progress_notice
+    - claim_hero_notice
+    - nhero_challenge_title_txt
+    - nhero_event_name_txt
+    - nhero_mission_txt
+    - nhero_mission_slogan_txt
+    - event_quest_nhero_txt
+    - hero_mission_rule
+    - hero_required_formation
+    - event_quest_pf5_txt
+    - event_quest_nhero_pf5_txt
+    - event_quest_pf5m_txt
+    - event_quest_nhero_pf10m_txt
+    - event_quest_nhero_pf20m_txt
+    - event_quest_nhero_lv5_txt
+    - event_quest_nhero_spell_txt
+    - event_quest_nhero_rune_txt
+    - nhero_bundle_txt
+    - hero_bundle_slogan_txt
+    - hero_bundle_level_tag_txt
+    - hero_backpack_txt
+    - event_crystal_pack_txt
+    - event_rune_pack_txt
+    - event_spell_pack_txt
+    values:
+    - Quests sind noch nicht freigeschaltet
+    - Heldenherausforderung
+    - Stell dich der Herausforderung und schreibe deine eigene, epische Geschichte
+    - "1. Schlie\xDFe die Missionen jedes Tages ab, um eine Belohnung zu bekommen
+      und Medaillen zu sammeln.\\n \\n 2. Jeden Tag werden neue Quests freigeschaltet.
+      Quests von vorherigen Tagen, die du noch nicht beendet hast, kannst du am n\xE4chsten
+      Tag fortsetzen."
+    - "3. Gesammelte Medaillen k\xF6nnen gegen Belohnungen bei der Herrlichkeitsstra\xDFe
+      eingetauscht werden. F\xFCr jeden Belohnungsmeilenstein brauchst du eine bestimmte
+      Anzahl an Medaillen.\\n \\n 4. Um Belohnungen zu bekommen, muss der Premiumfortschritt
+      freigeschaltet sein. Erwerbe zum Freischalten das \u201EJetzt kaufen\u201C-Paket."
+    - '<color=#E73F44>*Hinweis: Wenn das Event zu Ende ist, werden die verbleibenden
+      Medaillen automatisch zu Kristallen.</color>'
+    - Verbessere den Fortschritt, um Premiumbelohnungen zu erhalten
+    - Du hast den Premium-Fortschritt bereits aktualisiert
+    - "T\xE4gliche Geschenke"
+    - Sammle Medaillen und erhalte tolle Belohnungen
+    - "Premium-Herrlichkeitsstra\xDFe"
+    - "Herrlichkeitsstra\xDFe"
+    - Sammle Medaillen, verbessere deinen Fortschritt
+    - Und rekrutiere neue Helden!
+    - Heldenakademie
+    - 'Deine <color=#815329>{0}</color> Medaillen wurden zu <color=#815329>{1}</color>
+      Kristallen umgewandelt\n \n Wechselkurs: <color=#815329>1</color> Medaille
+      = <color=#815329>5</color> Kristalle'
+    - "Schlie\xDFen Sie sich <color=#FFD700>{0}</color> an, um diesen Helden und
+      noch mehr Ressourcen zu erhalten!"
+    - Du hast die letzte Belohnung des grundlegenden Fortschritts freigeschaltet.
+    - Aber es gibt immer noch viele wertvolle Belohnungen bei <color=#815329>{0}</color>.
+      Nehmen wir sie!
+    - "Bitte beanspruche deinen Helden in Premium-Herrlichkeitsstra\xDFe"
+    - "Neuer Held \u2013 Neue Herausforderung"
+    - "Der Auserw\xE4hlte steigt ab"
+    - Heldenmission
+    - "Schlie\xDFe w\xE4hrend des Events Quests ab, um Belohnungen zu erhalten!"
+    - Probieren Sie den neuesten Helden {0} aus
+    - "Schlie\xDFe Missionen ab, um attraktive Belohnungen zu erhalten.\\n\\n*Hinweis:
+      Quests werden nur w\xE4hrend der Eventzeit gez\xE4hlt."
+    - Erfordert {0} in der Formation
+    - Erreiche 3 Sterne auf Level {0} auf dem Schwierigkeitsgrad Normal
+    - Erreiche 3 Sterne in Stufe {0} normal mit {1}
+    - Erreiche 3 Sterne in der {0} Schwierigkeitsstufe Albtraum
+    - Erreiche 3 Sterne bei Stage {0} Alptraum mit {1}
+    - Benutze die Fertigkeit {0} von {1} {2} Mal
+    - '{0} erreicht Level {1}'
+    - "R\xFCste ein beliebiges Zauber f\xFCr {0} aus"
+    - "R\xFCste ein beliebiges Rune f\xFCr {0} aus"
+    - Heldenpaket
+    - "W\xE4hlen Sie nur eine aus"
+    - Stufe {0}!
+    - Heroischer Rucksack
+    - Kristallpackung
+    - Runenpaket
+    - Zauberpaket

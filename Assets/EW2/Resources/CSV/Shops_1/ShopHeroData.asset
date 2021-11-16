@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae8be6a4ebfa4a8b95f478f294471057, type: 3}
+  m_Name: ShopHeroData
+  m_EditorClassIdentifier: 
+  shopItemDatas:
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_hero_ne_taan_local_price_increase
+    price: 4.99
+    pricePrevious: 4.99
+    consumable: 0
+    vipPoint: 0
+    rewards:
+    - type: 3
+      id: 1003
+      number: 1
+      itemType: -1
+    imgId: -1
+    moneyType: -1
+    saleType: -1
+    valuePrevious: -1
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_hero_marco_local_price_increase
+    price: 4.99
+    pricePrevious: 4.99
+    consumable: 0
+    vipPoint: 0
+    rewards:
+    - type: 3
+      id: 1004
+      number: 1
+      itemType: -1
+    imgId: -1
+    moneyType: -1
+    saleType: -1
+    valuePrevious: -1
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_hero_nerocat_local_price_increase
+    price: 4.99
+    pricePrevious: 4.99
+    consumable: 0
+    vipPoint: 0
+    rewards:
+    - type: 3
+      id: 1005
+      number: 1
+      itemType: -1
+    imgId: -1
+    moneyType: -1
+    saleType: -1
+    valuePrevious: -1

@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: game_event
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - quest_not_unlocked_txt
+    - hero_chalenge_txt
+    - hero_chalenge_slogan_txt
+    - hero_chalenge_rule_txt
+    - glory_road_rule_txt
+    - medal_redeem_warning_txt
+    - glory_road_premium_warning_txt
+    - already_unlock_premium_txt
+    - event_daily_reward_title_txt
+    - event_daily_slogan_txt
+    - premium_glory_road_item_txt
+    - glory_road_title_txt
+    - glory_road_slogan_txt
+    - glory_road_slogan_2_txt
+    - hero_academy_event_name_txt
+    - medal_exchange_txt
+    - buy_now_direction_popup
+    - full_basic_progress_notice
+    - unlock_premium_progress_notice
+    - claim_hero_notice
+    - nhero_challenge_title_txt
+    - nhero_event_name_txt
+    - nhero_mission_txt
+    - nhero_mission_slogan_txt
+    - event_quest_nhero_txt
+    - hero_mission_rule
+    - hero_required_formation
+    - event_quest_pf5_txt
+    - event_quest_nhero_pf5_txt
+    - event_quest_pf5m_txt
+    - event_quest_nhero_pf10m_txt
+    - event_quest_nhero_pf20m_txt
+    - event_quest_nhero_lv5_txt
+    - event_quest_nhero_spell_txt
+    - event_quest_nhero_rune_txt
+    - nhero_bundle_txt
+    - hero_bundle_slogan_txt
+    - hero_bundle_level_tag_txt
+    - hero_backpack_txt
+    - event_crystal_pack_txt
+    - event_rune_pack_txt
+    - event_spell_pack_txt
+    values:
+    - Quests belum dibuka
+    - Tantangan Pahlawan
+    - Terima tantangan dan buat kronik legendaris
+    - 1. Selesaikan misi setiap hari untuk mendapatkan hadiah dan mengumpulkan Medali.\n
+      \n 2. Quests dibuka pada siang hari. Quest yang belum selesai dari hari-hari
+      sebelumnya dapat dilanjutkan pada hari berikutnya.
+    - 3. Medali yang terkumpul dapat ditukarkan dengan hadiah di Jalan kemuliaan.
+      Setiap pencapaian hadiah membutuhkan sejumlah Medali.\n \n 4. Kemajuan premium
+      harus dibuka untuk menerima hadiah. Beli paket Beli Sekarang untuk membuka
+      kunci.
+    - '<color=#E73F44>*Catatan: Setelah event berakhir, Medali yang tidak digunakan
+      akan otomatis berubah menjadi Kristal.</color>'
+    - Tingkatkan kemajuan untuk menerima hadiah
+    - Anda sudah meningkatkan kemajuan premium
+    - Hadiah Harian
+    - Kumpulkan Medali dan dapatkan hadiah besar
+    - Jalan Kemuliaan Premium
+    - Jalan kemuliaan
+    - Kumpulkan medali, tingkatkan kemajuannya
+    - Dan rekrut Pahlawan Baru!
+    - Akademi pahlawan
+    - '<color=#815329>{0}</color> Medali anda yang tersisa telah diubah menjadi <color=#815329>{1}</color>
+      Kristal\n \n Nilai tukar: <color=#815329>1</color> Medali = <color=#815329>5</color>
+      Kristal'
+    - Bergabunglah dengan <color=#FFD700>{0}</color> untuk mendapatkan pahlawan ini
+      dan lebih banyak sumber daya!
+    - Anda telah membuka hadiah terakhir dari kemajuan dasar.
+    - Tapi masih ada banyak hadiah berharga di <color=#815329>{0}</color>. Mari kita
+      bawa mereka!
+    - Silakan klaim Pahlawan Anda di Jalan Kemuliaan Premium
+    - Pahlawan Baru - Tantangan Baru
+    - Yang terpilih muncul
+    - Misi Pahlawan
+    - Selama acara, selesaikan misi untuk mengklaim hadiah!
+    - Coba hero terbaru {0}
+    - 'Selesaikan misi untuk menerima hadiah menarik.\n\n*Catatan: Quest hanya dihitung
+      selama waktu event.'
+    - Membutuhkan {0} dalam formasi
+    - Dapatkan 3 bintang di Level {0} pada kesulitan Normal
+    - Raih 3 bintang di Tahap {0} normal menggunakan {1}
+    - Dapatkan 3 bintang di {0} tingkat kesulitan Mimpi buruk
+    - Raih 3 bintang di mimpi buruk Tahap {0} menggunakan {1}
+    - Gunakan skill {0} dari {1} sebanyak {2} kali
+    - '{0} mencapai level {1}'
+    - Lengkapi Mantra apa pun untuk {0}
+    - Lengkapi Rune apa pun untuk {0}
+    - Paket Pahlawan
+    - Pilih hanya satu
+    - Tingkat {0}!
+    - Ransel heroik
+    - Paket Kristal
+    - Paket Rune
+    - Paket Mantra

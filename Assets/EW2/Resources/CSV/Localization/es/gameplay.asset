@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: gameplay
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - 'dmg_tag_physic '
+    - dmg_tag_magic
+    - enemy_tag_14
+    - tower_tag_barrack
+    - ingame_wave
+    - fast
+    - medium
+    - slow
+    - long_distance
+    - short_distance
+    - melee
+    - nameskillpoint
+    - name_health
+    - nameatkmax
+    - name_armor
+    - name_resistance
+    - name_movespeed
+    - name_attackspeed
+    - name_lifesteal
+    - name_critdamage
+    - name_critchance
+    - name_hpregeneration
+    - nameatkmin
+    - name_true_damage
+    - nametrain
+    - hero_levelupnow
+    - hero_unlock
+    - name_tab_skill
+    - name_tab_stats
+    - name_damage
+    - name_rangedetect
+    - build
+    - level
+    - score
+    - wave_surviver
+    - enemy_killed
+    - bestscore
+    - name_timerevive
+    - skill_cooldown_name
+    - name_cooldownreduction
+    - name_debuff_resistance
+    - gem_earned
+    - buyback_name
+    - format_dd_hh_mm_ss
+    - format_day
+    - format_week
+    - name_tab_rune
+    - name_tab_skin
+    - rune_auto_select
+    - tap_to_see_details
+    - active
+    - inactive
+    - hero_room
+    - skin_unlock_title
+    - caution_new_enemy
+    - incoming
+    - tap_to_call
+    - exp_reward
+    - upgrade_power
+    - rewards
+    - name_blockenemy
+    - name_tab_spell
+    - active_skill
+    - passive_skill
+    - common_shard
+    - unique_shard
+    - upgrade_required
+    - shard_conversion
+    - name_rarity
+    - rarity_0
+    - rarity_1
+    - rarity_2
+    - rarity_3
+    - rarity_4
+    - spell_target
+    - enemy_type_ground
+    - enemy_type_fly
+    - tower_attack_type_all
+    - specific_shard_name
+    - normal_spell_name
+    - premium_spell_name
+    - level_process
+    - spell_amount
+    - "shard_r\xE9ource"
+    - normal_rune_name
+    - premium_rune_name
+    values:
+    - "<color=yellow><Da\xF1o f\xEDsico></color>"
+    - "<color=#00ffddff><Da\xF1o m\xE1gico></color>"
+    - "<color=#00ffddff><Da\xF1o m\xE1gico></color>"
+    - <entrenar soldados>
+    - Oleada
+    - "R\xE1pido"
+    - Medio
+    - Lento
+    - Largo
+    - Corto
+    - "Mel\xE9"
+    - 'Puntos de habilidad:'
+    - Salud
+    - "Da\xF1o m\xE1ximo"
+    - Armadura
+    - "Resist\xE9ncia m\xE1gica"
+    - Velocidad de movimiento
+    - Velocidad de Ataque
+    - Robo de vida
+    - "Da\xF1o cr\xEDtico"
+    - "Probabilidad de Cr\xEDtico"
+    - Regeneracion de salud
+    - "Da\xF1o m\xEDnimo"
+    - "Da\xF1o Verdadero"
+    - Entrenar
+    - "\xA1Subir de nivel ahora!"
+    - "\xA1Desbloquear ahora!"
+    - Habilidades
+    - "Estad\xEDsticas"
+    - "Da\xF1o"
+    - Rango
+    - Construir
+    - Nivel
+    - Puntaje
+    - Oleada sobrevivida
+    - Enemigos abatidos
+    - "Mejor puntuaci\xF3n"
+    - "Tiempo de reaparici\xF3n"
+    - Tiempo de carga de habilidad
+    - "Reducci\xF3n de carga de habilidad"
+    - Resistencia a efectos negativos
+    - Gemas obtenidas
+    - Resucitar
+    - '{0}:{1}:{2}:{3}'
+    - '{0} {1}'
+    - '{0} {1}'
+    - Runa
+    - Traje
+    - "Selecci\xF3n Autom\xE1tica"
+    - "La informaci\xF3n de la runa se mostrar\xE1 aqu\xED.\\n\xA1Toca una runa para
+      verificar sus detalles!"
+    - (activo)
+    - (inactivo)
+    - "Wiki de h\xE9roes"
+    - Eventos
+    - "\xA1Precauci\xF3n!"
+    - "Pr\xF3ximo"
+    - Comienza la batalla
+    - + {0} exp
+    - Actualiza tu poder
+    - Recompensas
+    - Bloque
+    - Hechizo
+    - Ativo
+    - Pasivo
+    - Fragmento popular
+    - "Fragmento \xFAnico"
+    - "La actualizaci\xF3n requiere {0} {1}/{2}"
+    - "Conversi\xF3n de fragmentos"
+    - 'Rareza: {0}'
+    - "Com\xFAn"
+    - "Poco com\xFAn"
+    - Raro
+    - "\xC9pico"
+    - Legendario
+    - 'Objetivo:'
+    - Tierra
+    - Volador
+    - Todos
+    - '{0} fragmento(s)'
+    - Hechizo normal
+    - Hechizo premium
+    - Nivel {0}/{1}
+    - Hechizo {0}/{1}
+    - Fragmento
+    - Runa normal
+    - Runa premium

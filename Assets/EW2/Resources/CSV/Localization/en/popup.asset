@@ -1,0 +1,415 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: popup
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tap_to_close
+    - profile_popup
+    - avatar_select
+    - more_game_txt
+    - support_txt
+    - community_txt
+    - giftcode_txt
+    - patch_note_txt
+    - patch_note_version
+    - setting_txt
+    - image_txt
+    - country_txt
+    - in_use_txt
+    - not_in_use_txt
+    - in_use_by_txt
+    - since_txt
+    - id_txt
+    - version_txt
+    - language_txt
+    - change_name
+    - enter_name_box
+    - letters_limit
+    - name_contain_special_characters
+    - name_too_short_or_long
+    - invalid_name
+    - already_exists_name
+    - change_successful
+    - data_save
+    - link_info
+    - last_save
+    - data_save_note
+    - linking_failed
+    - notice_txt
+    - data_save_question
+    - save_limit
+    - limit_txt
+    - save_success
+    - save_failed
+    - save_limit_notice
+    - restore_question
+    - restore_complete
+    - restore_failed
+    - graphic_txt
+    - enable_vibrate
+    - disable_vibrate
+    - enable_battery_saver
+    - disable_battery_saver
+    - enable_notice
+    - disable_notice
+    - enter_giftcode_box
+    - claim_giftcode
+    - claim_giftcode_failed
+    - used_giftcode_toast
+    - giftcode_check_internet
+    - result_check_internet
+    - error_occured
+    - giftcode_login_first
+    - require_login_first
+    - quit_notice
+    - locked_mode_notice
+    - tower_upgrade_txt
+    - upgrade_successful
+    - tower_reset_notice
+    - copy_to_clipboard
+    - hero_skill_reset_notice
+    - insufficient_skill_point
+    - skill_point_guide
+    - hero_exp_guide
+    - level_txt
+    - stamina_next
+    - stamina_full
+    - tap_to_start
+    - news_txt
+    - congratulation_txt
+    - max_level_hero_txt
+    - level_max_skill_txt
+    - stat_txt
+    - reset_successful
+    - backstory_txt
+    - need_hero_txt
+    - hero_unlocked
+    - locked_mode_normal
+    - insufficient_resource
+    - pre_register_reward_txt
+    - pre_register_thank_txt
+    - unlock_upgrade_tower
+    - replay_notice
+    - quit_game_notice
+    - warning_txt
+    - daily_reward_txt
+    - daily_quest_txt
+    - day_count_txt
+    - checkin_progress
+    - login_successful_txt
+    - no_data_found
+    - upgrade_activated
+    - upgrade_info
+    - properties_txt
+    - bonus_txt
+    - upgrade_condition_txt
+    - purchase_save_notice
+    - purchase_failed
+    - warning_iap
+    - warning_internet_save_data
+    - warning_internet_lost_data
+    - unlock_upgrade_tower_tut
+    - not_equip_spell
+    - start_battle_to_use
+    - spell_unlock_condition
+    - insuficent_shade
+    - insuficent_unique_shard
+    - insuficent_resource
+    - unlock_hero_to_equip
+    - unlock_hero_to_equip_rune
+    - normal_spell_rate
+    - premium_spell_rate
+    - normal_spell_name
+    - premium_spell_rname
+    - cannot_select_more_hero
+    - spell_upgrade_require
+    - reset_in_txt
+    - refresh_in_txt
+    - achievement_txt
+    - free_in
+    - complete_challenge_txt
+    - hero_not_been_unlock_txt
+    - defeat_boss_achievement_direction
+    - normal_rune_rate
+    - premium_rune_rate
+    - normal_rune_name
+    - premium_rune_name
+    - full_inventory_txt
+    - equip_slot_full_txt
+    - full_inventory_require_space_txt
+    - dismantle_warning_txt_1
+    - dismantle_warning_txt_2
+    - basic_attributes_txt
+    - bonus_attributes_txt
+    - set_of_pieces_txt
+    - set_required_txt
+    - enhance_successful_txt
+    - selected_rune_txt
+    - dismantle_slots_full_txt
+    - reward_ads_txt
+    - watch_ads_txt
+    - check_internet_warning_txt
+    - no_ads_available_txt
+    - go_to_shop_question_txt
+    - watch_previous_ads_first
+    - ios_loading_screen_txt
+    - loading_screen_common_txt
+    - dont_ask_again_today
+    - dismantle_warning_txt_3
+    - dismantle_warning_txt_4
+    - new_nightmare_unlock
+    - buy_now_title_txt
+    - buy_now_slogan_title_txt
+    - buy_now_1st_purchase_txt
+    - first_purchase_bonus_title_txt
+    - first_purchase_bonus_slogan_txt
+    - first_purchase_bonus_warning
+    - free_progress_txt
+    - premium_progress_txt
+    - checkin_day
+    - stage_txt
+    - end_time_txt
+    - already_receive_txt
+    - rune_pack_name_txt
+    - purchased_txt
+    - unlock_nightmare_txt
+    - hero_pre_trial_tag_txt
+    - hero_pre_trial_toast_txt
+    - hero_pre_trial_dialog_txt
+    - rating_title
+    - require_rating_txt
+    - unlock_spell_txt
+    - unlock_spell_txt_1
+    - equip_spell_remind_txt
+    - unlock_rune_txt
+    - unlock_rune_txt_1
+    - equip_rune_remind_txt
+    - remain_txt
+    - get_more_txt
+    - refill_stamina_title_txt
+    - owned_txt
+    - new_mode_unlocked_txt
+    - already_own_this_pack_txt
+    - already_own_this_hero_txt
+    - already_own_this_item_txt
+    - run_out_resource_txt
+    - buy_or_wait_txt
+    - available_txt
+    - no_more_purchase_txt
+    - out_of_stock_txt
+    - surrender_notice_txt
+    values:
+    - Tap to close
+    - Profile
+    - Avatar selection
+    - More games
+    - Support
+    - Community
+    - Giftcode
+    - Patch note
+    - <color=#815329>Version {0}</color>
+    - Setting
+    - Image
+    - Country
+    - Equipped
+    - Not equipped
+    - Equipped by {0}
+    - Since
+    - 'ID:'
+    - Version
+    - Languages
+    - Change name
+    - Enter new name here...
+    - <color=#E73F44>(4-18 letters, excludes special characters)</color>
+    - Name must excludes special characters
+    - Length from 4-18 characters!
+    - The name is invalid
+    - This name already exists
+    - Change successful
+    - Saved data
+    - Linked to
+    - Last save
+    - Please link to an account to save your data
+    - Account linking failed
+    - Notice
+    - Do you want to save your data?
+    - 'Save limit today: {0}/{1}'
+    - 'Limit:'
+    - Save data successful
+    - Save data failed
+    - You reached save limit today
+    - Do you want to restore your data?\n <color=#e85253>*Your current data will
+      be overwritten</color>
+    - Restore complete
+    - Restore failed
+    - Graphic
+    - Enable vibration
+    - Disable vibration
+    - Enable battery saver
+    - Disable battery saver
+    - Enable notification
+    - Disable notification
+    - Enter giftcode here...
+    - You claimed the reward
+    - The gifcode is invalid
+    - This giftcode has been used or has expired. Please enter another giftcode
+    - Cannot connect to server. Please check your internet
+    - Unable to save results. Please check your internet
+    - An error occurred. Please contact the support team for help
+    - You need to login to your account to use the giftcode
+    - Please login to your account first
+    - You will exit to Home menu.\n Are you sure want to exit the battle?
+    - Current mode is locked. Reach 3 stars in Stage {0} at normal difficult to unlock
+    - Tower upgrade
+    - Upgrade successful
+    - All upgraded towers will be reset. Are you sure?
+    - Copied to clipboard
+    - All skill levels will be reset. Are you sure?
+    - Insufficient Skill point
+    - Skill points are used to upgrade skills. Get more by leveling up the hero
+    - Earn hero EXP from battle or using crystals to upgrade level for them instantly!
+    - 'Level: {0}/{1}'
+    - 'Next stamina:'
+    - 'Full stamina:'
+    - Tap to Start
+    - News
+    - Congratulations
+    - Max level reached!
+    - Level max
+    - Stats
+    - Reset successful
+    - Backstory
+    - You need at least 1 Hero to start the stage
+    - '{0} unlocked'
+    - Complete previous Stage to unlock
+    - Insufficient {0}.
+    - Pre-registration rewards
+    - Thank you for pre-registration Empire Defender!
+    - Play Stage {0} to unlock
+    - Are you sure want to replay?
+    - Are you sure want to quit the game?
+    - Warning
+    - Daily Reward
+    - Daily quest
+    - Day {0}
+    - 'Progress: {0}/{1}'
+    - Log in Successful
+    - Data not found
+    - Upgraded
+    - 1. <color=#eb9e15>Silver stars</color> are used to unlock basic upgrade levels.\n
+      \n 2. <color=#eb9e15>Gold stars</color> are used to unlock advanced upgrade
+      levels.\n \n 3. Complete stages at <color=#eb9e15>Normal difficulty</color>
+      to collect silver stars.\n \n 4. Complete stages at <color=#eb9e15>Nightmare
+      difficulty</color> to collect gold stars.
+    - Properties
+    - Level up
+    - Upgrade previous level first
+    - Your local save data may be lost. Make sure you are connected to your {0} account
+    - Your purchase was failed. Make sure your internet is stable
+    - Failed to load purchase information, please check your network connection and
+      your store linking.
+    - Failed to save your data. Please check your network connection.
+    - Your data will be lost. Are you sure?
+    - Continue playing tutorial to unlock
+    - Hero is not equipped with any spells
+    - Start the battle to use
+    - Complete stage {0} to unlock
+    - Insufficient Shard
+    - Insufficient {0} Shard
+    - Insufficient resource
+    - Unlock hero before equipping spell
+    - Unlock hero before equipping Rune
+    - Normal spell rate
+    - Premium spell rate
+    - Normal spell
+    - Premium spell
+    - The formation is full
+    - 'Number of {0} shard required: {1}'
+    - 'Reset in:'
+    - 'Retfresh in:'
+    - Achievement
+    - 'Free in:'
+    - Complete challenges to claim rewards!
+    - This hero has not been unlocked yet. Do you want to unlock it now?
+    - Defeat the boss in stage {0}
+    - Normal rune rate
+    - Premium rune rate
+    - Normal rune
+    - Premium rune
+    - Your inventory is full.
+    - '{0}''s slots are full'
+    - Please dismantle other Runes to free up space
+    - Please unequip the Rune before dismantle
+    - Are you sure want to dismantle {0} and get materials below?
+    - Basic attributes
+    - Bonus attributes
+    - 'Set of {0} Runes:'
+    - Requires {0} {1}
+    - Enhance successful
+    - 'Selected Rune:'
+    - Dismantle slots are full
+    - Reward ads
+    - Watch {0} Ads
+    - Please check your internet connection
+    - No ads available
+    - Do you want to buy more {0}?
+    - Please watch the previous ads first
+    - Loading - not download additional data
+    - Loading
+    - Don't ask again today
+    - You are selecting high rarity Runes to dismantle. Are you sure you want to
+      continue?
+    - You have not selected a Rune to dismantle
+    - Complete Normal difficulty to unlock Nightmare progress
+    - Buy now
+    - Instant unlock premium progress and exclusive rewards
+    - Buy now to get your <color=#ffe960>First purchase bonus</color>
+    - First purchase bonus
+    - <color=#ffe960>Purchase any package</color> to get this bonus!
+    - Hurry to get it right during the event time to receive huge profits
+    - Free
+    - Premium
+    - Check-in {0} days
+    - Stage
+    - 'End time:'
+    - You have already received this bonus
+    - Rune Package
+    - Purchased
+    - '{0} difficulty unlocked'
+    - Trial Hero
+    - This is default Hero for trial
+    - Oh... Hello adventurers. Are you fighting the Orc? Let us join!
+    - Enjoy this game?
+    - If you like Empire Defender TD, please rate it.\nThank you very much for your
+      support!
+    - 'You have unlocked Spell system. '
+    - Do you want to try it now?
+    - You have not equipped Spell for Heroes. Do you want to equip now?
+    - 'You have unlocked Rune system. '
+    - Do you want to try it now?
+    - You have not equipped Rune for Heroes. Do you want to equip now?
+    - 'Remain:'
+    - Do you want to get more?
+    - Refill stamina
+    - Owned
+    - New playable mode unlocked
+    - You already own this pack
+    - You already own this Hero
+    - You already own this item
+    - 'You have run out of {0}. '
+    - Do you want to buy more now or wait for
+    - 'Available: '
+    - No more {0} available
+    - Out of stock
+    - Current results will not be saved. Are you sure?

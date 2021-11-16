@@ -1,0 +1,270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: playable_mode
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_defense_name_txt
+    - defensive_point_title_txt
+    - lobby_txt
+    - best_record_waves_txt
+    - current_record_waves_txt
+    - season_end_txt
+    - trial_left_txt
+    - trial_txt
+    - reward_milestone_txt
+    - select_base_txt
+    - hero_selection_txt
+    - unlock_base_txt
+    - turn_left_txt
+    - leaderboard_txt
+    - rank_txt
+    - player_txt
+    - formation_txt
+    - new_record_txt
+    - no_more_trial_txt
+    - result_txt
+    - last_trial_notice_txt
+    - hero_required_txt
+    - hero_defense_rule
+    - buff_name_7001
+    - buff_name_7002
+    - buff_name_7003
+    - buff_name_7004
+    - buff_name_7005
+    - buff_name_7006
+    - buff_des_7001
+    - buff_des_7002
+    - buff_des_7003
+    - buff_des_7004
+    - buff_des_7005
+    - buff_des_7006
+    - defensive_point_name_8001
+    - defensive_point_name_8004
+    - defensive_point_name_8005
+    - defensive_point_skill_8001
+    - defensive_point_skill_8004
+    - defensive_point_skill_8005
+    - defensive_point_des_8001
+    - defensive_point_des_8004
+    - defensive_point_des_8005
+    - hero_defens_map_name_1
+    - hero_defens_map_name_2
+    - tournament_ban_txt
+    - tournament_nerf_txt
+    - tournament_buff_txt
+    - ban_spell_notice_txt
+    - tower_selection_txt
+    - tower_required_txt
+    - hall_of_fame_txt
+    - join_tournament_txt
+    - unrank_txt
+    - tournament_ticket_txt
+    - tournament_shop_title
+    - purchase_ticket_popup_title_txt
+    - change_buff_txt
+    - change_hero_pair_txt
+    - change_buff_status_txt
+    - change_price_alert_txt
+    - waves_cleared_record_txt
+    - ban_notice_txt
+    - ban_alert_txt
+    - congratulation_notice_txt
+    - season_rank_txt
+    - tournament_rules_title
+    - tournament_rule_map_title
+    - tournament_rule_limit_title
+    - tournament_rule_grand_title
+    - tournament_rule_season_title
+    - tournament_rule_buff_title
+    - tournament_rule_nerf_title
+    - tournament_rule_ban_title
+    - tournament_rule_map
+    - tournament_rule_limit
+    - tournament_rule_grand
+    - tournament_rule_season
+    - tournament_rule_buff
+    - tournament_rule_nerf
+    - tournament_rule_ban
+    - tournament_rank_0
+    - tournament_rank_1
+    - tournament_rank_2
+    - tournament_rank_3
+    - tournament_rank_4
+    - tournament_rank_5
+    - tournament_rank_6
+    - tournament_rank_7
+    - tournament_buff_201
+    - tournament_buff_202
+    - tournament_buff_203
+    - tournament_buff_204
+    - tournament_buff_205
+    - tournament_buff_206
+    - tournament_buff_207
+    - tournament_buff_208
+    - tournament_buff_209
+    - tournament_buff_210
+    - tournament_buff_211
+    - tournament_nerf_101
+    - tournament_nerf_102
+    - tournament_nerf_103
+    - tournament_nerf_104
+    - tournament_nerf_105
+    - tournament_nerf_106
+    - tournament_nerf_107
+    - tournament_nerf_108
+    - tournament_nerf_109
+    - tournament_nerf_110
+    - tournament_nerf_111
+    values:
+    - Heldenverteidigung
+    - Base
+    - Empfangshalle
+    - 'Bester Rekord: {0} Wellen'
+    - 'Derzeitiger Rekord: {0}'
+    - 'Saisonzeit: '
+    - 'Versuch: {0}'
+    - Versuch
+    - '{0} wellen'
+    - Basisauswahl
+    - Heldenauswahl
+    - Schalte diese Basis frei
+    - 'Drehung: {0}'
+    - Bestenliste
+    - Rang
+    - Spieler
+    - Formation
+    - Neuer Rekord
+    - Keine Versuch mehr
+    - Ergebnis
+    - Sie haben gerade Ihre letzte Versuch aufgebraucht.
+    - Du brauchst mindestens 2 Helden
+    - "Helden sind in Gefahr, wenn sie versuchen, eine Basis vor einer Armee von
+      D\xE4monen zu sch\xFCtzen. Keine Zeit, T\xFCrme zu bauen, sie m\xFCssen ihre
+      Kraft einsetzen, um den Feind aufzuhalten.\n\nIn diesem Modus kannst du bis
+      zu 5 Helden steuern.\n\nDu kannst nur Helden kontrollieren und keine T\xFCrme
+      bauen.\n\nDas Ziel ist es, eine Allianzbasis zu verteidigen. Wenn die Basis
+      zerst\xF6rt ist, ist das Spiel vorbei. Basen helfen dir, deine Helden mitten
+      im Kampf zu verbessern. Schalte neue Basen frei, um Helden mit passiven F\xE4higkeiten
+      auszustatten.\n\nSie k\xF6nnen Gold verwenden, um die Statistiken des Helden
+      direkt im Kampf zu verbessern. Tippen Sie auf der Karte auf die Basis, um ein
+      Upgrade durchzuf\xFChren.\n\nSie erhalten Belohnungen entsprechend jedem Erfolgsmeilenstein.
+      Verteidige so lange du kannst, um wertvollere Belohnungen zu erhalten.\n\nKarten
+      und Bestenlisten werden jede Saison aktualisiert. Seien Sie bereit, sich neuen
+      Herausforderungen zu stellen."
+    - Angriffsverbesserung
+    - "Verteidigungsverst\xE4rkung"
+    - Zauberverbesserung
+    - Abklingzeit-Verbesserung
+    - Kritische Verbesserung
+    - HP-Verbesserung
+    - "Erh\xF6ht {0} Schaden f\xFCr alle Helden"
+    - "Erh\xF6he {0} R\xFCstung und {1} Magieresistenz f\xFCr alle Helden"
+    - "Erh\xF6ht den durch die aktive Zauberfertigkeit verursachten Schaden um {0}
+      %"
+    - "{0}% Abklingzeit f\xFCr alle Helden verringern"
+    - "Erh\xF6ht {0} kritischen Schaden f\xFCr alle Helden"
+    - "Erh\xF6ht {0} maximale HP f\xFCr alle Helden"
+    - Die Festung
+    - "G\xF6ttin der Natur"
+    - Turm des Donners
+    - "Wichtige Grundlagen m\xFCssen unbedingt gesch\xFCtzt werden."
+    - "Stellt alle 6 Sekunden 5 HP f\xFCr alle Helden wieder her"
+    - "Nach jeweils 2 Angriffen kann der Held einen Blitz schlagen, der 3 Schadenspunkte
+      verursacht. Der Blitz prallt auf bis zu 4 andere Feinde ab. Der Schaden f\xFCr
+      jeden Abprall verringert sich um 5%."
+    - "Diese alte Festung wurde von Menschen gebaut und bleibt stark gegen die Angriffe
+      der b\xF6sen Armee."
+    - "Eine mysteri\xF6se G\xF6ttin, die von den Bewohnern der Natur verehrt wird.
+      Sie glauben, dass die G\xF6ttin die F\xE4higkeit hat, die Krieger des Dschungels
+      zu heilen und zu segnen."
+    - "Dieser magische Turm ist der Ort, an dem viele gro\xDFe Magier leben und Magie
+      studieren. Die Magier fl\xF6\xDFten ihre Macht in den Turm ein, damit er den
+      Verteidigern helfen konnte, den Donner zu kontrollieren."
+    - Letzte Verteidigungslinie
+    - Schlacht im Wald
+    - Verbieten
+    - "Geschw\xE4cht"
+    - Erweitern
+    - Zauber ist verboten
+    - Turmauswahl
+    - "Du brauchst mindestens 4 T\xFCrme"
+    - Ruhmeshalle
+    - "Schlie\xDFe dich dem Kampf an, um geehrt zu werden"
+    - Nicht eingestuft
+    - Fahrkarte
+    - Turniershop
+    - Fahrkarte
+    - "\xC4ndern"
+    - "Heldenpaar \xE4ndern"
+    - "Status \xE4ndern"
+    - "Der Preis erh\xF6ht sich bei jeder \xC4nderung"
+    - Welle
+    - "Sie k\xF6nnen diese Artikel nicht verwenden"
+    - "Dein Held kann diesen Gegenstand nicht verwenden. M\xF6chten Sie es \xE4ndern?"
+    - Du hast in dieser Saison den Rang {0} erreicht. Hier ist deine Belohnung
+    - Saison
+    - Turnierregeln
+    - Turnierkarten
+    - Spiellimit
+    - Ruhmeshalle
+    - Saison
+    - Erweitern
+    - "Geschw\xE4cht"
+    - Verbieten
+    - Alle Spieler konkurrieren auf der gleichen endlosen Ebene
+    - "Jeden Tag erhalten Spieler {0} Freispiele. Wenn die Anzahl der Freispiele
+      ersch\xF6pft ist, muss der Spieler Edelstein verwenden oder eine Anzeige ansehen,
+      um mehr zu erhalten. Die Anzahl der Spiele wird jeden Tag aktualisiert."
+    - "Hier werden die h\xF6chsten Rekorde aller Zeiten geehrt. Versuchen Sie jede
+      Saison, hier geehrt zu werden! "
+    - "Jede Saison dauert 2 Wochen. Der h\xF6chste Rekord, den Spieler in jeder Saison
+      erreichen, wird f\xFCr den Rang in der Ruhmeshalle gez\xE4hlt."
+    - "Wenn Ihre Formation 2 Helden auf Abruf hat, wird jede Statistik verbessert.
+      Sie k\xF6nnen Kristall, Edelstein verwenden und Anzeigen ansehen, um das Standardheldenpaar
+      und den erweiterten Statistiktyp zuf\xE4llig zu \xE4ndern."
+    - "Wenn Sie einen geschw\xE4chten Helden in Ihrer Formation verwenden, wird einer
+      der Werte dieses Helden reduziert. Dieser Held wird auch nicht im angeforderten
+      Heldenpaar erscheinen."
+    - "Sie k\xF6nnen keine verbotenen Gegenst\xE4nde verwenden. Die Liste der verbotenen
+      Gegenst\xE4nde wird nach jeder Saison aktualisiert."
+    - Bronze
+    - Silber
+    - Gold
+    - Platin
+    - Diamant
+    - Elite
+    - Meister
+    - "K\xF6nig"
+    - "Erh\xF6he HP um {0}"
+    - "Erh\xF6he R\xFCstung um {0}"
+    - "Erh\xF6he Magieresistenz um {0}"
+    - "Erh\xF6he Schaden um {0}"
+    - "Erh\xF6he Bewegung um {0}%"
+    - "Erh\xF6he Angriffsgeschwindigkeit um {0}%"
+    - "Erh\xF6he HP Regeneration um {0}%"
+    - Verringere Wiederbelebungsdauer um {0}%
+    - "Erh\xF6he Kritischer Schaden um {0}%"
+    - "Erh\xF6he Kritische Rate um {0}%"
+    - "Verringere F\xE4higkeitsabklingzeit um {0}%"
+    - Verringere HP um {0}
+    - "Verringere R\xFCstung um {0}"
+    - Verringere Magieresistenz um {0}
+    - Verringere Schaden um {0}
+    - Verringere Bewegung um {0}%
+    - Verringere Angriffsgeschwindigkeit um {0}%
+    - Verringere HP Regeneration um {0}%
+    - "Erh\xF6he Wiederbelebungsdauer um {0}%"
+    - Verringere Kritischer Schaden um {0}%
+    - Verringere Kritische Rate um {0}%
+    - "Erh\xF6he F\xE4higkeitsabklingzeit um {0}%"

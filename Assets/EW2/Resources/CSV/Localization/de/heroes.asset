@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: heroes
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_class_assassin
+    - hero_class_melee
+    - hero_class_ranged
+    - hero_class_tank
+    - hero_class_summoner
+    - hero_class_aoe
+    - hero_class_control
+    - hero_class_buff
+    - hero_class_debuff
+    - hero_name_1001
+    - hero_name_1002
+    - hero_name_1003
+    - hero_name_1004
+    - hero_name_1005
+    - hero_name_1006
+    - hero_name_1007
+    - hero_name_1008
+    - hero_name_1009
+    - hero_name_1010
+    - hero_name_1011
+    - hero_name_1012
+    - hero_name_1013
+    - hero_tag_1001
+    - hero_tag_1002
+    - hero_tag_1003
+    - hero_tag_1004
+    - hero_tag_1005
+    - hero_tag_1006
+    - hero_tag_1007
+    - hero_tag_1008
+    - hero_tag_1009
+    - hero_tag_1010
+    - hero_tag_1011
+    - hero_tag_1012
+    - hero_tag_1013
+    - hero_nameskill1001_0
+    - hero_nameskill1001_1
+    - hero_nameskill1001_2
+    - hero_nameskill1001_3
+    - hero_nameskill1002_0
+    - hero_nameskill1002_1
+    - hero_nameskill1002_2
+    - hero_nameskill1002_3
+    - hero_nameskill1003_0
+    - hero_nameskill1003_1
+    - hero_nameskill1003_2
+    - hero_nameskill1003_3
+    - hero_nameskill1004_0
+    - hero_nameskill1004_1
+    - hero_nameskill1004_2
+    - hero_nameskill1004_3
+    - hero_nameskill1005_0
+    - hero_nameskill1005_1
+    - hero_nameskill1005_2
+    - hero_nameskill1005_3
+    - hero_nameskill1006_0
+    - hero_nameskill1006_1
+    - hero_nameskill1006_2
+    - hero_nameskill1006_3
+    - hero_nameskill1007_0
+    - hero_nameskill1007_1
+    - hero_nameskill1007_2
+    - hero_nameskill1007_3
+    - hero_nameskill1008_0
+    - hero_nameskill1008_1
+    - hero_nameskill1008_2
+    - hero_nameskill1008_3
+    - hero_nameskill1009_0
+    - hero_nameskill1009_1
+    - hero_nameskill1009_2
+    - hero_nameskill1009_3
+    - hero_skill1001_des_0
+    - hero_skill1001_des_1
+    - hero_skill1001_des_2
+    - hero_skill1001_des_3
+    - hero_skill1002_des_0
+    - hero_skill1002_des_1
+    - hero_skill1002_des_2
+    - hero_skill1002_des_3
+    - hero_skill1003_des_0
+    - hero_skill1003_des_1
+    - hero_skill1003_des_2
+    - hero_skill1003_des_3
+    - hero_skill1004_des_0
+    - hero_skill1004_des_1
+    - hero_skill1004_des_2
+    - hero_skill1004_des_3
+    - hero_skill1005_des_0
+    - hero_skill1005_des_1
+    - hero_skill1005_des_2
+    - hero_skill1005_des_3
+    - hero_skill1006_des_0
+    - hero_skill1006_des_1
+    - hero_skill1006_des_2
+    - hero_skill1006_des_3
+    - hero_skill1007_des_0
+    - hero_skill1007_des_1
+    - hero_skill1007_des_2
+    - hero_skill1007_des_3
+    - hero_skill1008_des_0
+    - hero_skill1008_des_1
+    - hero_skill1008_des_2
+    - hero_skill1008_des_3
+    - hero_skill1009_des_0
+    - hero_skill1009_des_1
+    - hero_skill1009_des_2
+    - hero_skill1009_des_3
+    - hero_story_1001
+    - hero_story_1002
+    - hero_story_1003
+    - hero_story_1004
+    - hero_story_1005
+    - hero_story_1006
+    - hero_story_1007
+    - hero_story_1008
+    - hero_story_1009
+    - hero_story_1010
+    - hero_story_1011
+    - hero_story_1012
+    - hero_story_1013
+    values:
+    - "Attent\xE4ter"
+    - Nahkampf
+    - Distanz
+    - Tank
+    - "Beschw\xF6rer"
+    - AoE
+    - Kontrolle
+    - Buff
+    - Debuff
+    - Claudia
+    - Arius
+    - "Ne\u2019taan"
+    - Marco
+    - Nerocat
+    - Akashi
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Prinzessin Kommandant
+    - "W\xE4chter von Yggdrasil"
+    - "Nachkommen der Blutw\xF6lfe"
+    - "Mysteri\xF6ser Kr\xE4uterkundiger"
+    - Die wahnsinnige Hexe
+    - "Der unsichtbare Schwertk\xE4mpfer"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Gesamtangriff
+    - "Vorhut-Zerst\xF6rer"
+    - Tapferes Herz
+    - "Besch\xFCtzer"
+    - Feuerpfeil-Sturm
+    - Flinker Pfeil
+    - "Verst\xE4rkte Sicht"
+    - Zerberstender Pfeil
+    - Chaos-Abstammung
+    - Provozieren
+    - "Erz\xFCrnen"
+    - Blutsauger
+    - Gift-Bombardement
+    - Klebriger Schlamm
+    - Dummheits-Trank
+    - Heilendes Kraut
+    - Hyperexplosion!
+    - "Lebt wohl Detonatio\u0301n"
+    - Unendlichkeit Blast
+    - "Bet\xE4uben Z\xFCndstoff"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Claudia springt hoch in die Luft, Schub dann ihr Schwert in den Boden, verursacht
+      {0} physischen Schaden und bet\xE4ubt Gegner in der N\xE4he {1} Sekunden lang."
+    - "Normale Angriffe von Claudia k\xF6nnen Gegnern in der N\xE4he Fl\xE4chenschaden
+      in H\xF6he von {0}% ihres Grundschadens zuf\xFCgen"
+    - Verringert {0} % des physischen Schadens, den Claudia erleidet.
+    - "Claudia erschafft einen Schutzschild, der bis zu {0} Schaden absorbieren kann
+      und die physische R\xFCstung f\xFCr sich und Verb\xFCndete in der N\xE4he um
+      {1}% erh\xF6ht."
+    - "Arius schie\xDFt 4 Pfeile in das Zielgebiet. Die ersten Pfeilspitzen verursachen
+      Schaden in H\xF6he von {0}% Arius' physischem Schaden. Die anderen Bursts verursachen
+      Schaden in H\xF6he von {1}% des ersten Bursts. Der Boden entz\xFCndete sich
+      und verursachte den Brennstatus von bestandenen Feinden. Der Status h\xE4lt
+      {2} Sekunden an und verursacht {3} Schaden pro {4} Sekunden."
+    - "Arius' normale Angriffe haben eine Chance von {0}%, {1} Pfeile gleichzeitig
+      in das Ziel zu schie\xDFen. "
+    - "Erh\xF6ht {0} % von Ariuss Reichweite."
+    - "Arius zielte auf einen Feind in einer Entfernung, die dem {0}-fachen seiner
+      Reichweite entspricht. Er feuert einen Pfeil ab, der dem Ziel und den umliegenden
+      Feinden {1}% Fl\xE4chenschaden zuf\xFCgt."
+    - "Ne'taan verwandelt sich in seine Chaosform und regeneriert sofort {0} % seiner
+      maximalen LP. In dieser Form verursachen Grundangriffe zus\xE4tzlichen physischen
+      Schaden in H\xF6he von {1} % der maximalen LP."
+    - "Wenn Ne'taan von einem Grundangriff angegriffen wird, hat er eine Chance von
+      {0} %, Provozieren zu aktivieren und {1} % R\xFCstung f\xFCr {2} Sekunden zu
+      erhalten. Provozieren zwingt alle Gegner in einer Bereich, zu verstummen und
+      auf ihn zuzust\xFCrmen, um ihn anzugreifen. Fliegende Gegner sind gegen Provozieren
+      immun."
+    - "Wenn Ne'taan von Grundangriffen angegriffen wird, hat er pro Angriff, den
+      er einsteckt, eine Chance von {0} %, einen Konterangriff durchzuf\xFChren."
+    - "Ne'taan heilt sich um {0} LP f\xFCr jeden Gegner, den er umbringt."
+    - "Marco zwingt Pomp dazu, einen gro\xDFen Giftteich zu speien, der allen Gegnern
+      im Bereich {0} Schaden pro Sekunde verursacht. Giftteich h\xE4lt {1} Sekunden
+      an."
+    - Giftteich von Gift-Bombardement reduziert die Bewegungsgeschwindigkeit von
+      Gegnern um {0} %
+    - "Marco hat eine Chance von {0} %, einen besonderen Trank zu werfen, der Gegner
+      in einem Gebiet verstummen l\xE4sst. Verstummen h\xE4lt {1} Sekunden an."
+    - "Pomp spuckt Kr\xE4uter aus, die verb\xFCndeten Helden innerhalb der Reichweite
+      jede Sekunde {0} LP zur\xFCckgeben. Die Kr\xE4uter erh\xF6hen die Angriffsgeschwindigkeit
+      dieser Helden f\xFCr {2} Sekunden um {1} %"
+    - "Nerocat schie\xDFt eine Energiekugel ab, die einem Bereich {0} Schaden zuf\xFCgt.
+      Hyperexplosion! wird f\xFCr jeden durch diesen Zauber zerst\xF6rten Feind um
+      {1} Sekunde reduziert"
+    - "F\xFCr jeden von Nerocat get\xF6teten Feind gibt es {0}%, um eine Explosion
+      zu verursachen, die {1} Schaden verursacht. Die Explosion k\xF6nnte in Verbindung
+      gebracht werden, wenn die Feinde nacheinander zerst\xF6rt werden."
+    - "Nach dem Einsatz von Hyper Explosion! erh\xF6ht Nerocat {0} % ihres Angriffstempos
+      und ihr normaler Angriff kann in einem Bereich Schaden verursachen. Die Fertigkeit
+      dauerte {1} Sekunden."
+    - "Nerocats Hyperexplosion! kann Feinde bet\xE4uben und h\xE4lt {0} Sekunden
+      an."
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Claudia ist die Tochter des Herrn des Elsass. Ihr Vater starb auf Crescent
+      Island, als die Armee des B\xF6sen pl\xF6tzlich das K\xF6nigreich angriff.
+      Sie meldete sich freiwillig, um die Armee zu f\xFChren, um ihren Vater zu r\xE4chen
+      und die Verschw\xF6rung hinter der R\xFCckkehr des B\xF6sen herauszufinden."
+    - "Arius ist ein Freund von Arryn und ein W\xE4chter von Yggdrasil. Als die D\xE4monenarmee
+      Yggdrasil angriff, wandte er sich an Claudia und bat sie um ein B\xFCndnis
+      mit den Menschen, im Gegenzug w\xFCrde er ihr helfen, die Verschw\xF6rung dieser
+      unerwarteten Invasion herauszufinden."
+    - "Ne'taan ist ein Hybrid-Ork, Sohn des Anf\xFChrer des Blutwolf-Clans und ein
+      Zauberer. Sein Onkel, Gul'ak, hat seine Mutter umgebracht, schnappte sich das
+      Erbe und sorgte daf\xFCr, dass sich der Clan dem Teufel ergab. Ne'taan ist
+      entschlossen, sich an Gulak zu r\xE4chen und die dunkle Macht zu besiegen,
+      um seinen Clan zu befreien."
+    - "Marco ist ein Waisenjunge, der im s\xFCdlichen Wald von Ionia lebt. Marco
+      hat seinen Eidechsenfreund Pomp in der N\xE4he des Grauen Sumpfes gefunden.
+      Die beiden lebten friedlich, bis die Orks eintrafen und den Wald zerst\xF6rten.
+      Marco und Pomp rebellierten gegen die Orks, um ihren Wald zu sch\xFCtzen."
+    - "Nerocat war urspr\xFCnglich eine edle Dame in Endia. In jungen Jahren wurde
+      sie an die Royal Magic Academy geschickt. Sie war als talentierte, aber arrogante
+      und widerspenstige Hexe bekannt. Nach ihrem Abschluss z\xE4hmte sie eine reizende
+      Katze namens Mew und forderte jeden heraus, sich als die st\xE4rkste Hexe aller
+      Zeiten zu beweisen."
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

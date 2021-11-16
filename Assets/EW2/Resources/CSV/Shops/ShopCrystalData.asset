@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32aa96c019931174d9404ab5bb5ca238, type: 3}
+  m_Name: ShopCrystalData
+  m_EditorClassIdentifier: 
+  shopCrystalItemDatas:
+  - id: 1
+    imgId: 0
+    costExchange: 100
+    costExchangePrevious: 100
+    moneyTypeExchange: 0
+    valueExchange: 200
+    valuePrevious: 200
+    saleType: -1
+  - id: 1
+    imgId: 1
+    costExchange: 300
+    costExchangePrevious: 300
+    moneyTypeExchange: 0
+    valueExchange: 660
+    valuePrevious: 600
+    saleType: -1
+  - id: 1
+    imgId: 2
+    costExchange: 500
+    costExchangePrevious: 500
+    moneyTypeExchange: 0
+    valueExchange: 1300
+    valuePrevious: 1000
+    saleType: 0
+  - id: 1
+    imgId: 3
+    costExchange: 1000
+    costExchangePrevious: 1000
+    moneyTypeExchange: 0
+    valueExchange: 2600
+    valuePrevious: 2000
+    saleType: -1
+  - id: 1
+    imgId: 4
+    costExchange: 2000
+    costExchangePrevious: 2000
+    moneyTypeExchange: 0
+    valueExchange: 5600
+    valuePrevious: 4000
+    saleType: -1
+  - id: 1
+    imgId: 5
+    costExchange: 5000
+    costExchangePrevious: 5000
+    moneyTypeExchange: 0
+    valueExchange: 16000
+    valuePrevious: 10000
+    saleType: 1

@@ -1,0 +1,429 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: popup
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tap_to_close
+    - profile_popup
+    - avatar_select
+    - more_game_txt
+    - support_txt
+    - community_txt
+    - giftcode_txt
+    - patch_note_txt
+    - patch_note_version
+    - setting_txt
+    - image_txt
+    - country_txt
+    - in_use_txt
+    - not_in_use_txt
+    - in_use_by_txt
+    - since_txt
+    - id_txt
+    - version_txt
+    - language_txt
+    - change_name
+    - enter_name_box
+    - letters_limit
+    - name_contain_special_characters
+    - name_too_short_or_long
+    - invalid_name
+    - already_exists_name
+    - change_successful
+    - data_save
+    - link_info
+    - last_save
+    - data_save_note
+    - linking_failed
+    - notice_txt
+    - data_save_question
+    - save_limit
+    - limit_txt
+    - save_success
+    - save_failed
+    - save_limit_notice
+    - restore_question
+    - restore_complete
+    - restore_failed
+    - graphic_txt
+    - enable_vibrate
+    - disable_vibrate
+    - enable_battery_saver
+    - disable_battery_saver
+    - enable_notice
+    - disable_notice
+    - enter_giftcode_box
+    - claim_giftcode
+    - claim_giftcode_failed
+    - used_giftcode_toast
+    - giftcode_check_internet
+    - result_check_internet
+    - error_occured
+    - giftcode_login_first
+    - require_login_first
+    - quit_notice
+    - locked_mode_notice
+    - tower_upgrade_txt
+    - upgrade_successful
+    - tower_reset_notice
+    - copy_to_clipboard
+    - hero_skill_reset_notice
+    - insufficient_skill_point
+    - skill_point_guide
+    - hero_exp_guide
+    - level_txt
+    - stamina_next
+    - stamina_full
+    - tap_to_start
+    - news_txt
+    - congratulation_txt
+    - max_level_hero_txt
+    - level_max_skill_txt
+    - stat_txt
+    - reset_successful
+    - backstory_txt
+    - need_hero_txt
+    - hero_unlocked
+    - locked_mode_normal
+    - insufficient_resource
+    - pre_register_reward_txt
+    - pre_register_thank_txt
+    - unlock_upgrade_tower
+    - replay_notice
+    - quit_game_notice
+    - warning_txt
+    - daily_reward_txt
+    - daily_quest_txt
+    - day_count_txt
+    - checkin_progress
+    - login_successful_txt
+    - no_data_found
+    - upgrade_activated
+    - upgrade_info
+    - properties_txt
+    - bonus_txt
+    - upgrade_condition_txt
+    - purchase_save_notice
+    - purchase_failed
+    - warning_iap
+    - warning_internet_save_data
+    - warning_internet_lost_data
+    - unlock_upgrade_tower_tut
+    - not_equip_spell
+    - start_battle_to_use
+    - spell_unlock_condition
+    - insuficent_shade
+    - insuficent_unique_shard
+    - insuficent_resource
+    - unlock_hero_to_equip
+    - unlock_hero_to_equip_rune
+    - normal_spell_rate
+    - premium_spell_rate
+    - normal_spell_name
+    - premium_spell_rname
+    - cannot_select_more_hero
+    - spell_upgrade_require
+    - reset_in_txt
+    - refresh_in_txt
+    - achievement_txt
+    - free_in
+    - complete_challenge_txt
+    - hero_not_been_unlock_txt
+    - defeat_boss_achievement_direction
+    - normal_rune_rate
+    - premium_rune_rate
+    - normal_rune_name
+    - premium_rune_name
+    - full_inventory_txt
+    - equip_slot_full_txt
+    - full_inventory_require_space_txt
+    - dismantle_warning_txt_1
+    - dismantle_warning_txt_2
+    - basic_attributes_txt
+    - bonus_attributes_txt
+    - set_of_pieces_txt
+    - set_required_txt
+    - enhance_successful_txt
+    - selected_rune_txt
+    - dismantle_slots_full_txt
+    - reward_ads_txt
+    - watch_ads_txt
+    - check_internet_warning_txt
+    - no_ads_available_txt
+    - go_to_shop_question_txt
+    - watch_previous_ads_first
+    - ios_loading_screen_txt
+    - loading_screen_common_txt
+    - dont_ask_again_today
+    - dismantle_warning_txt_3
+    - dismantle_warning_txt_4
+    - new_nightmare_unlock
+    - buy_now_title_txt
+    - buy_now_slogan_title_txt
+    - buy_now_1st_purchase_txt
+    - first_purchase_bonus_title_txt
+    - first_purchase_bonus_slogan_txt
+    - first_purchase_bonus_warning
+    - free_progress_txt
+    - premium_progress_txt
+    - checkin_day
+    - stage_txt
+    - end_time_txt
+    - already_receive_txt
+    - rune_pack_name_txt
+    - purchased_txt
+    - unlock_nightmare_txt
+    - hero_pre_trial_tag_txt
+    - hero_pre_trial_toast_txt
+    - hero_pre_trial_dialog_txt
+    - rating_title
+    - require_rating_txt
+    - unlock_spell_txt
+    - unlock_spell_txt_1
+    - equip_spell_remind_txt
+    - unlock_rune_txt
+    - unlock_rune_txt_1
+    - equip_rune_remind_txt
+    - remain_txt
+    - get_more_txt
+    - refill_stamina_title_txt
+    - owned_txt
+    - new_mode_unlocked_txt
+    - already_own_this_pack_txt
+    - already_own_this_hero_txt
+    - already_own_this_item_txt
+    - run_out_resource_txt
+    - buy_or_wait_txt
+    - available_txt
+    - no_more_purchase_txt
+    - out_of_stock_txt
+    - surrender_notice_txt
+    values:
+    - "Dotknij, aby zamkn\u0105\u0107"
+    - Profil
+    - "Wyb\xF3r Avatar."
+    - "Wi\u0119cej gier"
+    - Wsparcie
+    - "Spo\u0142eczno\u015B\u0107"
+    - Karta rabatowa
+    - Patch Uwaga
+    - <color=#815329>Wersja {0}</color>
+    - Ustawienie
+    - Obraz
+    - Kraj
+    - "Wyposa\u017Cony"
+    - "Nie wyposa\u017Cony"
+    - "Wyposa\u017Cony przez {0}"
+    - "Odk\u0105d"
+    - 'NS:'
+    - Wersja
+    - "J\u0119zyki"
+    - "Zmie\u0144 nazw\u0119"
+    - "Wpisz tutaj now\u0105 nazw\u0119 ..."
+    - "<color=#E73F44>(4-18 liter, bez znak\xF3w specjalnych)</color>"
+    - Nazwa musi wyklucza znaki specjalne
+    - "D\u0142ugo\u015B\u0107 od 4-18 znak\xF3w!"
+    - "Nazwa jest nieprawid\u0142owa"
+    - "ta nazwa ju\u017C istnieje"
+    - "Zmieni\u0107 udany"
+    - Zapisane dane.
+    - "Po\u0142\u0105czony z"
+    - Ostatni save.
+    - "Po\u0142\u0105cz si\u0119 z kontem, aby zapisa\u0107 swoje dane"
+    - "Linkowanie konta nie powiod\u0142o si\u0119"
+    - "Zauwa\u017Cy\u0107"
+    - "Chcesz zachowa\u0107 swoje dane?"
+    - 'Zapisz limit dzisiaj: {0}/{1}'
+    - 'Limit:'
+    - "Zapisywanie danych powiod\u0142o si\u0119"
+    - "Nie uda\u0142o si\u0119 zapisa\u0107 danych"
+    - "Osi\u0105gn\u0105\u0142e\u015B dzisiaj limit zapisywania"
+    - "Czy chcesz przywr\xF3ci\u0107 swoje dane?\n<color=#e85253>*Twoje bie\u017C\u0105ce
+      dane zostan\u0105 nadpisane</color>"
+    - "Przywracanie zako\u0144czone"
+    - "Przywracanie nie powiod\u0142o si\u0119"
+    - Graficzny
+    - "W\u0142\u0105cz wibracje"
+    - "Wy\u0142\u0105cz wibracje"
+    - "W\u0142\u0105cz oszcz\u0119dzanie baterii"
+    - "Wy\u0142\u0105cz oszcz\u0119dzanie baterii"
+    - "W\u0142\u0105cz powiadomienia"
+    - "Wy\u0142\u0105cz powiadomienie"
+    - Wpisz tutaj kod podarunkowy...
+    - "Odebra\u0142e\u015B nagrod\u0119"
+    - "Kod podarunkowy jest nieprawid\u0142owy"
+    - "Ten kod podarunkowy zosta\u0142 wykorzystany lub wygas\u0142. Wprowad\u017A
+      inny kod podarunkowy"
+    - "Nie mo\u017Cna po\u0142\u0105czy\u0107 si\u0119 z serwerem. Sprawd\u017A sw\xF3j
+      internet"
+    - "Nie uda\u0142o si\u0119 zapisa\u0107 wynik\xF3w. Sprawd\u017A sw\xF3j internet"
+    - "Wyst\u0105pi\u0142 b\u0142\u0105d. Skontaktuj si\u0119 z zespo\u0142em pomocy,
+      aby uzyska\u0107 pomoc"
+    - "Aby skorzysta\u0107 z kodu podarunkowego, musisz zalogowa\u0107 si\u0119 na
+      swoje konto"
+    - "Prosz\u0119 najpierw zalogowa\u0107 si\u0119 na swoje konto"
+    - "Wyjdziesz do menu Home.\n Czy na pewno chcesz wyj\u015B\u0107 z bitwy?"
+    - "Bie\u017C\u0105cy tryb jest zablokowany. Dotrzyj do 3 gwiazdek na scenie {0}
+      przy normalnym trudnym do odblokowania"
+    - "Wie\u017Ca aktualizacja"
+    - "Ulepszy\u0107 udany"
+    - "Wszystkie aktualizowane wie\u017Ce zostan\u0105 zresetowane. Jeste\u015B pewny?"
+    - Skopiowane do schowka
+    - "Wszystkie poziomy umiej\u0119tno\u015Bci zostanie zresetowane. Jeste\u015B
+      pewny?"
+    - "Niewystarczaj\u0105cy punkt umiej\u0119tno\u015Bci"
+    - "Punkty umiej\u0119tno\u015Bci s\u0105 u\u017Cywane do aktualizacji umiej\u0119tno\u015Bci.
+      Uzyskaj wi\u0119cej, wyr\xF3wnuj\u0105c bohater"
+    - "Zarabiaj bohater Exp od bitwy lub u\u017Cywaj\u0105c kryszta\u0142\xF3w, aby
+      uaktualni\u0107 na ich poziom natychmiast!"
+    - 'Poziom: {0} / {1}'
+    - "Nast\u0119pna wytrzyma\u0142o\u015B\u0107:"
+    - "Pe\u0142na wytrzyma\u0142o\u015B\u0107:"
+    - "Naci\u015Bnij aby zacz\u0105\u0107"
+    - "Aktualno\u015Bci"
+    - Gratulacje
+    - "Maksymalny poziom osi\u0105gni\u0119ty!"
+    - Maksymalny poziom
+    - Statystyki
+    - Zresetuj udany
+    - Backstory.
+    - "Potrzebujesz co najmniej 1 bohatera, aby rozpocz\u0105\u0107 scen\u0119"
+    - '{0} odblokowany'
+    - "Wype\u0142nij poprzedni etap, aby odblokowa\u0107"
+    - "Niewystarczaj\u0105cy {0}."
+    - Nagrody przed rejestracji
+    - "Dzi\u0119kujemy za pre-Rejestracja Empire Defender!"
+    - "Odtw\xF3rz etap {0}, aby odblokowa\u0107"
+    - "Czy na pewno chcesz odtworzy\u0107?"
+    - "Czy na pewno chcesz wyj\u015B\u0107 z gry?"
+    - "Ostrze\u017Cenie"
+    - Codzienna nagroda
+    - Codzienna quest.
+    - "Dzie\u0144 {0}"
+    - "Post\u0119p: {0} / {1}"
+    - Zalogowano poprawnie
+    - Nie znaleziono danych
+    - Ulepszony
+    - "1. <color=#eb9e15>Srebrne gwiazdki</color> s\u0142u\u017C\u0105 do odblokowania
+      podstawowych poziom\xF3w ulepsze\u0144.\n\n2. <color=#eb9e15>Z\u0142ote gwiazdki</color>
+      s\u0142u\u017C\u0105 do odblokowywania zaawansowanych poziom\xF3w ulepsze\u0144.\n\n3.
+      Uko\u0144cz etapy na <color=#eb9e15>normalnym poziomie trudno\u015Bci</color>,
+      aby zebra\u0107 srebrne gwiazdki.\n\n4. Uko\u0144cz etapy na poziomie <color=#eb9e15>Koszmar</color>,
+      aby zebra\u0107 z\u0142ote gwiazdki."
+    - "Nieruchomo\u015Bci"
+    - "Podnie\u015B\u0107 do w\u0142a\u015Bciwego poziomu"
+    - Najpierw aktualizuj poprzedni poziom
+    - "Twoje dane lokalne mog\u0105 zosta\u0107 utracone. Upewnij si\u0119, \u017Ce
+      jeste\u015B pod\u0142\u0105czony do konta {0}"
+    - "Tw\xF3j zakup zosta\u0142 zawi\xF3d\u0142. Upewnij si\u0119, \u017Ce internet
+      jest stabilny"
+    - "Nie uda\u0142o si\u0119 za\u0142adowa\u0107 informacji o zakupach, sprawd\u017A
+      po\u0142\u0105czenie sieciowe i \u0142\u0105czenie sklepu."
+    - "Nie uda\u0142o si\u0119 zapisa\u0107 Twoich danych. Sprawd\u017A po\u0142\u0105czenie
+      sieciowe."
+    - "Twoje dane zostan\u0105 utracone. Jeste\u015B pewny?"
+    - "Kontynuuj gr\u0119 w samouczku, aby odblokowa\u0107"
+    - "Bohater nie jest wyposa\u017Cony w \u017Cadne zakl\u0119cia"
+    - "Rozpocznij bitw\u0119 do u\u017Cycia"
+    - "Uko\u0144cz scen\u0119 {0}, aby odblokowa\u0107"
+    - "Niewystarczaj\u0105cy od\u0142amek"
+    - "Niewystarczaj\u0105cy {0} Shard"
+    - "Niewystarczaj\u0105cy zas\xF3b"
+    - "Odblokuj bohater przed wyposa\u017Ceniem zakl\u0119cia"
+    - "Odblokuj bohater przed wyposa\u017Ceniem runi"
+    - "Normalna szybko\u015B\u0107 zakl\u0119cia"
+    - "Szybko\u015B\u0107 zakl\u0119cia premium."
+    - "Normalne zakl\u0119cie"
+    - "Zakl\u0119cie Premium."
+    - "Formacja jest pe\u0142na"
+    - 'Wymagany numer {0}: {1}'
+    - 'Zresetuj:'
+    - 'Retfresh in:'
+    - "Osi\u0105gni\u0119cie"
+    - 'Wolny w:'
+    - "Kompletne wyzwania do roszczenia nagr\xF3d!"
+    - "Ten bohater nie zosta\u0142 jeszcze odblokowany. Chcesz go teraz odblokowa\u0107?"
+    - Pokonaj szefa na scenie {0}
+    - "Normalna szybko\u015B\u0107 runy"
+    - Runda Premium.
+    - Normalne rune
+    - Premium Rune.
+    - "Tw\xF3j inwentaryzacja jest pe\u0142na."
+    - "{0} Slotle s\u0105 pe\u0142ne"
+    - "Prosz\u0119 zdemontowa\u0107 inne runy, aby zwolni\u0107 przestrze\u0144"
+    - "Prosz\u0119 niezaporowa\u0107 run\u0119 przed demontarem"
+    - "Czy na pewno chcesz zdemontowa\u0107 {0} i uzyska\u0107 poni\u017Cej materia\u0142y?"
+    - Podstawowe atrybuty
+    - Atrybuty bonusowe
+    - 'Zestaw {0} runes:'
+    - Wymaga {0} {1}
+    - "Poprawi\u0107 udany"
+    - 'Wybrane rune:'
+    - "Sloty demonta\u017Cowe s\u0105 pe\u0142ne"
+    - Reklamy nagrody
+    - "Ogl\u0105daj {0} reklamy"
+    - "Prosz\u0119 sprawdzi\u0107 swoje po\u0142\u0105czenie z internetem"
+    - "Brak dost\u0119pnych reklam."
+    - "Chcesz kupi\u0107 wi\u0119cej {0}?"
+    - Najpierw obejrzyj poprzednie reklamy
+    - "\u0141adowanie - nie pobieranie dodatkowych danych"
+    - "\u0141adowanie"
+    - Nie pytaj ponownie dzisiaj
+    - "Wybierasz wysok\u0105 rzadko\u015B\u0107 run do demonta\u017Cu. Jeste\u015B
+      pewien, \u017Ce chcesz kontynuowa\u0107?"
+    - "Nie wybra\u0142e\u015B runy do demonta\u017Cu"
+    - "Uko\u0144cz normaln\u0105 trudno\u015B\u0107 najpierw odblokowa\u0107 trening
+      koszmaru"
+    - Kup Teraz
+    - Instant Odblokuj Premium Progress i Exclusive Rewards
+    - "Kup teraz, aby otrzyma\u0107 <color=#ffe960>bonus za pierwszy zakup</color>"
+    - Pierwszy bonus zakupu
+    - "<color=#ffe960>Kup dowolny pakiet</color>, aby otrzyma\u0107 ten bonus!"
+    - "Pospiesz si\u0119, aby uzyska\u0107 prawo w czasie zdarzenia, aby otrzyma\u0107
+      ogromne zyski"
+    - Darmowy
+    - Premia
+    - Zameldowanie {0} Dni
+    - Scena
+    - 'Koniec czasu:'
+    - "Otrzyma\u0142e\u015B ju\u017C ten bonus"
+    - Pakiet Rune.
+    - Zakupione
+    - "{0} trudno\u015B\u0107 odblokowana"
+    - Eksperymentalny
+    - "To jest domy\u015Blny bohater w wersji pr\xF3bnej"
+    - "Och... Cze\u015B\u0107 poszukiwacze przyg\xF3d. Czy walczysz z Orkiem? Do\u0142\u0105czmy!"
+    - "Lubisz t\u0119 gr\u0119?"
+    - "Je\u017Celi lubisz Empire Defender TD, prosimy o ocen\u0119.\nDzi\u0119kujemy
+      bardzo za twoje wsparcie!"
+    - "Odblokowa\u0142e\u015B Zakl\u0119cie."
+    - "Czy chcesz teraz spr\xF3bowa\u0107?"
+    - "Nie masz Zakl\u0119cia dla bohater\xF3w. Chcesz si\u0119 teraz wyposa\u017Cy\u0107?"
+    - "Odblokowa\u0142e\u015B Runa. "
+    - "Czy chcesz teraz spr\xF3bowa\u0107?"
+    - "Nie masz Runa dla bohater\xF3w. Chcesz si\u0119 teraz wyposa\u017Cy\u0107?"
+    - "Pozostawa\u0107:"
+    - "Chcesz wi\u0119cej?"
+    - "Uzupe\u0142nij wytrzyma\u0142o\u015B\u0107"
+    - Zakupione
+    - Odblokowany nowy tryb gry
+    - "Masz ju\u017C ten pakiet"
+    - "Masz ju\u017C tego bohatera"
+    - "Masz ju\u017C ten przedmiot"
+    - "Sko\u0144czy\u0142o Ci si\u0119 {0}."
+    - "Chcesz kupi\u0107 teraz czy poczeka\u0107"
+    - 'Do dyspozycji:'
+    - "Nie ma wi\u0119cej dost\u0119pnych {0}"
+    - Obecnie brak na stanie
+    - "Aktualne wyniki nie zostan\u0105 zapisane. Jeste\u015B pewny?"

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3ac9f4cf1c4a9cabc25ec060469124, type: 3}
+  m_Name: EnemyData3008
+  m_EditorClassIdentifier: 
+  allStatsLevel:
+  - id: 3008
+    level: 1
+    name: Cursed Goblin
+    health: 260
+    moveSpeed: 0.55
+    attackSpeed: 0.5
+    armor: 0
+    resistance: 60
+    damage: 18
+    detectMeleeAttack: 1
+    detectRangeAttack: 2.5
+    critChance: 0
+    critDamage: 0
+    damageArea: 2
+    life: 20
+    damageType: 1
+    moveType: 0
+    priorityTarget: 0100000002000000
+    traitType: 2
+    weight: 45
+  - id: 3008
+    level: 2
+    name: Cursed Goblin
+    health: 780
+    moveSpeed: 0.55
+    attackSpeed: 0.5
+    armor: 0
+    resistance: 75
+    damage: 54
+    detectMeleeAttack: 1
+    detectRangeAttack: 2.5
+    critChance: 0
+    critDamage: 0
+    damageArea: 2
+    life: 20
+    damageType: 1
+    moveType: 0
+    priorityTarget: 0100000002000000
+    traitType: 2
+    weight: 45
+  allSkill1:
+  - summonEnemyIds: b90b0000bc0b0000ba0b0000
+    chanceSummon:
+    - 0.2
+    - 0.5
+    - 0.3
+    numberSummon: 1
+    cooldown: 6
+  - summonEnemyIds: bd0b0000bc0b0000bf0b0000
+    chanceSummon:
+    - 0.4
+    - 0.4
+    - 0.2
+    numberSummon: 1
+    cooldown: 6

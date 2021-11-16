@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: heroes
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_class_assassin
+    - hero_class_melee
+    - hero_class_ranged
+    - hero_class_tank
+    - hero_class_summoner
+    - hero_class_aoe
+    - hero_class_control
+    - hero_class_buff
+    - hero_class_debuff
+    - hero_name_1001
+    - hero_name_1002
+    - hero_name_1003
+    - hero_name_1004
+    - hero_name_1005
+    - hero_name_1006
+    - hero_tag_1001
+    - hero_tag_1002
+    - hero_tag_1003
+    - hero_tag_1004
+    - hero_tag_1005
+    - hero_tag_1006
+    - hero_nameskill1001_0
+    - hero_nameskill1001_1
+    - hero_nameskill1001_2
+    - hero_nameskill1001_3
+    - hero_nameskill1002_0
+    - hero_nameskill1002_1
+    - hero_nameskill1002_2
+    - hero_nameskill1002_3
+    - hero_nameskill1003_0
+    - hero_nameskill1003_1
+    - hero_nameskill1003_2
+    - hero_nameskill1003_3
+    - hero_nameskill1004_0
+    - hero_nameskill1004_1
+    - hero_nameskill1004_2
+    - hero_nameskill1004_3
+    - hero_nameskill1005_0
+    - hero_nameskill1005_1
+    - hero_nameskill1005_2
+    - hero_nameskill1005_3
+    - hero_skill1001_des_0
+    - hero_skill1001_des_1
+    - hero_skill1001_des_2
+    - hero_skill1001_des_3
+    - hero_skill1002_des_0
+    - hero_skill1002_des_1
+    - hero_skill1002_des_2
+    - hero_skill1002_des_3
+    - hero_skill1003_des_0
+    - hero_skill1003_des_1
+    - hero_skill1003_des_2
+    - hero_skill1003_des_3
+    - hero_skill1004_des_0
+    - hero_skill1004_des_1
+    - hero_skill1004_des_2
+    - hero_skill1004_des_3
+    - hero_skill1005_des_0
+    - hero_skill1005_des_1
+    - hero_skill1005_des_2
+    - hero_skill1005_des_3
+    - hero_story_1001
+    - hero_story_1002
+    - hero_story_1003
+    - hero_story_1004
+    - hero_story_1005
+    values:
+    - Assassin
+    - "M\xEAl\xE9e"
+    - "\xC0 distance"
+    - "R\xE9servoir"
+    - Invocateur
+    - AoE
+    - "Contr\xF4ler"
+    - Buff
+    - Debuff
+    - Claudia
+    - Arius
+    - Ne'taan
+    - Marco
+    - Nerocat
+    - Akashi
+    - Princesse Commandante
+    - Gardien d'Yggdrasil
+    - "H\xE9ritier du Loup de sang"
+    - "Herboriste myst\xE9rieux"
+    - "La sorci\xE8re d\xE9mente"
+    - "L'\xE9p\xE9iste invisible"
+    - Attaque Totale
+    - "G\xE9n\xE9raux Pionniers"
+    - "C\u0153ur Vaillant"
+    - Protecteur
+    - "Temp\xEAte de Fl\xE8che de Feu"
+    - "Fl\xE8che Rapide"
+    - "Vue Renforc\xE9e"
+    - "Les Fl\xE8ches Explosent"
+    - "Lign\xE9e du Chaos"
+    - Provocant
+    - Enrager
+    - Suceur de Sang
+    - Bombardement de Poison
+    - Limon Collant
+    - Potion de Silence
+    - "Herbe M\xE9dicinale"
+    - Hyper Explosion!
+    - "Adieu d\xE9tonation"
+    - Infini explosion
+    - Explosif vertigineux
+    - "Claudia saute haut dans les airs, puis enfonce son \xE9p\xE9e dans le sol,
+      infligeant {0} de d\xE9g\xE2ts physiques et \xE9tourdissant les ennemis proches
+      pendant {1} secondes."
+    - "Les attaques normales de Claudia peuvent infliger des d\xE9g\xE2ts de zone
+      \xE9gaux \xE0 {0}% de ses d\xE9g\xE2ts de base aux ennemis proches"
+    - "R\xE9duit {0}% des d\xE9g\xE2ts physiques que Claudia subit"
+    - "Claudia cr\xE9e un bouclier protecteur qui peut absorber jusqu'\xE0 {0} d\xE9g\xE2ts
+      et augmente l'armure physique de {1}% pour elle-m\xEAme et ses alli\xE9s proches."
+    - "Arius tire 4 rafales de fl\xE8ches dans la zone cibl\xE9e. Les premi\xE8res
+      fl\xE8ches en rafale infligent des d\xE9g\xE2ts \xE9gaux \xE0 {0}% des d\xE9g\xE2ts
+      physiques d'Arius. Les autres rafales infligent des d\xE9g\xE2ts \xE9gaux \xE0
+      {1}% de la premi\xE8re rafale. Le sol s'est enflamm\xE9 et a caus\xE9 l'\xE9tat
+      de br\xFBlure des ennemis pass\xE9s. Le statut dure {2} secondes et inflige
+      {3} d\xE9g\xE2ts toutes les {4} secondes."
+    - "Les attaques normales d'Arius ont {0}\_% de chances de tirer {1} fl\xE8ches
+      \xE0 la fois dans la cible."
+    - "Augmente {0}% de la port\xE9e d'Arius"
+    - "Arius visait un ennemi \xE0 une distance \xE9gale \xE0 {0} fois sa port\xE9e.
+      Il tire une fl\xE8che qui inflige {1}% de d\xE9g\xE2ts de zone \xE0 la cible
+      et aux ennemis environnants."
+    - "Ne'taan se transforme en chaos, r\xE9g\xE9n\xE9rant instantan\xE9ment {0}%
+      de son maximum de PV. Sous cette forme, les attaques de base infligent des
+      d\xE9g\xE2ts physiques suppl\xE9mentaires \xE9gaux \xE0 {1}% des PV maximum."
+    - "Lorsqu'il est attaqu\xE9 par une attaque de base, Ne'taan a {0}% de chances
+      d'activer Provocant et de gagner {1}% d'armure pendant {2} secondes. Provocant
+      force tous les ennemis d'une zone \xE0 se taire et se pr\xE9cipite pour l'attaquer.
+      Provocant est immunis\xE9 contre les ennemis volants"
+    - "Lorsqu'il est attaqu\xE9 par des attaques de base, Ne'taan a {0}% de chances
+      de contre-attaque par attaque qu'il a re\xE7ue."
+    - Ne'taan soigne {0} PV pour chaque ennemi qu'il tue
+    - "Marco force Pomp \xE0 cracher un grand \xE9tang empoisonn\xE9 qui inflige
+      {0} d\xE9g\xE2ts par seconde \xE0 tous les ennemis de la zone. L'\xE9tang de
+      poison dure {1} secondes"
+    - "L'\xE9tang empoisonn\xE9 de Bombardement de Poison r\xE9duit la vitesse de
+      d\xE9placement des ennemis de {0}%"
+    - "Marco a {0}% de chances de lancer une potion sp\xE9ciale qui r\xE9duit au
+      silence les ennemis dans une zone. Le silence dure {1} secondes"
+    - "Pomp crache des herbes qui restaurent {0} PV chaque seconde aux h\xE9ros alli\xE9s
+      qui apparaissent \xE0 port\xE9e. Les herbes augmentent la vitesse d'attaque
+      de ces h\xE9ros de {1}% pendant {2} secondes"
+    - "Nerocat lance un orbe d'\xE9nergie, infligeant {0} d\xE9g\xE2ts \xE0 une zone.
+      Hyper Explosion! sera r\xE9duit de {1} seconde pour chaque ennemi d\xE9truit
+      par ce sort"
+    - "Pour chaque ennemi tu\xE9 par Nerocat, il y a {0}% pour cr\xE9er une explosion
+      infligeant {1} d\xE9g\xE2ts. L'explosion pourrait \xEAtre li\xE9e si les ennemis
+      sont d\xE9truits cons\xE9cutivement. "
+    - "Apr\xE8s avoir utilis\xE9 Hyper Explosion! Nerocat augmente de {0}% de sa
+      vitesse d'attaque et son attaque de base peut infliger des d\xE9g\xE2ts dans
+      une zone. La capacit\xE9 a dur\xE9 {1} secondes."
+    - "Hyper Explosion! de NeroCat peut \xE9tourdir les ennemis et a dur\xE9 {0}
+      secondes."
+    - "Claudia est la fille du seigneur d'Alsace. Son p\xE8re est mort sur Crescent
+      Island lorsque l'arm\xE9e du mal a soudainement attaqu\xE9 le royaume. Elle
+      s'est port\xE9e volontaire pour diriger l'arm\xE9e pour venger son p\xE8re
+      et d\xE9couvrir le complot derri\xE8re le retour du mal."
+    - "Arius est un ami d'Arryn et un gardien d'Yggdrasil. Lorsque l'arm\xE9e d\xE9moniaque
+      a attaqu\xE9 Yggdrasil, il a contact\xE9 Claudia et lui a demand\xE9 une alliance
+      avec les humains, en retour, il l'aiderait \xE0 d\xE9couvrir le complot de
+      cette invasion inattendue."
+    - "Ne'taan est un orc hybride, un fils du chef du clan des loups de sang et une
+      sorci\xE8re. Son oncle, Gul'ak, a tu\xE9 sa m\xE8re, a pris le droit d'h\xE9ritage
+      et a soumis tout le clan au diable. Ne'taan a d\xE9cid\xE9 de se venger de
+      Gul'ak et de vaincre les forces obscures pour lib\xE9rer son clan."
+    - "Marco est un orphelin vivant dans la for\xEAt m\xE9ridionale d'Ionie. L'ami
+      l\xE9zard de Marco, Pomp, a \xE9t\xE9 trouv\xE9 par lui pr\xE8s du marais gris.
+      Ils vivaient tous les deux paisiblement dans la for\xEAt jusqu'\xE0 l'arriv\xE9e
+      des Orcs. Marco et Pomp se sont rebell\xE9s contre les Orcs pour prot\xE9ger
+      leur for\xEAt."
+    - "Nerocat \xE9tait \xE0 l'origine une noble dame d'Endia. \xC0 un jeune \xE2ge,
+      elle a \xE9t\xE9 envoy\xE9e \xE0 l'Acad\xE9mie royale de magie. Elle \xE9tait
+      connue comme une sorci\xE8re talentueuse mais arrogante et indisciplin\xE9e.
+      Apr\xE8s l'obtention de son dipl\xF4me, elle a apprivois\xE9 un adorable chat
+      nomm\xE9 Mew et a d\xE9fi\xE9 quiconque de prouver qu'elle \xE9tait la sorci\xE8re
+      la plus forte de tous les \xE2ges."

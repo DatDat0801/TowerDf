@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: playable_mode
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_defense_name_txt
+    - defensive_point_title_txt
+    - lobby_txt
+    - best_record_waves_txt
+    - current_record_waves_txt
+    - season_end_txt
+    - trial_left_txt
+    - trial_txt
+    - reward_milestone_txt
+    - select_base_txt
+    - hero_selection_txt
+    - unlock_base_txt
+    - turn_left_txt
+    - leaderboard_txt
+    - rank_txt
+    - player_txt
+    - formation_txt
+    - new_record_txt
+    - no_more_trial_txt
+    - result_txt
+    - last_trial_notice_txt
+    - hero_required_txt
+    - hero_defense_rule
+    - buff_name_7001
+    - buff_name_7002
+    - buff_name_7003
+    - buff_name_7004
+    - buff_name_7005
+    - buff_name_7006
+    - buff_des_7001
+    - buff_des_7002
+    - buff_des_7003
+    - buff_des_7004
+    - buff_des_7005
+    - buff_des_7006
+    - defensive_point_name_8001
+    - defensive_point_name_8004
+    - defensive_point_name_8005
+    - defensive_point_skill_8001
+    - defensive_point_skill_8004
+    - defensive_point_skill_8005
+    - defensive_point_des_8001
+    - defensive_point_des_8004
+    - defensive_point_des_8005
+    - hero_defens_map_name_1
+    - hero_defens_map_name_2
+    - tournament_ban_txt
+    - tournament_nerf_txt
+    - tournament_buff_txt
+    - ban_spell_notice_txt
+    - tower_selection_txt
+    - tower_required_txt
+    - hall_of_fame_txt
+    - join_tournament_txt
+    - unrank_txt
+    - tournament_ticket_txt
+    - tournament_shop_title
+    - purchase_ticket_popup_title_txt
+    - change_buff_txt
+    - change_hero_pair_txt
+    - change_buff_status_txt
+    - change_price_alert_txt
+    - waves_cleared_record_txt
+    - ban_notice_txt
+    - ban_alert_txt
+    - congratulation_notice_txt
+    - season_rank_txt
+    - tournament_rules_title
+    - tournament_rule_map_title
+    - tournament_rule_limit_title
+    - tournament_rule_grand_title
+    - tournament_rule_season_title
+    - tournament_rule_buff_title
+    - tournament_rule_nerf_title
+    - tournament_rule_ban_title
+    - tournament_rule_map
+    - tournament_rule_limit
+    - tournament_rule_grand
+    - tournament_rule_season
+    - tournament_rule_buff
+    - tournament_rule_nerf
+    - tournament_rule_ban
+    - tournament_rank_0
+    - tournament_rank_1
+    - tournament_rank_2
+    - tournament_rank_3
+    - tournament_rank_4
+    - tournament_rank_5
+    - tournament_rank_6
+    - tournament_rank_7
+    - tournament_buff_201
+    - tournament_buff_202
+    - tournament_buff_203
+    - tournament_buff_204
+    - tournament_buff_205
+    - tournament_buff_206
+    - tournament_buff_207
+    - tournament_buff_208
+    - tournament_buff_209
+    - tournament_buff_210
+    - tournament_buff_211
+    - tournament_nerf_101
+    - tournament_nerf_102
+    - tournament_nerf_103
+    - tournament_nerf_104
+    - tournament_nerf_105
+    - tournament_nerf_106
+    - tournament_nerf_107
+    - tournament_nerf_108
+    - tournament_nerf_109
+    - tournament_nerf_110
+    - tournament_nerf_111
+    values:
+    - "D\xE9fense des h\xE9ros"
+    - Base
+    - Lobby
+    - 'Meilleur record : {0} vagues'
+    - "R\xE9sultat actuel : {0}"
+    - "Temps restant\_: "
+    - "Essai\_: {0}"
+    - Essai
+    - '{0} vagues'
+    - "S\xE9lection de base"
+    - "S\xE9lection de h\xE9ros"
+    - "D\xE9bloquez cette base"
+    - 'Tour restant : {0}'
+    - Graphiques
+    - "\xC9tage"
+    - Joueur
+    - Formation
+    - Nouvel record
+    - Hors essial
+    - "R\xE9sultat"
+    - Vous venez d'utiliser votre dernier essai.
+    - "Vous avez besoin d'au moins 2 h\xE9ros"
+    - "Les h\xE9ros sont en danger en essayant de prot\xE9ger une base d'une arm\xE9e
+      de d\xE9mons. Pas le temps de construire des tours, ils doivent user de leur
+      force pour arr\xEAter l'ennemi.\n\nDans ce mode, vous pouvez contr\xF4ler jusqu'\xE0
+      5 h\xE9ros.\n\nVous ne pouvez contr\xF4ler que les h\xE9ros et ne pouvez pas
+      construire de tours.\n\nLe but est de d\xE9fendre une base d'alliance. Lorsque
+      la base est d\xE9truite, le jeu est termin\xE9. Les bases vous aideront \xE0
+      am\xE9liorer vos h\xE9ros au beau milieu d'une bataille. D\xE9bloquez de nouvelles
+      bases pour doter les h\xE9ros de comp\xE9tences passives.\n\nVous pouvez utiliser
+      de l'or pour am\xE9liorer les statistiques du h\xE9ros pendant la bataille.
+      Appuyez sur la base sur la carte pour mettre \xE0 niveau.\n\nVous recevrez
+      des r\xE9compenses en fonction de chaque \xE9tape de r\xE9alisation. D\xE9fendez-vous
+      aussi longtemps que vous le pouvez pour obtenir des r\xE9compenses plus pr\xE9cieuses.\n\nLes
+      cartes et les classements seront actualis\xE9s chaque saison. Soyez pr\xEAt
+      \xE0 relever de nouveaux d\xE9fis."
+    - "Am\xE9lioration de l'attaque"
+    - "Am\xE9lioration de la d\xE9fense"
+    - "Am\xE9lioration des sorts"
+    - Temps de recharge
+    - "Am\xE9lioration critique"
+    - "Am\xE9lioration PV"
+    - "Augmente de {0} d\xE9g\xE2ts pour tous les h\xE9ros"
+    - "Augmente de {0} armures et {1} r\xE9sistances magiques pour tous les h\xE9ros"
+    - "Augmente de {0}% les d\xE9g\xE2ts inflig\xE9s par la comp\xE9tence active
+      des sorts"
+    - "Diminution de {0}%  temps de recharge pour tous les h\xE9ros"
+    - "Augmente de {0} d\xE9g\xE2ts critiques pour tous les h\xE9ros"
+    - "Augmente {0} PV max pour tous les h\xE9ros"
+    - La forteresse
+    - "D\xE9esse de la Nature"
+    - Tour du Tonnerre
+    - "Les bases importantes doivent \xEAtre prot\xE9g\xE9es \xE0 tout prix."
+    - "R\xE9cup\xE8re 5 PV toutes les 6 secondes pour tous les h\xE9ros"
+    - "Apr\xE8s toutes les 2 attaques, le h\xE9ros a la capacit\xE9 de frapper un
+      \xE9clair qui inflige 3 d\xE9g\xE2ts. La foudre rebondit jusqu'\xE0 4 autres
+      ennemis. Les d\xE9g\xE2ts pour chaque rebond diminueront de 5%."
+    - "Cette ancienne forteresse a \xE9t\xE9 construite par les humains et reste
+      forte contre les attaques de l'arm\xE9e mal\xE9fique."
+    - "Une d\xE9esse myst\xE9rieuse v\xE9n\xE9r\xE9e par les habitants de la nature.
+      Ils croient que la d\xE9esse a la capacit\xE9 de gu\xE9rir et de b\xE9nir les
+      guerriers de la jungle."
+    - "Cette tour magique est l'endroit o\xF9 de nombreux grands magiciens vivent
+      et \xE9tudient la magie. Les magiciens ont infus\xE9 leur pouvoir dans la tour
+      afin qu'elle puisse aider les d\xE9fenseurs \xE0 contr\xF4ler le tonnerre."
+    - "Derni\xE8re ligne de d\xE9fense"
+    - "Bataille de for\xEAt"
+    - Interdire
+    - Affaibli
+    - "Am\xE9liorer"
+    - "\xC9peler est interdit"
+    - "S\xE9lection de tour"
+    - Vous avez besoin d'au moins 4 tours
+    - "Temple de la renomm\xE9e"
+    - "Rejoignez le combat pour \xEAtre honor\xE9"
+    - "Non class\xE9"
+    - Billet
+    - Boutique du tournoi
+    - Achat de billets
+    - Changer
+    - "Changer de h\xE9ros"
+    - Changer de statut
+    - "Le prix augmentera \xE0 chaque changement"
+    - Vague
+    - "Vous ne pouvez pas utiliser ces \xE9l\xE9ments"
+    - "Votre h\xE9ros ne peut pas utiliser cet objet. Voulez-vous le changer?"
+    - "Vous avez atteint le rang de {0} cette saison. Voici votre r\xE9compense"
+    - Saison
+    - Tournoi
+    - Cartes de tournoi
+    - Limite de lecture
+    - "Temple de la renomm\xE9e"
+    - Saison
+    - "Am\xE9liorer"
+    - Affaibli
+    - Interdire
+    - "Tous les joueurs compl\xE8tent au m\xEAme niveau illimit\xE9."
+    - "Chaque jour, les joueurs obtiennent {0}\_parties gratuites. Si le nombre de
+      tours gratuits est \xE9puis\xE9, le joueur doit utiliser Diamant ou regarder
+      une publicit\xE9 pour en obtenir plus. Le nombre de lectures sera actualis\xE9
+      chaque jour."
+    - "C'est l'endroit pour honorer les records les plus \xE9lev\xE9s de tous les
+      temps. Continuez d'essayer chaque saison pour \xEAtre honor\xE9 ici!"
+    - "Chaque saison dure 2 semaines. Le record le plus \xE9lev\xE9 que les joueurs
+      obtiennent dans chaque saison sera compt\xE9 pour se classer dans le Temple
+      de la renomm\xE9e."
+    - "Si votre formation a 2 h\xE9ros \xE0 la demande, n'importe quelle statistique
+      sera am\xE9lior\xE9e. Vous pouvez utiliser Cristaux, Diamant et regarder des
+      publicit\xE9s pour modifier au hasard la paire de h\xE9ros par d\xE9faut et
+      le type de statistiques am\xE9lior\xE9es."
+    - "Si vous utilisez un h\xE9ros affaibli dans votre formation, l'une des statistiques
+      de ce h\xE9ros sera r\xE9duite. Ce h\xE9ros n'appara\xEEtra pas non plus dans
+      la paire de h\xE9ros demand\xE9e."
+    - "Vous ne pourrez pas utiliser d'objets interdits. La liste des objets interdits
+      sera actualis\xE9e apr\xE8s chaque saison."
+    - Bronze
+    - Argent
+    - Or
+    - Platine
+    - Diamant
+    - "\xC9lite"
+    - "ma\xEEtre"
+    - Roi
+    - Augmenter PV de {0}
+    - Augmenter Armure de {0}
+    - "Augmenter R\xE9sist. \xE0 la magie de {0}"
+    - Augmenter Dommage de {0}
+    - "Augmenter Vitesse de d\xE9placement de {0}%"
+    - Augmenter Vitesse d'attaque de {0}%
+    - "Augmenter R\xE9g\xE9n\xE9ration du sang de {0}%"
+    - "Diminuer Temps de r\xE9apparition de {0}%"
+    - "Augmenter D\xE9g\xE2t critique de {0}%"
+    - Augmenter Taux critique de {0}%
+    - Diminuer Temps de recharge de {0}%
+    - Diminuer PV de {0}
+    - Diminuer Armure de {0}
+    - "Diminuer R\xE9sist. \xE0 la magie de {0}"
+    - Diminuer Dommage de {0}
+    - "Diminuer Vitesse de d\xE9placement de {0}%"
+    - Diminuer Vitesse d'attaque de {0}%
+    - "Diminuer R\xE9g\xE9n\xE9ration du sang de {0}%"
+    - "Augmenter Temps de r\xE9apparition de {0}%"
+    - "Diminuer D\xE9g\xE2t critique de {0}%"
+    - Diminuer Taux critique de {0}%
+    - Augmenter Temps de recharge de {0}%

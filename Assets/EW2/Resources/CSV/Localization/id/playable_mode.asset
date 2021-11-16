@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: playable_mode
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_defense_name_txt
+    - defensive_point_title_txt
+    - lobby_txt
+    - best_record_waves_txt
+    - current_record_waves_txt
+    - season_end_txt
+    - trial_left_txt
+    - trial_txt
+    - reward_milestone_txt
+    - select_base_txt
+    - hero_selection_txt
+    - unlock_base_txt
+    - turn_left_txt
+    - leaderboard_txt
+    - rank_txt
+    - player_txt
+    - formation_txt
+    - new_record_txt
+    - no_more_trial_txt
+    - result_txt
+    - last_trial_notice_txt
+    - hero_required_txt
+    - hero_defense_rule
+    - buff_name_7001
+    - buff_name_7002
+    - buff_name_7003
+    - buff_name_7004
+    - buff_name_7005
+    - buff_name_7006
+    - buff_des_7001
+    - buff_des_7002
+    - buff_des_7003
+    - buff_des_7004
+    - buff_des_7005
+    - buff_des_7006
+    - defensive_point_name_8001
+    - defensive_point_name_8004
+    - defensive_point_name_8005
+    - defensive_point_skill_8001
+    - defensive_point_skill_8004
+    - defensive_point_skill_8005
+    - defensive_point_des_8001
+    - defensive_point_des_8004
+    - defensive_point_des_8005
+    - hero_defens_map_name_1
+    - hero_defens_map_name_2
+    - tournament_ban_txt
+    - tournament_nerf_txt
+    - tournament_buff_txt
+    - ban_spell_notice_txt
+    - tower_selection_txt
+    - tower_required_txt
+    - hall_of_fame_txt
+    - join_tournament_txt
+    - unrank_txt
+    - tournament_ticket_txt
+    - tournament_shop_title
+    - purchase_ticket_popup_title_txt
+    - change_buff_txt
+    - change_hero_pair_txt
+    - change_buff_status_txt
+    - change_price_alert_txt
+    - waves_cleared_record_txt
+    - ban_notice_txt
+    - ban_alert_txt
+    - congratulation_notice_txt
+    - season_rank_txt
+    - tournament_rules_title
+    - tournament_rule_map_title
+    - tournament_rule_limit_title
+    - tournament_rule_grand_title
+    - tournament_rule_season_title
+    - tournament_rule_buff_title
+    - tournament_rule_nerf_title
+    - tournament_rule_ban_title
+    - tournament_rule_map
+    - tournament_rule_limit
+    - tournament_rule_grand
+    - tournament_rule_season
+    - tournament_rule_buff
+    - tournament_rule_nerf
+    - tournament_rule_ban
+    - tournament_rank_0
+    - tournament_rank_1
+    - tournament_rank_2
+    - tournament_rank_3
+    - tournament_rank_4
+    - tournament_rank_5
+    - tournament_rank_6
+    - tournament_rank_7
+    - tournament_buff_201
+    - tournament_buff_202
+    - tournament_buff_203
+    - tournament_buff_204
+    - tournament_buff_205
+    - tournament_buff_206
+    - tournament_buff_207
+    - tournament_buff_208
+    - tournament_buff_209
+    - tournament_buff_210
+    - tournament_buff_211
+    - tournament_nerf_101
+    - tournament_nerf_102
+    - tournament_nerf_103
+    - tournament_nerf_104
+    - tournament_nerf_105
+    - tournament_nerf_106
+    - tournament_nerf_107
+    - tournament_nerf_108
+    - tournament_nerf_109
+    - tournament_nerf_110
+    - tournament_nerf_111
+    values:
+    - Pertahanan pahlawan
+    - Basis
+    - Lobi
+    - 'Rekor terbaik: {0} serangan '
+    - 'Rekor saat ini: {0}'
+    - 'Waktu musim: '
+    - 'Percobaan: {0}'
+    - Uji coba
+    - '{0} serangan'
+    - Pemilihan dasar
+    - Pemilihan pahlawan
+    - Buka kunci basis ini
+    - 'Putar: {0}'
+    - Papan peringkat
+    - Pangkat
+    - Pemain
+    - Pembentukan
+    - Rekor baru
+    - Tidak ada lagi percobaan
+    - Hasil
+    - Anda hanya menggunakan percobaan terakhir Anda.
+    - Anda membutuhkan setidaknya 2 Pahlawan
+    - Pahlawan berada dalam bahaya mencoba melindungi pangkalan dari pasukan iblis.
+      Tidak ada waktu untuk membangun menara, mereka harus menggunakan kekuatan mereka
+      untuk menghentikan musuh.\n\nDalam mode ini, Anda dapat mengontrol hingga 5
+      pahlawan.\n\nAnda hanya dapat mengontrol pahlawan dan tidak dapat membangun
+      menara.\n\nTujuannya adalah untuk mempertahankan basis aliansi. Ketika pangkalan
+      dihancurkan, permainan berakhir. Basis akan membantu Anda menaikkan level pahlawan
+      Anda tepat di tengah pertempuran. Buka basis baru untuk melengkapi pahlawan
+      dengan keterampilan pasif.\n\nAnda dapat menggunakan emas untuk meningkatkan
+      statistik Pahlawan tepat di pertempuran. Ketuk ke Pangkalan di peta untuk meningkatkan.\n\nAnda
+      akan menerima hadiah sesuai dengan setiap pencapaian pencapaian. Pertahankan
+      selama Anda bisa untuk mendapatkan hadiah yang lebih berharga.\n\nPeta dan
+      papan peringkat akan diperbarui setiap musim. Bersiaplah untuk menghadapi tantangan
+      baru.
+    - Peningkatan Serangan
+    - Peningkatan Pertahanan
+    - Peningkatan Mantra
+    - Peningkatan Cooldown
+    - Peningkatan Kritis
+    - Peningkatan HP
+    - Meningkatkan {0} kerusakan untuk semua pahlawan
+    - Tingkatkan {0} armor dan {1} magic resistance untuk semua hero
+    - Meningkatkan {0}% kerusakan yang diberikan oleh keterampilan aktif mantra
+    - Kurangi {0}% cooldown untuk semua pahlawan
+    - Meningkatkan {0} kerusakan kritis untuk semua pahlawan
+    - Meningkatkan {0} max HP untuk semua hero
+    - Benteng
+    - Dewi Alam
+    - Menara Petir
+    - Pangkalan penting perlu dilindungi dengan segala cara.
+    - Memulihkan 5 HP setiap 6 detik untuk semua pahlawan
+    - Setelah setiap 2 serangan, pahlawan memiliki kemampuan untuk menyambar petir
+      yang memberikan 3 kerusakan. Petir memantul hingga 4 musuh lainnya. Kerusakan
+      untuk setiap pantulan akan berkurang 5%.
+    - Benteng kuno ini dibangun oleh manusia dan tetap kuat melawan serangan tentara
+      jahat.
+    - Dewi misterius yang disembah oleh penghuni alam. Mereka percaya bahwa dewi
+      memiliki kemampuan untuk menyembuhkan dan memberkati para pejuang hutan.
+    - Menara ajaib ini adalah tempat banyak penyihir hebat tinggal dan belajar sihir.
+      Para penyihir menanamkan kekuatan mereka ke menara sehingga bisa membantu para
+      pembela mengendalikan guntur.
+    - Garis pertahanan terakhir
+    - Pertempuran hutan
+    - Melarang
+    - Melemah
+    - Menambah
+    - Mantra dilarang
+    - Pemilihan menara
+    - Anda membutuhkan setidaknya 4 Menara
+    - Ketenaran
+    - Bergabunglah dalam perjuangan untuk dihormati
+    - Tidak berperingkat
+    - Tiket
+    - Toko Kejuaraan
+    - Pembelian tiket
+    - Mengubah
+    - Ganti pahlawan
+    - Merubah status
+    - Harga akan naik setiap kali Anda berubah
+    - 'Serangan '
+    - Anda tidak dapat menggunakan barang-barang ini
+    - Pahlawan Anda tidak dapat menggunakan item ini. Apakah Anda ingin mengubahnya?
+    - Anda telah mencapai peringkat {0} di musim ini. Ini hadiahmu
+    - Musim
+    - Kejuaraan
+    - Peta Kejuaraan
+    - Batas Putar
+    - Ketenaran
+    - Musim
+    - Menambah
+    - Melemah
+    - Melarang
+    - Semua pemain berkompetisi pada level tak berujung yang sama.
+    - Setiap hari pemain mendapatkan {0} permainan gratis. Jika jumlah putaran gratis
+      habis, pemain harus menggunakan Permata atau menonton iklan untuk mendapatkan
+      lebih banyak. Jumlah pemutaran akan disegarkan setiap hari.
+    - 'Ini adalah tempat untuk menghormati rekor tertinggi sepanjang masa. Terus
+      berusaha setiap musim untuk dihormati di sini! '
+    - Setiap Musim berlangsung selama 2 minggu. Rekor tertinggi yang pemain dapatkan
+      di setiap Musim akan dihitung untuk peringkat di Ketenaran.
+    - Jika formasi Anda memiliki 2 pahlawan sesuai permintaan, stat apa pun akan
+      ditingkatkan. Anda dapat menggunakan Kristal, Permata dan menonton iklan untuk
+      secara acak mengubah pasangan pahlawan default dan jenis stat yang ditingkatkan.
+    - Jika Anda menggunakan pahlawan yang lemah dalam formasi Anda, salah satu statistik
+      pahlawan itu akan berkurang. Hero tersebut juga tidak akan muncul pada pasangan
+      hero yang diminta.
+    - Anda tidak akan dapat menggunakan barang terlarang. Daftar barang terlarang
+      akan diperbarui setelah setiap musim.
+    - Perunggu
+    - Perak
+    - Emas
+    - Platinum
+    - Intan
+    - Elit
+    - Penguasa
+    - Raja
+    - Tingkatkan HP sebesar {0}
+    - Tingkatkan Baju baja sebesar {0}
+    - Tingkatkan Resistensi sihir sebesar {0}
+    - Tingkatkan Kerusakan sebesar {0}
+    - Tingkatkan Kecepatan gerak sebesar {0}%
+    - Tingkatkan Kecepatan serang sebesar {0}%
+    - Tingkatkan Regenerasi darah sebesar {0}%
+    - Kurangi Waktu untuk bangkit sebesar {0}%
+    - Tingkatkan Pukulan Kritis sebesar {0}%
+    - Tingkatkan Nilai kritikal sebesar {0}%
+    - Kurangi Pengisian jurus sebesar {0}%
+    - Kurangi HP sebesar {0}
+    - Kurangi Baju baja sebesar {0}
+    - Kurangi Resistensi sihir sebesar {0}
+    - Kurangi Kerusakan sebesar {0}
+    - Kurangi Kecepatan gerak sebesar {0}%
+    - Kurangi Kecepatan serang sebesar {0}%
+    - Kurangi Regenerasi darah sebesar {0}%
+    - Tingkatkan Waktu untuk bangkit sebesar {0}%
+    - Kurangi Pukulan Kritis sebesar {0}%
+    - Kurangi Nilai kritikal sebesar {0}%
+    - Tingkatkan Pengisian jurus sebesar {0}%

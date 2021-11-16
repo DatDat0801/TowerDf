@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: game_event
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - quest_not_unlocked_txt
+    - hero_chalenge_txt
+    - hero_chalenge_slogan_txt
+    - hero_chalenge_rule_txt
+    - glory_road_rule_txt
+    - medal_redeem_warning_txt
+    - glory_road_premium_warning_txt
+    - already_unlock_premium_txt
+    - event_daily_reward_title_txt
+    - event_daily_slogan_txt
+    - premium_glory_road_item_txt
+    - glory_road_title_txt
+    - glory_road_slogan_txt
+    - glory_road_slogan_2_txt
+    - hero_academy_event_name_txt
+    - medal_exchange_txt
+    - buy_now_direction_popup
+    - full_basic_progress_notice
+    - unlock_premium_progress_notice
+    - claim_hero_notice
+    - nhero_challenge_title_txt
+    - nhero_event_name_txt
+    - nhero_mission_txt
+    - nhero_mission_slogan_txt
+    - event_quest_nhero_txt
+    - hero_mission_rule
+    - hero_required_formation
+    - event_quest_pf5_txt
+    - event_quest_nhero_pf5_txt
+    - event_quest_pf5m_txt
+    - event_quest_nhero_pf10m_txt
+    - event_quest_nhero_pf20m_txt
+    - event_quest_nhero_lv5_txt
+    - event_quest_nhero_spell_txt
+    - event_quest_nhero_rune_txt
+    - nhero_bundle_txt
+    - hero_bundle_slogan_txt
+    - hero_bundle_level_tag_txt
+    - hero_backpack_txt
+    - event_crystal_pack_txt
+    - event_rune_pack_txt
+    - event_spell_pack_txt
+    values:
+    - "Les qu\xEAtes ne sont pas encore d\xE9bloqu\xE9es"
+    - "Progression du H\xE9ros"
+    - "Relevez le d\xE9fi et faites une chronique l\xE9gendaire"
+    - "1. Terminez les missions de chaque jour pour obtenir des r\xE9compenses et
+      collecter des M\xE9dailles.\\n \\n 2. Les qu\xEAtes sont d\xE9bloqu\xE9es par
+      jour. Les qu\xEAtes inachev\xE9es des jours pr\xE9c\xE9dents peuvent \xEAtre
+      poursuivies le lendemain."
+    - "3. Les M\xE9dailles collect\xE9es peuvent \xEAtre \xE9chang\xE9es contre des
+      r\xE9compenses sur la Route de la gloire. Chaque \xE9tape de r\xE9compense
+      n\xE9cessite un certain nombre de M\xE9dailles.\\n \\n 4. La progression Premium
+      doit \xEAtre d\xE9bloqu\xE9e pour recevoir des r\xE9compenses. Achetez n'importe
+      quel contenu \xE0 d\xE9bloquer."
+    - "<color=#E73F44>*Remarque : Une fois l'\xE9v\xE9nement termin\xE9, les M\xE9dailles
+      qui ne sont pas utilis\xE9es seront automatiquement remplac\xE9es par des cristaux.</color>"
+    - "Am\xE9liorez la progression pour recevoir des r\xE9compenses"
+    - "Vous avez d\xE9j\xE0 am\xE9lior\xE9 la progression premium"
+    - Cadeaux Quotidiens
+    - "Accumulez des M\xE9dailles et recevez de superbes r\xE9compenses"
+    - Route de la gloire premium
+    - Route de la gloire
+    - "Collectez m\xE9dailles, am\xE9liorez progression"
+    - "Et recrutez un nouveau h\xE9ros !"
+    - "Acad\xE9mie des h\xE9ros"
+    - "Vos <color=#815329>{0}</color> M\xE9dailles restantes ont \xE9t\xE9 converties
+      en <color=#815329>{1}</color> Cristaux\\n \\n Taux de change : <color=#815329>1</color>
+      M\xE9daille = <color=#815329>5</color> Cristaux"
+    - "Rejoignez <color=#FFD700>{0}</color> pour obtenir ce h\xE9ros et encore plus
+      de ressources\_!"
+    - "Vous avez d\xE9bloqu\xE9 la derni\xE8re r\xE9compense de progression de base."
+    - "Mais il y a encore beaucoup de r\xE9compenses pr\xE9cieuses \xE0 <color=#815329>{0}</color>.
+      Prenons-les !"
+    - "Veuillez r\xE9clamer votre h\xE9ros en Route de la gloire premium"
+    - "Nouveau h\xE9ros - Nouveau d\xE9fi"
+    - "L'\xE9lu appara\xEEt"
+    - "Mission de h\xE9ros"
+    - "Pendant l'\xE9v\xE9nement, terminez des qu\xEAtes pour r\xE9clamer des r\xE9compenses\_!"
+    - "Essayez le dernier h\xE9ros {0}"
+    - "Terminez des missions pour recevoir des r\xE9compenses attrayantes.\\n\\n*Remarque\_:
+      Les qu\xEAtes ne sont comptabilis\xE9es que pendant la dur\xE9e de l'\xE9v\xE9nement."
+    - Exiger {0} dans la formation
+    - "Obtenez 3 \xE9toiles au niveau {0} en difficult\xE9 normale"
+    - "Atteignez 3 \xE9toiles au niveau {0} normal en utilisant {1}"
+    - "Obtenez 3 \xE9toiles dans le niveau de difficult\xE9 {0} Cauchemar"
+    - "Atteignez 3 \xE9toiles au cauchemar de l'\xE9tape {0} en utilisant {1}"
+    - "Utiliser la comp\xE9tence {0} de {1} {2} fois"
+    - '{0} atteint le niveau {1}'
+    - "\xC9quipez n'importe quel \xC9peler pour {0}"
+    - "\xC9quipez n'importe quel Rune pour {0}"
+    - "Pack H\xE9ros"
+    - Choisissez un seul
+    - Niveau {0} !
+    - "Sac \xE0 dos h\xE9ro\xEFque"
+    - Paquet de cristal
+    - Rune de cristal
+    - "Paquet de \xC9peler"

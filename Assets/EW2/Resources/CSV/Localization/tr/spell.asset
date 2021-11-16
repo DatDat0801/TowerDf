@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: spell
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - spell_name_4001
+    - spell_name_4002
+    - spell_name_4003
+    - spell_name_4004
+    - spell_name_4005
+    - spell_name_4006
+    - spell_name_4011
+    - active_description_4001
+    - active_description_4002
+    - active_description_4003
+    - active_description_4004
+    - active_description_4005
+    - active_description_4006
+    - active_description_4011
+    - passive_description_4001
+    - passive_description_4002
+    - passive_description_4003
+    - passive_description_4004
+    - passive_description_4005
+    - passive_description_4006
+    - passive_description_4011
+    - spell_default_description_all
+    - spell_default_description_4001
+    - spell_default_description_4002
+    - spell_default_description_4003
+    - spell_default_description_4004
+    - spell_default_description_4005
+    - spell_default_description_4006
+    - spell_default_description_4011
+    values:
+    - "Kar F\u0131rt\u0131nas\u0131"
+    - "Yak\u0131c\u0131 Y\u0131ld\u0131r\u0131m"
+    - "\u015Eok Dalgas\u0131"
+    - "Y\u0131ld\u0131z Muhaf\u0131z\u0131"
+    - "Do\u011Fan\u0131n Mucizesi"
+    - "B\xFCy\xFCl\xFC May\u0131n"
+    - Antik Totem
+    - "Se\xE7ilen b\xF6lgedeki d\xFC\u015Fmanlar\u0131 <color=#bb5c14>{0}</color>
+      saniye dondurur. Buz eridikten sonra d\xFC\u015Fmanlar <color=#bb5c14>{1}</color>
+      saniyeli\u011Fine So\u011Fuk kal\u0131r\\n\\n* U\xE7an d\xFC\u015Fmanlara kar\u015F\u0131
+      ba\u011F\u0131\u015F\u0131kl\u0131k kazan\u0131n"
+    - "Se\xE7ilen b\xF6lgeye y\u0131ld\u0131r\u0131m ve ate\u015F d\xFC\u015F\xFCrerek
+      <color=#bb5c14>{0}</color> hasar verir"
+    - "Se\xE7ilen b\xF6lgede \u015Fok dalgas\u0131 yaratarak <color=#bb5c14>{0}</color>
+      hasar verir"
+    - "Sava\u015Fa kat\u0131lmas\u0131 i\xE7in bir Muhaf\u0131z \xE7a\u011F\u0131r\u0131n.
+      Hedef alana inerken <color=#bb5c14>{0}</color> hasar verin. Muhaf\u0131zlar
+      <color=#bb5c14>{1}</color> Can ve <color=#bb5c14>{2}</color> hasar al\u0131r."
+    - "Se\xE7ilen b\xF6lgedeki t\xFCm dost kuvvetleri saniyede <color=#bb5c14>{0}</color>
+      sa\u011Fl\u0131k puan\u0131yla iyile\u015Ftirir. <color=#bb5c14>{1}</color>
+      saniye s\xFCresince"
+    - "G\xFCzergah \xFCzerine \xF6zel may\u0131nlar yerle\u015Ftirilir ve \xFCzerlerine
+      basan d\xFC\u015Fmanlara <color=#bb5c14>{0}</color> hasar verir"
+    - "<color=#bb5c14>{1}</color> saniye s\xFCren <color=#bb5c14>{0}</color> Can'ye
+      sahip bir totem \xE7a\u011F\u0131rarak, sald\u0131r\u0131 yetene\u011Fi olan
+      t\xFCm d\xFC\u015Fmanlar\u0131 kendine \xE7eken lanetli bir alan olu\u015Fturur.
+      B\xF6lgedeki d\xFC\u015Fmanlar saniyede <color=#bb5c14>{2}</color> hasar al\u0131r.\\n\\n*
+      U\xE7an d\xFC\u015Fmanlara kar\u015F\u0131 ba\u011F\u0131\u015F\u0131kl\u0131k
+      kazan\u0131n"
+    - "Her temel sald\u0131r\u0131n\u0131n so\u011Fuk alg\u0131nl\u0131\u011F\u0131na
+      neden olmak i\xE7in <color=#bb5c14>%{0}</color> \u015Fans\u0131 vard\u0131r.\\n\\n*B\xF6l\xFCmlerin
+      Sonuna ve Canavarlar\u0131n Ortas\u0131na Ba\u011F\u0131\u015F\u0131kl\u0131k."
+    - "Sava\u015F\xE7\u0131n\u0131n temel sald\u0131r\u0131s\u0131n\u0131n d\xFC\u015Fman\u0131
+      yakma \u015Fans\u0131 <color=#bb5c14>%{0}</color>. Yanman\u0131n s\xFCresi
+      <color=#bb5c14>{1}</color> saniyedir. Yanma s\xFCresi hala aktifse, temel sald\u0131r\u0131
+      ba\u015F\u0131na Yanma oranlar\u0131 say\u0131lmaz"
+    - "D\xFC\u015Fman sald\u0131r\u0131lar\u0131 <color=#bb5c14>%{0}</color> \u015Fansla
+      sava\u015F\xE7\u0131 \xFCzerinde bir patlama yarat\u0131r. Sald\u0131r\u0131y\u0131
+      ger\xE7ekle\u015Ftiren dahil, menzil i\xE7inde kalan t\xFCm d\xFC\u015Fmanlar,
+      patlamadan <color=#bb5c14>{1}</color> hasar g\xF6r\xFCr"
+    - "Y\u0131ld\u0131z Muhaf\u0131z\u0131 geldi\u011Finde, sava\u015F\xE7\u0131n\u0131n
+      etraf\u0131nda bir kalkan olu\u015Fur. Y\u0131ld\u0131z Muhaf\u0131z bulundu\u011Fu
+      s\xFCrece sava\u015F\xE7\u0131n\u0131n Z\u0131rh\u0131<color=#bb5c14>{0}%</color>,
+      B\xFCy\xFC Direnci <color=#bb5c14>{1}%</color> artar"
+    - "Sava\u015F\xE7\u0131, sava\u015Ftayken bile, maks. sa\u011Fl\u0131k puan\u0131n\u0131n
+      <color=#bb5c14>{0}</color> oran\u0131nda iyile\u015Fir."
+    - "Sava\u015F\xE7\u0131lar\u0131n temel sald\u0131r\u0131s\u0131na maruz kalan
+      d\xFC\u015Fmanlar\u0131n patlama \u015Fans\u0131<color=#bb5c14>{0}%</color>.
+      Patlama b\xF6lgesindeki t\xFCm d\xFC\u015Fmanlar <color=#bb5c14>{1}</color>
+      hasar al\u0131r"
+    - "Her <color=#bb5c14>{0}</color> sald\u0131r\u0131dan sonra Kahraman, \xE7evresindeki
+      t\xFCm d\xFC\u015Fmanlar\u0131 deh\u015Fete d\xFC\u015F\xFCren bir lanet atar.\\n\\n*
+      U\xE7an d\xFC\u015Fmanlara kar\u015F\u0131 ba\u011F\u0131\u015F\u0131kl\u0131k"
+    - "Sava\u015Fta ekstra beceriler eklemek i\xE7in Kahramana donat\u0131lm\u0131\u015F
+      b\xFCy\xFCler"
+    - "B\xF6lgedeki d\xFC\u015Fmanlar\u0131 dondurur ve bu b\xFCy\xFC g\xFCc\xFCne
+      sahip Sava\u015F\xE7\u0131n\u0131n her temel sald\u0131r\u0131s\u0131nda, d\xFC\u015Fmanlar\u0131
+      dondurma \u015Fans\u0131 verir"
+    - "B\xF6lgede bir patlama yarat\u0131r ve bu b\xFCy\xFC g\xFCc\xFCne sahip Sava\u015F\xE7\u0131n\u0131n
+      d\xFC\u015Fmanlar\u0131n\u0131 yakma yetene\u011Fi verir"
+    - "Bir patlama yaratarak d\xFC\u015Fmanlar\u0131 yok eder ve bu b\xFCy\xFC g\xFCc\xFCne
+      sahip Sava\u015F\xE7\u0131ya sald\u0131r\u0131ld\u0131\u011F\u0131nda patlar"
+    - "Y\u0131ld\u0131z Muhaf\u0131zlar\u0131n\u0131 \xE7a\u011F\u0131r\u0131r ve
+      bu b\xFCy\xFC g\xFCc\xFCne sahip Sava\u015F\xE7\u0131n\u0131n savunmas\u0131n\u0131
+      art\u0131r\u0131r"
+    - "M\xFCttefikleri iyile\u015Ftirir ve bu B\xFCy\xFC G\xFCc\xFCne sahip Sava\u015F\xE7\u0131ya,
+      sava\u015F esnas\u0131nda iyile\u015Fme kabiliyeti verir"
+    - "Yol boyunca tuzaklar kurar ve Sava\u015F\xE7\u0131ya patlay\u0131c\u0131 sald\u0131r\u0131
+      kabiliyeti verir"
+    - "D\xFC\u015Fmanlar\u0131 \xE7ekmek ve lanetlemek i\xE7in bir totem \xE7a\u011F\u0131r\u0131r.
+      Kahramanlar, bu B\xFCy\xFCy\xFC ku\u015Fan\u0131rken Korkutmaya neden olma
+      yetene\u011Fine sahiptir."

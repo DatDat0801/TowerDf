@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - enemy_name_3001
+    - enemy_name_3002
+    - enemy_name_3003
+    - enemy_name_3004
+    - enemy_name_3005
+    - enemy_name_3006
+    - enemy_name_3007
+    - enemy_name_3008
+    - enemy_name_3009
+    - enemy_name_3010
+    - enemy_name_3011
+    - enemy_name_3012
+    - enemy_name_3013
+    - enemy_name_3014
+    - enemy_name_3015
+    - enemy_name_3016
+    - enemy_name_3017
+    - enemy_name_3018
+    - enemy_name_3019
+    - enemy_name_3020
+    - enemy_name_3021
+    - enemy_name_3022
+    - enemy_name_3023
+    - enemy_name_3024
+    - enemy_name_3025
+    - enemy_name_3026
+    - enemy_name_3027
+    - enemy_name_3028
+    - enemy_name_3029
+    - enemy_name_3030
+    - enemy_name_3031
+    - enemy_name_3032
+    - enemy_name_3033
+    - enemy_name_3034
+    - enemy_name_3035
+    - enemy_name_3036
+    - enemy_name_3037
+    - enemy_des_3001
+    - enemy_des_3002
+    - enemy_des_3003
+    - enemy_des_3004
+    - enemy_des_3005
+    - enemy_des_3006
+    - enemy_des_3007
+    - enemy_des_3008
+    - enemy_des_3009
+    - enemy_des_3010
+    - enemy_des_3011
+    - enemy_des_3012
+    - enemy_des_3013
+    - enemy_des_3014
+    - enemy_des_3015
+    - enemy_des_3016
+    - enemy_des_3017
+    - enemy_des_3018
+    - enemy_des_3019
+    - enemy_des_3020
+    - enemy_des_3021
+    - enemy_des_3022
+    - enemy_des_3023
+    - enemy_des_3024
+    - enemy_des_3025
+    - enemy_des_3026
+    - enemy_des_3027
+    - enemy_des_3028
+    - enemy_des_3029
+    - enemy_des_3030
+    - enemy_des_3031
+    - enemy_des_3032
+    - enemy_des_3033
+    - enemy_des_3034
+    - enemy_des_3035
+    - enemy_des_3036
+    - enemy_des_3037
+    - enemy_skill_3001
+    - enemy_skill_3002
+    - enemy_skill_3003
+    - enemy_skill_3004
+    - enemy_skill_3005
+    - enemy_skill_3006
+    - enemy_skill_3007
+    - enemy_skill_3008
+    - enemy_skill_3009
+    - enemy_skill_3010
+    - enemy_skill_3011
+    - enemy_skill_3012
+    - enemy_skill_3013
+    - enemy_skill_3014
+    - enemy_skill_3015
+    - enemy_skill_3016
+    - enemy_skill_3017
+    - enemy_skill_3018
+    - enemy_skill_3019
+    - enemy_skill_3020
+    - enemy_skill_3021
+    - enemy_skill_3022
+    - enemy_skill_3023
+    - enemy_skill_3024
+    - enemy_skill_3025
+    - enemy_skill_3026
+    - enemy_skill_3027
+    - enemy_skill_3028
+    - enemy_skill_3029
+    - enemy_skill_3030
+    - enemy_skill_3031
+    - enemy_skill_3032
+    - enemy_skill_3033
+    - enemy_skill_3034
+    - enemy_skill_3035
+    - enemy_skill_3036
+    - enemy_skill_3037
+    - enemy_warn_3002
+    - enemy_warn_3003
+    - enemy_warn_3005
+    - enemy_warn_3006
+    - enemy_warn_3007
+    - enemy_warn_3008
+    - enemy_warn_3009
+    - enemy_warn_3010
+    - enemy_warn_3011
+    - enemy_warn_3012
+    - enemy_warn_3013
+    - enemy_warn_3014
+    - enemy_warn_3015
+    - enemy_warn_3016
+    - enemy_warn_3017
+    - enemy_warn_3020
+    - enemy_warn_3021
+    - enemy_warn_3022
+    - enemy_warn_3023
+    - enemy_warn_3024
+    - enemy_warn_3025
+    - enemy_warn_3026
+    - enemy_warn_3027
+    - enemy_warn_3028
+    - enemy_warn_3029
+    - enemy_warn_3030
+    - enemy_warn_3031
+    - enemy_warn_3032
+    - enemy_warn_3033
+    - enemy_warn_3034
+    - enemy_warn_3035
+    - enemy_warn_3036
+    - enemy_warn_3037
+    values:
+    - Kobold
+    - Kobold-Ranger
+    - "Kobold-Attent\xE4ter"
+    - Ork
+    - "Ork-Pl\xFCnderer"
+    - Ork-Schamane
+    - Ork-Druide
+    - Verfluchter Kobold
+    - Oger
+    - Koboldfass
+    - Morg
+    - Morg-Reiter
+    - Dunkelschwingen
+    - Fliegender Kobold
+    - Oger
+    - Verfluchter Kobold
+    - "Korrumpierter Besch\xFCtzer"
+    - "Kleiner Besch\xFCtzer"
+    - "Kleiner Besch\xFCtzer"
+    - Gul'ak das Dunkle Auge
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Kobolde sind die Basis-Infanterie in der b\xF6sen Armee"
+    - "Diese Kobolde sind nervig und k\xF6nnen aus gro\xDFer Distanz angreifen."
+    - "Nimm dich vor Attent\xE4tern in Acht. Sie sind flink und lassen sich nur schwer
+      aufhalten."
+    - "Orks sind die Haupt-Infanterie der b\xF6sen Armee. Sie sind st\xE4rker als
+      Kobolde."
+    - "Sie sind Kriegstreiber und blutr\xFCnstige Krieger. Sie wurden geboren, um
+      im Krieg zu dienen."
+    - "Schamanen k\xF6nnen die Moral von Orks anregen. Lass nicht zu, dass sie auf
+      ihren magischen Trommeln spielen."
+    - "Diese seltsamen Orks haben nat\xFCrliche Magie erlernt. Zerst\xF6re sie zuerst."
+    - "Verfluchte Kobolde sind Kreaturen eines antiken Fluchs. Sie leben zwischen
+      den Linien von Leben und Tod und k\xF6nnen die Toten beschw\xF6ren."
+    - "Oger sind gro\xDFe, aber d\xE4mliche Kreaturen. Sie sind die Vorhut der Armee
+      und haben eine hohe Verteidigung."
+    - Das ist eine seltsame Idee der Kobolde. Sie werden verwendet, um durch die
+      gegnerische Verteidigung zu brechen.
+    - "Die Hybrid-W\xF6lfe sind schnell und gef\xE4hrlich. Sie wurden von den Orks
+      gez\xE4hmt."
+    - "Der Wolf-Reiter ist eine der Elite-Kr\xE4fte der b\xF6sen Armee und sehr gef\xE4hrlich."
+    - "Die Dunklen Fl\xFCgel werden von Narazal beschw\xF6rt. Sie existieren bereits
+      seit der gro\xDFen Schlacht vor vielen Jahren."
+    - "Das ist das Angriffsteam der Goblins. Sie verwenden die Dunklen Fl\xFCgel,
+      um die gegnerische Linie zu durchqueren."
+    - "Oger sind gro\xDFe, aber d\xE4mliche Kreaturen. Sie sind die Vorhut der Armee
+      und haben eine hohe Verteidigung."
+    - "Verfluchte Kobolde sind Kreaturen eines antiken Fluchs. Sie leben zwischen
+      den Linien von Leben und Tod und k\xF6nnen die Toten beschw\xF6ren."
+    - "Ein antiker Besch\xFCtzer, der durch k\xF6nigliche Zauberer versiegelt wurde.
+      Er wurde allerdings durch die Magie vom D\xE4monenschwert Durandal, das der
+      K\xF6nig Jave I besa\xDF, korrumpiert und wurde zum Diener des Teufels."
+    - "Die kleinen Besch\xFCtzer wurden aus den Fragmenten des korrumpierten Besch\xFCtzers
+      erschaffen."
+    - "Die kleinen Besch\xFCtzer wurden aus den Fragmenten des korrumpierten Besch\xFCtzers
+      erschaffen."
+    - "Gul'ak war Mogguns j\xFCngerer Bruder und war der n\xE4chste Anf\xFChrer des
+      Blutwolf-Clans. Er wurde durch das D\xE4monenschwert Durandal kontrolliert
+      und wurde zu einem General der b\xF6sen Armee."
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Wut
+    - Mahnende Trommel
+    - Heilen
+    - "Beschw\xF6ren"
+    - "Bet\xE4ubender Schlag"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Bet\xE4ubender Schlag. Wut"
+    - "Beschw\xF6ren. Dunkle Flamme"
+    - Flinker Fels. Zersplittern
+    - 
+    - 
+    - "Dunkler K\xE4fig. Dunkler Dorn. Beschw\xF6ren. Seelenzerst\xF6rer"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "\u2013 Angriff aus der Distanz"
+    - "\u2013 Hohe Bewegungsgeschwindigkeit\\n \u2013 Angriff aus der Distanz"
+    - "\u2013 Durchschnittliche Ausdauer\\n \u2013 Wird bei niedrigen LP zu Wut"
+    - "\u2013 Geringe Bewegungsgeschwindigkeit\\n \u2013 Verbesserung der Bewegungsgeschwindigkeit
+      f\xFCr Verb\xFCndete in der N\xE4he"
+    - "\u2013 Heilung f\xFCr Verb\xFCndete in der N\xE4he\\n \u2013 Angriff aus der
+      Distanz"
+    - "\u2013 Beschw\xF6ren von Feinden\\n \u2013 Angriff aus der Distanz"
+    - "\u2013 Hohe Ausdauer\\n \u2013 Kann Gegner bet\xE4uben\\n \u2013 Geringe Bewegungsgeschwindigkeit"
+    - "\u2013 Hohe Bewegungsgeschwindigkeit\\n \u2013 In viele Kobolde zerbrochen"
+    - "\u2013 Hohe Bewegungsgeschwindigkeit\\n \u2013 Bringt Gegner zum Bluten"
+    - "\u2013 Bringt Gegner zum Bluten"
+    - "\u2013 Fliegendes Monster"
+    - "\u2013 Fliegendes Monster"
+    - "\u2013 Hohe Ausdauer\\n \u2013 Kann Gegner bet\xE4uben\\n \u2013 Wird bei
+      niedrigen LP zu Wut\\n \u2013 Geringe Bewegungsgeschwindigkeit"
+    - "\u2013 Beschw\xF6ren von Feinden\\n \u2013 Kontrolle \xFCber die T\xFCrme\\n
+      \u2013 Angriff aus der Distanz"
+    - "\u2013 Hohe Ausdauer\\n \u2013 Kann aus der Distanz angreifen\\n \u2013 Verursacht
+      Schaden in einem gro\xDFen Bereich\\n \u2013 Kann Gegner bet\xE4uben"
+    - "\u2013 Beschw\xF6ren von Feinden\\n \u2013 Kann aus der Distanz angreifen\\n
+      \u2013 Verursacht Schaden in einem gro\xDFen Bereich\\n \u2013 Kann Gegner
+      bet\xE4uben"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

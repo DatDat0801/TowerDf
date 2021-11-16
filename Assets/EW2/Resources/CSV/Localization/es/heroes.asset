@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: heroes
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_class_assassin
+    - hero_class_melee
+    - hero_class_ranged
+    - hero_class_tank
+    - hero_class_summoner
+    - hero_class_aoe
+    - hero_class_control
+    - hero_class_buff
+    - hero_class_debuff
+    - hero_name_1001
+    - hero_name_1002
+    - hero_name_1003
+    - hero_name_1004
+    - hero_name_1005
+    - hero_name_1006
+    - hero_name_1007
+    - hero_name_1008
+    - hero_name_1009
+    - hero_name_1010
+    - hero_name_1011
+    - hero_name_1012
+    - hero_name_1013
+    - hero_tag_1001
+    - hero_tag_1002
+    - hero_tag_1003
+    - hero_tag_1004
+    - hero_tag_1005
+    - hero_tag_1006
+    - hero_tag_1007
+    - hero_tag_1008
+    - hero_tag_1009
+    - hero_tag_1010
+    - hero_tag_1011
+    - hero_tag_1012
+    - hero_tag_1013
+    - hero_nameskill1001_0
+    - hero_nameskill1001_1
+    - hero_nameskill1001_2
+    - hero_nameskill1001_3
+    - hero_nameskill1002_0
+    - hero_nameskill1002_1
+    - hero_nameskill1002_2
+    - hero_nameskill1002_3
+    - hero_nameskill1003_0
+    - hero_nameskill1003_1
+    - hero_nameskill1003_2
+    - hero_nameskill1003_3
+    - hero_nameskill1004_0
+    - hero_nameskill1004_1
+    - hero_nameskill1004_2
+    - hero_nameskill1004_3
+    - hero_nameskill1005_0
+    - hero_nameskill1005_1
+    - hero_nameskill1005_2
+    - hero_nameskill1005_3
+    - hero_nameskill1006_0
+    - hero_nameskill1006_1
+    - hero_nameskill1006_2
+    - hero_nameskill1006_3
+    - hero_nameskill1007_0
+    - hero_nameskill1007_1
+    - hero_nameskill1007_2
+    - hero_nameskill1007_3
+    - hero_nameskill1008_0
+    - hero_nameskill1008_1
+    - hero_nameskill1008_2
+    - hero_nameskill1008_3
+    - hero_nameskill1009_0
+    - hero_nameskill1009_1
+    - hero_nameskill1009_2
+    - hero_nameskill1009_3
+    - hero_skill1001_des_0
+    - hero_skill1001_des_1
+    - hero_skill1001_des_2
+    - hero_skill1001_des_3
+    - hero_skill1002_des_0
+    - hero_skill1002_des_1
+    - hero_skill1002_des_2
+    - hero_skill1002_des_3
+    - hero_skill1003_des_0
+    - hero_skill1003_des_1
+    - hero_skill1003_des_2
+    - hero_skill1003_des_3
+    - hero_skill1004_des_0
+    - hero_skill1004_des_1
+    - hero_skill1004_des_2
+    - hero_skill1004_des_3
+    - hero_skill1005_des_0
+    - hero_skill1005_des_1
+    - hero_skill1005_des_2
+    - hero_skill1005_des_3
+    - hero_skill1006_des_0
+    - hero_skill1006_des_1
+    - hero_skill1006_des_2
+    - hero_skill1006_des_3
+    - hero_skill1007_des_0
+    - hero_skill1007_des_1
+    - hero_skill1007_des_2
+    - hero_skill1007_des_3
+    - hero_skill1008_des_0
+    - hero_skill1008_des_1
+    - hero_skill1008_des_2
+    - hero_skill1008_des_3
+    - hero_skill1009_des_0
+    - hero_skill1009_des_1
+    - hero_skill1009_des_2
+    - hero_skill1009_des_3
+    - hero_story_1001
+    - hero_story_1002
+    - hero_story_1003
+    - hero_story_1004
+    - hero_story_1005
+    - hero_story_1006
+    - hero_story_1007
+    - hero_story_1008
+    - hero_story_1009
+    - hero_story_1010
+    - hero_story_1011
+    - hero_story_1012
+    - hero_story_1013
+    values:
+    - Asesino
+    - "Mel\xE9"
+    - De rango
+    - Tanque
+    - Invocador
+    - "\xC1rea"
+    - Control
+    - Buff
+    - Debuff
+    - Claudia
+    - Arius
+    - "Ne\u2019taan"
+    - Marco
+    - Nerocat
+    - Akashi
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Princesa Comandante
+    - "Guardi\xE1n de Yggdrasil"
+    - Descendientes de los lobos de sangre
+    - Herbolario misterioso
+    - La bruja demente
+    - "El espadach\xEDn invisible"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Ataque Total
+    - Destructor de Vanguardias
+    - "Coraz\xF3n Valiente"
+    - Protector
+    - Tormenta de Flechas de Fuego
+    - "Flecha R\xE1pida"
+    - Vista Reforzada
+    - Flecha Explosiva
+    - Linaje del Caos
+    - "Provocaci\xF3n"
+    - Enfurecimiento
+    - Bebedor de Sangre
+    - Bombardeo de Veneno
+    - Lodo Pegajoso
+    - "Poci\xF3n Silenciadora"
+    - Hierba Sanadora
+    - "\xA1H\xEDper Explosi\xF3n!"
+    - "Detonaci\xF3n de despedida"
+    - "Explosi\xF3n infinita"
+    - Explosiva mareada
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Claudia salta alto en el aire y luego clava su espada en el suelo, lo que
+      inflige un {0} de da\xF1o f\xEDsico y aturde a los enemigos cercanos durante
+      {1} segundos."
+    - "Los ataques normales de Claudia pueden infligir un da\xF1o de \xE1rea equivalente
+      al {0}% de su da\xF1o b\xE1sico a los enemigos cercanos."
+    - "Reduce el {0}% del da\xF1o f\xEDsico que recibe Claudia"
+    - "Claudia crea un escudo protector que puede absorber hasta {0} da\xF1os y aumenta
+      la armadura f\xEDsica en un {1}% para ella y los aliados cercanos."
+    - "Arius dispara 4 r\xE1fagas de flechas en el \xE1rea objetivo. Las primeras
+      flechas explosivas infligen un da\xF1o equivalente al {0}% del da\xF1o f\xEDsico
+      de Arius. Las otras r\xE1fagas infligen un da\xF1o equivalente al {1}% de la
+      primera r\xE1faga. El suelo se encendi\xF3 y provoc\xF3 que los enemigos pasados
+      se quemaran. El estado dura {2} segundos e inflige {3} da\xF1o por {4} segundos."
+    - Los ataques normales de Arius tienen un {0}% de probabilidad de disparar {1}
+      flechas al mismo tiempo al objetivo.
+    - Incrementa {0}% del rango de Arius
+    - "Arius apunt\xF3 a un enemigo a una distancia igual a {0} veces su alcance.
+      Dispara una flecha que inflige un {1}% de da\xF1o de \xE1rea al objetivo y
+      a los enemigos circundantes."
+    - "Ne'taan lo convierte en una forma de caos, regenerando instant\xE1neamente
+      el {0}% de su HP m\xE1ximo. De esta forma, los ataques b\xE1sicos producen
+      un da\xF1o f\xEDsico extra igual al {1}% del HP m\xE1ximo."
+    - "Cuando es atacado por un ataque b\xE1sico, Ne'taan tiene una probabilidad
+      del {0}% de activar una Provocaci\xF3n y de ganar un {1}% de la armadura durante
+      {2} segundos. La Provocaci\xF3n fuerza a todos los enemigos en una \xE1rea
+      a hacer Silencio y se apresura a atacarlos. Los enemigos voladores son inmunes
+      a la Provocaci\xF3n."
+    - "Cuando es atacado por ataques b\xE1sicos, Ne'taan tiene una probabilidad del
+      {0}% de Contraatacar por el ataque que recibe."
+    - Ne'taan sana {0} HP por cada enemigo que mata.
+    - "Marco fuerza a Pomp a escupir un gran charco de veneno, lo que le produce
+      a todos los enemigos en el \xE1rea un da\xF1o de {0} por segundo. El charco
+      de veneno dura {1} segundos"
+    - El charco de veneno del Bombardeo de Veneno reduce la velocidad de movimiento
+      del enemigo en un {0}%
+    - "Marco tiene una probabilidad del {0}% de lanzar una poci\xF3n especial que
+      silencia a los enemigos en una \xE1rea. El silencio dura {1} segundos"
+    - "Pomp escupe hierbas que restituyen {0}HP por segundo a los h\xE9roes aliados
+      que est\xE1n dentro del rango. Las hierbas incrementan la velocidad de ataque
+      de aquellos h\xE9roes en un {1}% durante {2} segundos."
+    - "Nerocat lanza un orbe de energ\xEDa que inflige {0} da\xF1o a un \xE1rea.
+      \xA1H\xEDper Explosi\xF3n! se reducir\xE1 en {1} segundo por cada enemigo destruido
+      por este hechizo"
+    - "Por cada enemigo asesinado por Nerocat, hay un {0}% para crear una explosi\xF3n
+      que inflige {1} da\xF1o. La explosi\xF3n podr\xEDa estar vinculada si los enemigos
+      se destruyen consecutivamente."
+    - "Despu\xE9s de usar Hyper Explosion !, Nerocat aumenta un {0}% de su velocidad
+      de ataque, y su ataque normal puede infligir da\xF1o en un \xE1rea. La habilidad
+      dur\xF3 {1} segundos."
+    - "\xA1H\xEDper explosi\xF3n! de NeroCat puede aturdir a los enemigos y dur\xF3
+      {0} segundos."
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Claudia es la hija del se\xF1or de Alsacia. Su padre muri\xF3 en Crescent
+      Island cuando el ej\xE9rcito del mal atac\xF3 repentinamente el reino. Se ofreci\xF3
+      como voluntaria para liderar el ej\xE9rcito para vengar a su padre y descubrir
+      la conspiraci\xF3n detr\xE1s del regreso del mal."
+    - "Arius es amigo de Arryn y guardi\xE1n de Yggdrasil. Cuando el ej\xE9rcito
+      de demonios atac\xF3 a Yggdrasil, se acerc\xF3 a Claudia y le pidi\xF3 una
+      alianza con los humanos, a cambio la ayudar\xEDa a descubrir la conspiraci\xF3n
+      de esta inesperada invasi\xF3n."
+    - "Ne'taan es un orco h\xEDbrido, un hijo del l\xEDder del clan Bloodwolf y de
+      una hechicera. Su t\xEDo, Gul'ak, mat\xF3 a su madre, tom\xF3 los derechos
+      de herencia e hizo que todo el clan se sometiera al demonio. Ne'taan tom\xF3
+      la determinaci\xF3n de vengarse de Gul'ak y de derrotar a la fuerza oscura
+      para liberar a su clan."
+    - "Marco es un ni\xF1o hu\xE9rfano que vive en el bosque del sur de Jonia. Marco
+      encontr\xF3 a su amigo lagarto Pomp cerca del Pantano Gris. Los dos vivieron
+      en paz hasta que llegaron los Orcos y destruyeron el bosque. Marco y Pomp se
+      rebelaron contra los Orcos para proteger su bosque."
+    - "Nerocat originalmente era una dama noble en Endia. A una edad temprana, fue
+      enviada a la Real Academia de Magia. Era conocida como una bruja talentosa
+      pero arrogante y rebelde. Despu\xE9s de graduarse, amans\xF3 a un gato encantador
+      llamado Mew y desafi\xF3 a cualquiera a demostrar que era la bruja m\xE1s fuerte
+      de todas las edades."
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

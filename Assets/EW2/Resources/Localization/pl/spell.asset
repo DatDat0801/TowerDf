@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: spell
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - spell_name_4001
+    - spell_name_4002
+    - spell_name_4003
+    - spell_name_4004
+    - spell_name_4005
+    - spell_name_4006
+    - spell_name_4011
+    - active_description_4001
+    - active_description_4002
+    - active_description_4003
+    - active_description_4004
+    - active_description_4005
+    - active_description_4006
+    - active_description_4011
+    - passive_description_4001
+    - passive_description_4002
+    - passive_description_4003
+    - passive_description_4004
+    - passive_description_4005
+    - passive_description_4006
+    - passive_description_4011
+    - spell_default_description_all
+    - spell_default_description_4001
+    - spell_default_description_4002
+    - spell_default_description_4003
+    - spell_default_description_4004
+    - spell_default_description_4005
+    - spell_default_description_4006
+    - spell_default_description_4011
+    values:
+    - "Burza \u015Bnie\u017Cna"
+    - "P\u0142on\u0105cy grzmot"
+    - Wybuchowy duch
+    - Czarodziejka gwiazd
+    - "B\u0142ogos\u0142awie\u0144stwo natury"
+    - "Magiczna mina l\u0105dowa"
+    - "Staro\u017Cytny Totem"
+    - "Zamra\u017Ca wrog\xF3w w wybranym obszarze na <color=#bb5c14>{0}</color> sekund.
+      Po stopieniu lodu wrogowie pozostan\u0105 zimni przez <color=#bb5c14>{1}</color>
+      sekund\n\n*Odporny na lataj\u0105cych wrog\xF3w"
+    - "Tw\xF3rz grzmoty i ogie\u0144, kt\xF3re spadaj\u0105 na wybrany obszar i zadaj\u0105
+      <color=#bb5c14>{0}</color> obra\u017Cenia"
+    - "Tworzy wybuch, kt\xF3ry zadaje <color=#bb5c14>{0}</color> obra\u017Cenia przeciwnikom
+      na wybranym obszarze"
+    - "Wezwij stra\u017Cnika, aby do\u0142\u0105czy\u0142 do bitwy. Zadaj <color=#bb5c14>{0}</color>
+      obra\u017Ce\u0144 podczas l\u0105dowania na wybranym obszarze. Stra\u017Cnicy
+      otrzymuj\u0105 <color=#bb5c14>{1}</color> P\u017B i <color=#bb5c14>{2}</color>
+      obra\u017Ce\u0144."
+    - "Przywraca <color=#bb5c14>{0}</color> P\u017B na sekund\u0119 wszystkim sojusznikom
+      w obszarze docelowym. Czas trwania <color=#bb5c14>{1}</color> sekund"
+    - "Na drodze umieszczane s\u0105 specjalne miny, kt\xF3re zadaj\u0105 <color=#bb5c14>{0}</color>
+      obra\u017Cenia przeciwnikom, kt\xF3rzy na nie nadepn\u0105"
+    - "Przywo\u0142uje totem z <color=#bb5c14>{0}</color> HP, kt\xF3ry trwa <color=#bb5c14>{1}</color>
+      sekund, tworz\u0105c przekl\u0119ty obszar, kt\xF3ry przyci\u0105ga wszystkich
+      wrog\xF3w z umiej\u0119tno\u015Bci\u0105 ataku. Wrogowie na tym obszarze otrzymuj\u0105
+      <color=#bb5c14>{2}</color> obra\u017Ce\u0144 na sekund\u0119.\n\n*Odporny na
+      lataj\u0105cych wrog\xF3w"
+    - "Ka\u017Cdy atak podstawowy ma <color=#bb5c14>{0}%</color> szans\u0119 na wywo\u0142anie
+      zimna.\n\n*Odporny na Bossa i Mini Bossa"
+    - "Podstawowy atak bohatera ma <color=#bb5c14>{0}%</color> szans\u0119 na spowodowanie
+      oparze\u0144 przeciwnika. Oparzenia trwaj\u0105 <color=#bb5c14>{1}</color>
+      sekund. Szybko\u015B\u0107 podpale\u0144 na atak podstawowy nie b\u0119dzie
+      si\u0119 liczy\u0142a, je\u015Bli podpalenia nadal trwaj\u0105"
+    - "Ataki wrog\xF3w maj\u0105 <color=#bb5c14>{0}%</color> szans\u0119 na wywo\u0142anie
+      eksplozji na ciele trafionego bohatera. Wszyscy wrogowie w zasi\u0119gu, w
+      tym atakuj\u0105cy, otrzymuj\u0105 <color=#bb5c14>{1}</color> obra\u017Cenia
+      od tej eksplozji"
+    - "Gdy pojawia si\u0119 Czarodziejka Gwiazd, bohater otrzymuje aur\u0119 ochronn\u0105.
+      Podczas istnienia Czarodziejki Gwiazd bohater otrzymuje wi\u0119cej <color=#bb5c14>{0}%</color>
+      pancerza i <color=#bb5c14>{1}%</color> odporno\u015Bci na magi\u0119"
+    - "Bohater ma zdolno\u015B\u0107 do regeneracji o <color=#bb5c14>{0}</color>
+      maksymalnego HP na sekund\u0119, nawet w walce."
+    - "Wrogowie zaatakowani podstawowym atakiem bohatera b\u0119d\u0105 mieli <color=#bb5c14>{0}%</color>
+      szans\u0119 na eksplozj\u0119. Wszyscy wrogowie w eksplozji otrzymuj\u0105
+      <color=#bb5c14>{1}</color> obra\u017Cenia"
+    - "Po ka\u017Cdych <color=#bb5c14>{0}</color> atakach Bohater rzuca kl\u0105tw\u0119,
+      kt\xF3ra przera\u017Ca wszystkich okolicznych wrog\xF3w.\n\n* Odporny na lataj\u0105cych
+      wrog\xF3w"
+    - "Zakl\u0119cia wyposa\u017Cone w bohatera, aby doda\u0107 dodatkowe umiej\u0119tno\u015Bci
+      w bitwie"
+    - "Zamra\u017Caj wrog\xF3w na danym obszarze i daj Bohaterowi wyposa\u017Conemu
+      w to Zakl\u0119cie szans\u0119 na zamro\u017Cenie wrog\xF3w przy ka\u017Cdym
+      podstawowym ataku"
+    - "Wywo\u0142aj eksplozj\u0119 na danym obszarze i daj Bohaterowi wyposa\u017Conemu
+      w to Zakl\u0119cie zdolno\u015B\u0107 do palenia wrog\xF3w"
+    - "Tworzy eksplozj\u0119, kt\xF3ra niszczy wrog\xF3w i pozwala Bohaterowi wyposa\u017Conemu
+      w Magi\u0119 eksplodowa\u0107, gdy zostanie zaatakowany"
+    - "Przywo\u0142aj Czarodziejki Gwiazd i zwi\u0119ksz obron\u0119 bohatera wyposa\u017Conego
+      w to zakl\u0119cie"
+    - "Leczy sojusznik\xF3w i daje bohaterowi wyposa\u017Conemu w to zakl\u0119cie
+      zdolno\u015B\u0107 do regeneracji HP w bitwie"
+    - "Ustawiaj pu\u0142apki po drodze i daj Bohaterowi mo\u017Cliwo\u015B\u0107
+      wywo\u0142ania wybuchowego ataku"
+    - "D\xFC\u015Fmanlar\u0131 \xE7ekmek ve lanetlemek i\xE7in bir totem \xE7a\u011F\u0131r\u0131r.
+      Kahramanlar Deh\u015Fete neden olma yetene\u011Fine sahip olacak."

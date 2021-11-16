@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: heroes
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_class_assassin
+    - hero_class_melee
+    - hero_class_ranged
+    - hero_class_tank
+    - hero_class_summoner
+    - hero_class_aoe
+    - hero_class_control
+    - hero_class_buff
+    - hero_class_debuff
+    - hero_name_1001
+    - hero_name_1002
+    - hero_name_1003
+    - hero_name_1004
+    - hero_name_1005
+    - hero_name_1006
+    - hero_tag_1001
+    - hero_tag_1002
+    - hero_tag_1003
+    - hero_tag_1004
+    - hero_tag_1005
+    - hero_tag_1006
+    - hero_nameskill1001_0
+    - hero_nameskill1001_1
+    - hero_nameskill1001_2
+    - hero_nameskill1001_3
+    - hero_nameskill1002_0
+    - hero_nameskill1002_1
+    - hero_nameskill1002_2
+    - hero_nameskill1002_3
+    - hero_nameskill1003_0
+    - hero_nameskill1003_1
+    - hero_nameskill1003_2
+    - hero_nameskill1003_3
+    - hero_nameskill1004_0
+    - hero_nameskill1004_1
+    - hero_nameskill1004_2
+    - hero_nameskill1004_3
+    - hero_nameskill1005_0
+    - hero_nameskill1005_1
+    - hero_nameskill1005_2
+    - hero_nameskill1005_3
+    - hero_skill1001_des_0
+    - hero_skill1001_des_1
+    - hero_skill1001_des_2
+    - hero_skill1001_des_3
+    - hero_skill1002_des_0
+    - hero_skill1002_des_1
+    - hero_skill1002_des_2
+    - hero_skill1002_des_3
+    - hero_skill1003_des_0
+    - hero_skill1003_des_1
+    - hero_skill1003_des_2
+    - hero_skill1003_des_3
+    - hero_skill1004_des_0
+    - hero_skill1004_des_1
+    - hero_skill1004_des_2
+    - hero_skill1004_des_3
+    - hero_skill1005_des_0
+    - hero_skill1005_des_1
+    - hero_skill1005_des_2
+    - hero_skill1005_des_3
+    - hero_story_1001
+    - hero_story_1002
+    - hero_story_1003
+    - hero_story_1004
+    - hero_story_1005
+    values:
+    - "S\xE1t th\u1EE7"
+    - "C\u1EADn chi\u1EBFn"
+    - "\u0110\xE1nh xa"
+    - "\u0110\u1EE1 \u0111\xF2n"
+    - "Tri\u1EC7u h\u1ED3i"
+    - "\u0110\xE1nh lan"
+    - "Kh\u1ED1ng ch\u1EBF"
+    - "T\u0103ng c\u01B0\u1EDDng"
+    - "L\xE0m y\u1EBFu"
+    - Claudia
+    - Arius
+    - Ne'taan
+    - Marco
+    - Nerocat
+    - Akashi
+    - "C\xF4ng n\u01B0\u01A1ng th\u1ED1ng l\u0129nh"
+    - "H\u1ED9 v\u1EC7 Yggdrasil"
+    - "Truy\u1EC1n nh\xE2n Bloodwolf"
+    - "D\u01B0\u1EE3c s\u01B0 th\u1EA7n b\xED"
+    - "Ph\xF9 th\u1EE7y ng\xF4ng cu\u1ED3ng"
+    - "V\xF4 \u1EA3nh ki\u1EBFm s\u0129"
+    - "T\u1EA5n c\xF4ng T\u1ED5ng l\u1EF1c"
+    - "\u0110\u1ED9t ph\xE1 Ti\xEAn phong"
+    - "Tr\xE1i tim Qu\u1EA3 c\u1EA3m"
+    - "Ng\u01B0\u1EDDi b\u1EA3o h\u1ED9"
+    - "H\u1ECFa V\u0169 Ti\u1EC5n"
+    - "Li\xEAn Ch\xE2u Ti\u1EC5n"
+    - "T\u0103ng c\u01B0\u1EDDng C\u1EF1 ly"
+    - "B\u1ED9c Ph\xE1 Ti\u1EC5n"
+    - "D\xF2ng m\xE1u H\u1ED7n mang"
+    - "Khi\xEAu kh\xEDch"
+    - "Th\u1ECBnh n\u1ED9"
+    - "H\xFAt m\xE1u"
+    - "Ph\xE1o \u0110\u1ED9c t\u1ED1"
+    - "Ch\u1EA5t d\xEDnh"
+    - "Thu\u1ED1c C\xE2m l\u1EB7ng"
+    - "Thu\u1ED1c H\u1ED3i ph\u1EE5c"
+    - "N\u1ED5 si\xEAu c\u1EA5p"
+    - "N\u1ED5 ti\u1EC5n bi\u1EC7t"
+    - "N\u1ED5 li\xEAn ho\xE0n"
+    - "N\u1ED5 t\xEA t\xE1i"
+    - "Claudia nh\u1EA3y l\xEAn cao v\xE0 c\u1EAFm ki\u1EBFm xu\u1ED1ng m\u1EB7t
+      \u0111\u1EA5t, g\xE2y {0} s\xE1t th\u01B0\u01A1ng v\u1EADt l\xFD cho t\u1EA5t
+      c\u1EA3 k\u1EBB \u0111\u1ECBch tr\xFAng \u0111\xF2n v\xE0 khi\u1EBFn ch\xFAng
+      b\u1ECB cho\xE1ng trong {1} gi\xE2y."
+    - "\u0110\xF2n \u0111\xE1nh th\u01B0\u1EDDng c\u1EE7a Claudia c\xF3 th\u1EC3
+      g\xE2y ra {0}% s\xE1t th\u01B0\u01A1ng di\u1EC7n r\u1ED9ng cho k\u1EBB \u0111\u1ECBch
+      xung quanh"
+    - "Gi\u1EA3m {0}% s\xE1t th\u01B0\u01A1ng v\u1EADt l\xFD m\xE0 Claudia ph\u1EA3i
+      nh\u1EADn."
+    - "Claudia t\u1EA1o ra m\u1ED9t l\u1EDBp khi\xEAn b\u1EA3o h\u1ED9 c\xF3 th\u1EC3
+      h\u1EA5p th\u1EE5 t\u1ED1i \u0111a {0} s\xE1t th\u01B0\u01A1ng, t\u0103ng {1}%
+      gi\xE1p v\u1EADt l\xFD cho b\u1EA3n th\xE2n c\xF9ng \u0111\u1ED3ng minh xung
+      quanh."
+    - "Arius b\u1EAFn ra 4 ch\xF9m t\xEAn l\u1EEDa xu\u1ED1ng v\xF9ng ch\u1EC9 \u0111\u1ECBnh.
+      Ch\xF9m t\xEAn \u0111\u1EA7u ti\xEAn g\xE2y s\xE1t th\u01B0\u01A1ng b\u1EB1ng
+      {0}% s\xE1t th\u01B0\u01A1ng v\u1EADt l\xFD c\u1EE7a anh ta. C\xE1c ch\xF9m
+      t\xEAn kh\xE1c g\xE2y s\xE1t th\u01B0\u01A1ng b\u1EB1ng {1}% s\xE1t th\u01B0\u01A1ng
+      c\u1EE7a \u0111\xF2n \u0111\u1EA7u ti\xEAn. M\u1EB7t \u0111\u1EA5t b\u1ED1c
+      ch\xE1y v\xE0 g\xE2y hi\u1EC7u \u1EE9ng thi\xEAu \u0111\u1ED1t cho k\u1EBB
+      \u0111\u1ECBch \u0111i qua. Hi\u1EC7u \u1EE9ng t\u1ED3n t\u1EA1i trong {2}
+      gi\xE2y v\xE0 g\xE2y {3} s\xE1t th\u01B0\u01A1ng m\u1ED7i {4} gi\xE2y."
+    - "\u0110\xF2n \u0111\xE1nh th\u01B0\u1EDDng c\u1EE7a Arius c\xF3 {0}% c\u01A1
+      h\u1ED9i b\u1EAFn {1} m\u0169i t\xEAn c\xF9ng l\xFAc v\xE0o nhi\u1EC1u m\u1EE5c
+      ti\xEAu."
+    - "T\u0103ng {0}% t\u1EA7m b\u1EAFn c\u1EE7a Arius."
+    - "Arius ng\u1EAFm m\u1ED9t k\u1EBB \u0111\u1ECBch \u1EDF kho\u1EA3ng c\xE1ch
+      xa g\u1EA5p {0} l\u1EA7n t\u1EA7m b\u1EAFn th\u01B0\u1EDDng. Anh b\u1EAFn m\u1ED9t
+      m\u0169i t\xEAn g\xE2y {1}% s\xE1t th\u01B0\u01A1ng di\u1EC7n r\u1ED9ng cho
+      m\u1EE5c ti\xEAu v\xE0 nh\u1EEFng k\u1EBB \u0111\u1ECBch \u0111\u1EE9ng xung
+      quanh."
+    - "Ne'taan chuy\u1EC3n sang h\xECnh th\xE1i h\u1ED7n mang, h\u1ED3i l\u1EA1i
+      ngay l\u1EADp t\u1EE9c {0}% HP t\u1ED1i \u0111a. Trong h\xECnh th\xE1i n\xE0y,
+      \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng g\xE2y th\xEAm s\xE1t th\u01B0\u01A1ng
+      v\u1EADt l\xFD b\u1EB1ng {1}% HP t\u1ED1i \u0111a."
+    - "Khi b\u1ECB t\u1EA5n c\xF4ng b\u1EDFi \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng,
+      Ne'taan c\xF3 {0}% c\u01A1 h\u1ED9i k\xEDch ho\u1EA1t Khi\xEAu kh\xEDch v\xE0
+      nh\u1EADn {1}% gi\xE1p trong {2} gi\xE2y. Khi\xEAu kh\xEDch khi\u1EBFn to\xE0n
+      b\u1ED9 k\u1EBB \u0111\u1ECBch trong m\u1ED9t khu v\u1EF1c b\u1ECB C\xE2m l\u1EB7ng
+      v\xE0 lao v\xE0o t\u1EA5n c\xF4ng h\u1EAFn. Khi\xEAu kh\xEDch v\xF4 hi\u1EC7u
+      v\u1EDBi qu\xE1i bay."
+    - "Khi b\u1ECB t\u1EA5n c\xF4ng b\u1EDFi \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng,
+      Ne'taan c\xF3 {0}% t\u1EC9 l\u1EC7 ph\u1EA3n \u0111\xF2n tr\xEAn m\u1ED7i \u0111\xF2n
+      t\u1EA5n c\xF4ng m\xE0 h\u1EAFn nh\u1EADn v\xE0o."
+    - "Ne'taan h\u1ED3i {0} HP v\u1EDBi m\u1ED7i k\u1EBB \u0111\u1ECBch m\xE0 h\u1EAFn
+      ti\xEAu di\u1EC7t."
+    - "Marco b\u1EAFt Pomp nh\u1ED5 ra m\u1ED9t b\xE3i \u0111\u1ED9c g\xE2y {0} s\xE1t
+      th\u01B0\u01A1ng m\u1ED7i gi\xE2y cho m\u1ECDi k\u1EBB \u0111\u1ECBch trong
+      t\u1EA7m \u1EA3nh h\u01B0\u1EDFng. B\xE3i \u0111\u1ED9c t\u1ED3n t\u1EA1i trong
+      {1} gi\xE2y."
+    - "B\xE3i \u0111\u1ED9c c\u1EE7a Ph\xE1o \u0110\u1ED9c t\u1ED1 l\xE0m gi\u1EA3m
+      {0}% t\u1ED1c \u0111\u1ED9 di chuy\u1EC3n c\u1EE7a k\u1EBB \u0111\u1ECBch"
+    - "Marco c\xF3 {0}% c\u01A1 h\u1ED9i n\xE9m ra m\u1ED9t l\u1ECD thu\u1ED1c \u0111\u1EB7c
+      bi\u1EC7t g\xE2y C\xE2m l\u1EB7ng cho k\u1EBB \u0111\u1ECBch trong m\u1ED9t
+      khu v\u1EF1c. C\xE2m l\u1EB7ng k\xE9o d\xE0i trong {1} gi\xE2y"
+    - "Pomp nh\u1ED5 ra th\u1EA3o d\u01B0\u1EE3c h\u1ED3i {0} HP m\u1ED7i gi\xE2y
+      v\xE0 t\u0103ng {1}% t\u1ED1c \u0111\u1ED9 \u0111\xE1nh cho c\xE1c Anh h\xF9ng
+      \u0111\u1ED3ng minh n\xE0o hi\u1EC7n di\u1EC7n trong t\u1EA7m b\u1EAFn trong
+      {2} gi\xE2y"
+    - "Nerocat b\u1EAFn ra 1 qu\u1EA3 c\u1EA7u n\u0103ng l\u01B0\u1EE3ng g\xE2y {0}
+      s\xE1t th\u01B0\u01A1ng t\u1EA1i m\u1ED9t khu v\u1EF1c. N\u1ED5 si\xEAu c\u1EA5p
+      \u0111\u01B0\u1EE3c gi\u1EA3m \u0111i {1} gi\xE2y v\u1EDBi m\u1ED7i k\u1EBB
+      \u0111\u1ECBch b\u1ECB ti\xEAu di\u1EC7t b\u1EDFi k\u1EF9 n\u0103ng"
+    - "M\u1ED7i k\u1EBB \u0111\u1ECBch b\u1ECB ti\xEAu di\u1EC7t b\u1EDFi Nerocat
+      s\u1EBD c\xF3 {0}% kh\u1EA3 n\u0103ng t\u1EA1o ra v\u1EE5 n\u1ED5 g\xE2y {1}
+      s\xE1t th\u01B0\u01A1ng. V\u1EE5 n\u1ED5 c\xF3 th\u1EC3 n\u1ED1i v\u1EDBi nhau
+      th\xE0nh chu\u1ED7i n\u1EBFu k\u1EBB \u0111\u1ECBch li\xEAn t\u1EE5c b\u1ECB
+      ti\xEAu di\u1EC7t"
+    - "Sau khi s\u1EED d\u1EE5ng N\u1ED5 si\xEAu c\u1EA5p, Nerocat \u0111\u01B0\u1EE3c
+      t\u0103ng {0} % t\u1ED1c \u0111\u1ED9 \u0111\xE1nh v\xE0 \u0111\xF2n \u0111\xE1nh
+      th\u01B0\u1EDDng c\xF3 kh\u1EA3 n\u0103ng g\xE2y s\xE1t th\u01B0\u01A1ng di\u1EC7n
+      r\u1ED9ng. K\u1EF9 n\u0103ng c\xF3 hi\u1EC7u l\u1EF1c trong v\xF2ng {1} gi\xE2y"
+    - "N\u1ED5 si\xEAu c\u1EA5p c\u1EE7a Nerocat c\xF3 th\u1EC3 l\xE0m cho\xE1ng
+      k\u1EBB \u0111\u1ECBch trong {0} gi\xE2y"
+    - "Claudia l\xE0 con g\xE1i c\u1EE7a l\xE3nh ch\xFAa v\xF9ng Alsace. Cha c\u1EE7a
+      c\xF4 \u0111\xE3 hi sinh tr\xEAn \u0111\u1EA3o Crescent khi \u0111\u1ED9i qu\xE2n
+      qu\u1EF7 d\u1EEF b\u1EA5t ng\u1EDD t\u1EA5n c\xF4ng v\xE0o v\u01B0\u01A1ng
+      qu\u1ED1c. C\xF4 t\xECnh nguy\u1EC7n d\u1EABn qu\xE2n tr\u1EA3 th\xF9 cho cha,
+      \u0111\u1ED3ng th\u1EDDi t\xECm hi\u1EC3u \xE2m m\u01B0u \u0111\u1EB1ng sau
+      s\u1EF1 tr\u1EDF l\u1EA1i c\u1EE7a qu\xE2n \u0111o\xE0n \xE1c qu\u1EF7."
+    - "Arius l\xE0 m\u1ED9t b\u1EB1ng h\u1EEFu c\u1EE7a Arryn v\xE0 l\xE0 h\u1ED9
+      v\u1EC7 c\u1EE7a Yggdrasil. Khi qu\xE2n \u0111o\xE0n qu\u1EF7 d\u1EEF t\u1EA5n
+      c\xF4ng v\xE0o Yggdrasil, anh \u0111\xE3 t\xECm \u0111\u1EBFn Claudia v\xE0
+      xin li\xEAn minh v\u1EDBi lo\xE0i ng\u01B0\u1EDDi, \u0111\u1ED5i l\u1EA1i anh
+      s\u1EBD h\u1ED7 tr\u1EE3 c\xF4 t\xECm hi\u1EC3u \xE2m m\u01B0u c\u1EE7a cu\u1ED9c
+      x\xE2m l\u0103ng b\u1EA5t ng\u1EDD n\xE0y."
+    - "Ne'taan l\xE0 m\u1ED9t orc lai. H\u1EAFn l\xE0 con trai c\u1EE7a th\u1EE7
+      l\u0129nh t\u1ED9c Bloodwolf v\u1EDBi m\u1ED9t n\u1EEF ph\xE1p s\u01B0 lo\xE0i
+      ng\u01B0\u1EDDi. Ch\xFA h\u1EAFn l\xE0 Gul'ak \u0111\xE3 gi\u1EBFt m\u1EB9
+      h\u1EAFn, chi\u1EBFm quy\u1EC1n th\u1EEBa k\u1EBF v\xE0 khi\u1EBFn c\u1EA3
+      b\u1ED9 t\u1ED9c quy ph\u1EE5c qu\u1EF7 d\u1EEF. Ne'taan quy\u1EBFt t\xE2m
+      tr\u1EA3 th\xF9 Gul'ak v\xE0 \u0111\xE1nh b\u1EA1i th\u1EBF l\u1EF1c h\u1EAFc
+      \xE1m \u0111\u1EC3 gi\u1EA3i c\u1EE9u b\u1ED9 t\u1ED9c."
+    - "Marco l\xE0 m\u1ED9t c\u1EADu b\xE9 m\u1ED3 c\xF4i s\u1ED1ng trong v\xF9ng
+      r\u1EEBng ph\xEDa Nam Ionia. Anh b\u1EA1n th\u1EB1n l\u1EB1n Pomp c\u1EE7a
+      Marco \u0111\u01B0\u1EE3c t\xECm th\u1EA5y \u1EDF g\u1EA7n \u0110\u1EA7m L\u1EA7y
+      X\xE1m. H\u1ECD s\u1ED1ng y\xEAn b\xECnh trong r\u1EEBng cho \u0111\u1EBFn
+      khi b\u1EA7y Orc xu\u1EA5t hi\u1EC7n. Marco v\xE0 Pomp \u0111\xE3 n\u1ED5i
+      d\u1EADy ch\u1ED1ng l\u1EA1i b\u1EA7y Orc \u0111\u1EC3 b\u1EA3o v\u1EC7 khu
+      r\u1EEBng."
+    - "Nerocat v\u1ED1n l\xE0 m\u1ED9t ti\u1EC3u th\u01B0 qu\xFD t\u1ED9c t\u1EA1i
+      Endia, \u0111\u01B0\u1EE3c g\u1EEDi v\xE0o H\u1ECDc vi\u1EC7n Ph\xE9p thu\u1EADt
+      Ho\xE0ng gia t\u1EEB nh\u1ECF. C\xF4 n\u1ED5i ti\u1EBFng l\xE0 m\u1ED9t ph\xF9
+      th\u1EE7y t\xE0i n\u0103ng nh\u01B0ng r\u1EA5t ki\xEAu ng\u1EA1o v\xE0 ng\u1ED7
+      ngh\u1ECBch. Sau khi t\u1ED1t nghi\u1EC7p, c\xF4 thu ph\u1EE5c m\u1ED9t con
+      m\xE8o y\xEAu t\xEAn Mew v\xE0 \u0111i th\xE1ch \u0111\u1EA5u kh\u1EAFp n\u01A1i
+      \u0111\u1EC3 ch\u1EE9ng minh b\u1EA3n th\xE2n l\xE0 ph\xF9 th\u1EE7y m\u1EA1nh
+      nh\u1EA5t m\u1ECDi th\u1EDDi \u0111\u1EA1i. "

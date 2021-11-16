@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ae976509d29744aa82c0f1bd16efe9, type: 3}
+  m_Name: LocalizeDownloader
+  m_EditorClassIdentifier: 
+  downloadPath: https://docs.google.com/spreadsheets/d/1W8yEPGaygXXZIrNNC8ObiVSLdypdgj6kUAShzPlWLxk
+  saveFilePath: EW2/CSV/Localization
+  codeList:
+  - en
+  - vi
+  - id
+  - pt
+  - fr
+  - th
+  - zh-CN
+  - ko
+  - ja
+  - de
+  - es
+  - ru
+  - it
+  - nl
+  - tr
+  - pl
+  itemList:
+  - sheetName: enemy
+    sheetId: 1780172377
+    download: 1
+  - sheetName: gameplay
+    sheetId: 200102599
+    download: 1
+  - sheetName: tower
+    sheetId: 1556939465
+    download: 1
+  - sheetName: heroes
+    sheetId: 1118463319
+    download: 1
+  - sheetName: worldmap
+    sheetId: 295286080
+    download: 1
+  - sheetName: popup
+    sheetId: 423948771
+    download: 1
+  - sheetName: common
+    sheetId: 2143763404
+    download: 1
+  - sheetName: patch_note
+    sheetId: 271696646
+    download: 1
+  - sheetName: button
+    sheetId: 878212425
+    download: 1
+  - sheetName: patch_note
+    sheetId: 271696646
+    download: 1
+  - sheetName: stages
+    sheetId: 2027640794
+    download: 1
+  - sheetName: currency_type
+    sheetId: 1574313890
+    download: 1
+  - sheetName: tutorial
+    sheetId: 2025377310
+    download: 1
+  - sheetName: upgrade_tower
+    sheetId: 943428356
+    download: 1
+  - sheetName: shop
+    sheetId: 2089054341
+    download: 1
+  - sheetName: spell
+    sheetId: 524000926
+    download: 1
+  - sheetName: quest
+    sheetId: 477008845
+    download: 1
+  - sheetName: achievement
+    sheetId: 1706626892
+    download: 1
+  - sheetName: rune
+    sheetId: 1301272194
+    download: 1
+  - sheetName: game_event
+    sheetId: 463528705
+    download: 1
+  - sheetName: playable_mode
+    sheetId: 1734500595
+    download: 1
+  - sheetName: social
+    sheetId: 1206862926
+    download: 1

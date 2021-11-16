@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6509d675dc51445db218be56ab5003ed, type: 3}
+  m_Name: GachaSpellPremium
+  m_EditorClassIdentifier: 
+  gachaSpellDataBases:
+  - id: 0
+    numberKey: 1
+    moneyTypeKey: 6
+    costExchange: 60
+    moneyTypeExchange: 0
+    timeCountdownFree: 6
+  - id: 1
+    numberKey: 10
+    moneyTypeKey: 6
+    costExchange: 54
+    moneyTypeExchange: 0
+    timeCountdownFree: 0
+  gachaSpellRateDatas:
+  - rarity: 0
+    rate: 0
+  - rarity: 1
+    rate: 0.75
+  - rarity: 2
+    rate: 0.1875
+  - rarity: 3
+    rate: 0.0468
+  - rarity: 4
+    rate: 0.0157

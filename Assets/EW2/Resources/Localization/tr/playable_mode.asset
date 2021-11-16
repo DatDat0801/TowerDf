@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: playable_mode
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_defense_name_txt
+    - defensive_point_title_txt
+    - lobby_txt
+    - best_record_waves_txt
+    - current_record_waves_txt
+    - season_end_txt
+    - trial_left_txt
+    - trial_txt
+    - reward_milestone_txt
+    - select_base_txt
+    - hero_selection_txt
+    - unlock_base_txt
+    - turn_left_txt
+    - leaderboard_txt
+    - rank_txt
+    - player_txt
+    - formation_txt
+    - new_record_txt
+    - no_more_trial_txt
+    - result_txt
+    - last_trial_notice_txt
+    - hero_required_txt
+    - hero_defense_rule
+    - buff_name_7001
+    - buff_name_7002
+    - buff_name_7003
+    - buff_name_7004
+    - buff_name_7005
+    - buff_name_7006
+    - buff_des_7001
+    - buff_des_7002
+    - buff_des_7003
+    - buff_des_7004
+    - buff_des_7005
+    - buff_des_7006
+    - defensive_point_name_8001
+    - defensive_point_name_8004
+    - defensive_point_name_8005
+    - defensive_point_skill_8001
+    - defensive_point_skill_8004
+    - defensive_point_skill_8005
+    - defensive_point_des_8001
+    - defensive_point_des_8004
+    - defensive_point_des_8005
+    - hero_defens_map_name_1
+    - hero_defens_map_name_2
+    - tournament_ban_txt
+    - tournament_nerf_txt
+    - tournament_buff_txt
+    - ban_spell_notice_txt
+    - tower_selection_txt
+    - tower_required_txt
+    - hall_of_fame_txt
+    - join_tournament_txt
+    - unrank_txt
+    - tournament_ticket_txt
+    - tournament_shop_title
+    - purchase_ticket_popup_title_txt
+    - change_buff_txt
+    - change_hero_pair_txt
+    - change_buff_status_txt
+    - change_price_alert_txt
+    - waves_cleared_record_txt
+    - ban_notice_txt
+    - ban_alert_txt
+    - congratulation_notice_txt
+    - season_rank_txt
+    - tournament_rules_title
+    - tournament_rule_map_title
+    - tournament_rule_limit_title
+    - tournament_rule_grand_title
+    - tournament_rule_season_title
+    - tournament_rule_buff_title
+    - tournament_rule_nerf_title
+    - tournament_rule_ban_title
+    - tournament_rule_map
+    - tournament_rule_limit
+    - tournament_rule_grand
+    - tournament_rule_season
+    - tournament_rule_buff
+    - tournament_rule_nerf
+    - tournament_rule_ban
+    - tournament_rank_0
+    - tournament_rank_1
+    - tournament_rank_2
+    - tournament_rank_3
+    - tournament_rank_4
+    - tournament_rank_5
+    - tournament_rank_6
+    - tournament_rank_7
+    - tournament_buff_201
+    - tournament_buff_202
+    - tournament_buff_203
+    - tournament_buff_204
+    - tournament_buff_205
+    - tournament_buff_206
+    - tournament_buff_207
+    - tournament_buff_208
+    - tournament_buff_209
+    - tournament_buff_210
+    - tournament_buff_211
+    - tournament_nerf_101
+    - tournament_nerf_102
+    - tournament_nerf_103
+    - tournament_nerf_104
+    - tournament_nerf_105
+    - tournament_nerf_106
+    - tournament_nerf_107
+    - tournament_nerf_108
+    - tournament_nerf_109
+    - tournament_nerf_110
+    - tournament_nerf_111
+    values:
+    - "Kahraman savunmas\u0131"
+    - Kale
+    - Lobi
+    - "En iyi kay\u0131t: {0} dalga"
+    - "Mevcut sonu\xE7: {0}"
+    - "Sezon zaman\u0131: "
+    - 'Deneme: {0}'
+    - "Duru\u015Fma"
+    - '{0} dalga'
+    - "Baz se\xE7imi"
+    - "Kahraman se\xE7imi"
+    - "Bu \xFCss\xFCn kilidini a\xE7"
+    - 'Kalan tur: {0}'
+    - Grafikler
+    - "R\xFCtbe"
+    - Oyuncu
+    - "Olu\u015Fum"
+    - Yeni Rekor
+    - "Art\u0131k deneme yok"
+    - "Sonu\xE7"
+    - "Sadece son denemeni kullan\u0131rs\u0131n."
+    - "En az 2 Kahramana ihtiyac\u0131n\u0131z var"
+    - "Kahramanlar, bir \xFCss\xFC bir iblis ordusundan korumaya \xE7al\u0131\u015F\u0131rken
+      tehlikede. Kule in\u015Fa etmeye vakitleri yok, d\xFC\u015Fmanlar\u0131n\u0131
+      durdurmak i\xE7in g\xFC\xE7lerini kullanmalar\u0131 gerekiyor.\n\nBu modda
+      en fazla 5 kahraman\u0131 kontrol edebilirsiniz.\n\nSadece kahramanlar\u0131
+      kontrol edebilirsiniz ve kule in\u015Fa edemezsiniz.\n\nAma\xE7 bir ittifak
+      \xFCss\xFCn\xFC savunmak. \xDCs yok edildi\u011Finde oyun biter. \xDCsler,
+      bir sava\u015F\u0131n tam ortas\u0131nda kahramanlar\u0131n\u0131z\u0131n seviyesini
+      y\xFCkseltmenize yard\u0131mc\u0131 olacakt\u0131r. Kahramanlar\u0131 pasif
+      becerilerle donatmak i\xE7in yeni \xFCslerin kilidini a\xE7\u0131n.\n\nSava\u015Fta
+      Kahraman\u0131n istatistiklerini y\xFCkseltmek i\xE7in alt\u0131n\u0131 kullanabilirsiniz.
+      Y\xFCkseltmek i\xE7in haritadaki \xDCs'e dokunun.\n\nHer ba\u015Far\u0131 d\xF6n\xFCm
+      noktas\u0131na g\xF6re \xF6d\xFCller alacaks\u0131n\u0131z. Daha de\u011Ferli
+      \xF6d\xFCller almak i\xE7in olabildi\u011Fince uzun s\xFCre savunun.\n\nHaritalar
+      ve skor tablolar\u0131 her sezon yenilenecek. Yeni zorluklarla y\xFCzle\u015Fmeye
+      haz\u0131r olun."
+    - "Sald\u0131r\u0131 Geli\u015Ftirme"
+    - "Savunma Geli\u015Ftirme"
+    - "B\xFCy\xFC Geli\u015Ftirme"
+    - "Bekleme S\xFCresi Geli\u015Ftirmesi"
+    - "Kritik Geli\u015Ftirme"
+    - "HP Geli\u015Ftirme"
+    - "T\xFCm kahramanlar i\xE7in {0} hasar\u0131 art\u0131r\u0131r"
+    - "T\xFCm kahramanlar i\xE7in {0} z\u0131rh ve {1} b\xFCy\xFC direncini art\u0131r\u0131n"
+    - "Aktif b\xFCy\xFC yetene\u011Finin verdi\u011Fi hasar\u0131 %{0} artt\u0131r\u0131r"
+    - "T\xFCm kahramanlar i\xE7in bekleme s\xFCresini %{0} azalt"
+    - "T\xFCm kahramanlar i\xE7in {0} kritik hasar\u0131 art\u0131r\u0131r"
+    - "T\xFCm kahramanlar i\xE7in maksimum {0} HP'yi art\u0131r\u0131r"
+    - Kale
+    - "Do\u011Fa Tanr\u0131\xE7as\u0131"
+    - "G\xF6k G\xFCr\xFClt\xFCs\xFC Kulesi"
+    - "\xD6nemli \xFCslerin her ne pahas\u0131na olursa olsun korunmas\u0131 gerekir."
+    - "T\xFCm kahramanlar i\xE7in her 6 saniyede 5 HP yeniler"
+    - "Her 2 sald\u0131r\u0131dan sonra kahraman, 3 hasar veren bir y\u0131ld\u0131r\u0131m
+      \xE7arpma yetene\u011Fine sahiptir. \u015Eim\u015Fek, di\u011Fer 4 d\xFC\u015Fmana
+      kadar seker. Her s\u0131\xE7rama i\xE7in hasar %5 azal\u0131r."
+    - "Bu antik kale insanlar taraf\u0131ndan in\u015Fa edilmi\u015Ftir ve k\xF6t\xFC
+      ordunun sald\u0131r\u0131lar\u0131na kar\u015F\u0131 g\xFC\xE7l\xFC kal\u0131r."
+    - "Do\u011Fan\u0131n sakinleri taraf\u0131ndan tap\u0131lan gizemli bir tanr\u0131\xE7a.
+      Tanr\u0131\xE7an\u0131n orman\u0131n sava\u015F\xE7\u0131lar\u0131n\u0131 iyile\u015Ftirme
+      ve kutsama yetene\u011Fine sahip oldu\u011Funa inan\u0131yorlar."
+    - "Bu b\xFCy\xFCl\xFC kule, bir\xE7ok b\xFCy\xFCk sihirbaz\u0131n ya\u015Fad\u0131\u011F\u0131
+      ve b\xFCy\xFC \xE7al\u0131\u015Ft\u0131\u011F\u0131 yerdir. Sihirbazlar, g\xFC\xE7lerini
+      kuleye ak\u0131tt\u0131, b\xF6ylece savunucular\u0131n g\xF6k g\xFCr\xFClt\xFCs\xFCn\xFC
+      kontrol etmesine yard\u0131mc\u0131 olabilir."
+    - "Son savunma hatt\u0131"
+    - "Orman sava\u015F\u0131"
+    - Yasakla
+    - "Zay\u0131flatmak"
+    - "Geni\u015Fletmek"
+    - "B\xFCy\xFC yasakt\u0131r"
+    - "Kule se\xE7imi"
+    - En az 4 Kule gerekir
+    - "\u015E\xF6hret Listesi"
+    - "Onurlanmak i\xE7in sava\u015Fa kat\u0131l\u0131n"
+    - "Derecelendirilmemi\u015F"
+    - Bilet
+    - "Turnuva D\xFCkkan\u0131"
+    - "Bilet sat\u0131n al\u0131m\u0131"
+    - "De\u011Fi\u015Ftirmek"
+    - "Kahramanlar\u0131 de\u011Fi\u015Ftir"
+    - "Durum de\u011Fi\u015Ftirmek"
+    - "Her de\u011Fi\u015Ftirdi\u011Finizde fiyat artacakt\u0131r"
+    - Dalga
+    - "Bu e\u015Fyalar\u0131 kullanamazs\u0131n\u0131z"
+    - "Kahraman\u0131n\u0131z bu e\u015Fyay\u0131 kullanamaz. de\u011Fi\u015Ftirmek
+      istiyor musun?"
+    - "Bu sezonda {0} mertebesine ula\u015Ft\u0131n\u0131z. \u0130\u015Fte \xF6d\xFCl\xFCn"
+    - Sezon
+    - Turnuva
+    - "Turnuva Haritalar\u0131"
+    - "Oynatma S\u0131n\u0131r\u0131"
+    - "\u015E\xF6hret Listesi"
+    - Sezon
+    - "Geni\u015Fletmek"
+    - "Zay\u0131flatmak"
+    - Yasakla
+    - "Her yar\u0131\u015Fmac\u0131 ayn\u0131 ve sonu olmayan seviyede yar\u0131\u015F\u0131r"
+    - "Oyuncular her g\xFCn {0} \xFCcretsiz oyun al\u0131r. \xDCcretsiz d\xF6nd\xFCrme
+      say\u0131s\u0131 t\xFCkenirse, oyuncunun daha fazlas\u0131n\u0131 elde etmek
+      i\xE7in M\xFCcevher kullanmas\u0131 veya bir reklam izlemesi gerekir. Oynatma
+      say\u0131s\u0131 her g\xFCn yenilenecektir."
+    - "Buras\u0131, t\xFCm zamanlar\u0131n en y\xFCksek rekorlar\u0131n\u0131n onurland\u0131r\u0131ld\u0131\u011F\u0131
+      yerdir. Burada onurland\u0131r\u0131lmak i\xE7in her sezon denemeye devam edin! "
+    - "Her Sezon 2 hafta s\xFCrer. Oyuncular\u0131n her Sezonda elde etti\u011Fi
+      en y\xFCksek rekor, \u015E\xF6hret Listesi s\u0131ralamas\u0131nda say\u0131lacakt\u0131r."
+    - "Formasyonunuz iste\u011Fe ba\u011Fl\u0131 2 kahramana sahipse, herhangi bir
+      stat geli\u015Ftirilecektir. Varsay\u0131lan kahraman \xE7iftini ve geli\u015Fmi\u015F
+      istatistik t\xFCr\xFCn\xFC rastgele de\u011Fi\u015Ftirmek i\xE7in Kristaller,
+      M\xFCcevher kullanabilir ve reklamlar\u0131 izleyebilirsiniz."
+    - "Formasyonunuzda zay\u0131flam\u0131\u015F bir kahraman kullan\u0131rsan\u0131z,
+      o kahraman\u0131n istatistiklerinden biri azal\u0131r. Bu kahraman, istenen
+      kahraman \xE7iftinde de g\xF6r\xFCnmeyecektir."
+    - "Yasaklanm\u0131\u015F \xF6\u011Feleri kullanamayacaks\u0131n\u0131z. Yasakl\u0131
+      \xF6\u011Feler listesi her sezondan sonra yenilenecektir."
+    - Bronz
+    - "G\xFCm\xFC\u015F"
+    - "Alt\u0131n"
+    - Platin
+    - Elmas
+    - Elit
+    - Uzman
+    - Kral
+    - "Can i {0} art\u0131r"
+    - "Z\u0131rh i {0} art\u0131r"
+    - "B\xFCy\xFC Direnci i {0} art\u0131r"
+    - "Hasar i {0} art\u0131r"
+    - "Hareket H\u0131z\u0131 i {0}% art\u0131r"
+    - "Sald\u0131r\u0131 H\u0131z\u0131 i {0}% art\u0131r"
+    - "Can Yenilenmesi i {0}% art\u0131r"
+    - "Yeniden Canlanma S\xFCresi i {0}% azalt"
+    - "Kritik Hasar i {0}% art\u0131r"
+    - "Kritik Oran\u0131 i {0}% art\u0131r"
+    - "Yetenek dolum s\xFCresi i {0}% azalt"
+    - Can i {0} azalt
+    - "Z\u0131rh i {0} azalt"
+    - "B\xFCy\xFC Direnci i {0} azalt"
+    - Hasar i {0} azalt
+    - "Hareket H\u0131z\u0131 i {0}% azalt"
+    - "Sald\u0131r\u0131 H\u0131z\u0131 i {0}% azalt"
+    - Can Yenilenmesi i {0}% azalt
+    - "Yeniden Canlanma S\xFCresi i {0}% art\u0131r"
+    - Kritik Hasar i {0}% azalt
+    - "Kritik Oran\u0131 i {0}% azalt"
+    - "Yetenek dolum s\xFCresi i {0}% art\u0131r"

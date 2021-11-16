@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: spell
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - spell_name_4001
+    - spell_name_4002
+    - spell_name_4003
+    - spell_name_4004
+    - spell_name_4005
+    - spell_name_4006
+    - spell_name_4011
+    - active_description_4001
+    - active_description_4002
+    - active_description_4003
+    - active_description_4004
+    - active_description_4005
+    - active_description_4006
+    - active_description_4011
+    - passive_description_4001
+    - passive_description_4002
+    - passive_description_4003
+    - passive_description_4004
+    - passive_description_4005
+    - passive_description_4006
+    - passive_description_4011
+    - spell_default_description_all
+    - spell_default_description_4001
+    - spell_default_description_4002
+    - spell_default_description_4003
+    - spell_default_description_4004
+    - spell_default_description_4005
+    - spell_default_description_4006
+    - spell_default_description_4011
+    values:
+    - Nevasca
+    - "Trov\xE3o Ardente"
+    - "Esp\xEDrito de Explos\xE3o"
+    - "Guardi\xE3o Estelar"
+    - "B\xEAn\xE7\xE3o da Natureza"
+    - "Mina Terrestre M\xE1gica"
+    - Totem Antigo
+    - "Congela inimigos na \xE1rea selecionada por <color=#bb5c14>{0}</color> segundos.
+      Depois que o gelo derreter, os inimigos ficar\xE3o Frios por <color=#bb5c14>{1}</color>
+      segundos\\n\\n* Imune a inimigos voadores"
+    - "Crie trov\xF5es e fogo que caem em uma \xE1rea selecionada e causam <color=#bb5c14>{0}</color>
+      de dano"
+    - "Cria uma explos\xE3o que causa <color=#bb5c14>{0}</color> de dano aos inimigos
+      em uma \xE1rea selecionada"
+    - "Convoca um guardi\xE3o para se juntar \xE0 batalha. Ele causar\xE1 <color=#bb5c14>{0}</color>
+      de dano ao pousar na \xE1rea selecionada. O guardi\xE3o tem <color=#bb5c14>{1}</color>
+      HP e <color=#bb5c14>{2}</color> de dano."
+    - "Restaura <color=#bb5c14>{0}</color> HP por segundo para todos os aliados na
+      \xE1rea de destino. Dura\xE7\xE3o <color=#bb5c14>{1}</color> segundos"
+    - "Minas especiais s\xE3o colocadas no caminho, causando <color=#bb5c14>{0}</color>
+      dano aos inimigos que pisarem nele"
+    - "Evoca um totem com <color=#bb5c14>{0}</color> HP que dura <color=#bb5c14>{0}</color>
+      segundos, criando uma \xE1rea amaldi\xE7oada que atrai todos os inimigos com
+      capacidade de ataque. Os inimigos na \xE1rea recebem <color=#bb5c14>{2}</color>
+      de dano por segundo.\\n\\n* Imune a inimigos voadores"
+    - "O ataque b\xE1sico do her\xF3i tem <color=# bb5c14>{0}%</color> de chance
+      de causar frio nos inimigos.\\n\\n* Imune a Boss e Mini Boss"
+    - "O ataque b\xE1sico do her\xF3i tem uma propor\xE7\xE3o de <color=#bb5c14>{0}%</color>
+      causar Queimadura no inimigo. Queimadura t\xEAm uma dura\xE7\xE3o de <color=#bb5c14>{1}</color>
+      segundos. A taxa de Queimadurapor ataque b\xE1sico n\xE3o contar\xE1 se as
+      Queimadura ainda durarem"
+    - "Ataques de inimigos t\xEAm <color=#bb5c14>{0}%</color> de chance de desencadear
+      uma explos\xE3o no corpo do her\xF3i. Todos os inimigos ao alcance, incluindo
+      o atacante, recebem <color=#bb5c14>{1}</color> de dano daquela explos\xE3o"
+    - "Quando o Guardi\xE3o Estelar aparece, o her\xF3i recebe uma aura protetora.
+      Durante a exist\xEAncia do Guardi\xE3o Estelar, o her\xF3i recebe mais <color=#bb5c14>{0}%</color>
+      Armadura e <color=#bb5c14>{1}%</color> Resist\xEAncia M\xE1gica"
+    - "O her\xF3i tem a capacidade de regenerar em <color=#bb5c14>{0}</color> do
+      HP m\xE1ximo por segundo, mesmo em combate."
+    - "Os inimigos atacados pelo ataque b\xE1sico do her\xF3i ter\xE3o <color=#bb5c14>{0}%</color>
+      de chance de explodir. Todos os inimigos dentro da explos\xE3o recebem <color=#bb5c14>{1}</color>
+      de dano"
+    - "Ap\xF3s cada <color=#bb5c14>{0}</color> ataques, o Her\xF3i lan\xE7a uma maldi\xE7\xE3o
+      que aterroriza todos os inimigos ao redor.\\n\\n* Imune a inimigos voadores"
+    - "Feiti\xE7os equipados para o Her\xF3i para adicionar habilidades extras na
+      batalha"
+    - "Congele os inimigos em uma \xE1rea e d\xEA ao Her\xF3i equipado com este Feiti\xE7o
+      a chance de congelar os inimigos em cada ataque b\xE1sico"
+    - "Causa uma explos\xE3o em uma \xE1rea e d\xE1 ao Her\xF3i equipado com este
+      Feiti\xE7o a capacidade de queimar inimigos"
+    - "Cria uma explos\xE3o que destr\xF3i os inimigos e permite que o Her\xF3i equipado
+      com Feiti\xE7o exploda quando atacado"
+    - "Convocar Guardi\xF5es Estelares e aumentar a defesa do Her\xF3i equipado com
+      este Feiti\xE7o"
+    - "Cura aliados e d\xE1 ao Her\xF3i equipado com este Feiti\xE7o a habilidade
+      de regenerar HP em batalha"
+    - "Defina armadilhas ao longo do caminho e d\xEA ao Her\xF3i a capacidade de
+      causar ataques explosivos"
+    - "Evoca um totem para atrair e amaldi\xE7oar os inimigos. Os her\xF3is t\xEAm
+      a capacidade de causar Aterrorizar quando equipados com este Feiti\xE7o."

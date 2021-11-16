@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c4a672a0ad142d98dae809cb8352cdd, type: 3}
+  m_Name: EnemyData3015
+  m_EditorClassIdentifier: 
+  allStatsLevel:
+  - id: 3015
+    level: 1
+    name: Orge Mini Boss
+    health: 2000
+    moveSpeed: 0.4
+    attackSpeed: 0.4
+    armor: 0
+    resistance: 0
+    damage: 35
+    detectMeleeAttack: 2
+    detectRangeAttack: 0
+    critChance: 0
+    critDamage: 0
+    damageArea: 2
+    life: 20
+    damageType: 0
+    moveType: 0
+    priorityTarget: 0100000002000000
+    traitType: 1
+    weight: 1
+  - id: 3015
+    level: 2
+    name: Orge Mini Boss
+    health: 6000
+    moveSpeed: 0.4
+    attackSpeed: 0.4
+    armor: 0
+    resistance: 0
+    damage: 105
+    detectMeleeAttack: 2
+    detectRangeAttack: 0
+    critChance: 0
+    critDamage: 0
+    damageArea: 2
+    life: 20
+    damageType: 0
+    moveType: 0
+    priorityTarget: 0100000002000000
+    traitType: 1
+    weight: 1
+  allSkill1:
+  - secondApply: 2
+    percentChanceApply: 0.1
+  - secondApply: 3
+    percentChanceApply: 0.2
+  allSkill2:
+  - secondApply: 20
+    percentIncreaseAttackSpeed: 0.5
+    percentIncreaseDamage: 0.5
+    percentHp: 0.4
+    modifierTypeAttackSpeed: 3
+    modifierTypeDamage: 3
+  - secondApply: 40
+    percentIncreaseAttackSpeed: 0.6
+    percentIncreaseDamage: 0.6
+    percentHp: 0.65
+    modifierTypeAttackSpeed: 3
+    modifierTypeDamage: 3

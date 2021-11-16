@@ -1,0 +1,420 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: popup
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tap_to_close
+    - profile_popup
+    - avatar_select
+    - more_game_txt
+    - support_txt
+    - community_txt
+    - giftcode_txt
+    - patch_note_txt
+    - patch_note_version
+    - setting_txt
+    - image_txt
+    - country_txt
+    - in_use_txt
+    - not_in_use_txt
+    - in_use_by_txt
+    - since_txt
+    - id_txt
+    - version_txt
+    - language_txt
+    - change_name
+    - enter_name_box
+    - letters_limit
+    - name_contain_special_characters
+    - name_too_short_or_long
+    - invalid_name
+    - already_exists_name
+    - change_successful
+    - data_save
+    - link_info
+    - last_save
+    - data_save_note
+    - linking_failed
+    - notice_txt
+    - data_save_question
+    - save_limit
+    - limit_txt
+    - save_success
+    - save_failed
+    - save_limit_notice
+    - restore_question
+    - restore_complete
+    - restore_failed
+    - graphic_txt
+    - enable_vibrate
+    - disable_vibrate
+    - enable_battery_saver
+    - disable_battery_saver
+    - enable_notice
+    - disable_notice
+    - enter_giftcode_box
+    - claim_giftcode
+    - claim_giftcode_failed
+    - used_giftcode_toast
+    - giftcode_check_internet
+    - result_check_internet
+    - error_occured
+    - giftcode_login_first
+    - require_login_first
+    - quit_notice
+    - locked_mode_notice
+    - tower_upgrade_txt
+    - upgrade_successful
+    - tower_reset_notice
+    - copy_to_clipboard
+    - hero_skill_reset_notice
+    - insufficient_skill_point
+    - skill_point_guide
+    - hero_exp_guide
+    - level_txt
+    - stamina_next
+    - stamina_full
+    - tap_to_start
+    - news_txt
+    - congratulation_txt
+    - max_level_hero_txt
+    - level_max_skill_txt
+    - stat_txt
+    - reset_successful
+    - backstory_txt
+    - need_hero_txt
+    - hero_unlocked
+    - locked_mode_normal
+    - insufficient_resource
+    - pre_register_reward_txt
+    - pre_register_thank_txt
+    - unlock_upgrade_tower
+    - replay_notice
+    - quit_game_notice
+    - warning_txt
+    - daily_reward_txt
+    - daily_quest_txt
+    - day_count_txt
+    - checkin_progress
+    - login_successful_txt
+    - no_data_found
+    - upgrade_activated
+    - upgrade_info
+    - properties_txt
+    - bonus_txt
+    - upgrade_condition_txt
+    - purchase_save_notice
+    - purchase_failed
+    - warning_iap
+    - warning_internet_save_data
+    - warning_internet_lost_data
+    - unlock_upgrade_tower_tut
+    - not_equip_spell
+    - start_battle_to_use
+    - spell_unlock_condition
+    - insuficent_shade
+    - insuficent_unique_shard
+    - insuficent_resource
+    - unlock_hero_to_equip
+    - unlock_hero_to_equip_rune
+    - normal_spell_rate
+    - premium_spell_rate
+    - normal_spell_name
+    - premium_spell_rname
+    - cannot_select_more_hero
+    - spell_upgrade_require
+    - reset_in_txt
+    - refresh_in_txt
+    - achievement_txt
+    - free_in
+    - complete_challenge_txt
+    - hero_not_been_unlock_txt
+    - defeat_boss_achievement_direction
+    - normal_rune_rate
+    - premium_rune_rate
+    - normal_rune_name
+    - premium_rune_name
+    - full_inventory_txt
+    - equip_slot_full_txt
+    - full_inventory_require_space_txt
+    - dismantle_warning_txt_1
+    - dismantle_warning_txt_2
+    - basic_attributes_txt
+    - bonus_attributes_txt
+    - set_of_pieces_txt
+    - set_required_txt
+    - enhance_successful_txt
+    - selected_rune_txt
+    - dismantle_slots_full_txt
+    - reward_ads_txt
+    - watch_ads_txt
+    - check_internet_warning_txt
+    - no_ads_available_txt
+    - go_to_shop_question_txt
+    - watch_previous_ads_first
+    - ios_loading_screen_txt
+    - loading_screen_common_txt
+    - dont_ask_again_today
+    - dismantle_warning_txt_3
+    - dismantle_warning_txt_4
+    - new_nightmare_unlock
+    - buy_now_title_txt
+    - buy_now_slogan_title_txt
+    - buy_now_1st_purchase_txt
+    - first_purchase_bonus_title_txt
+    - first_purchase_bonus_slogan_txt
+    - first_purchase_bonus_warning
+    - free_progress_txt
+    - premium_progress_txt
+    - checkin_day
+    - stage_txt
+    - end_time_txt
+    - already_receive_txt
+    - rune_pack_name_txt
+    - purchased_txt
+    - unlock_nightmare_txt
+    - hero_pre_trial_tag_txt
+    - hero_pre_trial_toast_txt
+    - hero_pre_trial_dialog_txt
+    - rating_title
+    - require_rating_txt
+    - unlock_spell_txt
+    - unlock_spell_txt_1
+    - equip_spell_remind_txt
+    - unlock_rune_txt
+    - unlock_rune_txt_1
+    - equip_rune_remind_txt
+    - remain_txt
+    - get_more_txt
+    - refill_stamina_title_txt
+    - owned_txt
+    - new_mode_unlocked_txt
+    - already_own_this_pack_txt
+    - already_own_this_hero_txt
+    - already_own_this_item_txt
+    - run_out_resource_txt
+    - buy_or_wait_txt
+    - available_txt
+    - no_more_purchase_txt
+    - out_of_stock_txt
+    - surrender_notice_txt
+    values:
+    - Druk om te sluiten
+    - Profiel
+    - Avatar kiezen
+    - Meer games
+    - Support
+    - Community
+    - Cadeau-code
+    - Patch meldingen
+    - <color=#815329>Versie {0}</color>
+    - Instelling
+    - Afbeelding
+    - Land
+    - In gebruik
+    - Niet in gebruik
+    - In gebruik door {0}
+    - Sinds
+    - 'ID:'
+    - Versie
+    - Talen
+    - Verander naam
+    - Voer nieuwe naam in...
+    - <color=#E73F44>(4-18 letters, geen speciale tekens)</color>
+    - Naam mag geen speciale tekens hebben
+    - Lengte tussen de 4-18 tekens!
+    - De naam is ongeldig
+    - Deze naam bestaat al
+    - Verandering gelukt
+    - Opgeslagen data
+    - Gelinkt naar
+    - Laatst opgeslagen
+    - Link naar een account om je data op te slaan
+    - Link met account mislukt
+    - Melding
+    - Wil je de data opslaan?
+    - 'Opslaglimiet vandaag: {0}/{1}'
+    - 'Begrenzing:'
+    - Data opslaan gelukt
+    - Data opslaan mislukt
+    - Je hebt je opslaglimiet vandaag bereikt
+    - "Wil je de data herstellen?\n\n <color=#e85253>*Je huidige data wordt overschreven</color>"
+    - Herstellen gelukt
+    - Herstellen mislukt
+    - Grafisch
+    - Trillen aan
+    - Trillen uit
+    - Batterijbesparing aan
+    - Batterijbesparing uit
+    - Meldingen aan
+    - Meldingen uit
+    - Voer cadeau-code in...
+    - Je hebt de beloning ontvangen
+    - De cadeau-code is ongeldig
+    - De cadeau-code is al gebruikt of verlopen. Voer nieuwe cadeau-code in
+    - Geen verbinding met de server. Controleer je internetverbinding
+    - Kan resultaten niet opslaan. Controleer je internetverbinding
+    - Er iets fout gegaan. Neem contact op met het support-team
+    - Je moet inloggen op je account om de cadeau-code te gebruiken
+    - Log eerst in op uw account
+    - "Je gaat terug naar het Home-scherm.\n Weet je zeker dat je het gevecht wil
+      verlaten?"
+    - Huidige modus is vergrendeld. Haal 3 sterren in Fase {0} op normaal niveau
+      om te ontgrendelen
+    - Toren upgrade
+    - Upgrade gelukt
+    - Alle torens met upgrades worden gereset. Weet je het zeker?
+    - "Kopi\xEBren naar klembord"
+    - Alle skill-niveaus worden gereset. Weet je het zeker?
+    - Onvoldoende skill-punten
+    - Skill-punten zijn nodig om skills te upgraden. Je krijgt meer punten op hogere
+      levels van je Held
+    - Verdien EXP voor je held in gevechten of gebruik kristallen om ze direct te
+      upgraden!
+    - 'Level: {0}/{1}'
+    - 'Volgende stamina:'
+    - 'Volledige stamina:'
+    - Druk om te starten
+    - Nieuws
+    - Gefeliciteerd
+    - Max. Niveau bereikt!
+    - Max level
+    - Stats
+    - Reset gelukt
+    - Achtergrond
+    - Je hebt minstens 1 Held nodig om te beginnen
+    - '{0} ontgrendeld'
+    - Voltooi vorige Fase om te ontgrendelen
+    - Onvoldoende {0}.
+    - Pre-registratie beloningen
+    - Bedankt voor het pre-registreren van Empire Defender!
+    - Speel Fase {0} om te ontgrendelen
+    - Weet je zeker dat je nogmaals wil spelen?
+    - Weet je zeker dat je het spel wilt afsluiten?
+    - Waarschuwing
+    - Dagelijkse beloning
+    - Dagelijkse quest
+    - Dag {0}
+    - 'Voortgang: {0}/{1}'
+    - Inlog gelukt
+    - Geen data gevonden
+    - Upgrade gelukt
+    - "1. <color=#eb9e15>Zilveren sterren</color> zijn nodig om basis upgrade-levels
+      te ontgrendelen.\n \n 2. <color=#eb9e15>Gouden sterren</color> zijn nodig om
+      gevorderde upgrade-levels te ontgrendelen.\n \n 3. Voltooi fasen op <color=#eb9e15>Normaal
+      niveau</color> om zilveren sterren te krijgen.\n \n 4. Voltooi fasen op <color=#eb9e15>Nachtmerrie
+      niveau</color> om gouden sterren te krijgen."
+    - Eigenschappen
+    - Level hoger
+    - Upgrade eerst het vorige level
+    - Je kan de lokaal opgeslagen data verliezen. Zorg voor een verbinding met je
+      {0} account
+    - Je aankoop is mislukt. Zorg voor stabiel internet
+    - Aankoop informatie niet geladen, controleer de internetverbinding en de link
+      met de store.
+    - Kan uw gegevens niet opslaan. Controleer uw netwerkverbinding.
+    - Uw gegevens gaan verloren. Weet je zeker dat?
+    - Speel de tutorial om te ontgrendelen
+    - Held heeft geen spells in gebruik
+    - Begin het gevecht om te gebruiken
+    - Voltooi fase {0} om te ontgrendelen
+    - Onvoldoende Fragmenten
+    - Onvoldoende {0} Fragmenten
+    - Onvoldoende grondstoffen
+    - Ontgrendel held om spell te gebruiken
+    - Ontgrendel held om rune te gebruiken
+    - Normale spell-snelheid
+    - Premium spell-snelheid
+    - Normale spell
+    - Premium spell
+    - De formatie is vol
+    - Aantal {0} fragmenten vereist:{1}
+    - 'Reset over:'
+    - 'Reset over:'
+    - Achievement
+    - 'Gratis over:'
+    - Voltooi uitdagingen om beloningen te krijgen!
+    - Deze held is nog niet ontgrendeld. Wil je deze nu ontgrendelen?
+    - Versla de eindbaas in fase {0}
+    - Normale rune-snelheid
+    - Premium rune-snelheid
+    - Normale rune
+    - Premium rune
+    - Je inventaris is vol.
+    - '{0}''s slots zijn vol'
+    - Ontmantel andere runen om ruimte te maken
+    - Haal runen uit de uitrusting voor het ontmantelen
+    - Weet je zeker dat je {0} wil ontmantelen en onderstaande materialen wil krijgen?
+    - Basis-eigenschappen
+    - Bonus-eigenschappen
+    - 'Set van {0} Runen:'
+    - Vereist {0} {1}
+    - Verbetering gelukt
+    - 'Geselecteerde Rune:'
+    - Slots voor ontmanteling zijn vol
+    - Beloning ads
+    - Kijk {0} ads
+    - Controleer je internetverbinding
+    - Geen ads beschikbaar
+    - Wil je meer {0} kopen?
+    - Kijk eerst de vorige ads
+    - Laden - zonder extra data te downloaden
+    - Laden
+    - Vraag vandaag niet nog eens
+    - Je hebt bijzondere Runen geselecteerd voor ontmanteling. Weet je het zeker?
+    - Je hebt geen Runen geselecteerd voor ontmanteling
+    - Voltooi eerst het Normale niveau om Nachtmerrie te ontgrendelen
+    - Nu kopen
+    - Open direct premium voortgang en exclusieve beloningen
+    - Nu kopen om je <color=#ffe960> eerste aankoopbonus te krijgen </color>
+    - Eerst aankoopbonus
+    - <color=#ffe960>Koop een pakket</color> om deze bonus te krijgen!
+    - Koop het snel tijdens het evenement voor enorme bonussen
+    - Gratis
+    - Premium
+    - Check-in {0} dagen
+    - Fase
+    - 'Einde:'
+    - Je hebt de bonus al gekregen
+    - Pakket Runen
+    - Gekocht
+    - '{0} niveau ontgrendeld'
+    - Heldentest
+    - Dit is de standaard Hero voor proefversies
+    - Oh... Hallo avonturiers. Vecht je tegen de Orc? Laat ons meedoen!
+    - Vind je dit spel leuk?
+    - 'Als je Empire Defender TD leuk vindt, beoordeel het dan alsjeblieft.
+
+      Heel
+      erg bedankt voor je steun!'
+    - 'U hebt het Spell ontgrendeld. '
+    - Wil je het nu proberen?
+    - Je hebt Spell niet uitgerust voor Heroes. Wil je nu uitrusten?
+    - 'U hebt het Rune ontgrendeld. '
+    - Wil je het nu proberen?
+    - Je hebt Rune niet uitgerust voor Heroes. Wil je nu uitrusten?
+    - 'Blijven:'
+    - Wil je meer krijgen?
+    - Stamina bijvullen
+    - Gekocht
+    - Nieuwe speelbare modus ontgrendeld
+    - Je hebt dit pakket al gehad
+    - Je was al in het bezit van deze held
+    - Je bezit dit item al
+    - Je hebt geen {0} meer.
+    - Wil je nu kopen of wachten
+    - 'Beschikbaar:'
+    - Geen {0} meer beschikbaar
+    - Uitverkocht
+    - De huidige resultaten worden niet opgeslagen. Weet je zeker dat?

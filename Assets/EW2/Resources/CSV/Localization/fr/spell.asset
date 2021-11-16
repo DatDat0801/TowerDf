@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: spell
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - spell_name_4001
+    - spell_name_4002
+    - spell_name_4003
+    - spell_name_4004
+    - spell_name_4005
+    - spell_name_4006
+    - spell_name_4011
+    - active_description_4001
+    - active_description_4002
+    - active_description_4003
+    - active_description_4004
+    - active_description_4005
+    - active_description_4006
+    - active_description_4011
+    - passive_description_4001
+    - passive_description_4002
+    - passive_description_4003
+    - passive_description_4004
+    - passive_description_4005
+    - passive_description_4006
+    - passive_description_4011
+    - spell_default_description_all
+    - spell_default_description_4001
+    - spell_default_description_4002
+    - spell_default_description_4003
+    - spell_default_description_4004
+    - spell_default_description_4005
+    - spell_default_description_4006
+    - spell_default_description_4011
+    values:
+    - Le Blizzard
+    - "Tonnerre br\xFBlant"
+    - Balle explosive
+    - "Gardien des \xE9toiles"
+    - "B\xE9n\xE9diction de la nature"
+    - Mine magique
+    - Totem Antique
+    - "G\xE8le les ennemis dans la zone s\xE9lectionn\xE9e pendant <color=#bb5c14>{0}</color>
+      secondes. Apr\xE8s la fonte de la glace, les ennemis seront froids pendant
+      <color=#bb5c14>{1}</color> secondes\\n\\n* Immunis\xE9 contre les ennemis volants"
+    - "Cr\xE9er le tonnerre et le feu qui tombent sur une zone s\xE9lectionn\xE9e
+      et infligent <color=#bb5c14>{0}</color> d\xE9g\xE2ts"
+    - "Cr\xE9e une explosion qui inflige <color=#bb5c14>{0}</color> d\xE9g\xE2ts
+      aux ennemis dans une zone s\xE9lectionn\xE9e"
+    - "Invoquez un gardien pour rejoindre le combat. Inflige <color=#bb5c14>{0}</color>
+      de d\xE9g\xE2ts lors de l'atterrissage dans la zone cibl\xE9e. Les gardes ont
+      <color=#bb5c14>{1}</color> PV et <color=#bb5c14>{2}</color> d\xE9g\xE2ts."
+    - "Restaure <color=#bb5c14>{0}</color> PV par seconde \xE0 tous les alli\xE9s
+      de la zone cible. Dur\xE9e <color=#bb5c14>{1}</color> secondes"
+    - "Des mines sp\xE9ciales sont plac\xE9es sur le chemin, infligeant <color=#bb5c14>{0}</color>
+      d\xE9g\xE2ts aux ennemis qui marchent dessus"
+    - "Invoque un totem avec <color=#bb5c14>{0}</color> PV qui dure <color=#bb5c14>{1}</color>
+      secondes, cr\xE9ant une zone maudite qui attire tous les ennemis avec une capacit\xE9
+      d'attaque. Les ennemis dans la zone subissent <color=#bb5c14>{2}</color> de
+      d\xE9g\xE2ts par seconde.\\n\\n* Immunis\xE9 contre les ennemis volants"
+    - "Chaque attaque de base a <color=# bb5c14>{0}%</color> de chance de provoquer
+      du froid.\\n\\n*Immunis\xE9 contre Boss et Mini Boss"
+    - "L'attaque de base du h\xE9ros a un ratio de <color=#bb5c14>{0}%</color> causant
+      Br\xFBler \xE0 l'ennemi. Br\xFBler a une dur\xE9e de <color=#bb5c14>{1}</color>
+      secondes. Le taux de Br\xFBler' par attaque de base ne comptera pas si Br\xFBler
+      est toujours en cours"
+    - "Les attaques ennemies ont <color=#bb5c14>{0}%</color> de chances de d\xE9clencher
+      une explosion sur le corps du h\xE9ros. Tous les ennemis \xE0 port\xE9e, y
+      compris l'attaquant, subissent <color=#bb5c14>{1}</color> d\xE9g\xE2ts de cette
+      explosion"
+    - "Lorsque le Gardien des \xE9toiles appara\xEEt, le h\xE9ros re\xE7oit une aura
+      protectrice. Pendant l'existence du Gardien des \xE9toiles, le h\xE9ros re\xE7oit
+      plus d '<color=#bb5c14>{0}%</color> armure et <color=#bb5c14>{1}%</color> r\xE9sistance
+      magique"
+    - "Le h\xE9ros a la capacit\xE9 de r\xE9g\xE9n\xE9rer de <color=#bb5c14>{0}</color>
+      des PV maximum par seconde, m\xEAme en combat."
+    - "Les ennemis attaqu\xE9s par l'attaque de base du h\xE9ros auront <color=#bb5c14>{0}%</color>
+      de chances d'\xEAtre explos\xE9s. Tous les ennemis dans l'explosion subissent
+      <color=#bb5c14>{1}</color> d\xE9g\xE2ts"
+    - "Apr\xE8s toutes les <color=#bb5c14>{0}</color> attaques, le H\xE9ros lance
+      une mal\xE9diction qui terrifie tous les ennemis environnants.\\n\\n* Immunis\xE9
+      contre les ennemis volants"
+    - "Sorts \xE9quip\xE9s au h\xE9ros pour ajouter des comp\xE9tences suppl\xE9mentaires
+      au combat"
+    - "Gelez les ennemis dans une zone et donnez au h\xE9ros \xE9quip\xE9 de ce \xC9peler
+      la chance de geler les ennemis \xE0 chaque attaque de base"
+    - "Provoquez une explosion dans une zone et donnez au h\xE9ros \xE9quip\xE9 de
+      ce \xC9peler la capacit\xE9 de br\xFBler les ennemis"
+    - "Cr\xE9e une explosion qui d\xE9truit les ennemis et permet au h\xE9ros \xE9quip\xE9
+      d'un \xC9peler d'exploser lorsqu'il est attaqu\xE9"
+    - "Invoquez des gardiens des \xE9toiles et augmentez la d\xE9fense du h\xE9ros
+      \xE9quip\xE9 de ce \xC9peler"
+    - "Soigne les alli\xE9s et donne au h\xE9ros \xE9quip\xE9 de ce \xC9peler la
+      capacit\xE9 de r\xE9g\xE9n\xE9rer des PV au combat"
+    - "Posez des pi\xE8ges en cours de route et donnez au h\xE9ros la capacit\xE9
+      de provoquer une attaque explosive"
+    - "Invoque un totem pour attirer et maudire les ennemis. Les h\xE9ros ont la
+      capacit\xE9 de provoquer l'effroi lorsqu'ils sont \xE9quip\xE9s de ce \xC9peler."

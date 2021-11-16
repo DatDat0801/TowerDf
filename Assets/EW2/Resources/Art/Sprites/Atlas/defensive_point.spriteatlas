@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: defensive_point
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 190ff84da82902c44b7cdaecc92e4d00, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 7af19a70419fc9247a8273ace09ac0a3, type: 3}
+  - {fileID: 21300000, guid: 164f798087455a04dba8be365a3909c4, type: 3}
+  - {fileID: 21300000, guid: a861ecf46605c534cb171dcacce02b61, type: 3}
+  - {fileID: 21300000, guid: ca6501b543e665e49831bc110bceb704, type: 3}
+  - {fileID: 21300000, guid: 8f354b9bcd51e3b46827f58a0bcd2cd8, type: 3}
+  - {fileID: 21300000, guid: 1af0f5cbbde9d484589e9d1ad273e9bd, type: 3}
+  - {fileID: 21300000, guid: 417beedf852703842b96fbe9f8d47d55, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - defensive_point_8005_card
+  - icon_defensive_point_8004
+  - icon_defense_point_border
+  - icon_defensive_point_8001
+  - defensive_point_8004_card
+  - icon_defensive_point_8005
+  - defensive_point_8001_card
+  m_Tag: defensive_point
+  m_IsVariant: 0

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7935091734ba2e340b0cda6190d114e9, type: 3}
+  m_Name: EnemyData3002
+  m_EditorClassIdentifier: 
+  allStatsLevel:
+  - id: 3002
+    level: 1
+    name: Goblin Ranger
+    health: 45
+    moveSpeed: 0.6
+    attackSpeed: 0.65
+    armor: 0
+    resistance: 0
+    damage: 4
+    detectMeleeAttack: 1
+    detectRangeAttack: 2.2
+    critChance: 0
+    critDamage: 0
+    damageArea: 0
+    life: 1
+    damageType: 0
+    moveType: 0
+    priorityTarget: 0300000000000000
+    traitType: 2
+    weight: 20
+  - id: 3002
+    level: 2
+    name: Goblin Ranger
+    health: 135
+    moveSpeed: 0.6
+    attackSpeed: 0.65
+    armor: 0
+    resistance: 0
+    damage: 12
+    detectMeleeAttack: 1
+    detectRangeAttack: 2.6
+    critChance: 0
+    critDamage: 0
+    damageArea: 0
+    life: 1
+    damageType: 0
+    moveType: 0
+    priorityTarget: 0300000001000000
+    traitType: 2
+    weight: 20

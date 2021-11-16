@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: game_event
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - quest_not_unlocked_txt
+    - hero_chalenge_txt
+    - hero_chalenge_slogan_txt
+    - hero_chalenge_rule_txt
+    - glory_road_rule_txt
+    - medal_redeem_warning_txt
+    - glory_road_premium_warning_txt
+    - already_unlock_premium_txt
+    - event_daily_reward_title_txt
+    - event_daily_slogan_txt
+    - premium_glory_road_item_txt
+    - glory_road_title_txt
+    - glory_road_slogan_txt
+    - glory_road_slogan_2_txt
+    - hero_academy_event_name_txt
+    - medal_exchange_txt
+    - buy_now_direction_popup
+    - full_basic_progress_notice
+    - unlock_premium_progress_notice
+    - claim_hero_notice
+    - nhero_challenge_title_txt
+    - nhero_event_name_txt
+    - nhero_mission_txt
+    - nhero_mission_slogan_txt
+    - event_quest_nhero_txt
+    - hero_mission_rule
+    - hero_required_formation
+    - event_quest_pf5_txt
+    - event_quest_nhero_pf5_txt
+    - event_quest_pf5m_txt
+    - event_quest_nhero_pf10m_txt
+    - event_quest_nhero_pf20m_txt
+    - event_quest_nhero_lv5_txt
+    - event_quest_nhero_spell_txt
+    - event_quest_nhero_rune_txt
+    - nhero_bundle_txt
+    - hero_bundle_slogan_txt
+    - hero_bundle_level_tag_txt
+    - hero_backpack_txt
+    - event_crystal_pack_txt
+    - event_rune_pack_txt
+    - event_spell_pack_txt
+    values:
+    - "Questy nie s\u0105 jeszcze odblokowane"
+    - Wyzwanie bohatera
+    - "Podj\u0105\u0107 wyzwanie i uczyni\u0107 twoj\u0105 epick\u0105 kronik\u0119"
+    - "1. Uko\u0144cz misje ka\u017Cdego dnia, aby zdoby\u0107 nagrod\u0119 i medal.\\n
+      \\n 2. Zadania s\u0105 odblokowane w dzie\u0144. Niedoko\u0144czone zadania
+      z poprzednich dni mo\u017Cna kontynuowa\u0107 nast\u0119pnego dnia."
+    - "3. Zebrane medale zostan\u0105 wykorzystane do post\u0119pu drogi chwa\u0142y.
+      Ka\u017Cda nagroda wymaga odblokowania wielu medal\\n \\n 4. Gracze mog\u0105
+      zarobi\u0107 bardziej warto\u015Bciowe nagrody za po\u015Brednictwem drogi
+      Glory Premium, kupuj pakiet Kup teraz"
+    - "<color=#E73F44>*Uwaga: po zako\u0144czeniu wydarzenia pozosta\u0142e medale
+      automatycznie zmieni\u0105 si\u0119 w kryszta\u0142y.</color>"
+    - Wymagaj odblokowania drogi Glory Premium
+    - "Uaktualni\u0142e\u015B ju\u017C post\u0119p premium"
+    - Dzienny prezenty
+    - "Zdoby\u0107 medale i otrzymuj wielkie nagrody"
+    - "Zaawansowany post\u0119p"
+    - "\u015Awi\u0119ta droga"
+    - "Zbieraj medale, aktualizuj post\u0119py"
+    - "I rekrutowa\u0107 nowy bohater!"
+    - "Akademia Bohater\xF3w"
+    - "Tw\xF3j medal <color=#815329>{0}</color> zosta\u0142 zamieniony na kryszta\u0142y
+      <color=#815329>{1}</color>\\n \\n  Kurs wymiany: <color=#815329>1</color> Medal
+      = <color=#815329>5</color> Kryszta\u0142y"
+    - "Do\u0142\u0105cz do <color=#FFD700>{0}</color>, aby zdoby\u0107 tego bohatera
+      i jeszcze wi\u0119cej zasob\xF3w!"
+    - "Odblokowa\u0142e\u015B ostatni\u0105 nagrod\u0119 za post\u0119p podstawowy."
+    - "Ale w <color=#815329>{0}</color> wci\u0105\u017C jest mn\xF3stwo cennych nagr\xF3d.
+      We\u017Amy je!"
+    - "Odbierz swojego Bohatera w Zaawansowany post\u0119p"
+    - Nowy bohater - nowe wyzwanie
+    - Wybraniec przybywa
+    - Misja bohatera
+    - "Podczas wydarzenia wykonuj zadania, aby odebra\u0107 nagrody!"
+    - "Wypr\xF3buj najnowszego bohatera {0}"
+    - "Wykonuj misje, aby otrzyma\u0107 atrakcyjne nagrody.\\n\\n*Uwaga: Misje s\u0105
+      liczone tylko w czasie trwania eventu."
+    - Wymagaj znaku {0} w formacji
+    - "Zdob\u0105d\u017A 3 gwiazdki na poziomie {0} na normalnym poziomie trudno\u015Bci"
+    - "Osi\u0105gnij 3 gwiazdki na normalnym etapie {0} za pomoc\u0105 {1}"
+    - "Zdob\u0105d\u017A 3 gwiazdki na {0} poziomie trudno\u015Bci Koszmar"
+    - "Zdob\u0105d\u017A 3 gwiazdki w koszmarze Stage {0} za pomoc\u0105 {1}"
+    - "U\u017Cyj umiej\u0119tno\u015Bci {0} z {1} {2} razy"
+    - "{0} osi\u0105ga poziom {1}"
+    - "Wyposa\u017C dowolne zakl\u0119cie dla {0}"
+    - "Wyposa\u017C dowolny Runa dla {0}"
+    - "Pakiet bohater\xF3w"
+    - Wybierz tylko jeden
+    - Poziom {0}!
+    - Heroiczny plecak
+    - "Kryszta\u0142y paczka"
+    - Runa paczka
+    - "Zakl\u0119cie paczka"

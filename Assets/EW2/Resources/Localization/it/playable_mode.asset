@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: playable_mode
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_defense_name_txt
+    - defensive_point_title_txt
+    - lobby_txt
+    - best_record_waves_txt
+    - current_record_waves_txt
+    - season_end_txt
+    - trial_left_txt
+    - trial_txt
+    - reward_milestone_txt
+    - select_base_txt
+    - hero_selection_txt
+    - unlock_base_txt
+    - turn_left_txt
+    - leaderboard_txt
+    - rank_txt
+    - player_txt
+    - formation_txt
+    - new_record_txt
+    - no_more_trial_txt
+    - result_txt
+    - last_trial_notice_txt
+    - hero_required_txt
+    - hero_defense_rule
+    - buff_name_7001
+    - buff_name_7002
+    - buff_name_7003
+    - buff_name_7004
+    - buff_name_7005
+    - buff_name_7006
+    - buff_des_7001
+    - buff_des_7002
+    - buff_des_7003
+    - buff_des_7004
+    - buff_des_7005
+    - buff_des_7006
+    - defensive_point_name_8001
+    - defensive_point_name_8004
+    - defensive_point_name_8005
+    - defensive_point_skill_8001
+    - defensive_point_skill_8004
+    - defensive_point_skill_8005
+    - defensive_point_des_8001
+    - defensive_point_des_8004
+    - defensive_point_des_8005
+    - hero_defens_map_name_1
+    - hero_defens_map_name_2
+    - tournament_ban_txt
+    - tournament_nerf_txt
+    - tournament_buff_txt
+    - ban_spell_notice_txt
+    - tower_selection_txt
+    - tower_required_txt
+    - hall_of_fame_txt
+    - join_tournament_txt
+    - unrank_txt
+    - tournament_ticket_txt
+    - tournament_shop_title
+    - purchase_ticket_popup_title_txt
+    - change_buff_txt
+    - change_hero_pair_txt
+    - change_buff_status_txt
+    - change_price_alert_txt
+    - waves_cleared_record_txt
+    - ban_notice_txt
+    - ban_alert_txt
+    - congratulation_notice_txt
+    - season_rank_txt
+    - tournament_rules_title
+    - tournament_rule_map_title
+    - tournament_rule_limit_title
+    - tournament_rule_grand_title
+    - tournament_rule_season_title
+    - tournament_rule_buff_title
+    - tournament_rule_nerf_title
+    - tournament_rule_ban_title
+    - tournament_rule_map
+    - tournament_rule_limit
+    - tournament_rule_grand
+    - tournament_rule_season
+    - tournament_rule_buff
+    - tournament_rule_nerf
+    - tournament_rule_ban
+    - tournament_rank_0
+    - tournament_rank_1
+    - tournament_rank_2
+    - tournament_rank_3
+    - tournament_rank_4
+    - tournament_rank_5
+    - tournament_rank_6
+    - tournament_rank_7
+    - tournament_buff_201
+    - tournament_buff_202
+    - tournament_buff_203
+    - tournament_buff_204
+    - tournament_buff_205
+    - tournament_buff_206
+    - tournament_buff_207
+    - tournament_buff_208
+    - tournament_buff_209
+    - tournament_buff_210
+    - tournament_buff_211
+    - tournament_nerf_101
+    - tournament_nerf_102
+    - tournament_nerf_103
+    - tournament_nerf_104
+    - tournament_nerf_105
+    - tournament_nerf_106
+    - tournament_nerf_107
+    - tournament_nerf_108
+    - tournament_nerf_109
+    - tournament_nerf_110
+    - tournament_nerf_111
+    values:
+    - Difesa dell'eroe
+    - Base
+    - Atrio
+    - 'Miglior record: {0} onde'
+    - 'Record attuale: {0}'
+    - 'Tempo rimanente: '
+    - 'Prova: {0}'
+    - Processo
+    - '{0} onde'
+    - Selezione di base
+    - Selezione dell'eroe
+    - Sblocca questa base
+    - 'Turno rimanente: {0}'
+    - Grafici
+    - Classifica
+    - Giocatore
+    - Formazione
+    - Nuovo record
+    - "Niente pi\xF9 prove"
+    - Risultato
+    - Hai appena esaurito la tua ultima prova.
+    - Hai bisogno di almeno 2 eroi
+    - "Gli eroi sono in pericolo nel tentativo di proteggere una base da un esercito
+      di demoni. Non c'\xE8 tempo per costruire torri, devono usare la loro forza
+      per fermare il nemico.\n\nIn questa modalit\xE0 puoi controllare fino a 5 eroi.\n\nPuoi
+      controllare solo gli eroi e non puoi costruire torri.\n\nL'obiettivo \xE8 difendere
+      una base dell'alleanza. Quando la base viene distrutta, il gioco finisce. Le
+      basi ti aiuteranno a far salire di livello i tuoi eroi nel bel mezzo di una
+      battaglia. Sblocca nuove basi per dotare gli eroi di abilit\xE0 passive.\n\nPuoi
+      usare l'oro per migliorare le statistiche dell'eroe proprio nella battaglia.
+      Tocca la base sulla mappa per aggiornare.\n\nRiceverai ricompense in base a
+      ogni traguardo raggiunto. Difendi il pi\xF9 a lungo possibile per ottenere
+      ricompense pi\xF9 preziose.\n\nMappe e classifiche verranno aggiornate ogni
+      stagione. Preparati ad affrontare nuove sfide."
+    - Potenziamento dell'attacco
+    - Potenziamento della difesa
+    - Potenziamento incantesimo
+    - "Miglioramento ricarica abilit\xE0"
+    - Miglioramento critico
+    - Miglioramento Salute
+    - Aumenta di {0} danni per tutti gli eroi
+    - Aumenta {0} armature e {1} resistenze magiche per tutti gli eroi
+    - "Aumenta del {0}% i danni inflitti dall'abilit\xE0 attiva degli incantesimi"
+    - Riduci il tempo di recupero del {0}% per tutti gli eroi
+    - Aumenta di {0} danni critici per tutti gli eroi
+    - Aumenta di {0} Salute massimi per tutti gli eroi
+    - La Fortezza
+    - Dea della Natura
+    - Torre del tuono
+    - Le basi importanti devono essere protette a tutti i costi.
+    - Recupera 5 Salute ogni 6 secondi per tutti gli eroi
+    - "Dopo ogni 2 attacchi, l'eroe ha la capacit\xE0 di colpire un fulmine che infligge
+      3 danni. Il fulmine rimbalza fino a 4 altri nemici. Il danno per ogni rimbalzo
+      diminuir\xE0 del 5%."
+    - "Questa antica fortezza \xE8 stata costruita dagli umani e rimane forte contro
+      gli attacchi dell'esercito del male."
+    - "Una misteriosa dea adorata dagli abitanti della natura. Credono che la dea
+      abbia la capacit\xE0 di guarire e benedire i guerrieri della giungla."
+    - "Questa torre magica \xE8 dove vivono e studiano la magia molti grandi maghi.
+      I maghi hanno infuso il loro potere nella torre in modo che potesse aiutare
+      i difensori a controllare il tuono."
+    - Ultima linea di difesa
+    - Battaglia di foresta
+    - Vietare
+    - Indebolito
+    - Migliorare
+    - "Incantesimo \xE8 vietato"
+    - Selezione della torre
+    - Hai bisogno di almeno 4 Torri
+    - Gruppo di personaggi famosi
+    - Unisciti alla lotta per essere onorato
+    - Non classificato
+    - Biglietto
+    - Negozio del torneo
+    - Biglietto
+    - Modificare
+    - Cambia eroi
+    - Cambiare stato
+    - "Il prezzo aumenter\xE0 ogni volta che cambi"
+    - Ondata
+    - Non puoi usare questi oggetti
+    - "Il tuo eroe non pu\xF2 usare questo oggetto. Vuoi cambiarlo?"
+    - Hai raggiunto il grado X in questa stagione. Ecco la tua ricompensa
+    - Stagione
+    - Torneo
+    - Mappe dei tornei
+    - Limite di gioco
+    - Gruppo di personaggi famosi
+    - Stagione
+    - Migliorare
+    - Indebolito
+    - Vietare
+    - 'Tutti i giocatori competono sullo stesso livello infinito '
+    - "Ogni giorno i giocatori ricevono {0} giocate gratuite. Se il numero di giri
+      gratuiti \xE8 esaurito, il giocatore deve utilizzare Gemma o guardare un annuncio
+      per ottenerne di pi\xF9. Il numero di riproduzioni verr\xE0 aggiornato ogni
+      giorno."
+    - "Questo \xE8 il posto per onorare i record pi\xF9 alti di tutti i tempi. Continua
+      a provare ogni stagione per essere onorato qui! "
+    - "Ogni stagione dura 2 settimane. Il record pi\xF9 alto che i giocatori ottengono
+      in ogni stagione verr\xE0 conteggiato per classificarsi in Gruppo di personaggi
+      famosi."
+    - "Se la tua formazione ha 2 eroi su richiesta, qualsiasi statistica sar\xE0
+      migliorata. Puoi usare Cristalli, Gemma e guardare gli annunci per cambiare
+      casualmente la coppia di eroi predefinita e il tipo di statistica avanzato."
+    - "Se usi un eroe indebolito nella tua formazione, una delle statistiche di quell'eroe
+      verr\xE0 ridotta. Anche quell'eroe non apparir\xE0 nella coppia di eroi richiesta."
+    - "Non potrai utilizzare oggetti proibiti. L'elenco degli oggetti proibiti verr\xE0
+      aggiornato dopo ogni stagione."
+    - Bronzo
+    - Argento
+    - Oro
+    - Platino
+    - Diamante
+    - Elite
+    - Maestro
+    - Re
+    - Aumenta Salute di {0}
+    - Aumenta Armatura di {0}
+    - Aumenta Res Magica di {0}
+    - Aumenta Danno di {0}
+    - Aumenta Velocita Mov di {0}%
+    - "Aumenta Velocit\xE0 d'attacco di {0}%"
+    - Aumenta Rigenerazione Vita di {0}%
+    - Diminuire Tempo di Rinascita di {0}%
+    - Aumenta Danno Crit di {0}%
+    - "Aumenta Possibilit\xE0 Crit di {0}%"
+    - "Diminuire Ricarica abilit\xE0 di {0}%"
+    - Diminuire Salute di {0}
+    - Diminuire Armatura di {0}
+    - Diminuire Res Magica di {0}
+    - Diminuire Danno di {0}
+    - Diminuire Velocita Mov di {0}%
+    - "Diminuire Velocit\xE0 d'attacco di {0}%"
+    - Diminuire Rigenerazione Vita di {0}%
+    - Aumenta Tempo di Rinascita di {0}%
+    - Diminuire Danno Crit di {0}%
+    - "Diminuire Possibilit\xE0 Crit di {0}%"
+    - "Aumenta Ricarica abilit\xE0 di {0}%"

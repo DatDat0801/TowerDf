@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: upgrade_tower
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tower_up_name_2001_0
+    - tower_up_name_2001_1
+    - tower_up_name_2001_2
+    - tower_up_name_2001_3
+    - tower_up_name_2001_4
+    - tower_up_name_2001_5
+    - tower_up_name_2002_0
+    - tower_up_name_2002_1
+    - tower_up_name_2002_2
+    - tower_up_name_2002_3
+    - tower_up_name_2002_4
+    - tower_up_name_2002_5
+    - tower_up_name_2003_0
+    - tower_up_name_2003_1
+    - tower_up_name_2003_2
+    - tower_up_name_2003_3
+    - tower_up_name_2003_4
+    - tower_up_name_2003_5
+    - tower_up_name_2004_0
+    - tower_up_name_2004_1
+    - tower_up_name_2004_2
+    - tower_up_name_2004_3
+    - tower_up_name_2004_4
+    - tower_up_name_2004_5
+    - tower_up_des_2001_0
+    - tower_up_des_2001_1
+    - tower_up_des_2001_2
+    - tower_up_des_2001_3
+    - tower_up_des_2001_4
+    - tower_up_des_2001_5
+    - tower_up_des_2002_0
+    - tower_up_des_2002_1
+    - tower_up_des_2002_2
+    - tower_up_des_2002_3
+    - tower_up_des_2002_4
+    - tower_up_des_2002_5
+    - tower_up_des_2003_0
+    - tower_up_des_2003_1
+    - tower_up_des_2003_2
+    - tower_up_des_2003_3
+    - tower_up_des_2003_4
+    - tower_up_des_2003_5
+    - tower_up_des_2004_0
+    - tower_up_des_2004_1
+    - tower_up_des_2004_2
+    - tower_up_des_2004_3
+    - tower_up_des_2004_4
+    - tower_up_des_2004_5
+    values:
+    - "Sp\xE4her"
+    - Durchbohrender Schuss
+    - Pfeilregen
+    - "Elite-Bogensch\xFCtze"
+    - Pfeil mit Widerhaken
+    - "Pfeil der Zerst\xF6rung"
+    - Hellsicht
+    - Durchdringende Magie
+    - Ultimative Teleportation
+    - Fortgeschrittene Magie
+    - Meteorschauer
+    - "Magie der Zerst\xF6rung"
+    - Antike Vision
+    - "Muskul\xF6ser Besch\xFCtzer"
+    - Feueressenz
+    - "Rage des Besch\xFCtzers"
+    - "T\xF6dlicher seismischer Angriff"
+    - "Erdbeben der Zerst\xF6rung"
+    - Ausdauertraining
+    - "Verst\xE4rktes Schwert"
+    - "Verst\xE4rkung"
+    - "Kr\xE4uterbeutel"
+    - Elitesoldat
+    - Geist der Herrlichkeit
+    - "Erh\xF6ht den Angriffsradius um <color=#69ae10>{0} %</color>"
+    - "Erh\xF6ht die Chance auf einen kritischen Treffer bei Grundangriffen um <color=#69ae10>{0}
+      %</color>"
+    - Grundangriff kann mehrere Gegner auf einmal treffen, insgesamt bis zu <color=#69ae10>{0}</color>
+    - "Erh\xF6ht den physischen Schaden um <color=#69ae10>{0} %</color>"
+    - "Erh\xF6ht den Schaden pro Pfeil vom Schnellfeuer um <color=#69ae10>{0} %</color>"
+    - Jeder Pfeil des Grundangriffs hat eine Chance von <color=#69ae10>{0} %</color>,
+      <color=#69ae10>{1} %</color> kritischen Schaden zu verursachen
+    - "Erh\xF6ht den Angriffsradius um <color=#69ae10>{0} %</color>"
+    - "Erh\xF6ht den magischen Schaden um <color=#69ae10>{0} %</color>"
+    - Teleportiert den Gegner zum Startpunkt
+    - Verringert den Schaden, wenn mehrere Gegner getroffen werden, um <color=#69ae10>{0}
+      %</color>
+    - "F\xFCgt der F\xE4higkeit \u201EMagischer Schlag\u201C <color=#69ae10>{0}</color>
+      Angriffe hinzu"
+    - "Jeder Treffer eines Grundangriffs sorgt f\xFCr eine Explosion und verursacht
+      <color=#69ae10>{0}</color> zus\xE4tzlichen magischen Schaden"
+    - "Erh\xF6ht den Angriffsradius um <color=#69ae10>{0} %</color>"
+    - "Erh\xF6ht den physischen Schaden um <color=#69ae10>{0} %</color>"
+    - "Grundangriffe haben eine Chance von <color=#69ae10>{0} %</color>, einen brennenden
+      Stein zu werfen, der <color=#69ae10>{1}</color> Schaden verursacht und den
+      Boden f\xFCr <color=#69ae10>{2}</color> Sekunden in Brand setzt. Feuerzone
+      verursacht alle <color=#69ae10>{4}</color> Sekunden <color=#69ae10>{3}</color>
+      Schaden"
+    - "Erh\xF6ht die Angriffsgeschwindigkeit um <color=#69ae10>{0} %</color>"
+    - "Erh\xF6ht den Schaden der F\xE4higkeit \u201ESeismischer Schlag\u201C um <color=#69ae10>{0}
+      %</color>"
+    - "Jeder Riss im Boden, der durch Seismischer Schlag entstanden ist, l\xE4sst
+      einige Felsen erscheinen, die {0} Bonusschaden verursachen und die Bewegungsgeschwindigkeit
+      der Gegner um <color=#69ae10>{1} %</color> verringern"
+    - "Erh\xF6ht die Gesundheit der Truppen um <color=#69ae10>{0} %</color>"
+    - "Erh\xF6ht den physischen Schaden um <color=#69ae10>{0} %</color>"
+    - "<color=#69ae10>{0}</color> zus\xE4tzliche Truppen schlie\xDFen sich dem Team
+      an"
+    - Eine Reduzierung von <color=#69ae10>{0} %</color> der Respawn-Zeit
+    - "Die F\xE4higkeit \u201ESt\xE4rken\u201C sorgt f\xFCr <color=#69ae10>{0} %</color>
+      mehr R\xFCstung und <color=#69ae10>{1} %</color> h\xF6heren magischen Widerstand"
+    - "Wenn sie sterben, verwandeln sich Truppen in eine Geisterform und bleiben
+      f\xFCr <color=#69ae10>{0}</color> Sekunden auf dem Schlachtfeld. Die Geisterform
+      ist unverwundbar und die Truppen werden verschwinden, wenn die Zeit abgelaufen
+      ist"

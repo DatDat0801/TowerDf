@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: spell
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - spell_name_4001
+    - spell_name_4002
+    - spell_name_4003
+    - spell_name_4004
+    - spell_name_4005
+    - spell_name_4006
+    - spell_name_4011
+    - active_description_4001
+    - active_description_4002
+    - active_description_4003
+    - active_description_4004
+    - active_description_4005
+    - active_description_4006
+    - active_description_4011
+    - passive_description_4001
+    - passive_description_4002
+    - passive_description_4003
+    - passive_description_4004
+    - passive_description_4005
+    - passive_description_4006
+    - passive_description_4011
+    - spell_default_description_all
+    - spell_default_description_4001
+    - spell_default_description_4002
+    - spell_default_description_4003
+    - spell_default_description_4004
+    - spell_default_description_4005
+    - spell_default_description_4006
+    - spell_default_description_4011
+    values:
+    - Tormenta de nieve
+    - Tornado Ardiente
+    - "Explosi\xF3n Espiritual"
+    - "Guardi\xE1n de las Estrellas"
+    - "Bendici\xF3n de la Naturaleza"
+    - "Mina Terrestre M\xE1gica"
+    - "T\xF3tem Antiguo"
+    - "Congela a los enemigos en el \xE1rea seleccionada por <color=#bb5c14>{0}</color>
+      segundos. Despu\xE9s de que el hielo se derrita, los enemigos estar\xE1n fr\xEDos
+      durante <color=#bb5c14>{1}</color> segundos.\n\n* Inmune a enemigos voladores"
+    - "Crea al tornado y al fuego que caen sobre el \xE1rea seleccionada y producen
+      un da\xF1o de <color=#bb5c14>{0}</color>"
+    - "Crea una explosi\xF3n que produce un da\xF1o de <color=#bb5c14>{0}</color>
+      a los enemigos que est\xE1n en el \xE1rea seleccionada"
+    - "Invoca a un guardi\xE1n para que se una a la lucha. Inflige <color=#bb5c14>{0}</color>
+      da\xF1o al aterrizar en el \xE1rea seleccionada. The Guardian tiene <color=#bb5c14>{1}</color>
+      HP y <color=#bb5c14>{2}</color> da\xF1o."
+    - "Recupera <color=#bb5c14>{0}</color> HP por segundo para todos los aliados
+      que est\xE9n en el \xE1rea objetivo. La duraci\xF3n es de <color=#bb5c14>{1}</color>
+      segundos"
+    - "En el camino se ponen minas especiales, lo cual produce un da\xF1o de <color=#bb5c14>{0}</color>
+      a los enemigos que pisan sobre ellas."
+    - "Invoca un t\xF3tem con <color=#bb5c14>{0}</color> HP que dura <color=#bb5c14>{1}</color>
+      segundos, creando un \xE1rea maldita que atrae a todos los enemigos con habilidad
+      de ataque. Los enemigos en el \xE1rea reciben <color=#bb5c14>{2}</color> de
+      da\xF1o por segundo.\n\n* Inmune a enemigos voladores"
+    - "Cada ataque b\xE1sico de Heroes tiene un <color=# bb5c14>{0}%</color> de probabilidad
+      de causar fr\xEDo.\n\n*Inmune a Boss y Mini Boss"
+    - "El ataque b\xE1sico del h\xE9roe tiene una probabilidad del <color=#bb5c14>{0}%</color>
+      de producirle Quemaduras al enemigo Las quemaduras tienen una duraci\xF3n de
+      <color=#bb5c14>{1}</color> segundos. La tasa de Quemaduras por ataque b\xE1sico
+      no se va a tener en cuenta si las Quemaduras a\xFAn perduran"
+    - "Los ataques de los enemigos tienen una probabilidad del <color=#bb5c14>{0}%</color>
+      de provocar una explosi\xF3n sobre el cuerpo del h\xE9roe impactado. Todos
+      los enemigos dentro del rango, incluyendo al agresor, reciben un da\xF1o de
+      <color=#bb5c14>{1}</color> de dicha explosi\xF3n"
+    - "Cuando el Guardi\xE1n de las Estrellas aparece, el h\xE9roe recibe un aura
+      protectora. Durante la existencia del Guardi\xE1n de las Estrellas, el h\xE9roe
+      recibe <color=#bb5c14>{0}%</color> Armadura(s) y <color=#bb5c14>{1}%</color>
+      Resistencia(s) M\xE1gica(s)."
+    - "El h\xE9roe tiene la capacidad de regenerarse por el <color=#bb5c14>{0}</color>
+      del HP m\xE1ximo por segundo, incluso en combate."
+    - "Los enemigos que son atacados por el ataque b\xE1sico del h\xE9roe van a tener
+      una probabilidad de <color=#bb5c14>{0}%</color> de ser explotados. Todos los
+      enemigos dentro de la explosi\xF3n reciben un da\xF1o de <color=#bb5c14>{1}</color>"
+    - "Despu\xE9s de cada <color=#bb5c14>{0}</color> ataques, el h\xE9roe lanza una
+      maldici\xF3n que aterroriza a todos los enemigos circundantes.\n\n* Inmune
+      a enemigos voladores"
+    - "Hechizos equipados para el h\xE9roe para agregar habilidades adicionales en
+      la batalla."
+    - "Congela a los enemigos en un \xE1rea, y le da al H\xE9roe que est\xE1 equipado
+      con este Hechizo la posibilidad de congelar a los enemigos en cada ataque b\xE1sico"
+    - "Provoca una explosi\xF3n en un \xE1rea y le da al H\xE9roe que est\xE1 equipado
+      con este Hechizo la capacidad de quemar a los enemigos"
+    - "Crea una explosi\xF3n que destruye a los enemigos y le permite al H\xE9roe
+      que est\xE1 equipado con Magia explotar cuando lo atacan."
+    - "Invoca a los Guardianes de las Estrellas e incrementa la defensa del H\xE9roe
+      que est\xE1 equipado con este Hechizo"
+    - "Sana a los aliados y le da al H\xE9roe que est\xE1 equipado con este Hechizo
+      la posibilidad de Regenerar HP en la batalla"
+    - "Pone trampas a lo largo del camino y le da al H\xE9roe la posibilidad de provocar
+      ataques explosivos"
+    - "Invoca un t\xF3tem para atraer y maldecir a los enemigos. Los h\xE9roes tienen
+      la capacidad de causar terror cuando est\xE1n equipados con este hechizo."

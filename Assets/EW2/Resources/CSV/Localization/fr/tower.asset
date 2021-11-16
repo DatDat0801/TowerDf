@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: tower
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tower_name_2001_0
+    - tower_name_2001_1
+    - tower_name_2001_2
+    - tower_name_2002_0
+    - tower_name_2002_1
+    - tower_name_2002_2
+    - tower_name_2003_0
+    - tower_name_2003_1
+    - tower_name_2003_2
+    - tower_name_2004_0
+    - tower_name_2004_1
+    - tower_name_2004_2
+    - tower_name_2005_0
+    - tower_name_2005_1
+    - tower_name_2005_2
+    - tower_name_2006_0
+    - tower_name_2006_1
+    - tower_name_2006_2
+    - tower_name_2007_0
+    - tower_name_2007_1
+    - tower_name_2007_2
+    - tower_name_2008_0
+    - tower_name_2008_1
+    - tower_name_2008_2
+    - tower_name_2009_0
+    - tower_name_2009_1
+    - tower_name_2009_2
+    - tower_name_2010_0
+    - tower_name_2010_1
+    - tower_name_2010_2
+    - tower_name_2011_0
+    - tower_name_2011_1
+    - tower_name_2011_2
+    - tower_name_2012_0
+    - tower_name_2012_1
+    - tower_name_2012_2
+    - tower_des_2001_0
+    - tower_des_2001_1
+    - tower_des_2001_2
+    - tower_des_2002_0
+    - tower_des_2002_1
+    - tower_des_2002_2
+    - tower_des_2003_0
+    - tower_des_2003_1
+    - tower_des_2003_2
+    - tower_des_2004_0
+    - tower_des_2004_1
+    - tower_des_2004_2
+    - tower_des_2005_0
+    - tower_des_2005_1
+    - tower_des_2005_2
+    - tower_des_2006_0
+    - tower_des_2006_1
+    - tower_des_2006_2
+    - tower_des_2007_0
+    - tower_des_2007_1
+    - tower_des_2007_2
+    - tower_des_2008_0
+    - tower_des_2008_1
+    - tower_des_2008_2
+    - tower_des_2009_0
+    - tower_des_2009_1
+    - tower_des_2009_2
+    - tower_des_2010_0
+    - tower_des_2010_1
+    - tower_des_2010_2
+    - tower_des_2011_0
+    - tower_des_2011_1
+    - tower_des_2011_2
+    - tower_des_2012_0
+    - tower_des_2012_1
+    - tower_des_2012_2
+    - tower_skill_2001_0
+    - tower_skill_2001_1
+    - tower_skill_2002_0
+    - tower_skill_2002_1
+    - tower_skill_2003_0
+    - tower_skill_2003_1
+    - tower_skill_2004_0
+    - tower_skill_2004_1
+    - tower_skill_2005_0
+    - tower_skill_2005_1
+    - tower_skill_2006_0
+    - tower_skill_2006_1
+    - tower_skill_2007_0
+    - tower_skill_2007_1
+    - tower_skill_2008_0
+    - tower_skill_2008_1
+    - tower_skill_2009_0
+    - tower_skill_2009_1
+    - tower_skill_2010_0
+    - tower_skill_2010_1
+    - tower_skill_2011_0
+    - tower_skill_2011_1
+    - tower_skill_2012_0
+    - tower_skill_2012_1
+    - tower_skill_des_2001_0
+    - tower_skill_des_2001_1
+    - tower_skill_des_2002_0
+    - tower_skill_des_2002_1
+    - tower_skill_des_2003_0
+    - tower_skill_des_2003_0_update
+    - tower_skill_des_2003_1
+    - tower_skill_des_2004_0
+    - tower_skill_des_2004_1
+    - tower_skill_des_2005_0
+    - tower_skill_des_2005_1
+    - tower_skill_des_2006_0
+    - tower_skill_des_2006_1
+    - tower_skill_des_2007_0
+    - tower_skill_des_2007_1
+    - tower_skill_des_2008_0
+    - tower_skill_des_2008_1
+    - tower_skill_des_2009_0
+    - tower_skill_des_2009_1
+    - tower_skill_des_2010_0
+    - tower_skill_des_2010_1
+    - tower_skill_des_2011_0
+    - tower_skill_des_2011_1
+    - tower_skill_des_2012_0
+    - tower_skill_des_2012_1
+    values:
+    - Chasseur
+    - Archer
+    - "Ma\xEEtre Archer"
+    - Apprenti Sorcier
+    - Sorcier de combat
+    - Sorcier adepte
+    - Protecteur
+    - "Protecteur blind\xE9"
+    - "Protecteur l\xE9gendaire"
+    - Milice
+    - "Infanterie chevronn\xE9e"
+    - Chevalier d'Alsace
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Les chasseurs en Alsace sont recrut\xE9s et entra\xEEn\xE9s par Claudia comme
+      force de d\xE9fense de base, capable de frapper des ennemis capables de voler
+      et au sol."
+    - "Le chasseur est bien entra\xEEn\xE9 pour devenir de bons archers, capables
+      de tirer plus vite et plus loin"
+    - "Les ma\xEEtres archers peuvent rapidement tirer des fl\xE8ches lourdes qui
+      ont un formidable pouvoir de rupture"
+    - "\xC9l\xE8ve des sorciers d'Endia. Leurs sorts sont tr\xE8s efficaces contre
+      les ennemis avec une armure lourde"
+    - "Des sorciers avec une r\xE9elle exp\xE9rience de combat. Leur magie est renforc\xE9e
+      par de grands d\xE9g\xE2ts"
+    - "D'excellents sorciers dot\xE9s d'un pouvoir magique exceptionnel peuvent balayer
+      la formation ennemie"
+    - "Les \xE2mes des anciens protecteurs sont scell\xE9es dans des pierres magiques.
+      Une fois invoqu\xE9s, ils se transformeront en guerriers de pierre g\xE9ants
+      attaquant les ennemis au sol"
+    - "Protecteur blind\xE9 est plus agressif, capable de lancer des pierres qui
+      infligent d'\xE9normes d\xE9g\xE2ts"
+    - "Le puissant protecteur peut balayer et contr\xF4ler les ennemis sur une grande
+      surface"
+    - "La force initiale de l'arm\xE9e de r\xE9sistance, a une formation de base
+      et peut bloquer le chemin de l'ennemi"
+    - "Soldats d'infanterie avec une vaste exp\xE9rience au combat, bien \xE9quip\xE9s.
+      Ce sont des guerriers courageux et absolument fid\xE8les \xE0 Claudia"
+    - "Les chevaliers r\xE9silients de Claudia. Ce sont des guerriers avec Claudia
+      \xE0 travers de nombreuses batailles, absolument fid\xE8les et pr\xEAts \xE0
+      d\xE9truire tous les ennemis sur le chemin."
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Tir Rapide
+    - Moral d'Alsace
+    - Frappe Magique
+    - Portail Magique
+    - Frappe Sismique
+    - Vague Sismique
+    - Contre-attaque
+    - Fortifier
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Le ma\xEEtre archer tire {0} fois cons\xE9cutivement. Chaque fl\xE8che inflige
+      {1} d\xE9g\xE2ts physiques"
+    - "Augmente la vitesse d'attaque de {0}% pour les tours alli\xE9es \xE0 port\xE9e"
+    - "L'sorcier lance une comp\xE9tence magique dans le ciel et lance des coups
+      magiques sur {0} ennemis. Chaque attaque inflige {1} d\xE9g\xE2ts magiques"
+    - "Invoque un portail magique qui t\xE9l\xE9porte {0} ennemis vers l'arri\xE8re
+      sur une distance"
+    - "Le protecteur claque le sol, cr\xE9ant {0} fissures et infligeant {1} d\xE9g\xE2ts
+      \xE0 tous les ennemis touch\xE9s"
+    - "Les fissures explosent, infligeant {0} d\xE9g\xE2ts suppl\xE9mentaires et
+      r\xE9duisant {1}% la vitesse de d\xE9placement de l'ennemi"
+    - "Le protecteur cr\xE9e des ondes sismiques, infligeant {0} d\xE9g\xE2ts et
+      ralentissant tous les ennemis dans la zone d'effet"
+    - "Lorsqu'il est attaqu\xE9 par une attaque de m\xEAl\xE9e, chaque Chevalier
+      d'Alsace a {0}% de chances de lancer une contre-attaque et d'infliger {1} d\xE9g\xE2ts
+      de zone"
+    - "Augmente {0}% d'armure et {1}% de r\xE9sistance magique des Chevalier d'Alsace"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

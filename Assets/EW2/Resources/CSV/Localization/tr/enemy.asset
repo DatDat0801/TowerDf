@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - enemy_name_3001
+    - enemy_name_3002
+    - enemy_name_3003
+    - enemy_name_3004
+    - enemy_name_3005
+    - enemy_name_3006
+    - enemy_name_3007
+    - enemy_name_3008
+    - enemy_name_3009
+    - enemy_name_3010
+    - enemy_name_3011
+    - enemy_name_3012
+    - enemy_name_3013
+    - enemy_name_3014
+    - enemy_name_3015
+    - enemy_name_3016
+    - enemy_name_3017
+    - enemy_name_3018
+    - enemy_name_3019
+    - enemy_name_3020
+    - enemy_name_3021
+    - enemy_name_3022
+    - enemy_name_3023
+    - enemy_name_3024
+    - enemy_name_3025
+    - enemy_name_3026
+    - enemy_name_3027
+    - enemy_name_3028
+    - enemy_name_3029
+    - enemy_name_3030
+    - enemy_name_3031
+    - enemy_name_3032
+    - enemy_name_3033
+    - enemy_name_3034
+    - enemy_name_3035
+    - enemy_name_3036
+    - enemy_name_3037
+    - enemy_des_3001
+    - enemy_des_3002
+    - enemy_des_3003
+    - enemy_des_3004
+    - enemy_des_3005
+    - enemy_des_3006
+    - enemy_des_3007
+    - enemy_des_3008
+    - enemy_des_3009
+    - enemy_des_3010
+    - enemy_des_3011
+    - enemy_des_3012
+    - enemy_des_3013
+    - enemy_des_3014
+    - enemy_des_3015
+    - enemy_des_3016
+    - enemy_des_3017
+    - enemy_des_3018
+    - enemy_des_3019
+    - enemy_des_3020
+    - enemy_des_3021
+    - enemy_des_3022
+    - enemy_des_3023
+    - enemy_des_3024
+    - enemy_des_3025
+    - enemy_des_3026
+    - enemy_des_3027
+    - enemy_des_3028
+    - enemy_des_3029
+    - enemy_des_3030
+    - enemy_des_3031
+    - enemy_des_3032
+    - enemy_des_3033
+    - enemy_des_3034
+    - enemy_des_3035
+    - enemy_des_3036
+    - enemy_des_3037
+    - enemy_skill_3001
+    - enemy_skill_3002
+    - enemy_skill_3003
+    - enemy_skill_3004
+    - enemy_skill_3005
+    - enemy_skill_3006
+    - enemy_skill_3007
+    - enemy_skill_3008
+    - enemy_skill_3009
+    - enemy_skill_3010
+    - enemy_skill_3011
+    - enemy_skill_3012
+    - enemy_skill_3013
+    - enemy_skill_3014
+    - enemy_skill_3015
+    - enemy_skill_3016
+    - enemy_skill_3017
+    - enemy_skill_3018
+    - enemy_skill_3019
+    - enemy_skill_3020
+    - enemy_skill_3021
+    - enemy_skill_3022
+    - enemy_skill_3023
+    - enemy_skill_3024
+    - enemy_skill_3025
+    - enemy_skill_3026
+    - enemy_skill_3027
+    - enemy_skill_3028
+    - enemy_skill_3029
+    - enemy_skill_3030
+    - enemy_skill_3031
+    - enemy_skill_3032
+    - enemy_skill_3033
+    - enemy_skill_3034
+    - enemy_skill_3035
+    - enemy_skill_3036
+    - enemy_skill_3037
+    - enemy_warn_3002
+    - enemy_warn_3003
+    - enemy_warn_3005
+    - enemy_warn_3006
+    - enemy_warn_3007
+    - enemy_warn_3008
+    - enemy_warn_3009
+    - enemy_warn_3010
+    - enemy_warn_3011
+    - enemy_warn_3012
+    - enemy_warn_3013
+    - enemy_warn_3014
+    - enemy_warn_3015
+    - enemy_warn_3016
+    - enemy_warn_3017
+    - enemy_warn_3020
+    - enemy_warn_3021
+    - enemy_warn_3022
+    - enemy_warn_3023
+    - enemy_warn_3024
+    - enemy_warn_3025
+    - enemy_warn_3026
+    - enemy_warn_3027
+    - enemy_warn_3028
+    - enemy_warn_3029
+    - enemy_warn_3030
+    - enemy_warn_3031
+    - enemy_warn_3032
+    - enemy_warn_3033
+    - enemy_warn_3034
+    - enemy_warn_3035
+    - enemy_warn_3036
+    - enemy_warn_3037
+    values:
+    - Goblin
+    - Goblin Devriye
+    - "Suikast\xE7\u0131 Goblin"
+    - Ork
+    - "Ya\u011Fmac\u0131 Ork"
+    - "\u015Eaman Ork"
+    - Rahip Ork
+    - "Lanetlenmi\u015F Goblin"
+    - Dev
+    - "Goblin F\u0131\xE7\u0131s\u0131"
+    - Kurt
+    - "Kurt S\xFCvari"
+    - Karakanatlar
+    - "U\xE7an Goblin"
+    - Dev
+    - "Lanetlenmi\u015F Goblin"
+    - "Lekeli Muhaf\u0131z"
+    - "C\xFCce Muhaf\u0131z"
+    - "C\xFCce Muhaf\u0131z"
+    - "Karanl\u0131k G\xF6zl\xFC Gul'ak"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Goblinler, karanl\u0131k ordunun temel yaya birli\u011Fidir"
+    - "Goblinler i\u011Fren\xE7 yarat\u0131klard\u0131r ve uzaktan sald\u0131r\u0131
+      yapabilirler."
+    - "Suikast\xE7\u0131lara kar\u015F\u0131 dikkatli olun. \xC7ok h\u0131zl\u0131lard\u0131r
+      ve durdurulmalar\u0131 zordur."
+    - "Orklar, karanl\u0131k ordunun asli yaya birli\u011Fidir. Goblinlerden daha
+      g\xFC\xE7l\xFClerdir."
+    - "Sava\u015F \xE7\u0131\u011F\u0131rtkan\u0131 kana susam\u0131\u015F sava\u015F\xE7\u0131lard\u0131r.
+      Sava\u015F\u0131n i\xE7ine do\u011Fmu\u015Flard\u0131r."
+    - "\u015Eamanlar, Orklar\u0131n dirayetini art\u0131r\u0131r. B\xFCy\xFCl\xFC
+      davullar\u0131n\u0131 \xE7almalar\u0131na izin vermeyin."
+    - "Bu esrarengiz Orklar, do\u011Fal b\xFCy\xFCleri \xF6\u011Frenmi\u015Flerdir.
+      \xD6nce onlar\u0131 yok edin."
+    - "Lanetlenmi\u015F Goblinler, kadim bir lanetin yarat\u0131klar\u0131d\u0131r.
+      Hayatla \xF6l\xFCm aras\u0131nda bir noktada ya\u015Farlar ve \xF6l\xFCleri
+      diriltme yetenekleri vard\u0131r."
+    - "Devler, b\xFCy\xFCk ama aptal yarat\u0131klard\u0131r. Y\xFCksek korumaya
+      sahip \xF6nc\xFC birliklerdir."
+    - "Bu garip fikir Goblinlerden \xE7\u0131km\u0131\u015Ft\u0131r. D\xFC\u015Fman
+      savunma hatt\u0131n\u0131 yarmak i\xE7in kullan\u0131l\u0131rlar."
+    - "Melez kurtlar \xE7evik ve tehlikelilerdir. Orklar taraf\u0131ndan ehlile\u015Ftirilmi\u015Flerdir."
+    - "Kurt s\xFCvarileri, karanl\u0131k ordunun elit ve tehlikeli birliklerinden
+      biridir."
+    - "Karakanatlar, Narazal taraf\u0131ndan \xE7a\u011F\u0131r\u0131l\u0131r. Y\u0131llar
+      \xF6nceki b\xFCy\xFCk sava\u015Ftan bu yana varl\u0131klar\u0131n\u0131 s\xFCrd\xFCrmektedir."
+    - "Goblinlerin sald\u0131r\u0131 timidir. Karakanatlar\u0131 kullanarak d\xFC\u015Fman
+      hatt\u0131n\u0131n derinliklerine s\u0131zarlar."
+    - "Devler, b\xFCy\xFCk ama aptal yarat\u0131klard\u0131r. Y\xFCksek korumaya
+      sahip \xF6nc\xFC birliklerdir."
+    - "Lanetlenmi\u015F Goblinler, kadim bir lanetin yarat\u0131klar\u0131d\u0131r.
+      Hayatla \xF6l\xFCm aras\u0131nda bir noktada ya\u015Farlar ve \xF6l\xFCleri
+      diriltme yetenekleri vard\u0131r."
+    - "Bir kadim Muhaf\u0131z, kraliyet b\xFCy\xFCc\xFCleri taraf\u0131ndan hapsedildi.
+      Ancak Kral 1. Jave, elindeki \u015Feytan\u0131n k\u0131l\u0131c\u0131 Durandal'\u0131n
+      b\xFCy\xFCs\xFC y\xFCz\xFCnden, ad\u0131 lekelendi ve \u015Feytan\u0131n hizmetkar\u0131na
+      d\xF6n\xFC\u015Ft\xFC."
+    - "C\xFCce muhaf\u0131zlar, Lekeli Muhaf\u0131zlar\u0131n par\xE7alar\u0131ndan
+      yarat\u0131lm\u0131\u015Ft\u0131r"
+    - "C\xFCce muhaf\u0131zlar, Lekeli Muhaf\u0131zlar\u0131n par\xE7alar\u0131ndan
+      yarat\u0131lm\u0131\u015Ft\u0131r"
+    - "Gu'lak, Moggun'un karde\u015Fiydi ve Bloodwolf kavminin s\u0131radaki lideriydi.
+      \u015Eeytan\u0131n k\u0131l\u0131c\u0131 Durandal taraf\u0131ndan kontrol edildi
+      ve karanl\u0131k ordunun generallerinden biri oldu."
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "\xD6fke"
+    - Cesaret davulu
+    - "\u0130yile\u015Ftirme"
+    - "\xC7a\u011F\u0131rma"
+    - "Sersemletme vuru\u015Fu"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Sersemletme vuru\u015Fu. \xD6fke"
+    - "\xC7a\u011F\u0131rma. Karanl\u0131k alev"
+    - "Seri kaya. Ayr\u0131lma"
+    - 
+    - 
+    - "Karanl\u0131k kafes. Karanl\u0131k diken. \xC7a\u011F\u0131rma. Ruh emici"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "- Uzaktan sald\u0131r\u0131"
+    - "- Y\xFCksek hareket h\u0131z\u0131\\n - Uzaktan sald\u0131r\u0131"
+    - "- Normal diren\xE7\\n - Sa\u011Fl\u0131\u011F\u0131 azald\u0131\u011F\u0131nda
+      deliye d\xF6ner"
+    - "- D\xFC\u015F\xFCk hareket h\u0131z\u0131\\n - \xC7evredeki dost kuvvetlerin
+      hareket h\u0131z\u0131n\u0131 art\u0131r\u0131r"
+    - "- Yak\u0131ndaki dost kuvvetleri iyile\u015Ftirir\\n - Uzaktan sald\u0131r\u0131"
+    - "- D\xFC\u015Fmanlar\u0131 \xE7a\u011F\u0131r\u0131r\\n - Uzaktan sald\u0131r\u0131"
+    - "- Y\xFCksek diren\xE7\\n - Sersemletebilir\\n - D\xFC\u015F\xFCk hareket h\u0131z\u0131"
+    - "- Y\xFCksek hareket h\u0131z\u0131\\n - \xC7ok say\u0131da Gobline ayr\u0131l\u0131r"
+    - "- Y\xFCksek hareket h\u0131z\u0131\\n - Kan kayb\u0131na sebep olur"
+    - "- Kan kayb\u0131na sebep olur"
+    - "- U\xE7an canavar"
+    - "- U\xE7an canavar"
+    - "- Y\xFCksek diren\xE7\\n - Sersemletebilir\\n - Sa\u011Fl\u0131\u011F\u0131
+      azald\u0131\u011F\u0131nda deliye d\xF6ner\\n - D\xFC\u015F\xFCk hareket h\u0131z\u0131"
+    - "- D\xFC\u015Fmanlar\u0131 \xE7a\u011F\u0131r\u0131r\\n - Kuleleri kontrol
+      eder\\n - Uzaktan sald\u0131r\u0131"
+    - "- Y\xFCksek diren\xE7\\n - Uzaktan sald\u0131r\u0131 d\xFCzenleyebilir\\n
+      - Geni\u015F alanda hasar verir\\n - Sersemletebilir"
+    - "- D\xFC\u015Fmanlar\u0131 \xE7a\u011F\u0131r\u0131r\\n - Uzaktan sald\u0131r\u0131
+      d\xFCzenleyebilir\\n - Geni\u015F alanda hasar verir\\n - Sersemletebilir"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

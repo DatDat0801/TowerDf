@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: playable_mode
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_defense_name_txt
+    - defensive_point_title_txt
+    - lobby_txt
+    - best_record_waves_txt
+    - current_record_waves_txt
+    - season_end_txt
+    - trial_left_txt
+    - trial_txt
+    - reward_milestone_txt
+    - select_base_txt
+    - hero_selection_txt
+    - unlock_base_txt
+    - turn_left_txt
+    - leaderboard_txt
+    - rank_txt
+    - player_txt
+    - formation_txt
+    - new_record_txt
+    - no_more_trial_txt
+    - result_txt
+    - last_trial_notice_txt
+    - hero_required_txt
+    - hero_defense_rule
+    - buff_name_7001
+    - buff_name_7002
+    - buff_name_7003
+    - buff_name_7004
+    - buff_name_7005
+    - buff_name_7006
+    - buff_des_7001
+    - buff_des_7002
+    - buff_des_7003
+    - buff_des_7004
+    - buff_des_7005
+    - buff_des_7006
+    - defensive_point_name_8001
+    - defensive_point_name_8004
+    - defensive_point_name_8005
+    - defensive_point_skill_8001
+    - defensive_point_skill_8004
+    - defensive_point_skill_8005
+    - defensive_point_des_8001
+    - defensive_point_des_8004
+    - defensive_point_des_8005
+    - hero_defens_map_name_1
+    - hero_defens_map_name_2
+    - tournament_ban_txt
+    - tournament_nerf_txt
+    - tournament_buff_txt
+    - ban_spell_notice_txt
+    - tower_selection_txt
+    - tower_required_txt
+    - hall_of_fame_txt
+    - join_tournament_txt
+    - unrank_txt
+    - tournament_ticket_txt
+    - tournament_shop_title
+    - purchase_ticket_popup_title_txt
+    - change_buff_txt
+    - change_hero_pair_txt
+    - change_buff_status_txt
+    - change_price_alert_txt
+    - waves_cleared_record_txt
+    - ban_notice_txt
+    - ban_alert_txt
+    - congratulation_notice_txt
+    - season_rank_txt
+    - tournament_rules_title
+    - tournament_rule_map_title
+    - tournament_rule_limit_title
+    - tournament_rule_grand_title
+    - tournament_rule_season_title
+    - tournament_rule_buff_title
+    - tournament_rule_nerf_title
+    - tournament_rule_ban_title
+    - tournament_rule_map
+    - tournament_rule_limit
+    - tournament_rule_grand
+    - tournament_rule_season
+    - tournament_rule_buff
+    - tournament_rule_nerf
+    - tournament_rule_ban
+    - tournament_rank_0
+    - tournament_rank_1
+    - tournament_rank_2
+    - tournament_rank_3
+    - tournament_rank_4
+    - tournament_rank_5
+    - tournament_rank_6
+    - tournament_rank_7
+    - tournament_buff_201
+    - tournament_buff_202
+    - tournament_buff_203
+    - tournament_buff_204
+    - tournament_buff_205
+    - tournament_buff_206
+    - tournament_buff_207
+    - tournament_buff_208
+    - tournament_buff_209
+    - tournament_buff_210
+    - tournament_buff_211
+    - tournament_nerf_101
+    - tournament_nerf_102
+    - tournament_nerf_103
+    - tournament_nerf_104
+    - tournament_nerf_105
+    - tournament_nerf_106
+    - tournament_nerf_107
+    - tournament_nerf_108
+    - tournament_nerf_109
+    - tournament_nerf_110
+    - tournament_nerf_111
+    values:
+    - "Defesa do her\xF3i"
+    - Base
+    - "Sal\xE3o"
+    - 'Melhor recorde: {0} ondas'
+    - 'Atual recorde: {0}'
+    - 'Tempo restante: '
+    - 'Teste restante: {0}'
+    - Tentativos
+    - '{0} ondas'
+    - "Sele\xE7\xE3o de base"
+    - "Sele\xE7\xE3o de her\xF3i"
+    - Desbloqueie esta base
+    - 'Turno restante: {0}'
+    - "Gr\xE1ficos"
+    - "Classifica\xE7\xE3o"
+    - Jogador
+    - "Forma\xE7\xE3o"
+    - Novo recorde
+    - "N\xE3o h\xE1 mais julgamento"
+    - Resultado
+    - "Voc\xEA acabou de usar sua \xFAltima tentativa."
+    - "Voc\xEA precisa de pelo menos 2 her\xF3is"
+    - "Os her\xF3is est\xE3o em perigo tentando proteger uma base de um ex\xE9rcito
+      de dem\xF4nios. Sem tempo para construir torres, eles devem usar sua for\xE7a
+      para parar o inimigo.\\n\\nNeste modo, voc\xEA pode controlar at\xE9 5 her\xF3is.\\n\\nVoc\xEA
+      s\xF3 pode controlar her\xF3is e n\xE3o pode construir torres.\\n\\nO objetivo
+      \xE9 defender uma base de alian\xE7a. Quando a base \xE9 destru\xEDda, o jogo
+      acaba. As bases ir\xE3o ajud\xE1-lo a subir de n\xEDvel seus her\xF3is bem
+      no meio de uma batalha. Desbloqueie novas bases para equipar os her\xF3is com
+      habilidades passivas.\\n\\nVoc\xEA pode usar ouro para atualizar as estat\xEDsticas
+      do Her\xF3i na batalha. Toque na base no mapa para atualizar.\\n\\nVoc\xEA
+      receber\xE1 recompensas de acordo com cada marco de conquista. Defenda o m\xE1ximo
+      que puder para obter recompensas mais valiosas.\\n\\nMapas e tabelas de classifica\xE7\xE3o
+      ser\xE3o atualizados a cada temporada. Esteja preparado para enfrentar novos
+      desafios."
+    - Aprimoramento de Ataque
+    - Aprimoramento de defesa
+    - "Aprimoramento de feiti\xE7o"
+    - Aumento de resfriamento
+    - "Aprimoramento Cr\xEDtico"
+    - Aprimoramento HP
+    - "Aumenta {0} de dano para todos os her\xF3is"
+    - "Aumente {0} armaduras e {1} resist\xEAncia m\xE1gica para todos os her\xF3is"
+    - "Aumenta {0}% do dano causado pela habilidade ativa de feiti\xE7os"
+    - "Diminui {0}%  resfriamento para todos os her\xF3is"
+    - "Aumenta {0} de dano cr\xEDtico para todos os her\xF3is"
+    - "Aumenta {0} HP m\xE1ximo para todos os her\xF3is"
+    - A Fortaleza
+    - Deusa da Natureza
+    - "Torre do Trov\xE3o"
+    - Bases importantes precisam ser protegidas a todo custo.
+    - "Recupera 5 HP a cada 6 segundos para todos os her\xF3is"
+    - "Ap\xF3s cada 2 ataques, o her\xF3i tem a capacidade de acertar um raio que
+      causa 3 de dano. O raio atinge at\xE9 4 outros inimigos. O dano para cada salto
+      diminuir\xE1 em 5%."
+    - "Esta antiga fortaleza foi constru\xEDda por humanos e permanece forte contra
+      os ataques do ex\xE9rcito do mal."
+    - "Uma misteriosa deusa adorada pelos habitantes da natureza. Eles acreditam
+      que a deusa tem a capacidade de curar e aben\xE7oar os guerreiros da selva."
+    - "Esta torre m\xE1gica \xE9 onde muitos grandes m\xE1gicos vivem e estudam magia.
+      Os magos infundiram seu poder na torre para que pudesse ajudar os defensores
+      a controlar o trov\xE3o."
+    - "\xDAltima linha de defesa"
+    - Batalha da floresta
+    - Foca
+    - Enfraquecer
+    - "Real\xE7ar"
+    - "Feiti\xE7o banido"
+    - "Sele\xE7\xE3o de torre"
+    - "Voc\xEA precisa de pelo menos 4 torres"
+    - Hall da Fama
+    - Junte-se ao torneio para ser homenageado
+    - "N\xE3o classificado"
+    - Bilhete
+    - Loja de torneio
+    - Compra de Bilhete
+    - Mudar
+    - "Mudar par de her\xF3is"
+    - Mudar o status
+    - "O pre\xE7o aumentar\xE1 toda vez que voc\xEA mudar"
+    - Onda
+    - "Voc\xEA n\xE3o pode usar itens proibidos"
+    - "Seu her\xF3i n\xE3o pode usar este item. Voc\xEA quer mudar isso?"
+    - "Voc\xEA alcan\xE7ou a classifica\xE7\xE3o de {0} nesta temporada. Aqui est\xE1
+      sua recompensa"
+    - Temporada
+    - Regras de torneio
+    - Mapas do Torneio
+    - Limite de jogo
+    - Hall da Fama
+    - Temporada
+    - "Real\xE7ar"
+    - Enfraquecer
+    - Foca
+    - "Todos os jogadores competem no mesmo n\xEDvel intermin\xE1vel."
+    - "Todos os dias, os jogadores t\xEAm {0} jogadas gratuitas. Se o n\xFAmero de
+      jogadas gratuitas se esgotar, o jogador precisar\xE1 usar Gema ou assistir
+      a an\xFAncios para obter mais. O n\xFAmero de jogadas ser\xE1 atualizado todos
+      os dias."
+    - "Este \xE9 o lugar para homenagear os maiores recordes de todos os tempos.
+      Continue tentando a cada temporada para ser homenageado aqui!"
+    - "Cada temporada dura 2 semanas. O maior recorde que os jogadores obtiverem
+      em cada temporada ser\xE1 contado para classifica\xE7\xE3o no Hall da Fama. "
+    - "Se sua forma\xE7\xE3o tiver 2 her\xF3is sob demanda, qualquer atributo ser\xE1
+      aprimorado. Voc\xEA pode usar Cristais, Gema e assistir a an\xFAncios para
+      alterar aleatoriamente o par de her\xF3is padr\xE3o e o tipo de estat\xEDstica
+      aprimorada."
+    - "Se voc\xEA usar um her\xF3i enfraquecido em sua forma\xE7\xE3o, uma das estat\xEDsticas
+      desse her\xF3i ser\xE1 reduzida. Esse her\xF3i tamb\xE9m n\xE3o aparecer\xE1
+      no par de her\xF3is solicitado."
+    - "Voc\xEA n\xE3o poder\xE1 usar itens proibidos. A lista de itens proibidos
+      ser\xE1 atualizada ap\xF3s cada temporada."
+    - Bronze
+    - Prata
+    - Ouro
+    - Platina
+    - Diamante
+    - Elite
+    - Mestre
+    - Rei
+    - Aumente {0} HP
+    - Aumente {0} Armadura
+    - "Aumente {0} Resis. M\xE1gica"
+    - Aumente {0} Dano
+    - Aumente {0}% Vel. Movimento
+    - Aumente {0}% Vel. Ataque
+    - Aumente {0}% Regen. de HP
+    - Diminuir {0}% Tempo de Renascimento
+    - "Aumente {0}% Dano Cr\xEDtico"
+    - "Aumente {0}% Taxa de Dano Cr\xEDtico"
+    - Diminuir {0}% Tempo de Carregamento de Habilidade
+    - Diminuir {0} HP
+    - Diminuir {0} Armadura
+    - "Diminuir {0} Resis. M\xE1gica"
+    - Diminuir {0} Dano
+    - Diminuir {0}% Vel. Movimento
+    - Diminuir {0}% Vel. Ataque
+    - Diminuir {0}% Regen. de HP
+    - Aumente {0}% Tempo de Renascimento
+    - "Diminuir {0}% Dano Cr\xEDtico"
+    - "Diminuir {0}% Taxa de Dano Cr\xEDtico"
+    - Aumente {0}% Tempo de Carregamento de Habilidade

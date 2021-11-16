@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0ecfa8c00e4b20be2dfa5eda819de8, type: 3}
+  m_Name: EnemyData3017
+  m_EditorClassIdentifier: 
+  allStatsLevel:
+  - id: 3015
+    level: 1
+    name: 'Corrupted Protector '
+    health: 5000
+    moveSpeed: 0.3
+    attackSpeed: 0.3
+    armor: 45
+    resistance: 20
+    damage: 50
+    detectMeleeAttack: 1
+    detectRangeAttack: 20
+    critChance: 0
+    critDamage: 100
+    damageArea: 0
+    life: 1
+    damageType: 0
+    moveType: -1
+    priorityTarget: 0000000002000000
+    traitType: 1
+    weight: 0
+  - id: 3015
+    level: 2
+    name: 'Corrupted Protector '
+    health: 10000
+    moveSpeed: 0.3
+    attackSpeed: 0.3
+    armor: 45
+    resistance: 20
+    damage: 100
+    detectMeleeAttack: 1
+    detectRangeAttack: 20
+    critChance: 0
+    critDamage: 100
+    damageArea: 0
+    life: 1
+    damageType: 0
+    moveType: -1
+    priorityTarget: 0000000002000000
+    traitType: 1
+    weight: 0
+  allSkill1:
+  - secondApply: 2.8
+    percentChanceApply: 0.3
+    cooldown: 23
+    waveTrigger: 5
+  - secondApply: 3
+    percentChanceApply: 0.5
+    cooldown: 23
+    waveTrigger: 9
+  allSkill2:
+  - waveTrigger: 6
+  - waveTrigger: 10

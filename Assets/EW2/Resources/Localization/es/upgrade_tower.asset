@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: upgrade_tower
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tower_up_name_2001_0
+    - tower_up_name_2001_1
+    - tower_up_name_2001_2
+    - tower_up_name_2001_3
+    - tower_up_name_2001_4
+    - tower_up_name_2001_5
+    - tower_up_name_2002_0
+    - tower_up_name_2002_1
+    - tower_up_name_2002_2
+    - tower_up_name_2002_3
+    - tower_up_name_2002_4
+    - tower_up_name_2002_5
+    - tower_up_name_2003_0
+    - tower_up_name_2003_1
+    - tower_up_name_2003_2
+    - tower_up_name_2003_3
+    - tower_up_name_2003_4
+    - tower_up_name_2003_5
+    - tower_up_name_2004_0
+    - tower_up_name_2004_1
+    - tower_up_name_2004_2
+    - tower_up_name_2004_3
+    - tower_up_name_2004_4
+    - tower_up_name_2004_5
+    - tower_up_des_2001_0
+    - tower_up_des_2001_1
+    - tower_up_des_2001_2
+    - tower_up_des_2001_3
+    - tower_up_des_2001_4
+    - tower_up_des_2001_5
+    - tower_up_des_2002_0
+    - tower_up_des_2002_1
+    - tower_up_des_2002_2
+    - tower_up_des_2002_3
+    - tower_up_des_2002_4
+    - tower_up_des_2002_5
+    - tower_up_des_2003_0
+    - tower_up_des_2003_1
+    - tower_up_des_2003_2
+    - tower_up_des_2003_3
+    - tower_up_des_2003_4
+    - tower_up_des_2003_5
+    - tower_up_des_2004_0
+    - tower_up_des_2004_1
+    - tower_up_des_2004_2
+    - tower_up_des_2004_3
+    - tower_up_des_2004_4
+    - tower_up_des_2004_5
+    values:
+    - Explorador
+    - Disparo Lacerante
+    - Lluvia de Flechas
+    - Arquero de Elite
+    - Flecha Punzante
+    - "Flecha de Destrucci\xF3n"
+    - Clarividencia
+    - Magia Penetrante
+    - "Teletransportaci\xF3n Suprema"
+    - Magia Avanzada
+    - Lluvia de Meteoros
+    - "Magia de Destrucci\xF3n"
+    - "Visi\xF3n Ancestral"
+    - Protector Musculoso
+    - Esencia del Fuego
+    - Furia del Protector
+    - Sismo Fatal
+    - "Terremoto de Destrucci\xF3n"
+    - Entrenamiento de Resistencia
+    - Espada Reforzada
+    - Refuerzo
+    - Bolsa de Hierbas
+    - Soldado de Elite
+    - Fantasma de la Gloria
+    - Incrementa el rango de ataque por un <color=#69ae10>{0}%</color>
+    - "Incrementa un <color=#69ae10>{0}%</color> la tasa cr\xEDtica para los ataques
+      b\xE1sicos"
+    - "El ataque b\xE1sico puede golpear a m\xFAltiples objetivos a la vez, hasta
+      <color=#69ae10>{0}</color> objetivos"
+    - "Incrementa el da\xF1o f\xEDsico en un <color=#69ae10>{0}%</color>"
+    - "Incrementa en un <color=#69ae10>{0}%</color> el da\xF1o por la flecha del
+      fuego R\xE1pido"
+    - "Cada flecha del ataque b\xE1sico tiene una probabilidad del <color=#69ae10>{0}%</color>
+      de producir un da\xF1o cr\xEDtico del <color=#69ae10>{1}%</color>"
+    - Incrementa el rango de ataque por un <color=#69ae10>{0}%</color>
+    - "Incrementa el da\xF1o m\xE1gico en un <color=#69ae10>{0}%</color>"
+    - Teletransporta al enemigo al punto de partida
+    - "Reduce la p\xE9rdida del da\xF1o, cuando golpea a m\xFAltiples enemigos, en
+      un <color=#69ae10>{0}%</color>"
+    - "Agrega ataques <color=#69ae10>{0}</color> para la habilidad del Golpe M\xE1gico"
+    - "Cada acierto de un ataque b\xE1sico explota y produce un da\xF1o m\xE1gico
+      extra de <color=#69ae10>{0}</color>"
+    - Incrementa el rango de ataque por un <color=#69ae10>{0}%</color>
+    - "Incrementa el da\xF1o f\xEDsico en un <color=#69ae10>{0}%</color>"
+    - "Los ataques b\xE1sicos tienen una probabilidad del <color=#69ae10>{0}%</color>
+      de lanzar una piedra en llamas, lo cual produce un da\xF1o de <color=#69ae10>{1}</color>
+      y enciende al suelo durante <color=#69ae10>{2}</color> segundos. La zona del
+      fuego produce un da\xF1o de <color=#69ae10>{3}</color> cada <color=#69ae10>{4}</color>
+      segundos"
+    - Incrementa la velocidad de ataque en un <color=#69ae10>{0}%</color>
+    - "Incrementa el da\xF1o en un <color=#69ae10>{0}%</color> para la habilidad
+      del Golpe S\xEDsmico"
+    - "Cada grieta en el suelo producida por el Golpe S\xEDsmico genera una nube
+      de rocas, la cual produce un da\xF1o extra de {0}, y reduce la velocidad de
+      movimiento del enemigo en un <color=#69ae10>{1}%</color>"
+    - Incrementa la salud de las tropas en un <color=#69ae10>{0}%</color>
+    - "Incrementa el da\xF1o f\xEDsico en un <color=#69ae10>{0}%</color>"
+    - "<color=#69ae10>{0}</color> tropas m\xE1s se unen al escuadr\xF3n"
+    - "Reducci\xF3n del <color=#69ae10>{0}%</color> en el tiempo para reengendrar"
+    - "La habilidad de Fortalecimiento incrementa a la Armadura en m\xE1s del <color=#69ae10>{0}%</color>,
+      y a la Resistencia M\xE1gica en m\xE1s del <color=#69ae10>{1}%</color>"
+    - "Al morir, las tropas van a cambiar a una forma fantasmal y van a durar unos
+      <color=#69ae10>{0}</color> segundos. La forma fantasmal es invulnerable y las
+      tropas van a desaparecer luego de que la duraci\xF3n expire"

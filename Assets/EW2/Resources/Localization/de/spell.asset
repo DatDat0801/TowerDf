@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: spell
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - spell_name_4001
+    - spell_name_4002
+    - spell_name_4003
+    - spell_name_4004
+    - spell_name_4005
+    - spell_name_4006
+    - spell_name_4011
+    - active_description_4001
+    - active_description_4002
+    - active_description_4003
+    - active_description_4004
+    - active_description_4005
+    - active_description_4006
+    - active_description_4011
+    - passive_description_4001
+    - passive_description_4002
+    - passive_description_4003
+    - passive_description_4004
+    - passive_description_4005
+    - passive_description_4006
+    - passive_description_4011
+    - spell_default_description_all
+    - spell_default_description_4001
+    - spell_default_description_4002
+    - spell_default_description_4003
+    - spell_default_description_4004
+    - spell_default_description_4005
+    - spell_default_description_4006
+    - spell_default_description_4011
+    values:
+    - Blizzard
+    - Brennender Donner
+    - Explosionsgeist
+    - "Sternw\xE4chter"
+    - Segen der Natur
+    - Magische Landmine
+    - Antikes Totem
+    - "Friert Gegner im ausgew\xE4hlten Bereich <color=#bb5c14>{0}</color> Sekunden
+      lang ein. Nachdem das Eis geschmolzen ist, werden Feinde <color=#bb5c14>{1}</color>
+      Sekunden lang kalt\n\n*Immun gegen fliegende Feinde"
+    - "Erzeugt Donner und Feuer, das auf einen ausgew\xE4hlten Bereich f\xE4llt und
+      <color=#bb5c14>{0}</color> Schaden verursacht"
+    - "Erzeugt eine Explosion, die Gegnern in einem ausgew\xE4hlten Bereich <color=#bb5c14>{0}</color>
+      Schaden verursacht"
+    - "Ruft einen W\xE4chter herbei, um sich dem Kampf anzuschlie\xDFen. Es verursacht
+      <color=#bb5c14>{0}</color> Schaden, wenn es im ausgew\xE4hlten Gebiet landet.
+      Der W\xE4chter hat <color=#bb5c14>{1}</color> Salute und <color=#bb5c14>{2}</color>
+      Schaden."
+    - "Stellt bei allen Verb\xFCndeten im Zielbereich pro Sekunde <color=#bb5c14>{0}</color>
+      Salute wieder her. Dauer: <color=#bb5c14>{1}</color> Sekunden"
+    - Besondere Minen werden platziert, die Gegnern, die auf sie treten, <color=#bb5c14>{0}</color>
+      Schaden verursachen
+    - "Beschw\xF6rt ein Totem mit <color=#bb5c14>{0}</color> HP, das <color=#bb5c14>{1}</color>
+      Sekunden lang anh\xE4lt, wodurch ein verfluchter Bereich entsteht, der alle
+      Feinde mit Angriffsf\xE4higkeit anzieht. Gegner in der Umgebung erleiden <color=#bb5c14>{2}</color>
+      Schaden pro Sekunde.\n\n*Immun gegen fliegende Feinde"
+    - "Der Grundangriff des Helden f\xFCgt dem Feind K\xE4lte zu. Jeder Angriff hat
+      eine <color=# bb5c14>{0}%</color> Chance, K\xE4lte zu verursachen.\n\n*Immun
+      gegen Bosse und Mini-Bosse"
+    - "Der Grundangriff des Helden hat eine Chance von <color=#bb5c14>{0} %</color>,
+      den Gegner zu verbrennen. Eine Verbrennung h\xE4lt <color=#bb5c14>{1}</color>
+      Sekunden an. Die Rate von Verbrennen pro Grundangriff wird nicht z\xE4hlen,
+      wenn der Gegner bereits an einer Verbrennung leidet."
+    - "Gegnerische Angriffe haben eine Chance von <color=#bb5c14>{0} %</color>, eine
+      Explosion am K\xF6rper des getroffenen Helden auszul\xF6sen. Alle Gegner im
+      Umkreis einschlie\xDFlich des Angreifers erleiden <color=#bb5c14>{1}</color>
+      Schaden durch diese Explosion."
+    - "Wenn der Sternw\xE4chter auftaucht, erh\xE4lt der Held eine sch\xFCtzende
+      Aura. W\xE4hrend der Sternw\xE4chter im Kampf ist, erh\xE4lt der Held zus\xE4tzlich
+      <color=#bb5c14>{0}%</color> R\xFCstung und <color=#bb5c14>{1}%</color> magischen
+      Widerstand"
+    - Der Held kann sich pro Sekunde um <color=#bb5c14>{0}</color> seiner maximalen
+      LP regenerieren, selbst wenn er sich im Kampf befindet.
+    - Gegner, die vom Grundangriff des Helden angegriffen werden, haben eine Chance
+      von <color=#bb5c14>{0}%</color>, zu explodieren. Alle Gegner im Radius der
+      Explosion erleiden <color=#bb5c14>{1}</color> Schaden
+    - 'Nach jeweils <color=#bb5c14>{0}</color> Angriffen wirft der Held einen Fluch,
+      der alle umliegenden Feinde erschreckt.
+
+
+      * Immun gegen fliegende Feinde'
+    - "Zauber, mit denen der Held ausger\xFCstet ist, um zus\xE4tzliche F\xE4higkeiten
+      im Kampf hinzuzuf\xFCgen"
+    - "Friert Gegner in einem Bereich ein und gibt dem Helden, der diesen Zauber
+      ausger\xFCstet hat, die Chance, Gegner mit jedem Grundangriff einzufrieren"
+    - "Verursacht eine Explosion in einem Bereich und gibt dem Helden, der diesen
+      Zauber ausger\xFCstet hat, die F\xE4higkeit, Gegner zu verbrennen"
+    - "Erzeugt eine Explosion, die Gegner zerst\xF6rt, und erlaubt es dem Helden,
+      der diesen Zauber ausger\xFCstet hat, zu explodieren, wenn er angegriffen wird"
+    - "Beschw\xF6rt Sternw\xE4chter und erh\xF6ht die Verteidigung des Helden, der
+      diesen Zauber ausger\xFCstet hat"
+    - "Heilt Verb\xFCndete und verleiht dem Helden, der diesen Zauber ausger\xFCstet
+      hat, die F\xE4higkeit, LP im Kampf zu regenerieren"
+    - "Stellt Fallen auf und verleiht dem Helden, der diesen Zauber ausger\xFCstet
+      hat, die F\xE4higkeit, explosive Angriffe auszuf\xFChren"
+    - "Beschw\xF6rt ein Totem, um Feinde anzuziehen und zu verfluchen. Helden haben
+      die F\xE4higkeit, Schrecken zu verursachen, wenn sie mit diesem Zauberspruch
+      ausger\xFCstet sind."

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: spell
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - spell_name_4001
+    - spell_name_4002
+    - spell_name_4003
+    - spell_name_4004
+    - spell_name_4005
+    - spell_name_4006
+    - spell_name_4011
+    - active_description_4001
+    - active_description_4002
+    - active_description_4003
+    - active_description_4004
+    - active_description_4005
+    - active_description_4006
+    - active_description_4011
+    - passive_description_4001
+    - passive_description_4002
+    - passive_description_4003
+    - passive_description_4004
+    - passive_description_4005
+    - passive_description_4006
+    - passive_description_4011
+    - spell_default_description_all
+    - spell_default_description_4001
+    - spell_default_description_4002
+    - spell_default_description_4003
+    - spell_default_description_4004
+    - spell_default_description_4005
+    - spell_default_description_4006
+    - spell_default_description_4011
+    values:
+    - "B\xE3o tuy\u1EBFt"
+    - "Th\u1EA7n ch\xFA l\xF4i h\u1ECFa"
+    - "Tinh linh b\u1ED9c ph\xE1"
+    - "V\u1EC7 binh tinh t\xFA"
+    - "Ph\u01B0\u1EDBc l\xE0nh t\u1EF1 nhi\xEAn"
+    - "M\xECn ma ph\xE1p"
+    - "C\u1ED9t ph\xE9p c\u1ED5 \u0111\u1EA1i"
+    - "\u0110\xF3ng b\u0103ng k\u1EBB \u0111\u1ECBch t\u1EA1i v\xF9ng \u0111\u01B0\u1EE3c
+      ch\u1ECDn trong <color=#bb5c14>{0}</color> gi\xE2y. Sau khi b\u0103ng tan,
+      k\u1EBB \u0111\u1ECBch s\u1EBD b\u1ECB L\u1EA1nh trong <color=#bb5c14>{1}</color>
+      gi\xE2y\\n\\n*V\xF4 hi\u1EC7u v\u1EDBi qu\xE1i bay"
+    - "T\u1EA1o ra m\u1ED9t ch\xF9m s\xE9t l\u1EEDa gi\u1EADt xu\u1ED1ng m\u1ED9t
+      khu v\u1EF1c ch\u1EC9 \u0111\u1ECBnh v\xE0 g\xE2y <color=#bb5c14>{0}</color>
+      s\xE1t th\u01B0\u01A1ng"
+    - "T\u1EA1o ra v\u1EE5 n\u1ED5 g\xE2y <color=#bb5c14>{0}</color> s\xE1t th\u01B0\u01A1ng
+      cho k\u1EBB \u0111\u1ECBch trong m\u1ED9t v\xF9ng ch\u1EC9 \u0111\u1ECBnh"
+    - "Tri\u1EC7u h\u1ED3i m\u1ED9t V\u1EC7 binh Tinh t\xFA r\u01A1i xu\u1ED1ng v\xF9ng
+      ch\u1EC9 \u0111\u1ECBnh v\xE0 tham gia chi\u1EBFn \u0111\u1EA5u. Khi h\u1EA1
+      c\xE1nh, V\u1EC7 binh g\xE2y <color=#bb5c14>{0}</color> s\xE1t th\u01B0\u01A1ng
+      cho k\u1EBB \u0111\u1ECBch trong khu v\u1EF1c \u1EA3nh h\u01B0\u1EDFng. V\u1EC7
+      Binh c\xF3 <color=#bb5c14>{1}</color> HP v\xE0 <color=#bb5c14>{2}</color> s\xE1t
+      th\u01B0\u01A1ng"
+    - "Ph\u1EE5c h\u1ED3i <color=#bb5c14>{0}</color> HP m\u1ED7i gi\xE2y cho t\u1EA5t
+      c\u1EA3 \u0111\u1ED3ng minh trong khu v\u1EF1c m\u1EE5c ti\xEAu. Hi\u1EC7u
+      l\u1EF1c trong <color=#bb5c14>{1}</color> gi\xE2y"
+    - "Lo\u1EA1i m\xECn \u0111\u1EB7c bi\u1EC7t \u0111\u01B0\u1EE3c \u0111\u1EB7t
+      tr\xEAn \u0111\u01B0\u1EDDng \u0111i, g\xE2y <color=#bb5c14>{0}</color> s\xE1t
+      th\u01B0\u01A1ng cho k\u1EBB n\xE0o \u0111\u1EA1p ph\u1EA3i"
+    - "Tri\u1EC7u h\u1ED3i m\u1ED9t c\u1ED9t ph\xE9p v\u1EDBi <color=#bb5c14>{0}</color>
+      m\xE1u t\u1ED3n t\u1EA1i trong <color=#bb5c14>{1}</color> gi\xE2y, t\u1EA1o
+      ra m\u1ED9t khu v\u1EF1c b\u1ECB nguy\u1EC1n r\u1EE7a thu h\xFAt t\u1EA5t c\u1EA3
+      k\u1EBB \u0111\u1ECBch c\xF3 kh\u1EA3 n\u0103ng t\u1EA5n c\xF4ng. K\u1EBB \u0111\u1ECBch
+      trong v\xF9ng \u1EA3nh h\u01B0\u1EDFng nh\u1EADn <color=#bb5c14>{2}</color>
+      s\xE1t th\u01B0\u01A1ng m\u1ED7i gi\xE2y\\n\\n*V\xF4 hi\u1EC7u v\u1EDBi qu\xE1i
+      bay"
+    - "\u0110\xF2n \u0111\xE1nh th\u01B0\u1EDDng c\u1EE7a anh h\xF9ng c\xF3 <color=#bb5c14>{0}%</color>
+      t\u1EC9 l\u1EC7 g\xE2y L\u1EA1nh k\u1EBB \u0111\u1ECBch. \\n\\n*V\xF4 hi\u1EC7u
+      v\u1EDBi Boss v\xE0 Mini Boss"
+    - "\u0110\xF2n \u0111\xE1nh th\u01B0\u1EDDng c\u1EE7a anh h\xF9ng c\xF3 t\u1EC9
+      l\u1EC7 <color=#bb5c14>{0}%</color> g\xE2y hi\u1EC7u \u1EE9ng Thi\xEAu \u0111\u1ED1t
+      cho k\u1EBB \u0111\u1ECBch. Thi\xEAu \u0111\u1ED1t c\xF3 th\u1EDDi gian hi\u1EC7u
+      l\u1EF1c <color=#bb5c14>{1}</color> gi\xE2y. T\u1EC9 l\u1EC7 g\xE2y Thi\xEAu
+      \u0111\u1ED1t tr\xEAn m\u1ED7i \u0111\xF2n \u0111\xE1nh kh\xF4ng \u0111\u01B0\u1EE3c
+      t\xEDnh n\u1EBFu Thi\xEAu \u0111\u1ED1t v\u1EABn \u0111ang trong th\u1EDDi
+      gian hi\u1EC7u l\u1EF1c"
+    - "M\u1ECDi \u0111\xF2n t\u1EA5n c\xF4ng c\u1EE7a k\u1EBB \u0111\u1ECBch c\xF3
+      <color=#bb5c14>{0}%</color> t\u1EC9 l\u1EC7 k\xEDch ho\u1EA1t v\u1EE5 n\u1ED5
+      tr\xEAn ng\u01B0\u1EDDi anh h\xF9ng. T\u1EA5t c\u1EA3 k\u1EBB \u0111\u1ECBch
+      trong ph\u1EA1m vi n\u1ED5, k\u1EC3 c\u1EA3 k\u1EBB k\u1EBB g\xE2y ra \u0111\xF2n
+      \u0111\xE1nh s\u1EBD nh\u1EADn <color=#bb5c14>{1}</color> s\xE1t th\u01B0\u01A1ng
+      t\u1EEB v\u1EE5 n\u1ED5"
+    - "Khi V\u1EC7 binh Tinh t\xFA xu\u1EA5t hi\u1EC7n, anh h\xF9ng nh\u1EADn \u0111\u01B0\u1EE3c
+      m\u1ED9t l\u1EDBp khi\xEAn b\u1EA3o h\u1ED9. Trong th\u1EDDi gian V\u1EC7 binh
+      c\xF2n t\u1ED3n t\u1EA1i, anh h\xF9ng nh\u1EADn th\xEAm <color=#bb5c14>{0}%</color>
+      Gi\xE1p v\xE0 <color=#bb5c14>{1}%</color> Kh\xE1ng ph\xE9p"
+    - "Anh h\xF9ng c\xF3 kh\u1EA3 n\u0103ng h\u1ED3i <color=#bb5c14>{0}</color> HP
+      m\u1ED7i gi\xE2y k\u1EC3 c\u1EA3 khi \u0111ang chi\u1EBFn \u0111\u1EA5u"
+    - "K\u1EBB \u0111\u1ECBch b\u1ECB t\u1EA5n c\xF4ng b\u1EDFi \u0111\xF2n \u0111\xE1nh
+      th\u01B0\u1EDDng c\u1EE7a anh h\xF9ng c\xF3 <color=#bb5c14>{0}%</color> t\u1EC9
+      l\u1EC7 ph\xE1t n\u1ED5. M\u1ECDi k\u1EBB \u0111\u1ECBch trong ph\u1EA1m v\u1ECB
+      v\u1EE5 n\u1ED5 nh\u1EADn <color=#bb5c14>{1}</color> s\xE1t th\u01B0\u01A1ng"
+    - "Sau m\u1ED7i <color=#bb5c14>{0}</color> \u0111\xF2n t\u1EA5n c\xF4ng nh\u1EADn
+      v\xE0o, Anh h\xF9ng ph\xE1t ra l\u1EDDi nguy\u1EC1n khi\u1EBFn m\u1ECDi k\u1EBB
+      \u0111\u1ECBch xung quanh Khi\u1EBFp s\u1EE3.\\n\\n*V\xF4 hi\u1EC7u v\u1EDBi
+      qu\xE1i bay"
+    - "Trang b\u1ECB Ph\xE9p gi\xFAp Anh h\xF9ng c\xF3 th\xEAm c\xE1c k\u1EF9 n\u0103ng
+      b\u1ED5 tr\u1EE3 trong tr\u1EADn chi\u1EBFn"
+    - "\u0110\xF3ng b\u0103ng k\u1EBB \u0111\u1ECBch trong m\u1ED9t khu v\u1EF1c.
+      Anh h\xF9ng trang b\u1ECB Ph\xE9p n\xE0y c\xF3 kh\u1EA3 n\u0103ng khi\u1EBFn
+      k\u1EBB \u0111\u1ECBch t\xEA c\xF3ng v\u1EDBi m\u1ED7i \u0111\xF2n t\u1EA5n
+      c\xF4ng"
+    - "G\xE2y ra v\u1EE5 n\u1ED5 trong m\u1ED9t khu v\u1EF1c. Anh h\xF9ng trang b\u1ECB
+      Ph\xE9p n\xE0y c\xF3 kh\u1EA3 n\u0103ng thi\xEAu \u0111\u1ED1t k\u1EBB \u0111\u1ECBch"
+    - "T\u1EA1o ra m\u1ED9t v\u1EE5 n\u1ED5 ti\xEAu di\u1EC7t k\u1EBB \u0111\u1ECBch.
+      Anh h\xF9ng trang b\u1ECB Ph\xE9p c\xF3 kh\u1EA3 n\u0103ng g\xE2y n\u1ED5 khi
+      b\u1ECB tr\xFAng \u0111\xF2n"
+    - "Tri\u1EC7u h\u1ED3i c\xE1c V\u1EC7 binh Tinh t\xFA, \u0111\u1ED3ng th\u1EDDi
+      t\u0103ng kh\u1EA3 n\u0103ng ph\xF2ng th\u1EE7 cho Anh h\xF9ng trang b\u1ECB
+      Ph\xE9p n\xE0y"
+    - "H\u1ED3i m\xE1u cho \u0111\u1ED3ng minh \u1EDF m\u1ECDi n\u01A1i. Anh h\xF9ng
+      c\xF3 kh\u1EA3 n\u0103ng h\u1ED3i m\xE1u trong tr\u1EADn chi\u1EBFn khi trang
+      b\u1ECB Ph\xE9p n\xE0y"
+    - "\u0110\u1EB7t 1 b\u1EABy v\xE0 ph\xE1t n\u1ED5 khi k\u1EBB \u0111\u1ECBch
+      \u0111i qua. \u0110\xF2n \u0111\xE1nh c\u1EE7a Anh h\xF9ng c\xF3 kh\u1EA3 n\u0103ng
+      ph\xE1t n\u1ED5 khi trang b\u1ECB Ph\xE9p n\xE0y"
+    - "Tri\u1EC7u h\u1ED3i c\u1ED9t ph\xE9p \u0111\u1EC3 thu h\xFAt v\xE0 nguy\u1EC1n
+      r\u1EE7a k\u1EBB \u0111\u1ECBch. Anh h\xF9ng c\xF3 kh\u1EA3 n\u0103ng g\xE2y
+      Khi\u1EBFp s\u1EE3 khi trang b\u1ECB Ph\xE9p n\xE0y."

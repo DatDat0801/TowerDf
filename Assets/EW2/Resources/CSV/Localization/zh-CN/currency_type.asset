@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: currency_type
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - name_type_0
+    - name_type_2
+    - name_type_3
+    - currency_0
+    - currency_1
+    - currency_2
+    - currency_3
+    - currency_4
+    - currency_5
+    - currency_6
+    - currency_7
+    - currency_8
+    - currency_9
+    - currency_10
+    - currency_11
+    - currency_12
+    - currency_13
+    - currency_14
+    - currency_15
+    - currency_16
+    - inventory_random_rune
+    - inventory_rune_pack_random
+    - inventory_spell_pack_random
+    - currency_0_des
+    - currency_1_des
+    - currency_2_des
+    - currency_3_des
+    - currency_4_des
+    - currency_5_des
+    - currency_6_des
+    - currency_7_des
+    - currency_8_des
+    - currency_9_des
+    - currency_10_des
+    - currency_11_des
+    - currency_12_des
+    - currency_13_des
+    - currency_14_des
+    - currency_15_des
+    - currency_16_des
+    - inventory_rune_des
+    - inventory_spell_des
+    - inventory_spell_fragment_des
+    - inventory_unique_spell_fragment_des
+    - inventory_random_rune_item
+    - inventory_rune_pack_random_des
+    - inventory_spell_pack_random_des
+    - inventory_spell_pack_random_des_1
+    values:
+    - "\u8D27\u5E01"
+    - "\u7269\u54C1"
+    - "\u82F1\u96C4"
+    - "\u5B9D\u77F3\u5C71"
+    - "\u6676\u4F53"
+    - "\u7ECF\u9A8C"
+    - "\u4F53\u529B"
+    - "\u51A0\u519B\u786C\u5E01"
+    - "\u57FA\u672C\u6CD5\u672F\u94A5\u5319"
+    - "\u9AD8\u7EA7\u6CD5\u672F\u94A5\u5319"
+    - "\u8D35\u5BBE\u79EF\u5206"
+    - "\u666E\u901A\u661F"
+    - "\u6076\u68A6\u661F"
+    - "\u6280\u80FD\u79EF\u5206"
+    - "\u57FA\u672C\u7B26\u6587\u94A5\u5319"
+    - "\u9AD8\u7EA7\u7B26\u6587\u94A5\u5319"
+    - "\u7B26\u6587\u4E4B\u5C18"
+    - "\u6D3B\u52A8\u79EF\u5206"
+    - "\u52CB\u7AE0"
+    - "\u7968"
+    - "{0} \u7B26\u6587"
+    - "\u7B26\u6587\u5305"
+    - "\u6CD5\u672F\u5305"
+    - "\u9AD8\u7EA7\u8D27\u5E01"
+    - "\u57FA\u672C\u8D27\u5E01"
+    - "\u5F53\u60A8\u7684 EXP \u680F\u5DF2\u6EE1\u65F6\uFF0C\u60A8\u7684\u89D2\u8272\u4F1A\u5347\u7EA7\u3002"
+    - "\u4F60\u9700\u8981\u6709\u8DB3\u591F\u7684\u4F53\u529B\u6765\u6218\u6597"
+    - "\u5728\u201CX\u201D\u4E2D\u8D2D\u4E70\u8D35\u91CD\u7269\u54C1\u7684\u7279\u6B8A\u8D27\u5E01\u3002"
+    - "\u53EC\u5524\u57FA\u672C\u6CD5\u672F\u7684\u94A5\u5319"
+    - "\u89E3\u9501\u9AD8\u7EA7\u6CD5\u672F\u7684\u94A5\u5319"
+    - "\u8D5A\u53D6 VIP \u79EF\u5206\u6765\u63D0\u9AD8\u60A8\u7684 VIP \u7EA7\u522B"
+    - "\u7528\u4E8E\u5347\u7EA7\u5854\u7684\u57FA\u672C\u7B49\u7EA7"
+    - "\u7528\u4E8E\u5347\u7EA7\u5854\u7684\u9AD8\u7EA7\u7B49\u7EA7"
+    - "\u7528\u4E8E\u5347\u7EA7\u82F1\u96C4\u7684\u6280\u80FD"
+    - "\u53EC\u5524\u57FA\u672C\u7B26\u6587\u7684\u94A5\u5319"
+    - "\u89E3\u9501\u9AD8\u7EA7\u7B26\u6587\u7684\u94A5\u5319"
+    - "\u7528\u4E8E\u5347\u7EA7\u7B26\u6587\u7684\u6750\u6599"
+    - "\u7528\u4E8E\u5728\u65E5\u5E38\u4EFB\u52A1\u7684\u8FDB\u7A0B\u4E2D\u6253\u5F00\u7BB1\u5B50"
+    - "\u7528\u4E8E\u5728\u8363\u8000\u4E4B\u8DEF\u7684\u8FDB\u7A0B\u4E2D\u83B7\u5F97\u5956\u52B1"
+    - "\u60A8\u9700\u8981\u6B64\u4EE4\u724C\u624D\u80FD\u52A0\u5165\u9526\u6807\u8D5B"
+    - "\u589E\u52A0\u82F1\u96C4\u529B\u91CF\u7684\u88C5\u5907"
+    - "\u88AB\u5C01\u5370\uFF0C\u53EF\u4EE5\u88C5\u5907\u7684\u8FDC\u53E4\u6CD5\u672F\u3002
+      \u4E3A\u82F1\u96C4\u88C5\u5907\u6CD5\u672F\u4EE5\u5728\u6218\u6597\u4E2D\u83B7\u5F97\u65B0\u80FD\u529B\u3002"
+    - "\u7528\u4E8E\u8F6C\u6362\u4E3A\u72EC\u7279\u788E\u7247"
+    - "\u7528\u4E8E\u5347\u7EA7\u6750\u6599{0}"
+    - "\u7528\u4E8E\u968F\u673A\u53EC\u5524 5 \u4E2A\u7B26\u6587\uFF0C\u7A00\u6709\u5EA6\u4ECE
+      {1} \u5230 {2}"
+    - "\u7528\u4E8E\u968F\u673A\u53EC\u5524{0} {1}\u7B26\u6587"
+    - "\u7528\u4E8E\u53EC\u5524{0}\u6CD5\u672F"
+    - "\u7528\u4E8E\u968F\u673A\u53EC\u5524{0}{1}\u6CD5\u672F"

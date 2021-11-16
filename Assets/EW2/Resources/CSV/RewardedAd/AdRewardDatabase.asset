@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952408506ba94c68bd2190086d532fa8, type: 3}
+  m_Name: AdRewardDatabase
+  m_EditorClassIdentifier: 
+  ads:
+  - adId: 0
+    placementName: RewardMainMenuAds1
+    location: main_menurewarded_ad_system
+    rewards:
+    - type: 0
+      id: 11
+      number: 2
+      itemType: -1
+    - type: 0
+      id: 1
+      number: 100
+      itemType: -1
+    adQuantity: 1
+  - adId: 1
+    placementName: RewardMainMenuAds2
+    location: main_menurewarded_ad_system
+    rewards:
+    - type: 0
+      id: 13
+      number: 100
+      itemType: -1
+    - type: 0
+      id: 11
+      number: 2
+      itemType: -1
+    - type: 0
+      id: 5
+      number: 2
+      itemType: -1
+    - type: 0
+      id: 1
+      number: 100
+      itemType: -1
+    adQuantity: 1
+  - adId: 2
+    placementName: RewardMainMenuAds3
+    location: main_menurewarded_ad_system
+    rewards:
+    - type: 0
+      id: 0
+      number: 200
+      itemType: -1
+    - type: 0
+      id: 1
+      number: 200
+      itemType: -1
+    adQuantity: 1
+  - adId: 3
+    placementName: RewardMainMenuAds4
+    location: main_menurewarded_ad_system
+    rewards:
+    - type: 0
+      id: 13
+      number: 100
+      itemType: -1
+    - type: 0
+      id: 12
+      number: 1
+      itemType: -1
+    - type: 0
+      id: 6
+      number: 1
+      itemType: -1
+    - type: 0
+      id: 3
+      number: 20
+      itemType: -1
+    adQuantity: 1
+  - adId: 4
+    placementName: RuneAdsGacha
+    location: gacha_rune_rewarded_ad_system
+    rewards:
+    - type: -1
+      id: -1
+      number: -1
+      itemType: -1
+    adQuantity: 1
+  - adId: 5
+    placementName: SpellAdsGacha
+    location: gacha_spell_rewarded_ad_system
+    rewards:
+    - type: -1
+      id: -1
+      number: -1
+      itemType: -1
+    adQuantity: 1
+  - adId: 6
+    placementName: StaminaAdsRewarded
+    location: buy_stamina_rewarded_ad_system
+    rewards:
+    - type: -1
+      id: -1
+      number: -1
+      itemType: -1
+    adQuantity: 1
+  - adId: 7
+    placementName: PlayHeroDefense
+    location: play_hero_defense_rewarded_ad_system
+    rewards:
+    - type: -1
+      id: -1
+      number: -1
+      itemType: -1
+    adQuantity: 1
+  - adId: 8
+    placementName: ChangeBuffTournament
+    location: change_buff_tournament
+    rewards:
+    - type: -1
+      id: -1
+      number: -1
+      itemType: -1
+    adQuantity: 1
+  - adId: 9
+    placementName: ExchangeTournamentTicket
+    location: exchange_tournament_ticket
+    rewards:
+    - type: -1
+      id: -1
+      number: -1
+      itemType: -1
+    adQuantity: 1

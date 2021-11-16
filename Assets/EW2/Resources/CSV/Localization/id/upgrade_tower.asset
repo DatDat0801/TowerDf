@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: upgrade_tower
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tower_up_name_2001_0
+    - tower_up_name_2001_1
+    - tower_up_name_2001_2
+    - tower_up_name_2001_3
+    - tower_up_name_2001_4
+    - tower_up_name_2001_5
+    - tower_up_name_2002_0
+    - tower_up_name_2002_1
+    - tower_up_name_2002_2
+    - tower_up_name_2002_3
+    - tower_up_name_2002_4
+    - tower_up_name_2002_5
+    - tower_up_name_2003_0
+    - tower_up_name_2003_1
+    - tower_up_name_2003_2
+    - tower_up_name_2003_3
+    - tower_up_name_2003_4
+    - tower_up_name_2003_5
+    - tower_up_name_2004_0
+    - tower_up_name_2004_1
+    - tower_up_name_2004_2
+    - tower_up_name_2004_3
+    - tower_up_name_2004_4
+    - tower_up_name_2004_5
+    - tower_up_des_2001_0
+    - tower_up_des_2001_1
+    - tower_up_des_2001_2
+    - tower_up_des_2001_3
+    - tower_up_des_2001_4
+    - tower_up_des_2001_5
+    - tower_up_des_2002_0
+    - tower_up_des_2002_1
+    - tower_up_des_2002_2
+    - tower_up_des_2002_3
+    - tower_up_des_2002_4
+    - tower_up_des_2002_5
+    - tower_up_des_2003_0
+    - tower_up_des_2003_1
+    - tower_up_des_2003_2
+    - tower_up_des_2003_3
+    - tower_up_des_2003_4
+    - tower_up_des_2003_5
+    - tower_up_des_2004_0
+    - tower_up_des_2004_1
+    - tower_up_des_2004_2
+    - tower_up_des_2004_3
+    - tower_up_des_2004_4
+    - tower_up_des_2004_5
+    values:
+    - Pramuka
+    - Tembakan tembus
+    - Hujan Panah
+    - Pemanah elit
+    - Panah Berduri
+    - Panah Kehancuran
+    - Kewaskitaan
+    - Sihir Penetrasi
+    - Teleportasi pamungkas
+    - Sihir Tingkat Lanjut
+    - Hujan meteor
+    - Sihir Kehancuran
+    - Penglihatan Kuno
+    - Pelindung Raksasa
+    - Esensi api
+    - Kemarahan Pelindung
+    - Seismik fatal
+    - Gempa Kehancuran
+    - Pelatihan ketahanan
+    - Pedang yang Diperkuat
+    - Bala bantuan
+    - Tas herbal
+    - Prajurit elit
+    - Roh Kemuliaan
+    - Tingkatkan jangkauan serangan sebesar <color=#69ae10>{0}%</color>
+    - Meningkatkan <color=#69ae10>{0}%</color> tingkat kritis untuk serangan dasar
+    - Serangan dasar dapat mengenai beberapa target sekaligus, hingga <color=#69ae10>{0}</color>
+      target
+    - Tingkatkan kerusakan fisik sebesar <color=#69ae10>{0}%</color>
+    - Tingkatkan <color=#69ae10>{0}%</color> kerusakan per panah Tembakan Cepat
+    - Setiap panah serangan dasar memiliki <color=#69ae10>{0}%</color> peluang untuk
+      menghasilkan <color=#69ae10>{1}%</color> kerusakan kritis
+    - Tingkatkan jangkauan serangan sebesar <color=#69ae10>{0}%</color>
+    - Meningkatkan kerusakan magis sebesar <color=#69ae10>{0}%</color>
+    - Teleport musuh ke titik awal
+    - Mengurangi kerusakan yang hilang saat mengenai beberapa musuh sebesar <color=#69ae10>{0}%</color>
+    - Tambahkan <color=#69ae10>{0}</color> serangan untuk keterampilan Serangan Ajaib
+    - Setiap serangan serangan dasar meledak dan memberikan <color=#69ae10>{0}</color>
+      bonus kerusakan sihir
+    - Tingkatkan jangkauan serangan sebesar <color=#69ae10>{0}%</color>
+    - Tingkatkan kerusakan fisik sebesar <color=#69ae10>{0}%</color>
+    - Serangan dasar memiliki <color=#69ae10>{0}%</color> peluang untuk melempar
+      batu menyala, menimbulkan <color=#69ae10>{1}</color> kerusakan, dan membakar
+      tanah selama <color=#69ae10>{2}</color> detik. Zona api memberikan <color=#69ae10>{3}</color>
+      kerusakan setiap <color=#69ae10>{4}</color> detik
+    - Meningkatkan kecepatan serangan sebesar <color=#69ae10>{0}%</color>
+    - Meningkatkan <color=#69ae10>{0}%</color> kerusakan untuk keterampilan Serangan
+      Seismik
+    - Setiap retakan di tanah Serangan Seismik memunculkan segerombolan batu, memberikan
+      {0} bonus kerusakan dan mengurangi kecepatan gerakan musuh sebesar <color=#69ae10>{1}%</color>
+    - Meningkatkan kesehatan sebesar <color=#69ae10>{0}%</color> untuk pasukan
+    - Tingkatkan kerusakan fisik sebesar <color=#69ae10>{0}%</color>
+    - <color=#69ae10>{0}</color> lebih banyak pasukan bergabung dengan regu
+    - <color=#69ae10>{0}%</color> pengurangan waktu respawn
+    - Membentengi tingkatkan lagi <color=#69ae10>{0}%</color> baju besi dan <color=#69ae10>{1}%</color>
+      ketahanan sihir kepada antek
+    - Saat mati, pasukan akan berubah menjadi bentuk hantu dan bertahan selama <color=#69ae10>{0}</color>
+      detik. Keadaan hantu kebal dan pasukan akan menghilang setelah durasinya berakhir

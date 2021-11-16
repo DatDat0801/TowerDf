@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725101bf944d4a4090f6a38ce2f2f243, type: 3}
+  m_Name: HeroAcademyCheckIn
+  m_EditorClassIdentifier: 
+  heroAcademyCheckInDatas:
+  - questId: 0
+    targetType: 0
+    questType: 5
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 200
+        itemType: -1
+      - type: 0
+        id: 15
+        number: 10
+        itemType: -1
+      numberRequire: 1
+      stageUnlock: 0
+      victim: ffffffff
+  - questId: 1
+    targetType: 0
+    questType: 5
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 300
+        itemType: -1
+      - type: 0
+        id: 15
+        number: 20
+        itemType: -1
+      numberRequire: 2
+      stageUnlock: 0
+      victim: ffffffff
+  - questId: 2
+    targetType: 0
+    questType: 5
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 1
+        number: 500
+        itemType: -1
+      - type: 0
+        id: 0
+        number: 100
+        itemType: -1
+      numberRequire: 3
+      stageUnlock: 0
+      victim: ffffffff
+  - questId: 3
+    targetType: 0
+    questType: 5
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 0
+        number: 100
+        itemType: -1
+      - type: 2
+        id: 0
+        number: 30
+        itemType: 2
+      - type: 0
+        id: 15
+        number: 20
+        itemType: -1
+      numberRequire: 4
+      stageUnlock: 0
+      victim: ffffffff
+  - questId: 4
+    targetType: 0
+    questType: 5
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 5
+        number: 1
+        itemType: -1
+      - type: 0
+        id: 1
+        number: 1000
+        itemType: -1
+      - type: 0
+        id: 15
+        number: 30
+        itemType: -1
+      numberRequire: 5
+      stageUnlock: 0
+      victim: ffffffff
+  - questId: 5
+    targetType: 0
+    questType: 5
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 11
+        number: 1
+        itemType: -1
+      - type: 0
+        id: 1
+        number: 1000
+        itemType: -1
+      - type: 0
+        id: 0
+        number: 100
+        itemType: -1
+      numberRequire: 6
+      stageUnlock: 0
+      victim: ffffffff
+  - questId: 6
+    targetType: 0
+    questType: 5
+    haveGoto: 1
+    infoQuests:
+    - level: 0
+      limitReceive: 1
+      rewards:
+      - type: 0
+        id: 12
+        number: 1
+        itemType: -1
+      - type: 0
+        id: 15
+        number: 45
+        itemType: -1
+      - type: 0
+        id: 0
+        number: 100
+        itemType: -1
+      numberRequire: 7
+      stageUnlock: 0
+      victim: ffffffff

@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: popup
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tap_to_close
+    - profile_popup
+    - avatar_select
+    - more_game_txt
+    - support_txt
+    - community_txt
+    - giftcode_txt
+    - patch_note_txt
+    - patch_note_version
+    - setting_txt
+    - image_txt
+    - country_txt
+    - in_use_txt
+    - not_in_use_txt
+    - in_use_by_txt
+    - since_txt
+    - id_txt
+    - version_txt
+    - language_txt
+    - change_name
+    - enter_name_box
+    - letters_limit
+    - name_contain_special_characters
+    - name_too_short_or_long
+    - invalid_name
+    - already_exists_name
+    - change_successful
+    - data_save
+    - link_info
+    - last_save
+    - data_save_note
+    - linking_failed
+    - notice_txt
+    - data_save_question
+    - save_limit
+    - limit_txt
+    - save_success
+    - save_failed
+    - save_limit_notice
+    - restore_question
+    - restore_complete
+    - restore_failed
+    - graphic_txt
+    - enable_vibrate
+    - disable_vibrate
+    - enable_battery_saver
+    - disable_battery_saver
+    - enable_notice
+    - disable_notice
+    - enter_giftcode_box
+    - claim_giftcode
+    - claim_giftcode_failed
+    - used_giftcode_toast
+    - giftcode_check_internet
+    - result_check_internet
+    - error_occured
+    - giftcode_login_first
+    - require_login_first
+    - quit_notice
+    - locked_mode_notice
+    - tower_upgrade_txt
+    - upgrade_successful
+    - tower_reset_notice
+    - copy_to_clipboard
+    - hero_skill_reset_notice
+    - insufficient_skill_point
+    - skill_point_guide
+    - hero_exp_guide
+    - level_txt
+    - stamina_next
+    - stamina_full
+    - tap_to_start
+    - news_txt
+    - congratulation_txt
+    - max_level_hero_txt
+    - level_max_skill_txt
+    - stat_txt
+    - reset_successful
+    - backstory_txt
+    - need_hero_txt
+    - hero_unlocked
+    - locked_mode_normal
+    - insufficient_resource
+    - pre_register_reward_txt
+    - pre_register_thank_txt
+    - unlock_upgrade_tower
+    - replay_notice
+    - quit_game_notice
+    - warning_txt
+    - daily_reward_txt
+    - daily_quest_txt
+    - day_count_txt
+    - checkin_progress
+    - login_successful_txt
+    - no_data_found
+    - upgrade_activated
+    - upgrade_info
+    - properties_txt
+    - bonus_txt
+    - upgrade_condition_txt
+    - purchase_save_notice
+    - purchase_failed
+    - warning_iap
+    - warning_internet_save_data
+    - warning_internet_lost_data
+    - unlock_upgrade_tower_tut
+    - not_equip_spell
+    - start_battle_to_use
+    - spell_unlock_condition
+    - insuficent_shade
+    - insuficent_unique_shard
+    - insuficent_resource
+    - unlock_hero_to_equip
+    - unlock_hero_to_equip_rune
+    - normal_spell_rate
+    - premium_spell_rate
+    - normal_spell_name
+    - premium_spell_rname
+    - cannot_select_more_hero
+    - spell_upgrade_require
+    - reset_in_txt
+    - refresh_in_txt
+    - achievement_txt
+    - free_in
+    - complete_challenge_txt
+    - hero_not_been_unlock_txt
+    - defeat_boss_achievement_direction
+    - normal_rune_rate
+    - premium_rune_rate
+    - normal_rune_name
+    - premium_rune_name
+    - full_inventory_txt
+    - equip_slot_full_txt
+    - full_inventory_require_space_txt
+    - dismantle_warning_txt_1
+    - dismantle_warning_txt_2
+    - basic_attributes_txt
+    - bonus_attributes_txt
+    - set_of_pieces_txt
+    - set_required_txt
+    - enhance_successful_txt
+    - selected_rune_txt
+    - dismantle_slots_full_txt
+    - reward_ads_txt
+    - watch_ads_txt
+    - check_internet_warning_txt
+    - no_ads_available_txt
+    - go_to_shop_question_txt
+    - watch_previous_ads_first
+    - ios_loading_screen_txt
+    - loading_screen_common_txt
+    - dont_ask_again_today
+    - dismantle_warning_txt_3
+    - dismantle_warning_txt_4
+    - new_nightmare_unlock
+    - buy_now_title_txt
+    - buy_now_slogan_title_txt
+    - buy_now_1st_purchase_txt
+    - first_purchase_bonus_title_txt
+    - first_purchase_bonus_slogan_txt
+    - first_purchase_bonus_warning
+    - free_progress_txt
+    - premium_progress_txt
+    - checkin_day
+    - stage_txt
+    - end_time_txt
+    - already_receive_txt
+    - rune_pack_name_txt
+    - purchased_txt
+    - unlock_nightmare_txt
+    - hero_pre_trial_tag_txt
+    - hero_pre_trial_toast_txt
+    - hero_pre_trial_dialog_txt
+    - rating_title
+    - require_rating_txt
+    - unlock_spell_txt
+    - unlock_spell_txt_1
+    - equip_spell_remind_txt
+    - unlock_rune_txt
+    - unlock_rune_txt_1
+    - equip_rune_remind_txt
+    - remain_txt
+    - get_more_txt
+    - refill_stamina_title_txt
+    - owned_txt
+    - new_mode_unlocked_txt
+    - already_own_this_pack_txt
+    - already_own_this_hero_txt
+    - already_own_this_item_txt
+    - run_out_resource_txt
+    - buy_or_wait_txt
+    - available_txt
+    - no_more_purchase_txt
+    - out_of_stock_txt
+    - surrender_notice_txt
+    values:
+    - Toque para fechar
+    - Perfil
+    - Avatar
+    - Mais jogos
+    - Apoiar
+    - Comunidade
+    - Giftcode
+    - Nota de patch
+    - "<color=#815329>Vers\xE3o {0}</color>"
+    - "Configura\xE7\xE3o"
+    - Imagem
+    - "Na\xE7\xE3o"
+    - Equipado
+    - "N\xE3o equipado"
+    - Equipado por {0}
+    - Desde a
+    - 'ID:'
+    - "Vers\xE3o"
+    - "L\xEDnguas"
+    - Mude o nome
+    - Insira o novo nome aqui ...
+    - <color=#E73F44>(4-18 letras, exclui caracteres especiais)</color>
+    - "N\xE3o cont\xE9m caracteres especiais"
+    - Comprimento de 4-18 caracteres!
+    - "Nome inv\xE1lido"
+    - "Nome j\xE1 existe"
+    - "Mudan\xE7a de sucesso"
+    - Dados salvos
+    - "J\xE1 vinculado a"
+    - "\xDAltimo salvamento"
+    - Vincule sua conta para salvar seus dados
+    - O link falhou
+    - "Notifica\xE7\xE3o"
+    - "Voc\xEA quer salvar seus dados?"
+    - 'Limite de salvos: {0}/{1}'
+    - 'Limite:'
+    - Salvar dados com sucesso
+    - Falha ao salvar dados
+    - "Voc\xEA atingiu o limite de economia hoje"
+    - "Voc\xEA quer recuperar os dados?\n <color=#e85253>*Os dados existentes ser\xE3o
+      substitu\xEDdos</color>"
+    - "Restaura\xE7\xE3o completa"
+    - "Falha na restaura\xE7\xE3o"
+    - "Gr\xE1fico"
+    - "Ligue a vibra\xE7\xE3o"
+    - "Desligue a vibra\xE7\xE3o"
+    - Ativar economia de bateria
+    - Desative a economia de bateria
+    - Desative a economia de bateria
+    - "Desativar notifica\xE7\xE3o"
+    - Insira o seu giftcode aqui...
+    - "Voc\xEA recebeu sua recompensa"
+    - "Giftcode inv\xE1lido"
+    - Este giftcode foi usado ou expirou. Insira outro giftcode
+    - "N\xE3o \xE9 poss\xEDvel se conectar ao servidor. Por favor, verifique sua
+      internet"
+    - "N\xE3o foi poss\xEDvel salvar os resultados.. Por favor, verifique sua internet"
+    - Um erro ocorreu. Entre em contato com a equipe de suporte para obter ajuda
+    - "Voc\xEA deve estar logado em sua conta para usar o giftcode"
+    - "Fa\xE7a login na sua conta em primeiro lugar"
+    - "Voc\xEA sair\xE1 para a tela principal.\n Tem certeza que deseja sair da batalha?"
+    - "O modo atual est\xE1 bloqueado. Alcance 3 estrelas no est\xE1gio {0} em dificuldade
+      normal de desbloquear"
+    - Upgrades de torre
+    - "Sucesso de atualiza\xE7\xE3o"
+    - "Todas as torres atualizadas ser\xE3o reiniciadas. Tem certeza?"
+    - Copiado com sucesso
+    - "Todos os n\xEDveis de habilidade ser\xE3o redefinidos. Tem certeza?"
+    - Ponto de habilidade insuficiente
+    - "Os pontos de habilidade s\xE3o usados \u200B\u200Bpara atualizar habilidades.
+      Ganhe pontos ao aumentar o n\xEDvel do seu her\xF3i."
+    - "Obtenha pontos de experi\xEAncia na batalha. Voc\xEA tamb\xE9m pode usar cristais
+      para atualizar instantaneamente seus her\xF3is!"
+    - "N\xEDvel: {0}/{1}"
+    - "Pr\xF3xima energia:"
+    - 'Energia preenchida:'
+    - "Clique para come\xE7ar"
+    - "Not\xEDcias"
+    - "Parab\xE9ns"
+    - "N\xEDvel m\xE1ximo alcan\xE7ado!"
+    - "N\xEDvel m\xE1ximo"
+    - "Estat\xEDsticas"
+    - Reinicia com sucesso
+    - "Hist\xF3ria"
+    - "Voc\xEA precisa de pelo menos 1 Her\xF3i para iniciar o etapas"
+    - '{0} desbloqueado'
+    - Conclua a etapas anterior para desbloquear
+    - '{0} insuficiente.'
+    - "Presente de pr\xE9-registro"
+    - "Obrigado pelo pr\xE9-registro do Empire Defender!"
+    - "Jogue o est\xE1gio {0} para desbloquear"
+    - Tem certeza que deseja jogar novamente?
+    - Tem certeza que deseja sair do jogo?
+    - Aviso
+    - "Recompensas di\xE1rias"
+    - "Miss\xE3o di\xE1ria"
+    - Data {0}
+    - 'Progresso: {0}/{1}'
+    - Conectado com sucesso
+    - Nenhum dado encontrado
+    - Foi atualizado
+    - "1. <color=#eb9e15>Estrelas de prata</color> s\xE3o usadas para desbloquear
+      n\xEDveis b\xE1sicos de atualiza\xE7\xE3o.\n \n 2. <color=#eb9e15>Estrelas
+      douradas</color> s\xE3o usadas para desbloquear n\xEDveis de atualiza\xE7\xE3o
+      avan\xE7ados.\n \n 3. N\xEDveis completos de dificuldade <color=#eb9e15>Normal</color>
+      para coletar estrelas de prata.\n \n 4. N\xEDveis completos de dificuldade
+      <color=#eb9e15>Pesadelo</color> para coletar estrelas douradas."
+    - Propriedades
+    - Upar
+    - "Atualize o n\xEDvel anterior primeiro"
+    - "Seus dados salvos locais podem ser perdidos. Certifique-se de estar conectado
+      \xE0 sua conta {0}"
+    - "Sua compra falhou. Certifique-se de que sua internet esteja est\xE1vel"
+    - "Falha ao carregar as informa\xE7\xF5es de compra, verifique sua conex\xE3o
+      de rede e o link de sua loja."
+    - "Falha ao salvar seus dados. Verifique sua conex\xE3o de rede."
+    - "Seus dados ser\xE3o perdidos. Tem certeza?"
+    - Continue jogando o tutorial para desbloquear
+    - "O her\xF3i n\xE3o est\xE1 equipado com nenhum feiti\xE7o"
+    - Comece a batalha para usar
+    - Etapas completa {0} para desbloquear
+    - Fragmento insuficiente
+    - Fragmento {0} insuficiente
+    - Recursos insuficientes
+    - "Desbloqueie o her\xF3i antes de equipar o feiti\xE7o"
+    - "Desbloqueie o her\xF3i antes de equipar o Runa"
+    - Taxa normal
+    - "Taxa de pr\xEAmio"
+    - "Feiti\xE7o normal"
+    - "Feiti\xE7o Pr\xEAmio"
+    - "A forma\xE7\xE3o est\xE1 lotada"
+    - "N\xFAmero de {0} fragmento necess\xE1rio: {1}"
+    - 'Reiniciar em:'
+    - 'Reiniciar em:'
+    - "Realiza\xE7\xE3o"
+    - 'Gratuito em:'
+    - Desafios completos para reivindicar recompensas!
+    - "Este Her\xF3i ainda n\xE3o foi desbloqueado. Voc\xEA quer desbloque\xE1-lo
+      agora?"
+    - Derrote o chefe no etapas {0}
+    - Taxa normal
+    - "Taxa de pr\xEAmio"
+    - Runa normal
+    - "Runa Pr\xEAmio"
+    - "Seu invent\xE1rio est\xE1 cheio."
+    - "Os slots de {0} est\xE3o cheios"
+    - Por favor, desmantele outras Runas
+    - Remova a Runa antes de desmantelar
+    - Tem certeza que deseja desmontar {0} e obter os materiais abaixo?
+    - "Atributos de b\xE1sicos"
+    - "Atributos de b\xF4nus"
+    - 'Conjunto de 2 Runas:'
+    - Requer {0} {1}
+    - Melhorar com sucesso
+    - 'Runa Selecionada:'
+    - "Os slots de desmontagem est\xE3o cheios"
+    - "An\xFAncios de recompensa"
+    - "Assistir a {0} an\xFAncios"
+    - "Por favor, verifique sua conex\xE3o \xE0 internet"
+    - "Sem an\xFAncios dispon\xEDveis"
+    - Quer comprar mais {0}?
+    - "Por favor, assista aos an\xFAncios anteriores primeiro"
+    - "Carregando - n\xE3o baixar dados adicionais"
+    - Carregando
+    - "N\xE3o pergunte de novo hoje"
+    - "Voc\xEA est\xE1 selecionando Runas de alta raridade para desmantelar. Voc\xEA
+      tem certeza que quer continuar?"
+    - "Voc\xEA n\xE3o selecionou uma Runa para desmantelar"
+    - "Completa Normal dif\xEDcil de desbloquear dificuldade Pesadelo"
+    - Compre Agora
+    - Desbloqueie o progresso premium e recompensas exclusivas
+    - "Compre agora para obter o seu <color=#ffe960>B\xF4nus de primeira compra</color>"
+    - "B\xF4nus de primeira compra"
+    - "<color=#ffe960>Compre qualquer pacote</color> para obter este b\xF4nus!"
+    - Corra para acertar durante o evento para receber grandes lucros
+    - Livre
+    - "Pr\xEAmio"
+    - Entrada {0} dias
+    - Etapas
+    - 'Fim do tempo:'
+    - "Voc\xEA j\xE1 recebeu este b\xF4nus"
+    - Pacote Runa
+    - Vendido
+    - Dificuldade {0} desbloqueada
+    - Experimental
+    - "Este \xE9 o Her\xF3i padr\xE3o para teste"
+    - "Oh ... Ol\xE1 aventureiros. Voc\xEA est\xE1 lutando contra o Orc? Vamos nos
+      juntar!"
+    - "Voc\xEA gosta deste jogo?"
+    - Gostou de Empire Defender TD? Envie-nos seu feedback!
+    - "Voc\xEA desbloqueou o sistema de Feiti\xE7os. "
+    - "Voc\xEA quer experimentar agora?"
+    - "Voc\xEA n\xE3o equipou Feiti\xE7o para Her\xF3is. Voc\xEA quer se equipar
+      agora?"
+    - "Voc\xEA desbloqueou o sistema de Runa. "
+    - "Voc\xEA quer experimentar agora?"
+    - "Voc\xEA n\xE3o equipou Runa para Her\xF3is. Voc\xEA quer se equipar agora?"
+    - 'Permanecer:'
+    - "Voc\xEA quer obter mais?"
+    - "Reabaste\xE7a a resist\xEAncia"
+    - "Possu\xEDdo"
+    - "Novo modo jog\xE1vel desbloqueado"
+    - "Voc\xEA j\xE1 possuiu este pacote"
+    - "Voc\xEA j\xE1 possuiu este her\xF3i"
+    - "Voc\xEA j\xE1 possui esse item"
+    - "Voc\xEA esgotou o {0}."
+    - 'Quer comprar mais agora ou esperar '
+    - "Dispon\xEDvel:"
+    - "N\xE3o h\xE1 mais {0} dispon\xEDvel"
+    - Fora de estoque
+    - "Os resultados atuais n\xE3o ser\xE3o salvos. Tem certeza?"

@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ff66f25efb4c8c8414c413b02cec00, type: 3}
+  m_Name: TowerUpgradeData
+  m_EditorClassIdentifier: 
+  gradientUnits:
+  - currencyType: 8
+    towerId: 2001
+    levels: 00000000010000000200000003000000
+    currencyQuantity: 00000000040000000500000006000000
+  - currencyType: 8
+    towerId: 2002
+    levels: 00000000010000000200000003000000
+    currencyQuantity: 00000000040000000500000006000000
+  - currencyType: 8
+    towerId: 2003
+    levels: 00000000010000000200000003000000
+    currencyQuantity: 00000000040000000500000006000000
+  - currencyType: 8
+    towerId: 2004
+    levels: 00000000010000000200000003000000
+    currencyQuantity: 00000000040000000500000006000000
+  - currencyType: 9
+    towerId: 2001
+    levels: 040000000500000006000000
+    currencyQuantity: 040000000500000006000000
+  - currencyType: 9
+    towerId: 2002
+    levels: 040000000500000006000000
+    currencyQuantity: 040000000500000006000000
+  - currencyType: 9
+    towerId: 2003
+    levels: 040000000500000006000000
+    currencyQuantity: 040000000500000006000000
+  - currencyType: 9
+    towerId: 2004
+    levels: 040000000500000006000000
+    currencyQuantity: 040000000500000006000000
+  bonusStat2001:
+  - level: 1
+    bonusDamage: 0
+    bonusCrit: 0
+    bonusDetectRange: 0.1
+    targets: 0
+    bonusDamagePerArrowSkill1: 0
+    level6Stat:
+      criticalRatio: 0
+      criticalDamage: 0
+      damageType: 0
+  - level: 2
+    bonusDamage: 0
+    bonusCrit: 0.15
+    bonusDetectRange: 0
+    targets: 0
+    bonusDamagePerArrowSkill1: 0
+    level6Stat:
+      criticalRatio: 0
+      criticalDamage: 0
+      damageType: 0
+  - level: 3
+    bonusDamage: 0
+    bonusCrit: 0
+    bonusDetectRange: 0
+    targets: 2
+    bonusDamagePerArrowSkill1: 0
+    level6Stat:
+      criticalRatio: 0
+      criticalDamage: 0
+      damageType: 0
+  - level: 4
+    bonusDamage: 0.1
+    bonusCrit: 0
+    bonusDetectRange: 0
+    targets: 0
+    bonusDamagePerArrowSkill1: 0
+    level6Stat:
+      criticalRatio: 0
+      criticalDamage: 0
+      damageType: 0
+  - level: 5
+    bonusDamage: 0
+    bonusCrit: 0
+    bonusDetectRange: 0
+    targets: 0
+    bonusDamagePerArrowSkill1: 0.15
+    level6Stat:
+      criticalRatio: 0
+      criticalDamage: 0
+      damageType: 0
+  - level: 6
+    bonusDamage: 0
+    bonusCrit: 0
+    bonusDetectRange: 0
+    targets: 0
+    bonusDamagePerArrowSkill1: 0
+    level6Stat:
+      criticalRatio: 0.08
+      criticalDamage: 3
+      damageType: 0
+  bonusStat2002:
+  - level: 1
+    bonusDetectRange: 0.1
+    bonusMagicDamage: 0
+    damageReduceBulletDecrease: 0
+    distanceUnit: 5
+    upgradedBall: 0
+    level6Stat:
+      range: 0
+      damageType: 0
+      damage: 0
+  - level: 2
+    bonusDetectRange: 0
+    bonusMagicDamage: 0.15
+    damageReduceBulletDecrease: 0
+    distanceUnit: 0
+    upgradedBall: 0
+    level6Stat:
+      range: 0
+      damageType: 0
+      damage: 0
+  - level: 3
+    bonusDetectRange: 0
+    bonusMagicDamage: 0
+    damageReduceBulletDecrease: 0
+    distanceUnit: 0
+    upgradedBall: 0
+    level6Stat:
+      range: 0
+      damageType: 0
+      damage: 0
+  - level: 4
+    bonusDetectRange: 0
+    bonusMagicDamage: 0
+    damageReduceBulletDecrease: -0.18
+    distanceUnit: 0
+    upgradedBall: 0
+    level6Stat:
+      range: 0
+      damageType: 0
+      damage: 0
+  - level: 5
+    bonusDetectRange: 0
+    bonusMagicDamage: 0
+    damageReduceBulletDecrease: 0
+    distanceUnit: 0
+    upgradedBall: 4
+    level6Stat:
+      range: 0
+      damageType: 0
+      damage: 0
+  - level: 6
+    bonusDetectRange: 0
+    bonusMagicDamage: 0
+    damageReduceBulletDecrease: 0
+    distanceUnit: 0
+    upgradedBall: 0
+    level6Stat:
+      range: 0.9
+      damageType: 1
+      damage: 6
+  bonusStat2003:
+  - level: 1
+    bonusDetectRange: 0.1
+    bonusDamage: 0
+    bonusAttackSpeed: 0
+    bonusDamageSkill1: 0
+    level3Stat:
+      fireBulletRatio: 0
+      fireBulletDamage: 0
+      poisonousFire: 0
+      poisonousFireRate: 0
+      affectedTime: 0
+    level6Stat:
+      secondDamage: 0
+      slowDown: 0
+      slowTime: 0
+  - level: 2
+    bonusDetectRange: 0
+    bonusDamage: 0.15
+    bonusAttackSpeed: 0
+    bonusDamageSkill1: 0
+    level3Stat:
+      fireBulletRatio: 0
+      fireBulletDamage: 0
+      poisonousFire: 0
+      poisonousFireRate: 0
+      affectedTime: 0
+    level6Stat:
+      secondDamage: 0
+      slowDown: 0
+      slowTime: 0
+  - level: 3
+    bonusDetectRange: 0
+    bonusDamage: 0
+    bonusAttackSpeed: 0
+    bonusDamageSkill1: 0
+    level3Stat:
+      fireBulletRatio: 0.12
+      fireBulletDamage: 45
+      poisonousFire: 5
+      poisonousFireRate: 1
+      affectedTime: 7.5
+    level6Stat:
+      secondDamage: 0
+      slowDown: 0
+      slowTime: 0
+  - level: 4
+    bonusDetectRange: 0
+    bonusDamage: 0
+    bonusAttackSpeed: 0.2
+    bonusDamageSkill1: 0
+    level3Stat:
+      fireBulletRatio: 0
+      fireBulletDamage: 0
+      poisonousFire: 0
+      poisonousFireRate: 0
+      affectedTime: 0
+    level6Stat:
+      secondDamage: 0
+      slowDown: 0
+      slowTime: 0
+  - level: 5
+    bonusDetectRange: 0
+    bonusDamage: 0
+    bonusAttackSpeed: 0
+    bonusDamageSkill1: 0.4
+    level3Stat:
+      fireBulletRatio: 0
+      fireBulletDamage: 0
+      poisonousFire: 0
+      poisonousFireRate: 0
+      affectedTime: 0
+    level6Stat:
+      secondDamage: 0
+      slowDown: 0
+      slowTime: 0
+  - level: 6
+    bonusDetectRange: 0
+    bonusDamage: 0
+    bonusAttackSpeed: 0
+    bonusDamageSkill1: 0
+    level3Stat:
+      fireBulletRatio: 0
+      fireBulletDamage: 0
+      poisonousFire: 0
+      poisonousFireRate: 0
+      affectedTime: 0
+    level6Stat:
+      secondDamage: 80
+      slowDown: 0.4
+      slowTime: 3
+  bonusStat2004:
+  - level: 1
+    bonusHeath: 0.25
+    bonusDamage: 0
+    bonusSpawnTime: 0
+    troopNumber: 0
+    level5Stat:
+      skill2Armor: 0
+      skill2MagicResistance: 0
+    ghostExistTime: 0
+  - level: 2
+    bonusHeath: 0
+    bonusDamage: 0.35
+    bonusSpawnTime: 0
+    troopNumber: 0
+    level5Stat:
+      skill2Armor: 0
+      skill2MagicResistance: 0
+    ghostExistTime: 0
+  - level: 3
+    bonusHeath: 0
+    bonusDamage: 0
+    bonusSpawnTime: 0
+    troopNumber: 2
+    level5Stat:
+      skill2Armor: 0
+      skill2MagicResistance: 0
+    ghostExistTime: 0
+  - level: 4
+    bonusHeath: 0
+    bonusDamage: 0
+    bonusSpawnTime: -0.32
+    troopNumber: 0
+    level5Stat:
+      skill2Armor: 0
+      skill2MagicResistance: 0
+    ghostExistTime: 0
+  - level: 5
+    bonusHeath: 0
+    bonusDamage: 0
+    bonusSpawnTime: 0
+    troopNumber: 0
+    level5Stat:
+      skill2Armor: 0.3
+      skill2MagicResistance: 0.2
+    ghostExistTime: 0
+  - level: 6
+    bonusHeath: 0
+    bonusDamage: 0
+    bonusSpawnTime: 0
+    troopNumber: 0
+    level5Stat:
+      skill2Armor: 0
+      skill2MagicResistance: 0
+    ghostExistTime: 6
+  resetCost: 20

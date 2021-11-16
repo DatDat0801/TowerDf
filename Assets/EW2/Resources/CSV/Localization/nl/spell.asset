@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: spell
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - spell_name_4001
+    - spell_name_4002
+    - spell_name_4003
+    - spell_name_4004
+    - spell_name_4005
+    - spell_name_4006
+    - spell_name_4011
+    - active_description_4001
+    - active_description_4002
+    - active_description_4003
+    - active_description_4004
+    - active_description_4005
+    - active_description_4006
+    - active_description_4011
+    - passive_description_4001
+    - passive_description_4002
+    - passive_description_4003
+    - passive_description_4004
+    - passive_description_4005
+    - passive_description_4006
+    - passive_description_4011
+    - spell_default_description_all
+    - spell_default_description_4001
+    - spell_default_description_4002
+    - spell_default_description_4003
+    - spell_default_description_4004
+    - spell_default_description_4005
+    - spell_default_description_4006
+    - spell_default_description_4011
+    values:
+    - Sneeuwstorm
+    - Verschroeiende Donder
+    - Ontploffing Geest
+    - Bewaker van de ster
+    - Zegening van de Natuur
+    - Magische Landmijn
+    - Oude Totem
+    - Bevriest vijanden in het gebied voor <color=#bb<color=#bb5c14>{1}</color>c14>{0}
+      </color>seconden. Nadat het ijs is gesmolten, zijn vijanden <color=#bb5c14>{1}</color>
+      seconden koud\n\n* Immuun voor vliegende vijanden
+    - Veroorzaakt donder en vuur op het gebied en doet <color=#bb5c14>{0}</color>
+      schade
+    - Maakt een explosie die <color=#bb5c14>{0}</color> schade doet aan vijanden
+      in het gebied
+    - Roep een Guardian op om mee te vechten. Richt <color=#bb5c14>{0}</color> schade
+      aan bij het landen in het doelgebied. Bewakers lopen <color=#bb5c14>{1}</color>
+      GP en <color=#bb5c14>{2}</color> schade op.
+    - Herstelt <color=#bb5c14>{0}</color> GP per seconde voor alle bondgenoten in
+      het gebied. Duurt <color=#bb5c14>{1}</color> seconden
+    - Speciale mijnen worden geplaatst, die <color=#bb5c14>{0}</color> schade veroorzaken
+      aan vijanden die erop stappen
+    - Roept een totem op met <color=#bb5c14>{0}</color> GP die <color=#bb5c14>{1}</color>
+      seconden meegaat, waardoor een vervloekt gebied ontstaat dat alle vijanden
+      met aanvalsvermogen aantrekt. Vijanden in het gebied lopen <color=#bb5c14>{2}</color>
+      schade per seconde op.\n\n* Immuun voor vliegende vijanden
+    - Elke basisaanval heeft een <color=#bb5c14>{0}%</color> kans om de vijanden
+      koud te maken.\n\n* Immuun voor Boss of Mini Boss
+    - De basis-aanval van de held heeft een <color=#bb5c14>{0}%</color> kans om brandwonden
+      te veroorzaken bij de vijand. Brandwonden duren <color=#bb5c14>{1}</color>
+      seconden. De hoeveelheid brandwonden per basis-aanval is niet geldig als er
+      al brandwonden actief zijn
+    - Vijandelijke aanvallen hebben een <color=#bb5c14>{0}%</color> kans om een explosie
+      op het lichaam van de held te activeren. Alle vijanden binnen bereik krijgen
+      daardoor <color=#bb5c14>{1}</color> aan schade
+    - Wanneer de Star Guardian verschijnt, krijg de held een beschermende aura. Terwijl
+      de Star Guardian bestaat, krijgt de held <color=#bb5c14>{0}%</color> meer Pantser
+      en <color=#bb5c14>{1}%</color> Magische weerstand
+    - De held heeft de mogelijkheid om <color=#bb5c14>{0}</color> van de max HP te
+      regenereren per seconde, ook in gevecht.
+    - Vijanden die aangevallen worden door de basis-aanval van een held hebben een
+      kans van <color=#bb5c14>{0}%</color> dat ze exploderen. Alle vijanden in het
+      bereik van de explosie krijgen <color=#bb5c14>{1}</color> schade
+    - Na elke <color=#bb5c14>{0}</color> aanvallen spreekt de held een vloek uit
+      die alle omringende vijanden angst aanjaagt.\n\n* Immuun voor vliegende vijanden
+    - Spreuken uitgerust voor de held om extra vaardigheden toe te voegen in de strijd
+    - Bevriest vijanden in een gebied en de held die deze spell gebruikt heeft een
+      kans om vijanden te bevriezen bij elke basis-aanval
+    - Veroorzaakt een explosie in een gebied en de held die deze spell in gebruik
+      heeft kan vijand verbranden
+    - Veroorzaakt een explosie die vijanden vernietigt en de held met Magic in gebruik
+      kan explosies veroorzaken bij aanvallen
+    - Roept Star Guardians op en verhoogt de verdediging van de held die de spell
+      in gebruik heeft
+    - Geneest bondgenoten en de held die deze spell heeft kan HP regenereren tijdens
+      het gevecht
+    - Zet vallen neer en geeft de held de mogelijkheid om met explosies aan te vallen
+    - Roept een totem op om vijanden aan te trekken en te vervloeken. Helden hebben
+      de mogelijkheid om Angst aan te jagen bij het uitrusten van deze spreuk.

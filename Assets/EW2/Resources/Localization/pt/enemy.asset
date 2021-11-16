@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - enemy_name_3001
+    - enemy_name_3002
+    - enemy_name_3003
+    - enemy_name_3004
+    - enemy_name_3005
+    - enemy_name_3006
+    - enemy_name_3007
+    - enemy_name_3008
+    - enemy_name_3009
+    - enemy_name_3010
+    - enemy_name_3011
+    - enemy_name_3012
+    - enemy_name_3013
+    - enemy_name_3014
+    - enemy_name_3015
+    - enemy_name_3016
+    - enemy_name_3017
+    - enemy_name_3018
+    - enemy_name_3019
+    - enemy_name_3020
+    - enemy_des_3001
+    - enemy_des_3002
+    - enemy_des_3003
+    - enemy_des_3004
+    - enemy_des_3005
+    - enemy_des_3006
+    - enemy_des_3007
+    - enemy_des_3008
+    - enemy_des_3009
+    - enemy_des_3010
+    - enemy_des_3011
+    - enemy_des_3012
+    - enemy_des_3013
+    - enemy_des_3014
+    - enemy_des_3015
+    - enemy_des_3016
+    - enemy_des_3017
+    - enemy_des_3018
+    - enemy_des_3019
+    - enemy_des_3020
+    - enemy_skill_3005
+    - enemy_skill_3006
+    - enemy_skill_3007
+    - enemy_skill_3008
+    - enemy_skill_3009
+    - enemy_skill_3015
+    - enemy_skill_3016
+    - enemy_skill_3017
+    - enemy_skill_3020
+    - enemy_warn_3002
+    - enemy_warn_3003
+    - enemy_warn_3005
+    - enemy_warn_3006
+    - enemy_warn_3007
+    - enemy_warn_3008
+    - enemy_warn_3009
+    - enemy_warn_3010
+    - enemy_warn_3011
+    - enemy_warn_3012
+    - enemy_warn_3013
+    - enemy_warn_3014
+    - enemy_warn_3015
+    - enemy_warn_3016
+    - enemy_warn_3017
+    - enemy_warn_3020
+    values:
+    - Goblin
+    - Arqueiro Goblin
+    - Assassino Goblin
+    - Orc
+    - Orc Guerreiro
+    - "Xam\xE3 Orc"
+    - Druida Orc
+    - "Goblin Amaldi\xE7oado"
+    - Ogre
+    - Barril goblin
+    - Morg
+    - Cavaleiro Morg
+    - "Morcego dem\xF4nio"
+    - Voar Goblin
+    - Ogre
+    - "Goblin Amaldi\xE7oado"
+    - Protetor Corrompido
+    - Pequeno Protetor
+    - Pequeno Protetor
+    - Gul'ak o Olho Escuro
+    - "Goblins s\xE3o a infantaria b\xE1sica no ex\xE9rcito do mal"
+    - "Esses Goblins s\xE3o irritantes e s\xE3o capazes de atacar de longa dist\xE2ncia."
+    - "Cuidado com os assassinos. Eles s\xE3o r\xE1pidos e dif\xEDceis de parar."
+    - "Orcs \xE9 a principal infantaria do ex\xE9rcito do mal. Eles s\xE3o mais fortes
+      do que Goblins."
+    - "Eles s\xE3o guerreiros sedentos de sangue. Eles nasceram para a guerra."
+    - "Os xam\xE3s s\xE3o capazes de inspirar o moral do Orc. N\xE3o os deixe tocar
+      bateria m\xE1gica."
+    - Esses orcs estranhos aprenderam magia natural. Destrua-os primeiro.
+    - "Goblins Amaldi\xE7oados s\xE3o criaturas de uma antiga maldi\xE7\xE3o. Eles
+      vivem entre a vida e a morte e t\xEAm a capacidade de convocar os mortos."
+    - "Ogros s\xE3o criaturas grandes, mas patetas. Eles s\xE3o a vanguarda com alta
+      defesa."
+    - "Esta \xE9 uma ideia estranha dos Goblins. Eles s\xE3o usados para romper as
+      defesas inimigas."
+    - "Os lobos h\xEDbridos s\xE3o r\xE1pidos e perigosos. Eles foram domesticados
+      pelos Orcs."
+    - "A Cavaleira Morg \xE9 uma das for\xE7as de elite e perigosas do ex\xE9rcito
+      do mal."
+    - "Os Morcegos Dem\xF4nios s\xE3o convocados por Narazal. Eles ainda existem
+      desde a grande batalha de muitos anos atr\xE1s at\xE9 agora."
+    - "Esta \xE9 a equipe de assalto de Goblin. Eles usam os Morcegos Demon\xEDacos
+      para se esgueirar pela linha inimiga."
+    - "Ogros s\xE3o criaturas grandes, mas patetas. Eles s\xE3o a vanguarda com alta
+      defesa."
+    - "Goblins Amaldi\xE7oados s\xE3o criaturas de uma antiga maldi\xE7\xE3o. Eles
+      vivem entre a vida e a morte e t\xEAm a capacidade de convocar os mortos."
+    - "Um antigo protetor selado por bruxos reais. No entanto, devido \xE0 magia
+      da espada demon\xEDaca Durandal possu\xEDda pelo Rei Jave I, ele foi corrompido
+      e se tornou um servo do diabo."
+    - "Os pequenos protetores foram criados a partir dos fragmentos dos Antigos Guardi\xF5es"
+    - Os Pequenos Protetores foram criados a partir dos fragmentos do Protetor Corrompido
+    - "Gul'ak era o irm\xE3o mais novo de Moggun e foi o pr\xF3ximo l\xEDder do cl\xE3
+      Lobo de Sangue. Ele foi controlado pela espada demon\xEDaca Durandal e se tornou
+      um dos generais do ex\xE9rcito do mal."
+    - Raiva
+    - Exortar tambor
+    - Curando
+    - Invocando
+    - Golpe de atordoamento
+    - Golpe de atordoamento. Raiva
+    - Invocando. Chama Negra
+    - "Rock r\xE1pido. Arrancar"
+    - Jaula escura. Espinho escuro. Invocando. Disjuntor de alma
+    - "- Ataque \xE0 dist\xE2ncia"
+    - "- Alta velocidade de movimento\n - Ataque \xE0 dist\xE2ncia"
+    - "- Resist\xEAncia m\xE9dia\n - F\xFAria quando o HP est\xE1 baixo"
+    - "- Baixa velocidade de movimento\n - Aumentar a velocidade de movimento para
+      aliados pr\xF3ximos"
+    - "- Curando aliados pr\xF3ximos\n - Ataque \xE0 dist\xE2ncia"
+    - "- Convocando inimigos\n - Ataque \xE0 dist\xE2ncia"
+    - "- Alta resist\xEAncia\n - Pode atordoar o oponente\n - Baixa velocidade de
+      movimento"
+    - "- Alta velocidade de movimento\n - Dividido em muitos Goblins"
+    - "- Alta velocidade de movimento\n - Causando sangramento em seu oponente"
+    - '- Causando sangramento em seu oponente'
+    - '- Monstro voador'
+    - '- Monstro voador'
+    - "- Alta resist\xEAncia\n - Pode atordoar o oponente\n - F\xFAria quando o HP
+      est\xE1 baixo\n - Baixa velocidade de movimento"
+    - "- Convocando inimigos\n - Controle as torres\n - Ataque \xE0 dist\xE2ncia"
+    - "- Alta resist\xEAncia\n - Ataque \xE0 dist\xE2ncia\n - Danos em grandes \xE1reas\n
+      - Pode atordoar o oponente"
+    - "- Convocando inimigos\n - Ataque \xE0 dist\xE2ncia\n - Danos em grandes \xE1reas\n
+      - Pode atordoar o oponente"

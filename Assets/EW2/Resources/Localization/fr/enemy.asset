@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - enemy_name_3001
+    - enemy_name_3002
+    - enemy_name_3003
+    - enemy_name_3004
+    - enemy_name_3005
+    - enemy_name_3006
+    - enemy_name_3007
+    - enemy_name_3008
+    - enemy_name_3009
+    - enemy_name_3010
+    - enemy_name_3011
+    - enemy_name_3012
+    - enemy_name_3013
+    - enemy_name_3014
+    - enemy_name_3015
+    - enemy_name_3016
+    - enemy_name_3017
+    - enemy_name_3018
+    - enemy_name_3019
+    - enemy_name_3020
+    - enemy_des_3001
+    - enemy_des_3002
+    - enemy_des_3003
+    - enemy_des_3004
+    - enemy_des_3005
+    - enemy_des_3006
+    - enemy_des_3007
+    - enemy_des_3008
+    - enemy_des_3009
+    - enemy_des_3010
+    - enemy_des_3011
+    - enemy_des_3012
+    - enemy_des_3013
+    - enemy_des_3014
+    - enemy_des_3015
+    - enemy_des_3016
+    - enemy_des_3017
+    - enemy_des_3018
+    - enemy_des_3019
+    - enemy_des_3020
+    - enemy_skill_3005
+    - enemy_skill_3006
+    - enemy_skill_3007
+    - enemy_skill_3008
+    - enemy_skill_3009
+    - enemy_skill_3015
+    - enemy_skill_3016
+    - enemy_skill_3017
+    - enemy_skill_3020
+    - enemy_warn_3002
+    - enemy_warn_3003
+    - enemy_warn_3005
+    - enemy_warn_3006
+    - enemy_warn_3007
+    - enemy_warn_3008
+    - enemy_warn_3009
+    - enemy_warn_3010
+    - enemy_warn_3011
+    - enemy_warn_3012
+    - enemy_warn_3013
+    - enemy_warn_3014
+    - enemy_warn_3015
+    - enemy_warn_3016
+    - enemy_warn_3017
+    - enemy_warn_3020
+    values:
+    - Goblin
+    - Goblin Archer
+    - Goblin Assassin
+    - Orc
+    - Orc Maraudeur
+    - Orc Chaman
+    - Orc Druide
+    - Goblin Maudit
+    - Ogre
+    - Baril de Goblin
+    - Morg
+    - Chevalier Morg
+    - Aile Sombre
+    - Goblin de mouche
+    - Ogre
+    - Goblin Maudit
+    - Protecteur Corrompu
+    - Petit protecteur
+    - Petit protecteur
+    - "Gul'ak l'\u0153il noir"
+    - "Les goblins sont l'infanterie de base dans l'arm\xE9e du mal"
+    - "Ces goblins sont ennuyeux et sont capables d'attaquer \xE0 longue distance"
+    - "Faites attention aux assassins. Ils sont rapides et difficiles \xE0 arr\xEAter."
+    - "Orcs est la principale infanterie de l'arm\xE9e mal\xE9fique. Ils sont plus
+      forts que les goblins."
+    - "Ce sont des guerriers combatif et sanguinaires. Ils sont n\xE9s pour servir
+      la guerre."
+    - Les chamans sont capables d'inspirer le moral des Orques. Ne les laissez pas
+      jouer des tambours magiques.
+    - "Ces orcs \xE9tranges ont appris la magie naturelle. D\xE9truisez-les d'abord."
+    - "Les Goblins maudits sont des cr\xE9atures d'une ancienne mal\xE9diction. Ils
+      vivent entre les lignes de la vie et de la mort et ils ont la capacit\xE9 de
+      convoquer les morts."
+    - "Les ogres sont de grosses cr\xE9atures loufoques. Ils sont l'avant-garde avec
+      une d\xE9fense \xE9lev\xE9e."
+    - "C'est une id\xE9e \xE9trange des goblins. Ils sont utilis\xE9s pour percer
+      les d\xE9fenses ennemies."
+    - "Les loups hybrides sont rapides et dangereux. Ils ont \xE9t\xE9 apprivois\xE9s
+      par les Orcs."
+    - "Le cavalier de loup est l'une des forces d'\xE9lite et dangereuses de l'arm\xE9e
+      mal\xE9fique."
+    - "Ces cr\xE9atures ont \xE9t\xE9 invoqu\xE9es par Narazal. Ils existent encore
+      depuis la grande bataille d'il y a de nombreuses ann\xE9es jusqu'\xE0 aujourd'hui."
+    - "C'est l'\xE9quipe d'assaut de Goblin. Ils utilisent les Aile Sombre pour se
+      faufiler \xE0 travers la ligne ennemie."
+    - "Les ogres sont de grosses cr\xE9atures loufoques. Ils sont l'avant-garde avec
+      une d\xE9fense \xE9lev\xE9e."
+    - "Les Goblins maudits sont des cr\xE9atures d'une ancienne mal\xE9diction. Ils
+      vivent entre les lignes de la vie et de la mort et ils ont la capacit\xE9 de
+      convoquer les morts."
+    - "Un ancien protecteur scell\xE9 par des sorciers royaux. Cependant, en raison
+      de la magie de l'\xE9p\xE9e d\xE9mon que Durandal poss\xE9dait par le roi Jave
+      I, il a \xE9t\xE9 corrompu et est devenu un serviteur du diable."
+    - "Les petits protecteurs ont \xE9t\xE9 cr\xE9\xE9s \xE0 partir des fragments
+      du protecteur corrompu"
+    - "Les petits protecteurs ont \xE9t\xE9 cr\xE9\xE9s \xE0 partir des fragments
+      du protecteur corrompu"
+    - "Gul'ak \xE9tait le fr\xE8re cadet de Moggun et \xE9tait le prochain chef du
+      clan Bloodwolf. Il \xE9tait contr\xF4l\xE9 par l'\xE9p\xE9e d\xE9moniaque Durandal
+      et devint l'un des g\xE9n\xE9raux de l'arm\xE9e mal\xE9fique."
+    - Rage
+    - Tambour magique
+    - "Gu\xE9rison"
+    - Convoquer
+    - Attaque paralysante
+    - Attaque paralysante. Rage
+    - Convoquer. Flamme noire
+    - Roche rapide. Scission
+    - "Cage sombre. \xC9pine sombre. Convoquer. Briseur d'\xE2mes"
+    - "- Attaque \xE0 distance"
+    - "- Vitesse de d\xE9placement \xE9lev\xE9e\n - Attaque \xE0 distance"
+    - "- Endurance moyenne\n - Devient rage lorsque PV est faible"
+    - "- Faible vitesse de d\xE9placement\n - Vitesse de d\xE9placement de buff pour
+      les alli\xE9s proches"
+    - "- Gu\xE9rir les alli\xE9s proches\n - Attaque \xE0 distance"
+    - "- Invoquer des ennemis\n - Attaque \xE0 distance"
+    - "- Haute endurance\n - Peut \xE9tourdir son adversaire\n - Faible vitesse de
+      d\xE9placement"
+    - "- Vitesse de d\xE9placement \xE9lev\xE9e\n - Bris\xE9 en de nombreux gobelins"
+    - "- Vitesse de d\xE9placement \xE9lev\xE9e\n - Causer des saignements \xE0 l'ennemi"
+    - "- Causer des saignements \xE0 l'ennemi"
+    - '- Monstre volant'
+    - '- Monstre volant'
+    - "- Haute endurance\n - Peut \xE9tourdir son adversaire\n - Devient rage lorsque
+      PV est faible\n - Faible vitesse de d\xE9placement"
+    - "- Invoquer des ennemis\n - Contr\xF4le de la tour\n - Attaque \xE0 distance"
+    - "- Haute endurance\n - Attaque \xE0 distance\n - Infliger des d\xE9g\xE2ts
+      sur une grande surface\n - Peut \xE9tourdir son adversaire"
+    - "- Invoquer des ennemis\n - Attaque \xE0 distance\n - Infliger des d\xE9g\xE2ts
+      sur une grande surface\n - Peut \xE9tourdir son adversaire"

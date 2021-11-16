@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DailyQuest
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 3398bac96cc871c4e9ee9adca06fe977, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b3d26050c5c8d4d4ca8fdcbf433b75b1, type: 3}
+  - {fileID: 21300000, guid: 19cc091164588304398dfa701a39ff9a, type: 3}
+  - {fileID: 21300000, guid: 3441a8328038ef843883d47ffec5223e, type: 3}
+  - {fileID: 21300000, guid: badc9ce3f5a39c34aba1e4ad228c66d5, type: 3}
+  - {fileID: 21300000, guid: 601d90f4330b2af42be9c158b24e3b49, type: 3}
+  - {fileID: 21300000, guid: 979321d5e21f6a544a9c6c19c8112313, type: 3}
+  - {fileID: 21300000, guid: 76ab4e0603fa66449905dd82ad805077, type: 3}
+  - {fileID: 21300000, guid: 36be3dc89439b324698a4ffb2ab57231, type: 3}
+  - {fileID: 21300000, guid: a6cbc9993f08b4c4f8ea9180fb0ecc5d, type: 3}
+  - {fileID: 21300000, guid: a016b2f9f90648f4d9980ae21a10dea4, type: 3}
+  - {fileID: 21300000, guid: 3be02c0bc67c8444eb739d8a8d777ae1, type: 3}
+  - {fileID: 21300000, guid: f0fd329b52d8b544c86598547e4b7de3, type: 3}
+  - {fileID: 21300000, guid: ee2566ad62ccb884aa04845df2a870f5, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - bg_item_holder_bubble
+  - demo_bg_questl_process_bar_2_loading
+  - icon_bubble_arrow
+  - bg_questl_process_bar_2
+  - icon_quest
+  - icon_tick
+  - bg_popup_paper_holder_1
+  - bg_popup_devided
+  - icon_box
+  - icon_open_box
+  - icon_quest_point
+  - bg_popup_content_focus_3_gray
+  - bg_tab_holder_devided
+  m_Tag: DailyQuest
+  m_IsVariant: 0

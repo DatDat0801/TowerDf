@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc66d2b3109479d8ff0e9c483ac3a96, type: 3}
+  m_Name: RunePackageShopData
+  m_EditorClassIdentifier: 
+  shopItemDatas:
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_rune_package_9.99
+    price: 4.99
+    pricePrevious: 9.99
+    consumable: 0
+    vipPoint: 0
+    rewards:
+    - type: 2
+      id: 2
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 402
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 302
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 2
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 402
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 302
+      number: 1
+      itemType: 1
+    imgId: -1
+    moneyType: -1
+    saleType: -1
+    valuePrevious: 0
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_rune_package_29.99
+    price: 9.99
+    pricePrevious: 29.99
+    consumable: 0
+    vipPoint: 0
+    rewards:
+    - type: 2
+      id: 3
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 403
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 303
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 3
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 403
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 303
+      number: 1
+      itemType: 1
+    imgId: -1
+    moneyType: -1
+    saleType: -1
+    valuePrevious: 0
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_rune_package_49.99
+    price: 19.99
+    pricePrevious: 49.99
+    consumable: 0
+    vipPoint: 0
+    rewards:
+    - type: 2
+      id: 4
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 404
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 304
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 4
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 404
+      number: 1
+      itemType: 1
+    - type: 2
+      id: 304
+      number: 1
+      itemType: 1
+    imgId: -1
+    moneyType: -1
+    saleType: -1
+    valuePrevious: 0
+  unlockConditions:
+  - mapUnlock: 8
+    dayOpenGame: 3
+  - mapUnlock: 0
+    dayOpenGame: 0
+  - mapUnlock: 0
+    dayOpenGame: 0

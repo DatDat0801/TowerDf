@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: tower
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tower_name_2001_0
+    - tower_name_2001_1
+    - tower_name_2001_2
+    - tower_name_2002_0
+    - tower_name_2002_1
+    - tower_name_2002_2
+    - tower_name_2003_0
+    - tower_name_2003_1
+    - tower_name_2003_2
+    - tower_name_2004_0
+    - tower_name_2004_1
+    - tower_name_2004_2
+    - tower_des_2001_0
+    - tower_des_2001_1
+    - tower_des_2001_2
+    - tower_des_2002_0
+    - tower_des_2002_1
+    - tower_des_2002_2
+    - tower_des_2003_0
+    - tower_des_2003_1
+    - tower_des_2003_2
+    - tower_des_2004_0
+    - tower_des_2004_1
+    - tower_des_2004_2
+    - tower_skill_2001_0
+    - tower_skill_2001_1
+    - tower_skill_2002_0
+    - tower_skill_2002_1
+    - tower_skill_2003_0
+    - tower_skill_2003_1
+    - tower_skill_2004_0
+    - tower_skill_2004_1
+    - tower_skill_des_2001_0
+    - tower_skill_des_2001_1
+    - tower_skill_des_2002_0
+    - tower_skill_des_2002_1
+    - tower_skill_des_2003_0
+    - tower_skill_des_2003_0_update
+    - tower_skill_des_2003_1
+    - tower_skill_des_2004_0
+    - tower_skill_des_2004_1
+    values:
+    - Cacciatore
+    - Arciere
+    - Maestro arciere
+    - Mago potenziale
+    - Mago da battaglia
+    - Mago Adepto
+    - Protettore
+    - Protettore corazzato
+    - Protettore Leggendario
+    - Milizia
+    - Fanteria Stagionata
+    - Paladino d'Alsazia
+    - I cacciatori della regione dell'Alsazia sono reclutati e addestrati da Claudio
+      come forza di difesa di base, in grado di colpire i nemici che possono volare
+      e a terra.
+    - "I cacciatori sono ben addestrati per diventare buoni arcieri, capaci di sparare
+      pi\xF9 velocemente e pi\xF9 lontano"
+    - I maestri arcieri stagionati possono tirare velocemente frecce pesanti che
+      hanno un formidabile potere di rottura
+    - Apprendisti maghi di Endia I loro incantesimi sono molto efficaci contro i
+      nemici con armature pesanti
+    - Maghi con reale esperienza di combattimento. La loro magia si rafforza con
+      grandi danni re
+    - Maghi eccellenti con un potere magico eccezionale possono spazzare la formazione
+      nemica
+    - Le anime degli antichi protettori sono sigillate in pietre magiche. Quando
+      vengono evocati, si trasformano in giganteschi guerrieri di pietra che attaccano
+      i nemici a terra
+    - "Il Protettore corazzato \xE8 pi\xF9 aggressivo, capace di lanciare pietre
+      che infliggono danni ingenti"
+    - "Il potente Protettore pu\xF2 spazzare e controllare i nemici su una vasta
+      area"
+    - "La forza iniziale dell'esercito della resistenza, ha un addestramento di base
+      e pu\xF2 bloccare il cammino del nemico"
+    - Soldati di fanteria con una vasta esperienza in battaglia, ben equipaggiati.
+      Sono guerrieri coraggiosi e assolutamente fedeli a Claudia
+    - I resistenti cavalieri di Claudia. Sono guerrieri con Claudio attraverso molte
+      battaglie, assolutamente leali e pronti a distruggere tutti i nemici sulla
+      strada.
+    - Fuoco rapido
+    - Morale dell'Alsazia
+    - Colpo magico
+    - Portale magico
+    - Colpo sismico
+    - Onda sismica
+    - Contrattacco
+    - Fortifica
+    - Il maestro arciere tira {0} volte consecutivamente. Ogni freccia infligge {1}
+      danni fisici
+    - "Aumenta {0} la velocit\xE0 d'attacco della torre amica nel raggio d'azione"
+    - "Il mago spara un'abilit\xE0 magica nel cielo, lanciando colpi magici su {0}
+      nemici. Ogni attacco infligge {1}danni magici"
+    - Evoca un portale magico che teletrasporta {0} nemici all'indietro per una certa
+      distanza
+    - Il Protettore sbatte il terreno, creando{0} crepe e infliggendo {1} danni a
+      tutti i nemici colpiti
+    - "Le crepe esplodono infliggendo {0} danni bonus e riducendo {1}% della velocit\xE0
+      di movimento dei nemici"
+    - Il Protettore crea onde sismiche, infliggendo {0} danni e rallentando tutti
+      i nemici nell'area d'effetto
+    - "Quando viene attaccato da un attacco in mischia, ogni paladino dell'Alsazia
+      ha il {0}% di possibilit\xE0 di lanciare un contrattacco e infliggere {1} danni
+      ad area"
+    - Aumenta il {0}% di armatura e il {1}% di resistenza magica dei paladini dell'Alsazia

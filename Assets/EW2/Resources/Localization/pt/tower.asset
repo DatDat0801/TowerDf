@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: tower
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tower_name_2001_0
+    - tower_name_2001_1
+    - tower_name_2001_2
+    - tower_name_2002_0
+    - tower_name_2002_1
+    - tower_name_2002_2
+    - tower_name_2003_0
+    - tower_name_2003_1
+    - tower_name_2003_2
+    - tower_name_2004_0
+    - tower_name_2004_1
+    - tower_name_2004_2
+    - tower_des_2001_0
+    - tower_des_2001_1
+    - tower_des_2001_2
+    - tower_des_2002_0
+    - tower_des_2002_1
+    - tower_des_2002_2
+    - tower_des_2003_0
+    - tower_des_2003_1
+    - tower_des_2003_2
+    - tower_des_2004_0
+    - tower_des_2004_1
+    - tower_des_2004_2
+    - tower_skill_2001_0
+    - tower_skill_2001_1
+    - tower_skill_2002_0
+    - tower_skill_2002_1
+    - tower_skill_2003_0
+    - tower_skill_2003_1
+    - tower_skill_2004_0
+    - tower_skill_2004_1
+    - tower_skill_des_2001_0
+    - tower_skill_des_2001_1
+    - tower_skill_des_2002_0
+    - tower_skill_des_2002_1
+    - tower_skill_des_2003_0
+    - tower_skill_des_2003_0_update
+    - tower_skill_des_2003_1
+    - tower_skill_des_2004_0
+    - tower_skill_des_2004_1
+    values:
+    - "Ca\xE7ador"
+    - Arqueiro
+    - Mestre Arqueiro
+    - Bruxo Potencial
+    - Bruxo de Batalha
+    - Bruxo Adepto
+    - Protetor
+    - Protetor Blindado
+    - "Protetor Lend\xE1rio"
+    - "Mil\xEDcia"
+    - Infantaria Experiente
+    - Cavaleiro da Alsace
+    - "Ca\xE7adores na Alsace s\xE3o recrutados e treinados por Claudia como uma
+      for\xE7a de defesa b\xE1sica. Eles atacam inimigos que podem voar e no solo."
+    - "Os ca\xE7adores s\xE3o treinados para se tornarem bons arqueiros, capazes
+      de atirar mais r\xE1pido e mais longe"
+    - "Os Mestre Arqueiro podem disparar rapidamente flechas pesadas com um poder
+      de quebra formid\xE1vel"
+    - "Feiti\xE7os de bruxo s\xE3o muito eficazes contra inimigos com armaduras pesadas"
+    - "Bruxos com experi\xEAncia real de combate. Sua magia \xE9 fortalecida com
+      grande dano"
+    - "Bruxos com poder m\xE1gico superior podem varrer a forma\xE7\xE3o inimiga"
+    - "As almas dos antigos protetores s\xE3o seladas em pedras m\xE1gicas. Quando
+      convocados, eles se transformar\xE3o em gigantes guerreiros de pedra, atacando
+      os inimigos no solo"
+    - "Protetor Blindado \xE9 mais agressivo, capaz de lan\xE7ar pedras que causam
+      danos massivos"
+    - "O poderoso Protetor pode varrer e controlar os inimigos em uma grande \xE1rea"
+    - "A for\xE7a inicial do ex\xE9rcito de resist\xEAncia, tem basicamente treinamento
+      e pode bloquear o caminho do inimigo"
+    - "Soldados de infantaria com experi\xEAncia em guerra est\xE3o bem equipados.
+      Eles s\xE3o bravos guerreiros e absolutamente leais a Claudia"
+    - Esses resistentes cavaleiros se juntaram a Claudia em muitas batalhas, absolutamente
+      leais e prontos para destruir todos os inimigos no caminho
+    - "Fogo R\xE1pido"
+    - Moral da Alsace
+    - "Golpe M\xE1gico"
+    - "Portal M\xE1gico"
+    - "Golpe S\xEDsmico"
+    - "Onda s\xEDsmica"
+    - Contra ataque
+    - Fortalecer
+    - "Os Mestres Arqueiros disparam {0} vezes consecutivas. Cada flecha causa {1}
+      dano f\xEDsico"
+    - Aumenta a velocidade de ataque de {0}% para torres aliadas no alcance
+    - "A bruxo dispara uma habilidade m\xE1gica para o c\xE9u, lan\xE7ando golpes
+      m\xE1gicos em {0} inimigos. Cada ataque causa {1} dano m\xE1gico"
+    - "Evoca um portal m\xE1gico que teletransporta {0} inimigos para tr\xE1s por
+      uma dist\xE2ncia"
+    - Protetor atinge o solo, criando {0} rachaduras e causando {1} de dano a todos
+      os inimigos atingidos
+    - "Rachaduras explodem, causando {0} b\xF4nus de dano e reduzindo {1}% a velocidade
+      de movimento do inimigo"
+    - "O Protetor cria ondas s\xEDsmicas, causando {0} dano e reduzindo a velocidade
+      de todos os inimigos na \xE1rea de efeito"
+    - "Quando atacado por ataque corpo a corpo, cada Cavaleiro da Alsace tem {0}%
+      de chance de ativar um Contra-Ataque e causar {1} \xE1rea de dano"
+    - "Aumenta {0}% de armadura e {1}% de resist\xEAncia m\xE1gica dos Cavaleiro
+      da Alsace"

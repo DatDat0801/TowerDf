@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: game_event
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - quest_not_unlocked_txt
+    - hero_chalenge_txt
+    - hero_chalenge_slogan_txt
+    - hero_chalenge_rule_txt
+    - glory_road_rule_txt
+    - medal_redeem_warning_txt
+    - glory_road_premium_warning_txt
+    - already_unlock_premium_txt
+    - event_daily_reward_title_txt
+    - event_daily_slogan_txt
+    - premium_glory_road_item_txt
+    - glory_road_title_txt
+    - glory_road_slogan_txt
+    - glory_road_slogan_2_txt
+    - hero_academy_event_name_txt
+    - medal_exchange_txt
+    - buy_now_direction_popup
+    - full_basic_progress_notice
+    - unlock_premium_progress_notice
+    - claim_hero_notice
+    - nhero_challenge_title_txt
+    - nhero_event_name_txt
+    - nhero_mission_txt
+    - nhero_mission_slogan_txt
+    - event_quest_nhero_txt
+    - hero_mission_rule
+    - hero_required_formation
+    - event_quest_pf5_txt
+    - event_quest_nhero_pf5_txt
+    - event_quest_pf5m_txt
+    - event_quest_nhero_pf10m_txt
+    - event_quest_nhero_pf20m_txt
+    - event_quest_nhero_lv5_txt
+    - event_quest_nhero_spell_txt
+    - event_quest_nhero_rune_txt
+    - nhero_bundle_txt
+    - hero_bundle_slogan_txt
+    - hero_bundle_level_tag_txt
+    - hero_backpack_txt
+    - event_crystal_pack_txt
+    - event_rune_pack_txt
+    - event_spell_pack_txt
+    values:
+    - "Nhi\u1EC7m v\u1EE5 ch\u01B0a \u0111\u01B0\u1EE3c m\u1EDF kh\xF3a"
+    - "H\xE0nh tr\xECnh Th\u1EED th\xE1ch"
+    - "\u0110\u01B0\u01A1ng \u0111\u1EA7u th\u1EED th\xE1ch v\xE0 l\xE0m t\u1EA1o
+      n\xEAn b\u1EA3n h\xF9ng ca b\u1EA5t di\u1EC7t"
+    - "1. Ho\xE0n th\xE0nh c\xE1c nhi\u1EC7m v\u1EE5 c\u1EE7a t\u1EEBng ng\xE0y \u0111\u1EC3
+      nh\u1EADn ph\u1EA7n th\u01B0\u1EDFng v\xE0 Huy hi\u1EC7u.\n \n 2. C\xE1c nhi\u1EC7m
+      v\u1EE5 \u0111\u01B0\u1EE3c m\u1EDF kh\xF3a theo ng\xE0y. C\xE1c nhi\u1EC7m
+      v\u1EE5 ch\u01B0a ho\xE0n th\xE0nh \u1EDF ng\xE0y tr\u01B0\u1EDBc v\u1EABn
+      \u0111\u01B0\u1EE3c l\xE0m ti\u1EBFp \u1EDF ng\xE0y h\xF4m sau."
+    - "3. Huy hi\u1EC7u thu th\u1EADp \u0111\u01B0\u1EE3c d\xF9ng \u0111\u1EC3 \u0111\u1ED5i
+      ph\u1EA7n th\u01B0\u1EDFng \u1EDF \u0110\u01B0\u1EDDng vinh quang. T\u1EEBng
+      m\u1ED1c th\u01B0\u1EDFng y\xEAu c\u1EA7u m\u1ED9t l\u01B0\u1EE3ng Huy hi\u1EC7u
+      nh\u1EA5t \u0111\u1ECBnh.\n \n 4. Ng\u01B0\u1EDDi ch\u01A1i c\xF3 th\u1EC3
+      nh\u1EADn th\xEAm nhi\u1EC1u ph\u1EA7n th\u01B0\u1EDFng gi\xE1 tr\u1ECB th\xF4ng
+      qua ti\u1EBFn tr\xECnh cao c\u1EA5p b\u1EB1ng vi\u1EC7c mua g\xF3i Mua Ngay"
+    - "<color=#E73F44>*L\u01B0u \xFD: Sau khi k\u1EBFt th\xFAc s\u1EF1 ki\u1EC7n,
+      Huy hi\u1EC7u kh\xF4ng \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng s\u1EBD t\u1EF1
+      \u0111\u1ED9ng \u0111\u1ED5i th\xE0nh Tinh th\u1EC3.</color>"
+    - "N\xE2ng c\u1EA5p ti\u1EBFn tr\xECnh \u0111\u1EC3 nh\u1EADn qu\xE0 cao c\u1EA5p"
+    - "B\u1EA1n \u0111\xE3 n\xE2ng c\u1EA5p ti\u1EBFn tr\xECnh r\u1ED3i"
+    - "Th\u01B0\u1EDFng h\u1EB1ng ng\xE0y"
+    - "T\xEDch l\u0169y Huy hi\u1EC7u, nh\u1EADn ngay qu\xE0 kh\u1EE7ng"
+    - "Ti\u1EBFn tr\xECnh Cao c\u1EA5p"
+    - "Ph\u1EA7n th\u01B0\u1EDFng vinh danh"
+    - "Thu th\u1EADp huy ch\u01B0\u01A1ng, n\xE2ng c\u1EA5p ti\u1EBFn tr\xECnh"
+    - "V\xE0 chi\xEAu m\u1ED9 Anh h\xF9ng!"
+    - "H\u1ECDc vi\u1EC7n Anh h\xF9ng"
+    - "<color=#815329>{0}</color> Huy hi\u1EC7u c\u1EE7a b\u1EA1n \u0111\xE3 \u0111\u01B0\u1EE3c
+      quy \u0111\u1ED5i th\xE0nh {1} Tinh th\u1EC3\n \n T\u1EF7 l\u1EC7 quy \u0111\u1ED5i:
+      <color=#815329>1</color> Huy hi\u1EC7u = <color=#815329>5</color> Tinh th\u1EC3"
+    - "M\u1EDF kh\xF3a Anh h\xF9ng trong s\u1EF1 ki\u1EC7n <color=#FFD700>{0}</color>
+      \u0111\u1EC3 nh\u1EADn th\xEAm nhi\u1EC1u t\xE0i nguy\xEAn gi\xE1 tr\u1ECB!"
+    - "B\u1EA1n \u0111\xE3 nh\u1EADn h\u1EBFt ph\u1EA7n th\u01B0\u1EDFng trong ti\u1EBFn
+      tr\xECnh c\u01A1 b\u1EA3n."
+    - "Tuy nhi\xEAn v\u1EABn c\xF2n r\u1EA5t nhi\u1EC1u ph\u1EA9n th\u01B0\u1EDFng
+      gi\xE1 tr\u1ECB t\u1EA1i <color=#815329>{0}</color>. Nh\u1EADn ngay th\xF4i
+      n\xE0o!"
+    - "Vui l\xF2ng nh\u1EADn Anh h\xF9ng trong Ti\u1EBFn tr\xECnh Cao c\u1EA5p"
+    - "Th\u1EED th\xE1ch m\u1EDBi - Anh h\xF9ng m\u1EDBi"
+    - "S\u1EF1 ki\u1EC7n Anh h\xF9ng Xu\u1EA5t th\u1EBF"
+    - "S\u1EE9 m\u1EC7nh Anh h\xF9ng"
+    - "Ho\xE0n th\xE0nh nhi\u1EC7m v\u1EE5, nh\u1EADn ngay qu\xE0 hay!"
+    - "Tr\u1EA3i nghi\u1EC7m Anh h\xF9ng m\u1EDBi nh\u1EA5t {0}"
+    - "Ho\xE0n th\xE0nh nhi\u1EC7m v\u1EE5 \u0111\u1EC3 nh\u1EADn c\xE1c ph\u1EA7n
+      th\u01B0\u1EDFng h\u1EA5p d\u1EABn\n\n*L\u01B0u \xFD: Nhi\u1EC7m v\u1EE5 ch\u1EC9
+      \u0111\u01B0\u1EE3c t\xEDnh trong th\u1EDDi gian di\u1EC5n ra s\u1EF1 ki\u1EC7n"
+    - "C\u1EA7n anh h\xF9ng {0} trong \u0111\u1ED9i h\xECnh"
+    - "\u0110\u1EA1t 3 sao t\u1EA1i M\xE0n {0} \u0111\u1ED9 kh\xF3 Th\u01B0\u1EDDng"
+    - "C\xF9ng {1} \u0111\u1EA1t 3 sao t\u1EA1i M\xE0n {0} \u0111\u1ED9 kh\xF3 Th\u01B0\u1EDDng"
+    - "\u0110\u1EA1t 3 sao \u1EDF m\xE0n {0} \u0111\u1ED9 kh\xF3 \xC1c M\u1ED9ng"
+    - "C\xF9ng {1} \u0111\u1EA1t 3 sao M\xE0n {0} \u0111\u1ED9 kh\xF3 \xC1c m\u1ED9ng"
+    - "S\u1EED d\u1EE5ng k\u1EF9 n\u0103ng {0} c\u1EE7a {1} {2} l\u1EA7n"
+    - "{0} \u0111\u1EA1t c\u1EA5p \u0111\u1ED9 {1}"
+    - "Trang b\u1ECB Ph\xE9p b\u1EA5t k\xEC cho {0}"
+    - "Trang b\u1ECB \u1EA4n th\u1EA1ch b\u1EA5t k\xEC cho {0}"
+    - "G\xF3i Anh h\xF9ng"
+    - "Ch\u1ECDn m\u1ED9t trong hai"
+    - "C\u1EA5p {0}!"
+    - "H\xE0nh trang Anh h\xF9ng"
+    - "G\xF3i Tinh th\u1EC3"
+    - "G\xF3i \u1EA4n th\u1EA1ch"
+    - "G\xF3i Ph\xE9p"

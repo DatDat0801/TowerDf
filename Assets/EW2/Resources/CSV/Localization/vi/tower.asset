@@ -1,0 +1,302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: tower
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tower_name_2001_0
+    - tower_name_2001_1
+    - tower_name_2001_2
+    - tower_name_2002_0
+    - tower_name_2002_1
+    - tower_name_2002_2
+    - tower_name_2003_0
+    - tower_name_2003_1
+    - tower_name_2003_2
+    - tower_name_2004_0
+    - tower_name_2004_1
+    - tower_name_2004_2
+    - tower_name_2005_0
+    - tower_name_2005_1
+    - tower_name_2005_2
+    - tower_name_2006_0
+    - tower_name_2006_1
+    - tower_name_2006_2
+    - tower_name_2007_0
+    - tower_name_2007_1
+    - tower_name_2007_2
+    - tower_name_2008_0
+    - tower_name_2008_1
+    - tower_name_2008_2
+    - tower_name_2009_0
+    - tower_name_2009_1
+    - tower_name_2009_2
+    - tower_name_2010_0
+    - tower_name_2010_1
+    - tower_name_2010_2
+    - tower_name_2011_0
+    - tower_name_2011_1
+    - tower_name_2011_2
+    - tower_name_2012_0
+    - tower_name_2012_1
+    - tower_name_2012_2
+    - tower_des_2001_0
+    - tower_des_2001_1
+    - tower_des_2001_2
+    - tower_des_2002_0
+    - tower_des_2002_1
+    - tower_des_2002_2
+    - tower_des_2003_0
+    - tower_des_2003_1
+    - tower_des_2003_2
+    - tower_des_2004_0
+    - tower_des_2004_1
+    - tower_des_2004_2
+    - tower_des_2005_0
+    - tower_des_2005_1
+    - tower_des_2005_2
+    - tower_des_2006_0
+    - tower_des_2006_1
+    - tower_des_2006_2
+    - tower_des_2007_0
+    - tower_des_2007_1
+    - tower_des_2007_2
+    - tower_des_2008_0
+    - tower_des_2008_1
+    - tower_des_2008_2
+    - tower_des_2009_0
+    - tower_des_2009_1
+    - tower_des_2009_2
+    - tower_des_2010_0
+    - tower_des_2010_1
+    - tower_des_2010_2
+    - tower_des_2011_0
+    - tower_des_2011_1
+    - tower_des_2011_2
+    - tower_des_2012_0
+    - tower_des_2012_1
+    - tower_des_2012_2
+    - tower_skill_2001_0
+    - tower_skill_2001_1
+    - tower_skill_2002_0
+    - tower_skill_2002_1
+    - tower_skill_2003_0
+    - tower_skill_2003_1
+    - tower_skill_2004_0
+    - tower_skill_2004_1
+    - tower_skill_2005_0
+    - tower_skill_2005_1
+    - tower_skill_2006_0
+    - tower_skill_2006_1
+    - tower_skill_2007_0
+    - tower_skill_2007_1
+    - tower_skill_2008_0
+    - tower_skill_2008_1
+    - tower_skill_2009_0
+    - tower_skill_2009_1
+    - tower_skill_2010_0
+    - tower_skill_2010_1
+    - tower_skill_2011_0
+    - tower_skill_2011_1
+    - tower_skill_2012_0
+    - tower_skill_2012_1
+    - tower_skill_des_2001_0
+    - tower_skill_des_2001_1
+    - tower_skill_des_2002_0
+    - tower_skill_des_2002_1
+    - tower_skill_des_2003_0
+    - tower_skill_des_2003_0_update
+    - tower_skill_des_2003_1
+    - tower_skill_des_2004_0
+    - tower_skill_des_2004_1
+    - tower_skill_des_2005_0
+    - tower_skill_des_2005_1
+    - tower_skill_des_2006_0
+    - tower_skill_des_2006_1
+    - tower_skill_des_2007_0
+    - tower_skill_des_2007_1
+    - tower_skill_des_2008_0
+    - tower_skill_des_2008_1
+    - tower_skill_des_2009_0
+    - tower_skill_des_2009_1
+    - tower_skill_des_2010_0
+    - tower_skill_des_2010_1
+    - tower_skill_des_2011_0
+    - tower_skill_des_2011_1
+    - tower_skill_des_2012_0
+    - tower_skill_des_2012_1
+    values:
+    - "Th\u1EE3 s\u0103n"
+    - "Cung th\u1EE7"
+    - "Thi\u1EC7n x\u1EA1"
+    - "Ph\xF9 th\u1EE7y t\u1EADp s\u1EF1"
+    - "Ph\xF9 th\u1EE7y chi\u1EBFn tr\u01B0\u1EDDng"
+    - "Ph\xF9 th\u1EE7y l\xE3o luy\u1EC7n"
+    - "V\u1EC7 th\u1EA7n"
+    - "Thi\u1EBFt gi\xE1p v\u1EC7 th\u1EA7n"
+    - "V\u1EC7 th\u1EA7n huy\u1EC1n tho\u1EA1i"
+    - "D\xE2n qu\xE2n"
+    - "B\u1ED9 binh l\xE3o luy\u1EC7n"
+    - "Hi\u1EC7p s\u0129 Alsace"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "C\xE1c th\u1EE3 s\u0103n v\xF9ng Alsace \u0111\u01B0\u1EE3c Claudia chi\xEAu
+      m\u1ED9 v\xE0 hu\u1EA5n luy\u1EC7n th\xE0nh l\u1EF1c l\u01B0\u1EE3ng ph\xF2ng
+      th\u1EE7 c\u01A1 b\u1EA3n, c\xF3 th\u1EC3 t\u1EA5n c\xF4ng k\u1EBB \u0111\u1ECBch
+      c\u1EA3 tr\xEAn tr\u1EDDi l\u1EABn d\u01B0\u1EDBi \u0111\u1EA5t"
+    - "C\xE1c th\u1EE3 s\u0103n \u0111\u01B0\u1EE3c hu\u1EA5n luy\u1EC7n b\xE0i b\u1EA3n
+      tr\u1EDF th\xE0nh c\xE1c cung th\u1EE7 chuy\xEAn nghi\u1EC7p, c\xF3 kh\u1EA3
+      n\u0103ng b\u1EAFn nhanh v\xE0 xa h\u01A1n"
+    - "Nh\u1EEFng tay thi\u1EC7n x\u1EA1 d\xE0y d\u1EA1n kinh nghi\u1EC7m chi\u1EBFn
+      tr\u01B0\u1EDDng c\xF3 th\u1EC3 b\u1EAFn nhanh nh\u1EEFng m\u0169i t\xEAn n\u1EB7ng
+      c\xF3 s\u1EE9c xuy\xEAn ph\xE1 \u0111\xE1ng g\u1EDDm"
+    - "H\u1ECDc tr\xF2 c\u1EE7a c\xE1c ph\xF9 th\u1EE7y Endia. Ph\xE9p thu\u1EADt
+      c\u1EE7a h\u1ECD r\u1EA5t h\u1EEFu hi\u1EC7u v\u1EDBi k\u1EBB \u0111\u1ECBch
+      c\xF3 gi\xE1p d\xE0y"
+    - "Nh\u1EEFng ph\xF9 th\u1EE7y c\xF3 kinh nghi\u1EC7m th\u1EF1c chi\u1EBFn. Ph\xE9p
+      thu\u1EADt c\u1EE7a h\u1ECD \u0111\u01B0\u1EE3c c\u01B0\u1EDDng h\xF3a v\u1EDBi
+      s\u1EE9c s\xE1t th\u01B0\u01A1ng l\u1EDBn"
+    - "Nh\u1EEFng ph\xF9 th\u1EE7y xu\u1EA5t s\u1EAFc c\xF3 s\u1EE9c m\u1EA1nh ma
+      thu\u1EADt v\u01B0\u1EE3t tr\u1ED9i c\xF3 th\u1EC3 c\xE0n qu\xE9t \u0111\u1ED9i
+      h\xECnh \u0111\u1ECBch"
+    - "Linh h\u1ED3n c\u1EE7a c\xE1c v\u1EC7 th\u1EA7n c\u1ED5 x\u01B0a \u0111\u01B0\u1EE3c
+      phong \u1EA5n trong nh\u1EEFng kh\u1ED1i \u0111\xE1 ma thu\u1EADt. Khi \u0111\u01B0\u1EE3c
+      tri\u1EC7u h\u1ED3i, h\u1ECD s\u1EBD bi\u1EBFn th\xE0nh nh\u1EEFng chi\u1EBFn
+      binh ng\u01B0\u1EDDi \u0111\xE1 kh\u1ED5ng l\u1ED3 c\xF4ng k\xEDch k\u1EBB
+      \u0111\u1ECBch tr\xEAn m\u1EB7t \u0111\u1EA5t"
+    - "Thi\u1EBFt gi\xE1p V\u1EC7 th\u1EA7n c\xF3 s\u1EE9c chi\u1EBFn \u0111\u1EA5u
+      m\u1EA1nh m\u1EBD h\u01A1n, c\xF3 kh\u1EA3 n\u0103ng n\xE9m \u0111i nh\u1EEFng
+      kh\u1ED1i \u0111\xE1 g\xE2y s\xE1t th\u01B0\u01A1ng l\u1EDBn"
+    - "Nh\u1EEFng V\u1EC7 th\u1EA7n h\xF9ng m\u1EA1nh c\xF3 th\u1EC3 c\xE0n qu\xE9t
+      v\xE0 kh\u1ED1ng ch\u1EBF k\u1EBB \u0111\u1ECBch tr\xEAn di\u1EC7n r\u1ED9ng"
+    - "L\u1EF1c l\u01B0\u1EE3ng ban \u0111\u1EA7u c\xF9a qu\xE2n kh\xE1ng chi\u1EBFn,
+      \u0111\u01B0\u1EE3c hu\u1EA5n luy\u1EC7n c\u01A1 b\u1EA3n v\xE0 c\xF3 th\u1EC3
+      ch\u1EB7n \u0111\u01B0\u1EDDng qu\xE2n \u0111\u1ECBch"
+    - "L\xEDnh b\u1ED9 binh d\xE0y d\u1EA1n kinh nghi\u1EC7m tr\u1EADn m\u1EA1c,
+      trang b\u1ECB t\u1ED1t. H\u1ECD l\xE0 nh\u1EEFng chi\u1EBFn binh gan d\u1EA1
+      v\xE0 trung th\xE0nh tuy\u1EC7t \u0111\u1ED1i v\u1EDBi Claudia"
+    - "C\xE1c hi\u1EC7p s\u0129 ki\xEAn c\u01B0\u1EDDng c\u1EE7a Claudia. H\u1ECD
+      l\xE0 nh\u1EEFng chi\u1EBFn binh \u0111\xE3 c\xF9ng Claudia tr\u1EA3i qua nhi\u1EC1u
+      tr\u1EADn chi\u1EBFn, tuy\u1EC7t \u0111\u1ED1i trung th\xE0nh v\xE0 s\u1EB5n
+      s\xE0ng ti\xEAu di\u1EC7t m\u1ECDi k\u1EBB \u0111\u1ECBch ng\xE1ng \u0111\u01B0\u1EDDng"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "B\u1EAFn nhanh"
+    - "H\xE0o kh\xED Alsace"
+    - "Ma thu\u1EADt c\xF4ng k\xEDch"
+    - "C\u1ED5ng ma thu\u1EADt"
+    - "\u0110\u1ECBa ch\u1EA5n c\u01B0\u1EDDng k\xEDch"
+    - "S\xF3ng \u0111\u1ECBa ch\u1EA5n"
+    - "Ph\u1EA3n c\xF4ng"
+    - "C\u01B0\u1EDDng h\xF3a"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Cung th\u1EE7 thi\u1EC7n x\u1EA1 b\u1EAFn li\xEAn ti\u1EBFp {0} l\u1EA7n,
+      g\xE2y {1} s\xE1t th\u01B0\u01A1ng v\u1EADt l\xFD tr\xEAn m\u1ED7i ph\xE1t
+      b\u1EAFn."
+    - "T\u0103ng {0}% t\u1ED1c \u0111\u1ED9 t\u1EA5n c\xF4ng cho c\xE1c tr\u1EE5
+      \u0111\u1ED3ng minh trong t\u1EA7m"
+    - "Ph\xF9 th\u1EE7y b\u1EAFn m\u1ED9t qu\u1EA3 c\u1EA7u ph\xE9p l\xEAn tr\u1EDDi,
+      d\u1ED9i \u0111\xF2n ph\xE9p xu\u1ED1ng \u0111\u1EA7u {0} k\u1EBB \u0111\u1ECBch.
+      M\u1ED7i \u0111\xF2n g\xE2y {1} s\xE1t th\u01B0\u01A1ng ph\xE9p"
+    - "Tri\u1EC7u h\u1ED3i m\u1ED9t c\u1ED5ng ma ph\xE1p d\u1ECBch chuy\u1EC3n {0}
+      k\u1EBB \u0111\u1ECBch v\u1EC1 \u0111\u1EB1ng sau m\u1ED9t \u0111o\u1EA1n"
+    - "V\u1EC7 th\u1EA7n n\u1EC7n xu\u1ED1ng m\u1EB7t \u0111\u1EA5t, t\u1EA1o ra
+      {0} v\u1EBFt n\u1EE9t v\xE0 g\xE2y {1} s\xE1t th\u01B0\u01A1ng cho m\u1ECDi
+      k\u1EBB \u0111\u1ECBch tr\xFAng \u0111\xF2n"
+    - "C\xE1c v\u1EBFt n\u1EE9t ph\xE1t n\u1ED5 g\xE2y th\xEAm {0} s\xE1t th\u01B0\u01A1ng
+      v\xE0 gi\u1EA3m {1}% t\u1ED1c \u0111\u1ED9 di chuy\u1EC3n c\u1EE7a k\u1EBB
+      \u0111\u1ECBch"
+    - "V\u1EC7 th\u1EA7n t\u1EA1o ra nh\u1EEFng l\xE0n s\xF3ng \u0111\u1ECBa ch\u1EA5n
+      t\u1ECFa ra xung quanh, g\xE2y {0} s\xE1t th\u01B0\u01A1ng v\xE0 l\xE0m ch\u1EADm
+      m\u1ECDi k\u1EBB \u0111\u1ECBch trong v\xF9ng \u1EA3nh h\u01B0\u1EDFng"
+    - "Khi b\u1ECB t\u1EA5n c\xF4ng b\u1EDFi \u0111\xF2n \u0111\xE1nh c\u1EADn chi\u1EBFn,
+      m\u1ED7i Hi\u1EC7p s\u0129 Alsace c\xF3 {0}% c\u01A1 h\u1ED9i \u0111\u1EC3
+      th\u1EF1c hi\u1EC7n ph\u1EA3n k\xEDch v\xE0 g\xE2y ra {1} s\xE1t th\u01B0\u01A1ng
+      di\u1EC7n r\u1ED9ng)"
+    - "T\u0103ng {0}% gi\xE1p v\xE0 {1}% kh\xE1ng ph\xE9p c\u1EE7a c\xE1c Hi\u1EC7p
+      s\u0129 Alsace"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

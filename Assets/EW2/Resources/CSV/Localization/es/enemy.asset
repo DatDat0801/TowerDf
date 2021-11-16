@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - enemy_name_3001
+    - enemy_name_3002
+    - enemy_name_3003
+    - enemy_name_3004
+    - enemy_name_3005
+    - enemy_name_3006
+    - enemy_name_3007
+    - enemy_name_3008
+    - enemy_name_3009
+    - enemy_name_3010
+    - enemy_name_3011
+    - enemy_name_3012
+    - enemy_name_3013
+    - enemy_name_3014
+    - enemy_name_3015
+    - enemy_name_3016
+    - enemy_name_3017
+    - enemy_name_3018
+    - enemy_name_3019
+    - enemy_name_3020
+    - enemy_name_3021
+    - enemy_name_3022
+    - enemy_name_3023
+    - enemy_name_3024
+    - enemy_name_3025
+    - enemy_name_3026
+    - enemy_name_3027
+    - enemy_name_3028
+    - enemy_name_3029
+    - enemy_name_3030
+    - enemy_name_3031
+    - enemy_name_3032
+    - enemy_name_3033
+    - enemy_name_3034
+    - enemy_name_3035
+    - enemy_name_3036
+    - enemy_name_3037
+    - enemy_des_3001
+    - enemy_des_3002
+    - enemy_des_3003
+    - enemy_des_3004
+    - enemy_des_3005
+    - enemy_des_3006
+    - enemy_des_3007
+    - enemy_des_3008
+    - enemy_des_3009
+    - enemy_des_3010
+    - enemy_des_3011
+    - enemy_des_3012
+    - enemy_des_3013
+    - enemy_des_3014
+    - enemy_des_3015
+    - enemy_des_3016
+    - enemy_des_3017
+    - enemy_des_3018
+    - enemy_des_3019
+    - enemy_des_3020
+    - enemy_des_3021
+    - enemy_des_3022
+    - enemy_des_3023
+    - enemy_des_3024
+    - enemy_des_3025
+    - enemy_des_3026
+    - enemy_des_3027
+    - enemy_des_3028
+    - enemy_des_3029
+    - enemy_des_3030
+    - enemy_des_3031
+    - enemy_des_3032
+    - enemy_des_3033
+    - enemy_des_3034
+    - enemy_des_3035
+    - enemy_des_3036
+    - enemy_des_3037
+    - enemy_skill_3001
+    - enemy_skill_3002
+    - enemy_skill_3003
+    - enemy_skill_3004
+    - enemy_skill_3005
+    - enemy_skill_3006
+    - enemy_skill_3007
+    - enemy_skill_3008
+    - enemy_skill_3009
+    - enemy_skill_3010
+    - enemy_skill_3011
+    - enemy_skill_3012
+    - enemy_skill_3013
+    - enemy_skill_3014
+    - enemy_skill_3015
+    - enemy_skill_3016
+    - enemy_skill_3017
+    - enemy_skill_3018
+    - enemy_skill_3019
+    - enemy_skill_3020
+    - enemy_skill_3021
+    - enemy_skill_3022
+    - enemy_skill_3023
+    - enemy_skill_3024
+    - enemy_skill_3025
+    - enemy_skill_3026
+    - enemy_skill_3027
+    - enemy_skill_3028
+    - enemy_skill_3029
+    - enemy_skill_3030
+    - enemy_skill_3031
+    - enemy_skill_3032
+    - enemy_skill_3033
+    - enemy_skill_3034
+    - enemy_skill_3035
+    - enemy_skill_3036
+    - enemy_skill_3037
+    - enemy_warn_3002
+    - enemy_warn_3003
+    - enemy_warn_3005
+    - enemy_warn_3006
+    - enemy_warn_3007
+    - enemy_warn_3008
+    - enemy_warn_3009
+    - enemy_warn_3010
+    - enemy_warn_3011
+    - enemy_warn_3012
+    - enemy_warn_3013
+    - enemy_warn_3014
+    - enemy_warn_3015
+    - enemy_warn_3016
+    - enemy_warn_3017
+    - enemy_warn_3020
+    - enemy_warn_3021
+    - enemy_warn_3022
+    - enemy_warn_3023
+    - enemy_warn_3024
+    - enemy_warn_3025
+    - enemy_warn_3026
+    - enemy_warn_3027
+    - enemy_warn_3028
+    - enemy_warn_3029
+    - enemy_warn_3030
+    - enemy_warn_3031
+    - enemy_warn_3032
+    - enemy_warn_3033
+    - enemy_warn_3034
+    - enemy_warn_3035
+    - enemy_warn_3036
+    - enemy_warn_3037
+    values:
+    - Goblin
+    - Comando de los Goblins
+    - Asesino de los Goblins
+    - Orco
+    - Saqueador de los Orcos
+    - "Cham\xE1n de los Orcos"
+    - Druida de los Orcos
+    - Goblin Maldito
+    - Ogro
+    - Barril del Goblin
+    - Morg
+    - Jinete de los Morg
+    - Alas Oscuras
+    - Goblin Volador
+    - Ogro
+    - Goblin Maldito
+    - Protector Corrompido
+    - "Protector Peque\xF1o"
+    - "Protector Peque\xF1o"
+    - Gul'ak el Ojo Oscuro
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "Los Goblins son la infanter\xEDa b\xE1sica del ej\xE9rcito del mal"
+    - Estos Goblins son molestos y son capaces de atacar desde una larga distancia.
+    - "Ten cuidado con los asesinos. Son r\xE1pidos y es dif\xEDcil detenerlos."
+    - "Los orcos son la infanter\xEDa principal del ej\xE9rcito del mal. Son m\xE1s
+      fuertes que los Goblins."
+    - Son guerreros belicosos y sedientos de sangre. Nacieron para servir en la guerra.
+    - "Los Chamanes son capaces de levantar la moral de los Orcos. No les dejes tocar
+      los tambores m\xE1gicos."
+    - "Estos extra\xF1os Orcos han aprendido magia natural. Destr\xFAyelos primero."
+    - "Los Goblins Malditos son criaturas de una maldici\xF3n ancestral. Viven entre
+      las l\xEDneas de la vida y la muerte, y tienen la capacidad de invocar a la
+      muerte."
+    - Los Ogros son criaturas grandes pero torpes. Son la vanguardia con una defensa
+      alta.
+    - "Esta se trata de una extra\xF1a idea de los Goblins. Son utilizados para pasar
+      a trav\xE9s de las defensas de los enemigos."
+    - "Los lobos h\xEDbridos son r\xE1pidos y peligrosos. Ellos fueron domesticados
+      por los Orcos."
+    - "Los jinetes de los lobos son una peligrosa fuerza de elite del ej\xE9rcito
+      del mal."
+    - "Las Alas Oscuras son invocadas por Narazal. A\xFAn existen desde la gran batalla,
+      hace muchos a\xF1os atr\xE1s, hasta ahora."
+    - "Este es el equipo de asalto de los Goblins. Ellos usan las Alas Oscuras para
+      colarse por la l\xEDnea del enemigo."
+    - Los ogros son criaturas grandes pero torpes. Son la vanguardia con una defensa
+      alta.
+    - "Los Goblins Malditos son criaturas de una maldici\xF3n ancestral. Viven entre
+      las l\xEDneas de la vida y la muerte, y tienen la capacidad de invocar a la
+      muerte."
+    - "Un Protector ancestral sellado por los hechiceros reales. Sin embargo, debido
+      a la magia de la espada demon\xEDaca Durandal, pose\xEDda por el Rey Jave I,
+      \xE9l se corrompi\xF3 y se volvi\xF3 un sirviente del demonio."
+    - "Los protectores Peque\xF1os fueron creados a partir de los fragmentos del
+      Protector Corrompido"
+    - "Los protectores Peque\xF1os fueron creados a partir de los fragmentos del
+      Protector Corrompido"
+    - "Gul'ak era el hermano m\xE1s joven de Moggun, y era el pr\xF3ximo l\xEDder
+      del clan Bloodwolf. \xC9l fue controlado por la espada del demon\xEDaca Durandal
+      y se convirti\xF3 en uno de los generales de la armada del mal."
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Furia
+    - Tambor del exhorto
+    - Curando
+    - "Evocaci\xF3n"
+    - Golpe aturdidor
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Golpe aturdidor. Furia
+    - "Invocaci\xF3n. Llama oscura"
+    - "Lluvia continua de rocas. Divisi\xF3n"
+    - 
+    - 
+    - "Jaula oscura. Espina oscura. Invocaci\xF3n. Destructor de almas"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '- Ataque desde la distancia'
+    - '- Velocidad del movimiento alto\n - Ataque desde la distancia'
+    - '- Resistencia promedio\n - Se vuelve furia cuando el HP es bajo'
+    - '- Velocidad del movimiento bajo\n - Velocidad del movimiento buff para los
+      aliados cercanos'
+    - '- Curando a aliados cercanos\n - Ataque desde la distancia'
+    - '- Invocando enemigos\n - Ataque desde la distancia'
+    - '- Resistencia alta\n - Puede aturdir a su oponente\n - Velocidad del movimiento
+      bajo'
+    - '- Velocidad del movimiento alto\n - Pasando entre muchos Goblins'
+    - '- Velocidad del movimiento alto\n - Haciendo Sangrar a su oponente'
+    - '- Haciendo Sangrar a su oponente'
+    - '- Monstruo volador'
+    - '- Monstruo volador'
+    - '- Resistencia alta\n - Puede aturdir a su oponente\n - Se vuelve furia cuando
+      el HP es bajo\n - Velocidad del movimiento bajo'
+    - '- Invocando enemigos\n - Controla las torres\n - Ataque desde la distancia'
+    - "- Resistencia alta\\n - Puede atacar desde la distancia\\n - Produciendo da\xF1o
+      en una \xE1rea grande\\n - Puede aturdir a su oponente"
+    - "- Invocando enemigos\\n - Puede atacar desde la distancia\\n - Produciendo
+      da\xF1o en una \xE1rea grande\\n - Puede aturdir a su oponente"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

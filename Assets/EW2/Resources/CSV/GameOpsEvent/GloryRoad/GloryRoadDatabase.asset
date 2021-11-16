@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093e9150b89943d6a3eeab53a0c43e6c, type: 3}
+  m_Name: GloryRoadDatabase
+  m_EditorClassIdentifier: 
+  items:
+  - tierId: 1
+    rewards:
+    - type: 0
+      id: 1
+      number: 250
+      itemType: -1
+    - type: 3
+      id: 1003
+      number: 1
+      itemType: -1
+    - type: 2
+      id: -1
+      number: 4
+      itemType: 6
+    criticalRewards: 00000000
+    point: 15
+  - tierId: 2
+    rewards:
+    - type: 0
+      id: 1
+      number: 250
+      itemType: -1
+    - type: 0
+      id: 1
+      number: 500
+      itemType: -1
+    criticalRewards: 00000000
+    point: 35
+  - tierId: 3
+    rewards:
+    - type: 0
+      id: 0
+      number: 100
+      itemType: -1
+    - type: 0
+      id: 0
+      number: 250
+      itemType: -1
+    criticalRewards: 00000000
+    point: 60
+  - tierId: 4
+    rewards:
+    - type: 0
+      id: 5
+      number: 2
+      itemType: -1
+    - type: 0
+      id: 1
+      number: 750
+      itemType: -1
+    criticalRewards: 00000000
+    point: 90
+  - tierId: 5
+    rewards:
+    - type: 0
+      id: 0
+      number: 100
+      itemType: -1
+    - type: 2
+      id: -1
+      number: 6
+      itemType: 4
+    criticalRewards: 00000000
+    point: 125
+  - tierId: 6
+    rewards:
+    - type: 0
+      id: 1
+      number: 500
+      itemType: -1
+    - type: 0
+      id: 1
+      number: 1000
+      itemType: -1
+    criticalRewards: 00000000
+    point: 165
+  - tierId: 7
+    rewards:
+    - type: 0
+      id: 0
+      number: 200
+      itemType: -1
+    - type: 2
+      id: 1
+      number: 100
+      itemType: 2
+    criticalRewards: 00000000
+    point: 210
+  - tierId: 8
+    rewards:
+    - type: 0
+      id: 0
+      number: 200
+      itemType: -1
+    - type: 0
+      id: 1
+      number: 1000
+      itemType: -1
+    criticalRewards: 00000000
+    point: 260
+  - tierId: 9
+    rewards:
+    - type: 0
+      id: 1
+      number: 1500
+      itemType: -1
+    criticalRewards: 01000000
+    point: 315
+  - tierId: 10
+    rewards:
+    - type: 2
+      id: 2
+      number: 150
+      itemType: 2
+    criticalRewards: 01000000
+    point: 375
+  - tierId: 11
+    rewards:
+    - type: 2
+      id: -1
+      number: 6
+      itemType: 5
+    criticalRewards: 01000000
+    point: 440

@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: worldmap
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - name_quest
+    - name_shop
+    - name_upgrade
+    - name_encyclopedia
+    - name_hero
+    - name_rune
+    - name_hero_trial
+    - name_tournament
+    - starthere
+    - result_name
+    - dailygift_name
+    - unlock
+    - max_number
+    - time_backup_late
+    - time_restore_late
+    - name_campaign
+    - campaign_number_normal
+    - campaign_number_hard
+    - tournament_rank_current
+    - hero_number
+    - giftcode_name
+    - giftcode_input
+    - current_name
+    - current_stage
+    - sell_details
+    - limit_level
+    - crystal_name
+    - require_connect_update
+    - not_update_score
+    - update_score_complete
+    - invest_details
+    - invest_buy_details
+    - invest_allday_details
+    - invest_nextday_details
+    - name_crystal_mine
+    - crystal_mine_production_rate
+    - crystal_mine_storage
+    - crystal_mine_current_storage
+    - crystal_mine_current
+    - crystal_mine_next
+    - crystal_mine_speed_up_upgrade
+    - setting_low
+    - setting_medium
+    - setting_high
+    - setting_graphics
+    - update_score
+    - free_gift
+    - name_gacha
+    - region_name_w1_0
+    - region_name_w1_1
+    - region_name_w1_2
+    - region_name_w1_3
+    - region_name_w1_4
+    - region_name_w1_5
+    values:
+    - "nhi\u1EC7m v\u1EE5"
+    - "c\u1EEDa h\xE0ng"
+    - "n\xE2ng c\u1EA5p"
+    - "to\xE0n th\u01B0"
+    - "anh h\xF9ng"
+    - "trang b\u1ECB"
+    - "th\u1EED th\xE1ch anh h\xF9ng"
+    - "Gi\u1EA3i \u0111\u1EA5u"
+    - "B\u1EAFt \u0110\u1EA7u!"
+    - "K\u1EBFt qu\u1EA3"
+    - "\u0110i\u1EC3m danh"
+    - "M\u1EDF kh\xF3a"
+    - "B\u1EA1n \u0111\xE3 \u0111\u1EA1t \u0111\u1EBFn s\u1ED1 l\u1EA7n gi\u1EDBi
+      h\u1EA1n trong ng\xE0y h\xF4m nay."
+    - "Th\u1EDDi gian l\u01B0u d\u1EEF li\u1EC7u"
+    - "Th\u1EDDi gian t\u1EA3i d\u1EEF li\u1EC7u"
+    - "Th\u1EBF gi\u1EDBi"
+    - "Sao b\u1EA1c"
+    - "Sao v\xE0ng "
+    - "Th\u1EE9 h\u1EA1ng Gi\u1EA3i \u0111\u1EA5u"
+    - "S\u1ED1 anh h\xF9ng"
+    - Giftcode
+    - "Nh\u1EADp giftcode \u1EDF \u0111\xE2y"
+    - "Hi\u1EC7n t\u1EA1i"
+    - "Ti\u1EBFn tr\xECnh"
+    - "B\u1EA1n c\xF3 mu\u1ED1n b\xE1n v\u1EADt ph\u1EA9m n\xE0y \u0111\u1EC3 nh\u1EADn:"
+    - "\u0110\u1EA1t c\u1EA5p \u0111\u1ED9 t\u1ED1i \u0111a"
+    - "Tinh th\u1EC3"
+    - "B\u1EA1n ph\u1EA3i k\u1EBFt n\u1ED1i m\u1EA1ng \u0111\u1EC3 c\u1EADp nh\u1EADt
+      \u0111i\u1EC3m s\u1ED1 c\u1EE7a m\xECnh. Th\u1EED l\u1EA1i?"
+    - "M\xF9a gi\u1EA3i \u0111\xE3 k\u1EBFt th\xFAc. \u0110i\u1EC3m s\u1ED1 c\u1EE7a
+      b\u1EA1n kh\xF4ng \u0111\u01B0\u1EE3c c\u1EADp nh\u1EADt."
+    - "C\u1EADp nh\u1EADt \u0111i\u1EC3m th\xE0nh c\xF4ng"
+    - "B\u1EA1n c\xF3 th\u1EC3 nh\u1EADn qu\xE0 m\u1ED9t l\u1EA7n m\u1ED7i ng\xE0y."
+    - "Nh\u1EADn {0} Ng\u1ECDc sau khi thanh to\xE1n th\xE0nh c\xF4ng, ph\u1EA7n
+      c\xF2n l\u1EA1i s\u1EBD \u0111\u01B0\u1EE3c chia nh\u1ECF v\xE0 nh\u1EADn trong
+      30 ng\xE0y."
+    - "G\xF3i qu\xE0 {0} ng\xE0y "
+    - "Ph\u1EA7n th\u01B0\u1EDFng ng\xE0y k\u1EBF ti\u1EBFp"
+    - "anh h\xF9ng tu\u1EA7n tra"
+    - "N\u0103ng su\u1EA5t"
+    - Kho
+    - "Hi\u1EC7n t\u1EA1i"
+    - "Hi\u1EC7n t\u1EA1i"
+    - "Ti\u1EBFp theo"
+    - "\u0110\u1EA9y nhanh"
+    - "Th\u1EA5p"
+    - "Trung b\xECnh"
+    - Cao
+    - "\u0110\u1ED3 h\u1ECDa"
+    - "C\u1EADp nh\u1EADt \u0111i\u1EC3m"
+    - "H\u1ED9p qu\xE0"
+    - "Tri\u1EC7u h\u1ED3i"
+    - "\u0110\u1EBF ch\u1EBF Endia"
+    - "\u0110\u1EA3o Crescent"
+    - Alsace
+    - "R\u1EEBng Yggdrasil"
+    - "\u0110\u1EA7m X\xE1m"
+    - "Ph\xE1o \u0111\xE0i Izgol"

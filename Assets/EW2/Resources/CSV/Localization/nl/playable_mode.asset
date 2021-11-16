@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: playable_mode
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_defense_name_txt
+    - defensive_point_title_txt
+    - lobby_txt
+    - best_record_waves_txt
+    - current_record_waves_txt
+    - season_end_txt
+    - trial_left_txt
+    - trial_txt
+    - reward_milestone_txt
+    - select_base_txt
+    - hero_selection_txt
+    - unlock_base_txt
+    - turn_left_txt
+    - leaderboard_txt
+    - rank_txt
+    - player_txt
+    - formation_txt
+    - new_record_txt
+    - no_more_trial_txt
+    - result_txt
+    - last_trial_notice_txt
+    - hero_required_txt
+    - hero_defense_rule
+    - buff_name_7001
+    - buff_name_7002
+    - buff_name_7003
+    - buff_name_7004
+    - buff_name_7005
+    - buff_name_7006
+    - buff_des_7001
+    - buff_des_7002
+    - buff_des_7003
+    - buff_des_7004
+    - buff_des_7005
+    - buff_des_7006
+    - defensive_point_name_8001
+    - defensive_point_name_8004
+    - defensive_point_name_8005
+    - defensive_point_skill_8001
+    - defensive_point_skill_8004
+    - defensive_point_skill_8005
+    - defensive_point_des_8001
+    - defensive_point_des_8004
+    - defensive_point_des_8005
+    - hero_defens_map_name_1
+    - hero_defens_map_name_2
+    - tournament_ban_txt
+    - tournament_nerf_txt
+    - tournament_buff_txt
+    - ban_spell_notice_txt
+    - tower_selection_txt
+    - tower_required_txt
+    - hall_of_fame_txt
+    - join_tournament_txt
+    - unrank_txt
+    - tournament_ticket_txt
+    - tournament_shop_title
+    - purchase_ticket_popup_title_txt
+    - change_buff_txt
+    - change_hero_pair_txt
+    - change_buff_status_txt
+    - change_price_alert_txt
+    - waves_cleared_record_txt
+    - ban_notice_txt
+    - ban_alert_txt
+    - congratulation_notice_txt
+    - season_rank_txt
+    - tournament_rules_title
+    - tournament_rule_map_title
+    - tournament_rule_limit_title
+    - tournament_rule_grand_title
+    - tournament_rule_season_title
+    - tournament_rule_buff_title
+    - tournament_rule_nerf_title
+    - tournament_rule_ban_title
+    - tournament_rule_map
+    - tournament_rule_limit
+    - tournament_rule_grand
+    - tournament_rule_season
+    - tournament_rule_buff
+    - tournament_rule_nerf
+    - tournament_rule_ban
+    - tournament_rank_0
+    - tournament_rank_1
+    - tournament_rank_2
+    - tournament_rank_3
+    - tournament_rank_4
+    - tournament_rank_5
+    - tournament_rank_6
+    - tournament_rank_7
+    - tournament_buff_201
+    - tournament_buff_202
+    - tournament_buff_203
+    - tournament_buff_204
+    - tournament_buff_205
+    - tournament_buff_206
+    - tournament_buff_207
+    - tournament_buff_208
+    - tournament_buff_209
+    - tournament_buff_210
+    - tournament_buff_211
+    - tournament_nerf_101
+    - tournament_nerf_102
+    - tournament_nerf_103
+    - tournament_nerf_104
+    - tournament_nerf_105
+    - tournament_nerf_106
+    - tournament_nerf_107
+    - tournament_nerf_108
+    - tournament_nerf_109
+    - tournament_nerf_110
+    - tournament_nerf_111
+    values:
+    - Heldenverdediging
+    - Baseren
+    - Lobby
+    - 'Dossier: {0} aanvalsgolf'
+    - 'Huidig resultaat: {0}'
+    - 'Seizoen tijd: '
+    - 'Proef: {0}'
+    - Proces
+    - '{0} aanvalsgolf'
+    - Basisselectie
+    - Heldenselectie
+    - Ontgrendel deze basis
+    - 'Resterende beurt: {0}'
+    - Grafieken
+    - Rang
+    - Speler
+    - Vorming
+    - Nieuw dossier
+    - Geen proef meer
+    - Resultaat
+    - Je verbruikt gewoon je laatste proefperiode.
+    - Je hebt minimaal 2 helden nodig
+    - Helden lopen gevaar om een basis te beschermen tegen een leger van demonen.
+      Geen tijd om torens te bouwen, ze moeten hun kracht gebruiken om de vijand
+      te stoppen.\n\nIn deze modus kun je tot 5 helden besturen.\n\nJe kunt alleen
+      helden besturen en geen torens bouwen.\n\nHet doel is om een alliantiebasis
+      te verdedigen. Wanneer de basis is vernietigd, is het spel afgelopen. Bases
+      helpen je om je helden in het midden van een gevecht naar een hoger niveau
+      te tillen. Ontgrendel nieuwe bases om helden uit te rusten met passieve vaardigheden.\n\nJe
+      kunt goud gebruiken om de statistieken van de held tijdens het gevecht te upgraden.
+      Tik op de basis op de kaart om te upgraden.\n\nU ontvangt beloningen op basis
+      van elke prestatiemijlpaal. Verdedig zo lang als je kunt om meer waardevolle
+      beloningen te krijgen.\n\nKaarten en scoreborden worden elk seizoen vernieuwd.
+      Wees voorbereid op nieuwe uitdagingen.
+    - Aanvalsverbetering
+    - Verdedigingsverbetering
+    - Spellingverbetering
+    - Cooldown-verbetering
+    - Kritieke verbetering
+    - GP-verbetering
+    - Verhoogt {0} schade voor alle helden
+    - Verhoog {0} pantser en {1} magische weerstand voor alle helden
+    - Verhoogt {0}% schade toegebracht door de actieve vaardigheid van spreuken
+    - Verlaag {0}% cooldown voor alle helden
+    - Verhoogt {0} kritieke schade voor alle helden
+    - Verhoogt {0} max GP voor alle helden
+    - Het Fort
+    - Godin van de Natuur
+    - Toren van de donder
+    - Belangrijke bases moeten koste wat kost worden beschermd.
+    - Herstelt elke 6 seconden 5 GP voor alle helden
+    - Na elke 2 aanvallen heeft de held de mogelijkheid om een bliksem in te slaan
+      die 3 schade aanricht. De bliksem stuitert tot 4 andere vijanden. De schade
+      voor elke bounce zal met 5% afnemen.
+    - Dit oude fort is door mensen gebouwd en blijft sterk tegen de aanvallen van
+      het kwaadaardige leger.
+    - Een mysterieuze godin aanbeden door de bewoners van de natuur. Ze geloven dat
+      de godin het vermogen heeft om de krijgers van de jungle te genezen en te zegenen.
+    - Deze magische toren is waar veel grote tovenaars wonen en magie bestuderen.
+      De tovenaars brachten hun kracht in de toren zodat het de verdedigers kon helpen
+      de donder onder controle te krijgen.
+    - Laatste verdedigingslinie
+    - Slag om het bos
+    - Verbieden
+    - Verzwakken
+    - Uitbreiden
+    - Spell is verboden
+    - Toren selectie
+    - Je hebt minimaal 4 torens nodig
+    - Tempel van eer
+    - Doe mee aan de strijd om vereerd te worden
+    - Niet gerangschikt
+    - Ticket
+    - Toernooi Winkel
+    - Ticketaankoop
+    - Wijziging
+    - Heldenpaar wijzigen
+    - Verander status
+    - Elke keer dat u verandert, stijgt de prijs
+    - Aanvalsgolf
+    - Je kunt deze items niet gebruiken
+    - Je held kan dit item niet gebruiken. Wil je het veranderen?
+    - Je hebt dit seizoen de rang van {0} bereikt. Hier is je beloning
+    - Seizoen
+    - Toernooi
+    - Toernooi Levels
+    - Speellimiet
+    - Tempel van eer
+    - Seizoen
+    - Uitbreiden
+    - Verzwakken
+    - Verbieden
+    - Alle spelers spelen hetzelfde oneindige level.
+    - Elke dag krijgen spelers {0} gratis spelen. Als het aantal gratis spins op
+      is, moet de speler Edelsteen gebruiken of een advertentie bekijken om meer
+      te krijgen. Het aantal spelen wordt elke dag vernieuwd.
+    - 'Dit is de plek om de hoogste records aller tijden te eren. Blijf elk seizoen
+      proberen om hier gehuldigd te worden! '
+    - Elk seizoen duurt 2 weken. Het hoogste record dat spelers in elk seizoen behalen,
+      wordt meegeteld voor een plaats in Tempel van eer.
+    - Als je formatie 2 helden op aanvraag heeft, wordt elke statistiek verbeterd.
+      Je kunt Kristallen,Edelsteen gebruiken en advertenties bekijken om willekeurig
+      het standaard heldenpaar en het verbeterde stat-type te wijzigen.
+    - Als je een verzwakte held in je formatie gebruikt, wordt een van de statistieken
+      van die held verlaagd. Die held verschijnt ook niet in het gevraagde heldenpaar.
+    - Je mag geen verboden voorwerpen gebruiken. De lijst met verboden voorwerpen
+      wordt na elk seizoen vernieuwd.
+    - Brons
+    - Zilver
+    - Goud
+    - Platinum
+    - Diamant
+    - Elite
+    - Meester
+    - Koning
+    - Verhoog GP met {0}
+    - Verhoog Pantser met {0}
+    - Verhoog Magieweerstand met {0}
+    - Verhoog Schade met {0}
+    - Verhoog Bewegingssnelheid met {0}%
+    - Verhoog Aanvalssnelheid met {0}%
+    - Verhoog Gezondheidsherstel met {0}%
+    - Verlaag Respawn tijd met {0}%
+    - Verhoog Krit. Schade met {0}%
+    - Verhoog Krit. Kans met {0}%
+    - Verlaag Vaardigheid cooldown met {0}%
+    - Verlaag GP met {0}
+    - Verlaag Pantser met {0}
+    - Verlaag Magieweerstand met {0}
+    - Verlaag Schade met {0}
+    - Verlaag Bewegingssnelheid met {0}%
+    - Verlaag Aanvalssnelheid met {0}%
+    - Verlaag Gezondheidsherstel met {0}%
+    - Verhoog Respawn tijd met {0}%
+    - Verlaag Krit. Schade met {0}%
+    - Verlaag Krit. Kans met {0}%
+    - Verhoog Vaardigheid cooldown met {0}%

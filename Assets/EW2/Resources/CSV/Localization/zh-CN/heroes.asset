@@ -1,0 +1,287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: heroes
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_class_assassin
+    - hero_class_melee
+    - hero_class_ranged
+    - hero_class_tank
+    - hero_class_summoner
+    - hero_class_aoe
+    - hero_class_control
+    - hero_class_buff
+    - hero_class_debuff
+    - hero_name_1001
+    - hero_name_1002
+    - hero_name_1003
+    - hero_name_1004
+    - hero_name_1005
+    - hero_name_1006
+    - hero_name_1007
+    - hero_name_1008
+    - hero_name_1009
+    - hero_name_1010
+    - hero_name_1011
+    - hero_name_1012
+    - hero_name_1013
+    - hero_tag_1001
+    - hero_tag_1002
+    - hero_tag_1003
+    - hero_tag_1004
+    - hero_tag_1005
+    - hero_tag_1006
+    - hero_tag_1007
+    - hero_tag_1008
+    - hero_tag_1009
+    - hero_tag_1010
+    - hero_tag_1011
+    - hero_tag_1012
+    - hero_tag_1013
+    - hero_nameskill1001_0
+    - hero_nameskill1001_1
+    - hero_nameskill1001_2
+    - hero_nameskill1001_3
+    - hero_nameskill1002_0
+    - hero_nameskill1002_1
+    - hero_nameskill1002_2
+    - hero_nameskill1002_3
+    - hero_nameskill1003_0
+    - hero_nameskill1003_1
+    - hero_nameskill1003_2
+    - hero_nameskill1003_3
+    - hero_nameskill1004_0
+    - hero_nameskill1004_1
+    - hero_nameskill1004_2
+    - hero_nameskill1004_3
+    - hero_nameskill1005_0
+    - hero_nameskill1005_1
+    - hero_nameskill1005_2
+    - hero_nameskill1005_3
+    - hero_nameskill1006_0
+    - hero_nameskill1006_1
+    - hero_nameskill1006_2
+    - hero_nameskill1006_3
+    - hero_nameskill1007_0
+    - hero_nameskill1007_1
+    - hero_nameskill1007_2
+    - hero_nameskill1007_3
+    - hero_nameskill1008_0
+    - hero_nameskill1008_1
+    - hero_nameskill1008_2
+    - hero_nameskill1008_3
+    - hero_nameskill1009_0
+    - hero_nameskill1009_1
+    - hero_nameskill1009_2
+    - hero_nameskill1009_3
+    - hero_skill1001_des_0
+    - hero_skill1001_des_1
+    - hero_skill1001_des_2
+    - hero_skill1001_des_3
+    - hero_skill1002_des_0
+    - hero_skill1002_des_1
+    - hero_skill1002_des_2
+    - hero_skill1002_des_3
+    - hero_skill1003_des_0
+    - hero_skill1003_des_1
+    - hero_skill1003_des_2
+    - hero_skill1003_des_3
+    - hero_skill1004_des_0
+    - hero_skill1004_des_1
+    - hero_skill1004_des_2
+    - hero_skill1004_des_3
+    - hero_skill1005_des_0
+    - hero_skill1005_des_1
+    - hero_skill1005_des_2
+    - hero_skill1005_des_3
+    - hero_skill1006_des_0
+    - hero_skill1006_des_1
+    - hero_skill1006_des_2
+    - hero_skill1006_des_3
+    - hero_skill1007_des_0
+    - hero_skill1007_des_1
+    - hero_skill1007_des_2
+    - hero_skill1007_des_3
+    - hero_skill1008_des_0
+    - hero_skill1008_des_1
+    - hero_skill1008_des_2
+    - hero_skill1008_des_3
+    - hero_skill1009_des_0
+    - hero_skill1009_des_1
+    - hero_skill1009_des_2
+    - hero_skill1009_des_3
+    - hero_story_1001
+    - hero_story_1002
+    - hero_story_1003
+    - hero_story_1004
+    - hero_story_1005
+    - hero_story_1006
+    - hero_story_1007
+    - hero_story_1008
+    - hero_story_1009
+    - hero_story_1010
+    - hero_story_1011
+    - hero_story_1012
+    - hero_story_1013
+    values:
+    - "\u523A\u5BA2"
+    - "\u8FD1\u6218"
+    - "\u8FDC\u7A0B"
+    - "\u5766\u514B"
+    - "\u53EC\u5524\u5E08"
+    - "\u5927\u9762\u79EF\u4F24\u5BB3"
+    - "\u63A7\u5236"
+    - "\u589E\u76CA"
+    - "\u51CF\u76CA"
+    - "\u514B\u52B3\u8FEA\u5A05"
+    - "\u963F\u91CC\u4E4C\u65AF"
+    - "\u5185\u6B98"
+    - "\u9A6C\u5C14\u79D1"
+    - "\u5C3C\u7984\u732B"
+    - "\u660E\u77F3"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "\u516C\u4E3B\u6307\u6325\u5B98"
+    - "\u5B88\u62A4\u8005\u4F0A\u683C\u5FB7\u62C9\u897F\u5C14"
+    - "\u8840\u72FC\u7EE7\u627F\u4EBA"
+    - "\u795E\u79D8\u7684\u8349\u836F\u5E08"
+    - "\u75AF\u72C2\u7684\u5973\u5DEB"
+    - "\u7121\u5F71\u5263\u58EB"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "\u603B\u653B\u51FB"
+    - "\u5148\u950B\u7834\u574F\u8005"
+    - "\u52C7\u6562\u7684\u5FC3"
+    - "\u4FDD\u62A4\u8005"
+    - "\u706B\u7BAD\u98CE\u66B4"
+    - "\u5FEB\u901F\u7BAD"
+    - "\u5F3A\u5316\u89C6\u529B"
+    - "\u7206\u88C2\u7BAD"
+    - "\u6DF7\u6C8C\u4E16\u7CFB"
+    - "\u6311\u8845"
+    - "\u6FC0\u6012"
+    - "\u5438\u8840\u9B3C"
+    - "\u6BD2\u836F\u8F70\u70B8"
+    - "\u7C98\u7A20\u6CE5\u6D46"
+    - "\u54D1\u836F"
+    - "\u7597\u4F24\u8349\u836F"
+    - "\u8D85\u7EA7\u7206\u70B8\uFF01"
+    - "\u544A\u522B\u5F15\u7206"
+    - "\u65E0\u9650\u7206\u70B8"
+    - "\u7729\u6655"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "\u514B\u52B3\u8FEA\u5A05\u9AD8\u9AD8\u8DC3\u8D77\uFF0C\u7136\u540E\u5C06\u5251\u523A\u5165\u5730\u9762,
+      \u9020\u6210 {0} \u7684\u7269\u7406\u4F24\u5BB3\u5E76\u4F7F\u9644\u8FD1\u7684\u654C\u4EBA\u660F\u8FF7
+      {1} \u79D2\u3002"
+    - "\u514B\u52B3\u8FEA\u5A05\u7684\u666E\u901A\u653B\u51FB\u53EF\u4EE5\u5BF9\u9644\u8FD1\u654C\u4EBA\u9020\u6210\u76F8\u5F53\u4E8E\u5979\u57FA\u672C\u4F24\u5BB3{0}%\u7684\u8303\u56F4\u4F24\u5BB3"
+    - "\u51CF\u5C11\u514B\u52B3\u8FEA\u65AF\u53D7\u5230\u7684\u7269\u7406\u4F24\u5BB3\u7684\u767E\u5206\u6BD4\u3002{0}"
+    - "\u514B\u52B3\u8FEA\u5A05\u521B\u9020\u4E86\u4E00\u4E2A\u4FDD\u62A4\u76FE\uFF0C\u53EF\u4EE5\u5438\u6536\u6700\u591A
+      {0} \u70B9\u4F24\u5BB3\uFF0C\u5E76\u4E3A\u81EA\u5DF1\u548C\u9644\u8FD1\u7684\u76DF\u53CB\u589E\u52A0
+      {1}% \u7684\u7269\u7406\u62A4\u7532\u3002"
+    - "\u963F\u91CC\u4E4C\u65AF\u5411\u76EE\u6807\u533A\u57DF\u53D1\u5C04\u4E86\u56DB\u652F\u7BAD\u3002
+      \u7B2C\u4E00\u67AA\u9020\u6210\u4E86 {0}% \u7684\u4F24\u5BB3\uFF0C\u76F8\u5F53\u4E8E\u963F\u91CC\u4E4C\u65AF\u7684\u7269\u7406\u653B\u51FB\u3002
+      \u5176\u4ED6\u5C04\u51FB\u9020\u6210\u4E86\u7B2C\u4E00\u6B21\u5C04\u51FB\u4F24\u5BB3\u7684
+      {1}%\u3002 \u70B9\u71C3\u5730\u9762\u5E76\u70B9\u71C3\u7A7F\u8FC7\u7684\u654C\u4EBA\u3002
+      \u6B64\u6548\u679C\u6301\u7EED {2} \u79D2\uFF0C\u6BCF {4} \u79D2\u9020\u6210
+      {3} \u70B9\u4F24\u5BB3\u3002"
+    - "\u963F\u91CC\u4E4C\u65AF\u7684\u666E\u901A\u653B\u51FB\u6709 {0}% \u7684\u51E0\u7387\u4E00\u6B21\u5411\u76EE\u6807\u5C04\u51FA
+      {1} \u652F\u7BAD\u3002"
+    - "\u589E\u52A0\u827E\u8389\u4E9A\u5C04\u7A0B\u7684\u767E\u5206\u6BD4{0}%\u3002"
+    - "\u963F\u91CC\u4E4C\u65AF\u7784\u51C6\u7684\u8DDD\u79BB\u7B49\u4E8E\u4ED6\u5C04\u7A0B\u7684
+      {0} \u500D\u3002 \u4ED6\u53D1\u5C04\u4E00\u652F\u7BAD\uFF0C\u5BF9\u76EE\u6807\u548C\u5468\u56F4\u7684\u654C\u4EBA\u9020\u6210
+      {1}% \u7684\u533A\u57DF\u4F24\u5BB3\u3002"
+    - "Ne'taan \u53D8\u8EAB\u4E3A\u6DF7\u6C8C\u5F62\u6001\uFF0C\u7ACB\u5373\u6062\u590D{0}%
+      \u7684\u6700\u5927\u751F\u547D\u503C\u3002\u5728\u8FD9\u79CD\u5F62\u6001\u4E0B\uFF0C\u57FA\u672C\u653B\u51FB\u4F1A\u9020\u6210\u76F8\u5F53\u4E8E\u6700\u5927\u751F\u547D\u503C{1}%
+      \u7684\u989D\u5916\u7269\u7406\u4F24\u5BB3\u3002"
+    - "\u5F53\u53D7\u5230\u57FA\u672C\u653B\u51FB\u65F6\uFF0CNe'taan \u6709 % \u51E0\u7387\u6FC0\u6D3B\u6311\u8845\u5E76\u83B7\u5F97
+      % \u62A4\u7532\u6570\u79D2\u3002{0}{1}{2}\u6311\u8845\u8FEB\u4F7F\u4E00\u4E2A\u533A\u57DF\u5185\u7684\u6240\u6709\u654C\u4EBA\u6C89\u9ED8\u5E76\u51B2\u5411\u4ED6\u3002\u98DE\u884C\u7684\u654C\u4EBA\u5BF9\u6311\u8845\u514D\u75AB\u3002"
+    - "\u5F53\u53D7\u5230\u57FA\u672C\u653B\u51FB\u65F6\uFF0CNe'taan \u6BCF\u6B21\u53D7\u5230\u653B\u51FB\u90FD\u6709{0}%
+      \u7684\u51E0\u7387\u8FDB\u884C\u53CD\u51FB\u3002"
+    - "Ne'taan \u4E3A\u4ED6\u6740\u6B7B\u7684\u6BCF\u4E2A\u654C\u4EBA\u6062\u590D{0}
+      HP\u3002"
+    - "\u9A6C\u53EF\u8FEB\u4F7F\u5E9E\u666E\u5410\u51FA\u4E00\u4E2A\u5927\u6BD2\u6C60\uFF0C\u6BCF\u79D2\u5BF9\u533A\u57DF\u5185\u7684\u6240\u6709\u654C\u4EBA\u9020\u6210\u4F24\u5BB3\u3002{0}\u6BD2\u6C60\u6301\u7EED\u6570{1}\u79D2"
+    - "\u6BD2\u836F\u8F70\u70B8\u7684\u6BD2\u6C60\u4F7F\u654C\u4EBA\u7684\u79FB\u52A8\u901F\u5EA6\u964D\u4F4E{0}%"
+    - "\u9A6C\u53EF\u6709 {0}% \u7684\u51E0\u7387\u6295\u63B7\u7279\u6B8A\u836F\u6C34\uFF0C\u4F7F\u533A\u57DF\u5185\u7684\u654C\u4EBA\u6C89\u9ED8\u3002\u6C89\u9ED8\u6301\u7EED\u6570{1}\u79D2"
+    - "\u5E9E\u666E\u4F1A\u55B7\u51FA\u836F\u8349\uFF0C\u6BCF\u79D2\u4E3A\u8303\u56F4\u5185\u51FA\u73B0\u7684\u76DF\u53CB\u82F1\u96C4\u6062\u590D{0}\u751F\u547D\u503C\u3002\u836F\u8349\u4F7F\u8FD9\u4E9B\u82F1\u96C4\u7684\u653B\u51FB\u901F\u5EA6\u63D0\u9AD8{1}%\uFF0C\u6301\u7EED\u6570{2}\u79D2"
+    - "\u5C3C\u7984\u732B\u53D1\u5C04\u4E00\u4E2A\u80FD\u91CF\u7403\uFF0C\u5BF9\u4E00\u4E2A\u533A\u57DF\u9020\u6210
+      {0} \u4F24\u5BB3\u3002 \u201C\u8D85\u7206\uFF01\u201D\u7684\u6280\u80FD\u51B7\u5374\u65F6\u95F4
+      \u8BE5\u6280\u80FD\u6BCF\u6467\u6BC1\u4E00\u4E2A\u654C\u4EBA\uFF0C\u5C06\u51CF\u5C11
+      {1} \u79D2"
+    - "\u6BCF\u4E2A\u88AB \u5C3C\u7984\u732B \u6740\u6B7B\u7684\u654C\u4EBA\u90FD\u6709
+      {0}% \u6765\u5236\u9020\u9020\u6210 {1} \u4F24\u5BB3\u7684\u7206\u70B8\u3002\u5982\u679C\u654C\u4EBA\u8FDE\u7EED\u88AB\u6467\u6BC1\uFF0C\u5219\u7206\u70B8\u53EF\u80FD\u4F1A\u53D1\u751F\u3002"
+    - "\u4F7F\u7528\u201C\u8D85\u7206\uFF01\u201D\u540E\uFF0C\u5C3C\u6D1B\u5361\u7279\u653B\u51FB\u901F\u5EA6\u63D0\u9AD8{0}%\uFF0C\u666E\u901A\u653B\u51FB\u53EF\u4EE5\u9020\u6210\u5927\u8303\u56F4\u4F24\u5BB3\u3002\u8FD9\u6280\u80FD\u6301\u7EED{1}\u4E86\u79D2\u3002"
+    - "\u201C\u8D85\u7206\uFF01\u201D \u53EF\u4EE5\u51FB\u6655\u654C\u4EBA\u5E76\u6301\u7EED
+      {0} \u79D2\u3002"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "\u514B\u52B3\u8FEA\u5A05\u662F\u963F\u5C14\u8428\u65AF\u9886\u4E3B\u7684\u5973\u513F\u3002
+      \u5F53\u90AA\u6076\u7684\u519B\u961F\u7A81\u7136\u88AD\u51FB\u738B\u56FD\u65F6\uFF0C\u5979\u7684\u7236\u4EB2\u6B7B\u5728\u4E86\u65B0\u6708\u5C9B\u4E0A\u3002
+      \u5979\u81EA\u544A\u594B\u52C7\u7387\u519B\u4E3A\u7236\u4EB2\u62A5\u4EC7\uFF0C\u67E5\u51FA\u6076\u4EBA\u5F52\u6765\u7684\u9634\u8C0B\u3002"
+    - "\u963F\u91CC\u4E4C\u65AF\u662F\u963F\u6797\u7684\u670B\u53CB\uFF0C\u4E5F\u662F\u4E16\u754C\u6811\u7684\u5B88\u62A4\u8005\u3002
+      \u5F53\u6076\u9B54\u5927\u519B\u88AD\u51FB\u4E16\u754C\u6811\u65F6\uFF0C\u4ED6\u5411\u514B\u52B3\u8FEA\u5A05\u4F38\u51FA\u624B\uFF0C\u5411\u5979\u8BF7\u6C42\u4E0E\u4EBA\u7C7B\u7ED3\u76DF\uFF0C\u4F5C\u4E3A\u56DE\u62A5\uFF0C\u4ED6\u4F1A\u5E2E\u52A9\u5979\u4E86\u89E3\u8FD9\u6B21\u610F\u5916\u5165\u4FB5\u7684\u9634\u8C0B\u3002"
+    - "\u7EB3\u5766\u662F\u6DF7\u8840\u517D\u4EBA\uFF0C\u662F\u8840\u72FC\u90E8\u65CF\u9996\u9886\u548C\u5973\u5DEB\u7684\u513F\u5B50\u3002\u4ED6\u7684\u53D4\u53D4\u53E4\u5C14\u963F\u514B\u6740\u6B7B\u4E86\u4ED6\u7684\u6BCD\u4EB2\uFF0C\u593A\u8D70\u4E86\u7EE7\u627F\u6743\uFF0C\u5E76\u5BFC\u81F4\u6574\u4E2A\u90E8\u843D\u81E3\u670D\u4E8E\u6076\u9B54\u3002\u7EB3\u5766\u51B3\u5FC3\u5411\u53E4\u5C14\u963F\u514B\u590D\u4EC7\uFF0C\u6253\u8D25\u9ED1\u6697\u52BF\u529B\uFF0C\u89E3\u653E\u4ED6\u7684\u90E8\u65CF\u3002"
+    - "\u9A6C\u53EF\u662F\u4E00\u4E2A\u4F4F\u5728\u7231\u5965\u5C3C\u4E9A\u5357\u90E8\u68EE\u6797\u7684\u5B64\u513F\u3002
+      \u9A6C\u53EF\u7684\u8725\u8734\u670B\u53CB\u5E9E\u5728\u7070\u8272\u6CBC\u6CFD\u9644\u8FD1\u88AB\u4ED6\u53D1\u73B0\u3002
+      \u4ED6\u4EEC\u4E24\u4E2A\u5E73\u9759\u5730\u751F\u6D3B\u7740\uFF0C\u76F4\u5230\u517D\u4EBA\u5230\u8FBE\u5E76\u6467\u6BC1\u4E86\u68EE\u6797\u3002\u9A6C\u53EF\u548C\u5E9E\u53CD\u6297\u517D\u4EBA\u4EE5\u4FDD\u62A4\u4ED6\u4EEC\u7684\u68EE\u6797\u3002"
+    - "\u5C3C\u7F57\u5361\u7279\u662F\u6069\u8FEA\u4E9A\u7684\u4E00\u4F4D\u8D35\u65CF\u5973\u58EB\u3002
+      \u5F88\u5C0F\u7684\u65F6\u5019\uFF0C\u5979\u5C31\u88AB\u9001\u5230\u4E86\u7687\u5BB6\u9B54\u6CD5\u5B66\u9662\u3002
+      \u4F17\u6240\u5468\u77E5\uFF0C\u5979\u662F\u4E00\u4F4D\u624D\u534E\u6A2A\u6EA2\u4F46\u50B2\u6162\u4E14\u4E0D\u5B88\u89C4\u77E9\u7684\u5973\u5DEB\u3002
+      \u6BD5\u4E1A\u540E\uFF0C\u5979\u9A6F\u670D\u4E86\u4E00\u53EA\u540D\u53EB\u55B5\u7684\u53EF\u7231\u732B\uFF0C\u5E76\u5411\u4EFB\u4F55\u4EBA\u6311\u6218\uFF0C\u8BC1\u660E\u81EA\u5DF1\u662F\u6240\u6709\u65F6\u4EE3\u6700\u5F3A\u5927\u7684\u5973\u5DEB\u3002"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

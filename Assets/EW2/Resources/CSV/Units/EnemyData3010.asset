@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afa4a627c944380be36c157e9d77349, type: 3}
+  m_Name: EnemyData3010
+  m_EditorClassIdentifier: 
+  allStatsLevel:
+  - id: 3010
+    level: 1
+    name: Goblin Barrel
+    health: 180
+    moveSpeed: 0.5
+    attackSpeed: 0
+    armor: 0
+    resistance: 0
+    damage: 0
+    detectMeleeAttack: 1
+    detectRangeAttack: 0
+    critChance: 0
+    critDamage: 0
+    damageArea: 0
+    life: 5
+    damageType: -1
+    moveType: 0
+    priorityTarget: 00000000
+    traitType: 0
+    weight: 40
+  - id: 3010
+    level: 2
+    name: Goblin Barrel
+    health: 540
+    moveSpeed: 0.5
+    attackSpeed: 0
+    armor: 0
+    resistance: 0
+    damage: 0
+    detectMeleeAttack: 1
+    detectRangeAttack: 0
+    critChance: 0
+    critDamage: 0
+    damageArea: 0
+    life: 5
+    damageType: -1
+    moveType: 0
+    priorityTarget: 00000000
+    traitType: 0
+    weight: 40
+  allSkill1:
+  - summonEnemyIds: b90b0000ba0b0000bb0b0000
+    chanceSummon:
+    - 0.3
+    - 0.5
+    - 0.2
+    numberSummon: 5
+  - summonEnemyIds: b90b0000ba0b0000bc0b0000
+    chanceSummon:
+    - 0.3
+    - 0.3
+    - 0.4
+    numberSummon: 5

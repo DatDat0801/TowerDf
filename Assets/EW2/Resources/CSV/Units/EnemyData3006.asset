@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cec05dc3b9c4a2db1ebd0d95f1c0177, type: 3}
+  m_Name: EnemyData3006
+  m_EditorClassIdentifier: 
+  allStatsLevel:
+  - id: 3006
+    level: 1
+    name: Orc Shaman
+    health: 210
+    moveSpeed: 0.5
+    attackSpeed: 0.5
+    armor: 0
+    resistance: 45
+    damage: 12
+    detectMeleeAttack: 1
+    detectRangeAttack: 0
+    critChance: 0
+    critDamage: 0
+    damageArea: 0
+    life: 2
+    damageType: 1
+    moveType: 0
+    priorityTarget: 0100000002000000
+    traitType: 1
+    weight: 35
+  - id: 3006
+    level: 2
+    name: Orc Shaman
+    health: 630
+    moveSpeed: 0.5
+    attackSpeed: 0.5
+    armor: 0
+    resistance: 55
+    damage: 36
+    detectMeleeAttack: 1
+    detectRangeAttack: 0
+    critChance: 0
+    critDamage: 0
+    damageArea: 0
+    life: 2
+    damageType: 1
+    moveType: 0
+    priorityTarget: 0100000002000000
+    traitType: 1
+    weight: 35
+  allSkill1:
+  - secondApply: 2.3
+    percentIncreaseMoveSpeed: 0.6
+    modifierType: 3
+    cooldown: 3
+  - secondApply: 3.5
+    percentIncreaseMoveSpeed: 0.8
+    modifierType: 3
+    cooldown: 3

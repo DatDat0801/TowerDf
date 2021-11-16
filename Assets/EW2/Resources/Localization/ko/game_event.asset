@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: game_event
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - quest_not_unlocked_txt
+    - hero_chalenge_txt
+    - hero_chalenge_slogan_txt
+    - hero_chalenge_rule_txt
+    - glory_road_rule_txt
+    - medal_redeem_warning_txt
+    - glory_road_premium_warning_txt
+    - already_unlock_premium_txt
+    - event_daily_reward_title_txt
+    - event_daily_slogan_txt
+    - premium_glory_road_item_txt
+    - glory_road_title_txt
+    - glory_road_slogan_txt
+    - glory_road_slogan_2_txt
+    - hero_academy_event_name_txt
+    - medal_exchange_txt
+    - buy_now_direction_popup
+    - full_basic_progress_notice
+    - unlock_premium_progress_notice
+    - claim_hero_notice
+    - nhero_challenge_title_txt
+    - nhero_event_name_txt
+    - nhero_mission_txt
+    - nhero_mission_slogan_txt
+    - event_quest_nhero_txt
+    - hero_mission_rule
+    - hero_required_formation
+    - event_quest_pf5_txt
+    - event_quest_nhero_pf5_txt
+    - event_quest_pf5m_txt
+    - event_quest_nhero_pf10m_txt
+    - event_quest_nhero_pf20m_txt
+    - event_quest_nhero_lv5_txt
+    - event_quest_nhero_spell_txt
+    - event_quest_nhero_rune_txt
+    - nhero_bundle_txt
+    - hero_bundle_slogan_txt
+    - hero_bundle_level_tag_txt
+    - hero_backpack_txt
+    - event_crystal_pack_txt
+    - event_rune_pack_txt
+    - event_spell_pack_txt
+    values:
+    - "\uC544\uC9C1 \uD018\uC2A4\uD2B8\uAC00 \uD574\uC81C\uB418\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4"
+    - "\uD788\uC5B4\uB85C \uCC4C\uB9B0\uC9C0"
+    - "\uCC4C\uB9B0\uC9C0\uC5D0 \uB3C4\uC804\uD558\uACE0 \uC5EC\uB7EC\uBD84\uC758
+      \uC5D0\uD53C\uC18C\uB4DC\uB97C \uAE30\uB85D\uC73C\uB85C \uB0A8\uAE30\uC138\uC694"
+    - "1. \uC77C\uC77C \uBBF8\uC158\uC744 \uC644\uB8CC\uD558\uC5EC \uBCF4\uC0C1\uACFC
+      \uBA54\uB2EC\uC744 \uD68D\uB4DD\uD558\uC138\uC694.\n \n 2. \uD018\uC2A4\uD2B8\uC758
+      \uC7A0\uAE08\uC740 \uB0AE\uC5D0 \uD574\uC81C\uB429\uB2C8\uB2E4. \uC804\uB0A0
+      \uC644\uB8CC\uD558\uC9C0 \uBABB\uD55C \uD018\uC2A4\uD2B8\uB294 \uB2E4\uC74C
+      \uB0A0 \uACC4\uC18D \uC9C4\uD589\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    - "3. \uC218\uC9D1\uD55C \uBA54\uB2EC\uC740 \uAE00\uB85C\uB9AC \uB85C\uB4DC\uC5D0\uC11C
+      \uBCF4\uC0C1\uACFC \uAD50\uD658\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uAC01
+      \uBCF4\uC0C1\uC744 \uBC1B\uAE30 \uC704\uD574\uC11C\uB294 \uC77C\uC815\uB7C9\uC758
+      \uBA54\uB2EC\uC774 \uD544\uC694\uD569\uB2C8\uB2E4.\n \n 4. \uBCF4\uC0C1\uC744
+      \uBC1B\uC73C\uB824\uBA74 \uD504\uB9AC\uBBF8\uC5C4 \uC9C4\uD589\uC744 \uD574\uC81C\uD574\uC57C
+      \uD569\uB2C8\uB2E4. \uC9C0\uAE08 \uAD6C\uB9E4 \uD328\uD0A4\uC9C0\uB97C \uAD6C\uB9E4\uD558\uACE0
+      \uC7A0\uAE08\uC744 \uD574\uC81C\uD558\uC138\uC694."
+    - "<color=#E73F44>*\uCC38\uACE0: \uC774\uBCA4\uD2B8\uAC00 \uC885\uB8CC\uB418\uBA74
+      \uB0A8\uC740 \uBA54\uB2EC\uC740 \uC790\uB3D9\uC73C\uB85C \uD06C\uB9AC\uC2A4\uD138\uB85C
+      \uBCC0\uACBD\uB429\uB2C8\uB2E4.</color>"
+    - "\uC9C4\uD589\uC744 \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC5EC \uD504\uB9AC\uBBF8\uC5C4
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694"
+    - "\uC774\uBBF8 \uD504\uB9AC\uBBF8\uC5C4 \uC9C4\uD589 \uC0C1\uD669\uC744 \uC5C5\uADF8\uB808\uC774\uB4DC\uD588\uC2B5\uB2C8\uB2E4."
+    - "\uC77C\uC77C \uC120\uBB3C"
+    - "\uBA54\uB2EC\uC744 \uBAA8\uC544 \uD070 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694"
+    - "\uD504\uB9AC\uBBF8\uC5C4 \uAE00\uB85C\uB9AC \uB85C\uB4DC"
+    - "\uAE00\uB85C\uB9AC \uB85C\uB4DC"
+    - "\uBA54\uB2EC\uC744 \uBAA8\uC544 \uC9C4\uD589\uC744 \uC5C5\uADF8\uB808\uC774\uB4DC
+      \uD558\uC138\uC694"
+    - "\uADF8\uB9AC\uACE0 \uC0C8\uB85C\uC6B4 \uD788\uC5B4\uB85C\uB97C \uBAA8\uC9D1\uD558\uC138\uC694!"
+    - "\uD788\uC5B4\uB85C \uC544\uCE74\uB370\uBBF8"
+    - "\uADC0\uD558\uC758 <color=#815329>{0}</color>\uBA54\uB2EC\uC774 <color=#815329>{1}</color>
+      \uD06C\uB9AC\uC2A4\uD138\uB85C \uC804\uD658\uB429\uB2C8\uB2E4\n \n \uD658\uC728:
+      <color=#815329>1</color>\uBA54\uB2EC=<color=#815329>5</color>\uD06C\uB9AC\uC2A4\uD138"
+    - "\uC774 \uC601\uC6C5\uACFC \uB354 \uB9CE\uC740 \uB9AC\uC18C\uC2A4\uB97C \uC5BB\uC73C\uB824\uBA74
+      <color=#FFD700>{0}</color>\uC5D0 \uAC00\uC785\uD558\uC138\uC694!"
+    - "\uAE30\uBCF8 \uC9C4\uD589\uC758 \uB9C8\uC9C0\uB9C9 \uBCF4\uC0C1\uC744 \uC7A0\uAE08
+      \uD574\uC81C\uD588\uC2B5\uB2C8\uB2E4."
+    - "\uD558\uC9C0\uB9CC <color=#815329>{0}</color>\uC5D0\uB294 \uC5EC\uC804\uD788
+      \uAC00\uCE58 \uC788\uB294 \uBCF4\uC0C1\uC774 \uB9CE\uC774 \uC788\uC2B5\uB2C8\uB2E4.
+      \uB370\uB824\uAC00\uC790!"
+    - "\uD504\uB9AC\uBBF8\uC5C4 \uAE00\uB85C\uB9AC \uB85C\uB4DC\uC5D0\uC11C \uC601\uC6C5\uC744
+      \uC8FC\uC7A5\uD558\uC138\uC694."
+    - "\uC0C8\uB85C\uC6B4 \uC601\uC6C5 - \uC0C8\uB85C\uC6B4 \uB3C4\uC804"
+    - "\uC120\uD0DD\uB41C \uC0AC\uB78C\uB098\uD0C0\uB098\uB2E4"
+    - "\uC601\uC6C5 \uC784\uBB34"
+    - "\uC774\uBCA4\uD2B8 \uAE30\uAC04 \uB3D9\uC548 \uD018\uC2A4\uD2B8\uB97C \uC644\uB8CC\uD558\uC5EC
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+    - "\uCD5C\uC2E0 \uC601\uC6C5 {0}\uB97C \uC0AC\uC6A9\uD574\uBCF4\uC2ED\uC2DC\uC624"
+    - "\uB9E4\uB825\uC801\uC778 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uB824\uBA74 \uC784\uBB34\uB97C
+      \uC644\uB8CC\uD558\uC2ED\uC2DC\uC624.\n\n*\uCC38\uACE0: \uD018\uC2A4\uD2B8\uB294
+      \uC774\uBCA4\uD2B8 \uC2DC\uAC04\uC5D0\uB9CC \uACC4\uC0B0\uB429\uB2C8\uB2E4."
+    - "\uB300\uD615\uC5D0 {0}\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4."
+    - "\uBCF4\uD1B5 \uB09C\uC774\uB3C4\uC5D0\uC11C \uB808\uBCA8 {0}\uC5D0\uC11C \u200B\u200B\uBCC4
+      3\uAC1C \uD68D\uB4DD"
+    - "{1}\uB97C \uC0AC\uC6A9\uD558\uC5EC \uC77C\uBC18 \uC2A4\uD14C\uC774\uC9C0 {0}\uC5D0\uC11C
+      \uBCC4 3\uAC1C \uB2EC\uC131"
+    - "{0} \uB09C\uC774\uB3C4 \uB098\uC774\uD2B8\uBA54\uC5B4\uC5D0\uC11C \uBCC4 3\uAC1C
+      \uD68D\uB4DD"
+    - "{1}\uB97C \uC0AC\uC6A9\uD558\uC5EC {0}\uB2E8\uACC4 \uC545\uBABD\uC5D0\uC11C
+      \uBCC4 3\uAC1C \uB2EC\uC131"
+    - "{1}\uC758 \uC2A4\uD0AC {0}\uB97C {2}\uD68C \uC0AC\uC6A9"
+    - "{0}\uAC00 \uB808\uBCA8 {1}\uC5D0 \uB3C4\uB2EC\uD588\uC2B5\uB2C8\uB2E4."
+    - "{0}\uC5D0 \uC8FC\uBB38\uB97C \uC7A5\uCC29\uD558\uC138\uC694."
+    - "{0}\uC5D0 \uB8EC\uB97C \uC7A5\uCC29\uD558\uC138\uC694."
+    - "\uC601\uC6C5 \uBC88\uB4E4"
+    - "\uD558\uB098\uB9CC \uC120\uD0DD"
+    - "\uB808\uBCA8 {0}!"
+    - "\uC601\uC6C5 \uBC30\uB0AD"
+    - "\uD06C\uB9AC\uC2A4\uD0C8 \uD329"
+    - "\uB8EC \uD329"
+    - "\uC8FC\uBB38 \uD329"

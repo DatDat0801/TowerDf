@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: heroes
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_class_assassin
+    - hero_class_melee
+    - hero_class_ranged
+    - hero_class_tank
+    - hero_class_summoner
+    - hero_class_aoe
+    - hero_class_control
+    - hero_class_buff
+    - hero_class_debuff
+    - hero_name_1001
+    - hero_name_1002
+    - hero_name_1003
+    - hero_name_1004
+    - hero_name_1005
+    - hero_name_1006
+    - hero_tag_1001
+    - hero_tag_1002
+    - hero_tag_1003
+    - hero_tag_1004
+    - hero_tag_1005
+    - hero_tag_1006
+    - hero_nameskill1001_0
+    - hero_nameskill1001_1
+    - hero_nameskill1001_2
+    - hero_nameskill1001_3
+    - hero_nameskill1002_0
+    - hero_nameskill1002_1
+    - hero_nameskill1002_2
+    - hero_nameskill1002_3
+    - hero_nameskill1003_0
+    - hero_nameskill1003_1
+    - hero_nameskill1003_2
+    - hero_nameskill1003_3
+    - hero_nameskill1004_0
+    - hero_nameskill1004_1
+    - hero_nameskill1004_2
+    - hero_nameskill1004_3
+    - hero_nameskill1005_0
+    - hero_nameskill1005_1
+    - hero_nameskill1005_2
+    - hero_nameskill1005_3
+    - hero_skill1001_des_0
+    - hero_skill1001_des_1
+    - hero_skill1001_des_2
+    - hero_skill1001_des_3
+    - hero_skill1002_des_0
+    - hero_skill1002_des_1
+    - hero_skill1002_des_2
+    - hero_skill1002_des_3
+    - hero_skill1003_des_0
+    - hero_skill1003_des_1
+    - hero_skill1003_des_2
+    - hero_skill1003_des_3
+    - hero_skill1004_des_0
+    - hero_skill1004_des_1
+    - hero_skill1004_des_2
+    - hero_skill1004_des_3
+    - hero_skill1005_des_0
+    - hero_skill1005_des_1
+    - hero_skill1005_des_2
+    - hero_skill1005_des_3
+    - hero_story_1001
+    - hero_story_1002
+    - hero_story_1003
+    - hero_story_1004
+    - hero_story_1005
+    values:
+    - Assassin
+    - Melee
+    - Ranged
+    - Tank
+    - Summoner
+    - AoE
+    - Crowd-Control
+    - Buff
+    - Debuff
+    - Claudia
+    - Arius
+    - Ne'taan
+    - Marco
+    - Nerocat
+    - Akashi
+    - Princess Commander
+    - 'Guardian of Yggdrasil '
+    - Heir of the Bloodwolf
+    - Mysterious Herbalist
+    - The demented witch
+    - The Unseen Swordsman
+    - Total Attack
+    - Vanguard Breaker
+    - Valiant Heart
+    - Protector
+    - Fire Arrow Storm
+    - Rapid Arrow
+    - Reinforced Sight
+    - Burst Arrow
+    - Chaos Lineage
+    - Provoke
+    - Enrage
+    - Blood Sucker
+    - Poison Bombardment
+    - Sticky Ooze
+    - Dumb Potion
+    - Healing Herb
+    - Hyper Explosion!
+    - Farewell Detonation
+    - Infinity Blast
+    - Stunning explosive
+    - Claudia leaps high into the air then thrusts down her sword into the ground,
+      dealing {0} physical damage and stunning nearby enemies for {1} seconds.
+    - Claudia's normal attacks can deal area damage equal to {0}% of her basic damage
+      to nearby enemies
+    - Reduces {0}% of the physical damage Claudia takes.
+    - Claudia create a protective shield that can absorb up to {0} damage, and increases
+      physical armor by {1}% for herself and nearby allies.
+    - Arius shoots 4 burst of arrows into the targeted area. The first burst arrows
+      deals damage equal to {0}% Arius' s physical damage. The other bursts deal
+      damage equal to {1}% of the first burst. The ground ignited and caused passed
+      enemies burn status. The status lasts for {2} seconds and deals {3} damage
+      per {4} seconds.
+    - Arius's normal attacks have {0}% chance of shooting {1} arrows at once time
+      into the targets.
+    - Increases {0}% of Arius's range.
+    - Arius aimed for an enemy at a distance that equal to {0} times of his range.
+      He fires an arrow that deals {1}% area damage to the target and surrounding
+      enemies.
+    - Ne'taan change into chaos form, instantly regenerating {0}% of his maximum
+      HP. In this form, Basic attacks deal bonus physical damage equal to {1}% of
+      maximum HP.
+    - When attacked by a basic attack, Ne'taan has a {0}% chance to activate Provoke
+      and gain {1}% armor for {2} seconds. Provoke forces all enemies in an area
+      to Silence and rushes to attack him. Flying enemies are immune to Provoke.
+    - When attacked by basic attacks, Ne'taan has a {0}% chance of Counter Attack
+      per attack he takes.
+    - Ne'taan heals {0} HP for each enemy he kills.
+    - Marco forces Pomp to spit out a large poison pond that deals {0} damage per
+      second to all enemies in the area. Poison pond lasts for {1} seconds
+    - Poison pond of Poison Bombardment reduces enemies' movement speed by {0}%
+    - Marco has {0}% chance to throw a special potion that silences enemies in an
+      area. Silence lasts for {1} seconds
+    - Pomp spits out herbs that restore {0} HP every second to allied Heroes appear
+      within range. Herbs increase the attack speed of those Heroes by {1}% for {2}
+      seconds
+    - Nerocat launches an energy orb, dealing {0} damages to an area. Hyper Explosion!
+      will be reduced by {1} second for each enemy destroyed by this spell
+    - For each enemy killed by Nerocat, there will be a {0}% to create a blast deal
+      {1} damage. The explosion could be linked to each other as chain blast if the
+      enemies are consecutively being destroyed.
+    - After using Hyper Explosion!, Nerocat gains {0}% attack speed and can deal
+      AoE damage through normal attack for {1} seconds.
+    - Nerocat's Hyper Explosion! can stun enemies for {0} seconds.
+    - Claudia is the daughter of the lord of Alsace. Her father died on Crescent
+      Island when the army of devil suddenly attacked the kingdom. She volunteered
+      to lead the army to avenge her father and find out the conspiracy behind the
+      return of the evil.
+    - Arius is a friend of Arryn and a guardian of Yggdrasil. When the demon army
+      attacked Yggdrasil, he reached out to Claudia and asked her for an alliance
+      with the humans, in return he would assist her in understanding the plot of
+      this unexpected invasion.
+    - Ne'taan is a hybrid orc, a son of leader of the Bloodwolf clan and a sorceress.
+      His uncle, Gul'ak, killed his mother, took the inheritance right and cause
+      the whole clan submit to the devil. Ne'taan determined to take revenge on Gul'ak
+      and defeat the dark force to free his clan.
+    - Marco is an orphan boy living in the southern forest of Ionia. Marco's lizard
+      friend Pomp was found by him near the Gray Swamp. They two lived peacefully
+      until the Orcs arrived and destroyed the forest. Marco and Pomp rebelled against
+      the Orcs to protect their forest.
+    - Nerocat originally was a noble lady at Endia. At a young age, she was sent
+      to the Royal Magic Academy. She was known as a talented yet arrogant and unruly
+      witch. After graduation, she tamed a lovely cat named Mew and challenged anyone
+      to prove herself as the strongest witch of all age.

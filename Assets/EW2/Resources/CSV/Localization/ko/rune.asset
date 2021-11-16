@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: rune
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - rune_name_0
+    - rune_name_1
+    - rune_name_2
+    - rune_name_3
+    - rune_name_4
+    - rune_name_5
+    - rune_name_6
+    - rune_name_7
+    - rune_name_8
+    - rune_name_9
+    - rune_name_10
+    - rune_name_11
+    - bonus_damage_rune_des
+    - bonus_damage_chance_enhanced
+    - bonus_damage_condition_enhanced
+    - bonus_damage_rune_set_des
+    - rune_set_basic_des
+    - rune_set_basic_des_percent
+    - rune_set_basic_des_6
+    - rune_set_basic_des_9
+    - rune_detail_des_0
+    - rune_detail_des_1
+    - rune_detail_des_2
+    - rune_detail_des_3
+    - rune_detail_des_4
+    - rune_detail_des_5
+    - rune_detail_des_6
+    - rune_detail_des_7
+    - rune_detail_des_8
+    - rune_detail_des_9
+    - rune_detail_des_10
+    - rune_detail_des_11
+    values:
+    - "\uD798\uC758 \uB8EC"
+    - "\uBCF4\uD638\uC758 \uB8EC"
+    - "\uC778\uB0B4\uC758 \uB8EC"
+    - "\uD65C\uB825\uC758 \uB8EC"
+    - "\uD3ED\uB825\uC758 \uB8EC"
+    - "\uBD84\uB178\uC758 \uB8EC"
+    - "\uBD88\uBA78\uC758 \uB8EC"
+    - "\uC8FD\uC74C\uC758 \uB8EC"
+    - "\uC0DD\uBA85\uC758 \uB8EC"
+    - "\uC9C0\uD61C\uC758 \uB8EC"
+    - "\uACE0\uD1B5\uC758 \uB8EC"
+    - "\uC808\uB9DD\uC758 \uB8EC"
+    - "\uC77C\uBC18 \uACF5\uACA9\uC774 {0}%\uC758 \uD655\uB960\uB85C \uC801\uC758
+      {2}\uC758 {1}% \uB9CC\uD07C\uC758 \uACE0\uC815 \uD53C\uD574\uB97C \uCD94\uAC00\uB85C
+      \uC785\uD799\uB2C8\uB2E4."
+    - "\uD53C\uD574\uB97C \uC785\uD790 \uAE30\uD68C"
+    - "\uC801\uC758 {0}\uACFC \uB3D9\uC77C"
+    - "\uC801\uC758 {1}\uC5D0 \uB530\uB77C {0}% \uB370\uBBF8\uC9C0"
+    - "+ {1} \uB8EC\uC744 \uC7A5\uCC29\uD558\uAE30 \uC804 \uAE30\uBCF8 {0}"
+    - "+ {1}% \uB8EC\uB97C \uC7A5\uCC29\uD558\uAE30 \uC804 \uAE30\uBCF8 {0}"
+    - "- {1} \uCD08 \uB8EC \uC7A5\uCC29 \uC804 {0}"
+    - "\uB8EC \uC7A5\uCC29 \uC804\uAE4C\uC9C0 \uCFE8\uD0C0\uC784 {0}% \uAC10\uC18C"
+    - "\uD788\uC5B4\uB85C\uC758 \uD53C\uD574\uB97C \uC99D\uAC00\uC2DC\uD0A4\uB294
+      \uB8EC"
+    - "\uD788\uC5B4\uB85C\uC758 \uBC29\uC5B4\uB825\uC744 \uC99D\uAC00\uC2DC\uD0A4\uB294
+      \uB8EC"
+    - "\uD788\uC5B4\uB85C\uC758 \uB9C8\uBC95 \uC800\uD56D\uC744 \uC99D\uAC00\uC2DC\uD0A4\uB294
+      \uB8EC"
+    - "\uD788\uC5B4\uB85C\uC758 HP\uB97C \uC99D\uAC00\uC2DC\uD0A4\uB294 \uB8EC"
+    - "\uD788\uC5B4\uB85C\uC758 \uACF5\uACA9 \uC18D\uB3C4\uB97C \uC99D\uAC00\uC2DC\uD0A4\uB294
+      \uB8EC"
+    - "\uD788\uC5B4\uB85C\uC758 \uCE58\uBA85\uD0C0\uB97C \uC99D\uAC00\uC2DC\uD0A4\uB294
+      \uB8EC"
+    - "\uD788\uC5B4\uB85C\uC758 HP HP \uD68C\uBCF5\uC744 \uC99D\uAC00\uC2DC\uD0A4\uB294
+      \uB8EC"
+    - "\uD788\uC5B4\uB85C\uC758 \uCE58\uBA85\uD0C0\uC728\uC744 \uB192\uC774\uB294
+      \uB8EC"
+    - "\uD788\uC5B4\uB85C\uC758 \uB77C\uC774\uD504 \uC2A4\uD2F8\uC744 \uC99D\uAC00\uC2DC\uD0A4\uB294
+      \uB8EC"
+    - "\uD788\uC5B4\uB85C\uC758 \uCFE8\uD0C0\uC784\uC744 \uAC10\uC18C\uC2DC\uD0A4\uB294
+      \uB8EC"
+    - "\uC801\uC758 \uAC11\uC637\uC5D0 \uAE30\uCD08\uD558\uC5EC \uCD94\uAC00 \uC2E4\uC81C
+      \uD53C\uD574\uB97C \uC785\uD790 \uC218 \uC788\uB294 \uAE30\uD68C\uB97C \uB192\uC774\uB294
+      \uB8EC"
+    - "\uC801\uC758 \uB9C8\uBC95 \uC800\uD56D\uC5D0 \uAE30\uCD08\uD558\uC5EC \uCD94\uAC00
+      \uC2E4\uC81C \uD53C\uD574\uB97C \uC785\uD790 \uC218 \uC788\uB294 \uAE30\uD68C\uB97C
+      \uB192\uC774\uB294 \uB8EC"

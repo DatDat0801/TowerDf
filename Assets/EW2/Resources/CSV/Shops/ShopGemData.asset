@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29e35338ee444b6cbebf87312a7455c4, type: 3}
+  m_Name: ShopGemData
+  m_EditorClassIdentifier: 
+  shopItemDatas:
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_gem_0.99
+    price: 0.99
+    pricePrevious: 0.99
+    consumable: 1
+    vipPoint: 0
+    rewards:
+    - type: 0
+      id: 0
+      number: 100
+      itemType: -1
+    imgId: 6
+    moneyType: 0
+    saleType: -1
+    valuePrevious: 100
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_gem_1.99
+    price: 2.99
+    pricePrevious: 2.99
+    consumable: 1
+    vipPoint: 0
+    rewards:
+    - type: 0
+      id: 0
+      number: 330
+      itemType: -1
+    imgId: 7
+    moneyType: 0
+    saleType: -1
+    valuePrevious: 300
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_gem_4.99
+    price: 4.99
+    pricePrevious: 4.99
+    consumable: 1
+    vipPoint: 0
+    rewards:
+    - type: 0
+      id: 0
+      number: 650
+      itemType: -1
+    imgId: 8
+    moneyType: 0
+    saleType: 0
+    valuePrevious: 500
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_gem_9.99
+    price: 9.99
+    pricePrevious: 9.99
+    consumable: 1
+    vipPoint: 0
+    rewards:
+    - type: 0
+      id: 0
+      number: 1300
+      itemType: -1
+    imgId: 9
+    moneyType: 0
+    saleType: -1
+    valuePrevious: 1000
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_gem_19.99
+    price: 19.99
+    pricePrevious: 19.99
+    consumable: 1
+    vipPoint: 0
+    rewards:
+    - type: 0
+      id: 0
+      number: 2800
+      itemType: -1
+    imgId: 10
+    moneyType: 0
+    saleType: -1
+    valuePrevious: 2000
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_gem_49.99
+    price: 49.99
+    pricePrevious: 49.99
+    consumable: 1
+    vipPoint: 0
+    rewards:
+    - type: 0
+      id: 0
+      number: 8000
+      itemType: -1
+    imgId: 11
+    moneyType: 0
+    saleType: 1
+    valuePrevious: 5000

@@ -1,0 +1,425 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: popup
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tap_to_close
+    - profile_popup
+    - avatar_select
+    - more_game_txt
+    - support_txt
+    - community_txt
+    - giftcode_txt
+    - patch_note_txt
+    - patch_note_version
+    - setting_txt
+    - image_txt
+    - country_txt
+    - in_use_txt
+    - not_in_use_txt
+    - in_use_by_txt
+    - since_txt
+    - id_txt
+    - version_txt
+    - language_txt
+    - change_name
+    - enter_name_box
+    - letters_limit
+    - name_contain_special_characters
+    - name_too_short_or_long
+    - invalid_name
+    - already_exists_name
+    - change_successful
+    - data_save
+    - link_info
+    - last_save
+    - data_save_note
+    - linking_failed
+    - notice_txt
+    - data_save_question
+    - save_limit
+    - limit_txt
+    - save_success
+    - save_failed
+    - save_limit_notice
+    - restore_question
+    - restore_complete
+    - restore_failed
+    - graphic_txt
+    - enable_vibrate
+    - disable_vibrate
+    - enable_battery_saver
+    - disable_battery_saver
+    - enable_notice
+    - disable_notice
+    - enter_giftcode_box
+    - claim_giftcode
+    - claim_giftcode_failed
+    - used_giftcode_toast
+    - giftcode_check_internet
+    - result_check_internet
+    - error_occured
+    - giftcode_login_first
+    - require_login_first
+    - quit_notice
+    - locked_mode_notice
+    - tower_upgrade_txt
+    - upgrade_successful
+    - tower_reset_notice
+    - copy_to_clipboard
+    - hero_skill_reset_notice
+    - insufficient_skill_point
+    - skill_point_guide
+    - hero_exp_guide
+    - level_txt
+    - stamina_next
+    - stamina_full
+    - tap_to_start
+    - news_txt
+    - congratulation_txt
+    - max_level_hero_txt
+    - level_max_skill_txt
+    - stat_txt
+    - reset_successful
+    - backstory_txt
+    - need_hero_txt
+    - hero_unlocked
+    - locked_mode_normal
+    - insufficient_resource
+    - pre_register_reward_txt
+    - pre_register_thank_txt
+    - unlock_upgrade_tower
+    - replay_notice
+    - quit_game_notice
+    - warning_txt
+    - daily_reward_txt
+    - daily_quest_txt
+    - day_count_txt
+    - checkin_progress
+    - login_successful_txt
+    - no_data_found
+    - upgrade_activated
+    - upgrade_info
+    - properties_txt
+    - bonus_txt
+    - upgrade_condition_txt
+    - purchase_save_notice
+    - purchase_failed
+    - warning_iap
+    - warning_internet_save_data
+    - warning_internet_lost_data
+    - unlock_upgrade_tower_tut
+    - not_equip_spell
+    - start_battle_to_use
+    - spell_unlock_condition
+    - insuficent_shade
+    - insuficent_unique_shard
+    - insuficent_resource
+    - unlock_hero_to_equip
+    - unlock_hero_to_equip_rune
+    - normal_spell_rate
+    - premium_spell_rate
+    - normal_spell_name
+    - premium_spell_rname
+    - cannot_select_more_hero
+    - spell_upgrade_require
+    - reset_in_txt
+    - refresh_in_txt
+    - achievement_txt
+    - free_in
+    - complete_challenge_txt
+    - hero_not_been_unlock_txt
+    - defeat_boss_achievement_direction
+    - normal_rune_rate
+    - premium_rune_rate
+    - normal_rune_name
+    - premium_rune_name
+    - full_inventory_txt
+    - equip_slot_full_txt
+    - full_inventory_require_space_txt
+    - dismantle_warning_txt_1
+    - dismantle_warning_txt_2
+    - basic_attributes_txt
+    - bonus_attributes_txt
+    - set_of_pieces_txt
+    - set_required_txt
+    - enhance_successful_txt
+    - selected_rune_txt
+    - dismantle_slots_full_txt
+    - reward_ads_txt
+    - watch_ads_txt
+    - check_internet_warning_txt
+    - no_ads_available_txt
+    - go_to_shop_question_txt
+    - watch_previous_ads_first
+    - ios_loading_screen_txt
+    - loading_screen_common_txt
+    - dont_ask_again_today
+    - dismantle_warning_txt_3
+    - dismantle_warning_txt_4
+    - new_nightmare_unlock
+    - buy_now_title_txt
+    - buy_now_slogan_title_txt
+    - buy_now_1st_purchase_txt
+    - first_purchase_bonus_title_txt
+    - first_purchase_bonus_slogan_txt
+    - first_purchase_bonus_warning
+    - free_progress_txt
+    - premium_progress_txt
+    - checkin_day
+    - stage_txt
+    - end_time_txt
+    - already_receive_txt
+    - rune_pack_name_txt
+    - purchased_txt
+    - unlock_nightmare_txt
+    - hero_pre_trial_tag_txt
+    - hero_pre_trial_toast_txt
+    - hero_pre_trial_dialog_txt
+    - rating_title
+    - require_rating_txt
+    - unlock_spell_txt
+    - unlock_spell_txt_1
+    - equip_spell_remind_txt
+    - unlock_rune_txt
+    - unlock_rune_txt_1
+    - equip_rune_remind_txt
+    - remain_txt
+    - get_more_txt
+    - refill_stamina_title_txt
+    - owned_txt
+    - new_mode_unlocked_txt
+    - already_own_this_pack_txt
+    - already_own_this_hero_txt
+    - already_own_this_item_txt
+    - run_out_resource_txt
+    - buy_or_wait_txt
+    - available_txt
+    - no_more_purchase_txt
+    - out_of_stock_txt
+    - surrender_notice_txt
+    values:
+    - Tocca per chiudere
+    - Profilo
+    - Selezione dell'avatar
+    - Altri giochi
+    - Supporto
+    - "Comunit\xE0"
+    - Giftcode
+    - Nota della patch
+    - <color=#815329>Versione {0}</color>
+    - Impostazione
+    - Immagine
+    - Paese
+    - Equipaggiato
+    - Non equipaggiato
+    - Equipaggiato da {0}
+    - Da
+    - 'ID:'
+    - Versione
+    - Lingue
+    - Cambia nome
+    - Inserisci il nuovo nome qui...
+    - <color=#E73F44>(4-18 lettere, esclude i caratteri speciali)</color>
+    - Il nome deve escludere i caratteri speciali
+    - Lunghezza da 4-18 caratteri!
+    - "Il nome non \xE8 valido"
+    - "Questo nome esiste gi\xE0"
+    - Cambiamento riuscito
+    - Dati salvati
+    - Collegato a
+    - Ultimo salvataggio
+    - Si prega di collegarsi a un account per salvare i dati
+    - Collegamento all'account non riuscito
+    - Avviso
+    - Vuoi salvare i tuoi dati?
+    - Salva il limite di oggi:{0}/{1}
+    - 'Limite:'
+    - Salva i dati con successo
+    - Salvataggio dei dati fallito
+    - Hai raggiunto il limite di salvataggio oggi
+    - "Vuoi ripristinare i tuoi dati?\n\n <color=#e85253>*I tuoi dati attuali saranno
+      sovrascritti</color>"
+    - Ripristino completato
+    - Ripristino fallito
+    - Grafica
+    - Abilita la vibrazione
+    - Disattiva vibrazione
+    - Abilita il risparmio della batteria
+    - Disabilita il risparmio della batteria
+    - Abilita la notifica
+    - Disabilita la notifica
+    - Inserisci il codice regalo qui...
+    - Hai richiesto la ricompensa
+    - "Il codice regalo non \xE8 valido"
+    - "Questo codice regalo \xE8 stato usato o \xE8 scaduto. Inserisci un altro codice
+      regalo"
+    - Impossibile connettersi al server. Per favore controlla il tuo internet
+    - Impossibile salvare i risultati. Per favore controlla il tuo internet
+    - "Si \xE8 verificato un errore. Contatta il team di supporto per aiuto"
+    - "\xC8 necessario effettuare il login al tuo account per utilizzare il codice
+      regalo"
+    - Effettua il login al tuo account prima
+    - "Uscirai al menu Home.\n Sei sicuro di voler uscire dalla battaglia?"
+    - "La modalit\xE0 corrente \xE8 bloccata. Raggiungi 3 stelle nella fase {0} a
+      difficolt\xE0 normale per sbloccare"
+    - Aggiornamento della torre
+    - Aggiornamento riuscito
+    - Tutte le torri potenziate saranno resettate. Sei sicuro?
+    - Copiato negli appunti
+    - "Tutti i livelli di abilit\xE0 saranno resettati. Sei sicuro?"
+    - "Punto abilit\xE0 insufficiente"
+    - "I punti abilit\xE0 sono usati per migliorare le abilit\xE0. Ottieni di pi\xF9
+      facendo salire di livello l'eroe"
+    - Guadagna EXP dell'eroe dalla battaglia o usando i cristalli per aumentarne
+      il livello all'istante!
+    - 'Livello: {0}/{1}'
+    - 'Prossima resistenza:'
+    - 'Resistenza completa:'
+    - Tocca per iniziare
+    - Notizie
+    - Congratulazioni
+    - Livello massimo raggiunto!
+    - Massimo Livello
+    - Statistiche
+    - Reset riuscito
+    - Backstory
+    - Hai bisogno di almeno 1 Eroe per iniziare il livello
+    - '{0} sbloccato'
+    - Completa il livello precedente per sbloccare
+    - Insufficiente {0}.
+    - Ricompense per la pre-registrazione
+    - Grazie per la pre-registrazione Empire Defender!
+    - Gioca lo stadio {0} per sbloccare
+    - Sei sicuro di voler rigiocare?
+    - Sei sicuro di voler uscire dal gioco?
+    - Attenzione
+    - Ricompensa giornaliera
+    - Missione giornaliera
+    - Giorno {0}
+    - 'Progressi: {0}/{1}'
+    - Accesso riuscito
+    - Nessun dato trovato
+    - Aggiornamento
+    - "1. <color=#eb9e15>Le stelle d'argento</color> servono a sbloccare i livelli
+      di aggiornamento di base.\n \n  2. <color=#eb9e15>Le stelle d'oro</color> sono
+      usate per sbloccare i livelli di aggiornamento avanzati.\n \n 3. Completa gli
+      stage a <color=#eb9e15>difficolt\xE0 normale</color> per raccogliere le stelle
+      d'argento.\n \n 4. Completa le fasi a <color=#eb9e15>Difficolt\xE0 incubo</color>
+      per raccogliere le stelle d'oro."
+    - "Propriet\xE0"
+    - Salire di livello
+    - Aggiorna prima il livello precedente
+    - I tuoi dati di salvataggio locali potrebbero essere persi. Assicurati di essere
+      connesso al tuo account {0}
+    - "Il tuo acquisto non \xE8 andato a buon fine. Assicurati che il tuo internet
+      sia stabile"
+    - Impossibile caricare le informazioni sull'acquisto, controlla la tua connessione
+      di rete e il collegamento al tuo negozio.
+    - Impossibile salvare i tuoi dati. Si prega di controllare la connessione di
+      rete.
+    - I tuoi dati andranno persi. Sei sicuro?
+    - Continua a giocare il tutorial per sbloccare
+    - "L'eroe non \xE8 dotato di alcun incantesimo"
+    - Inizia la battaglia per usare
+    - Completa lo stadio {0} per sbloccare
+    - Frammento Insufficiente
+    - Frammento insufficiente {0}
+    - Risorsa insufficiente
+    - Sbloccare l'eroe prima di equipaggiare l'incantesimo
+    - Sbloccare l'eroe prima di equipaggiare la runa
+    - Tasso di incantesimo normale
+    - Tasso di incantesimo premium
+    - Incantesimo normale
+    - Incantesimo premium
+    - "La formazione \xE8 piena"
+    - 'Numero di {0}frammenti richiesti: {1}'
+    - 'Ripristina in:'
+    - 'Ripristina in:'
+    - Obiettivi
+    - 'Libero in:'
+    - Completa le sfide per richiedere le ricompense!
+    - "Questo eroe non \xE8 ancora stato sbloccato. Vuoi sbloccarlo ora?"
+    - Sconfiggi il boss nello stadio {0}
+    - Tasso di runa normale
+    - Tasso rata runa
+    - Runa normale
+    - Runa premium
+    - "Il tuo inventario \xE8 pieno."
+    - Gli slot di {0} sono pieni
+    - Per favore smantella altre Rune per liberare spazio
+    - Per favore togli la runa prima di smantellarla
+    - Sei sicuro di voler smantellare {0}e ottenere i materiali sottostanti?
+    - Attributi di base
+    - Attributi bonus
+    - 'Set di {0} Rune:'
+    - Richiede {0}{1}
+    - Migliorare con successo
+    - 'Runa selezionata:'
+    - Gli slot di smantellamento sono pieni
+    - Annunci di ricompensa
+    - Guarda {0} Annunci
+    - Controlla la tua connessione internet
+    - Nessun annuncio disponibile
+    - Vuoi comprare altri {0}?
+    - Si prega di guardare prima gli annunci precedenti
+    - Caricamento - non scaricare dati aggiuntivi
+    - Caricamento
+    - Non chiedere di nuovo oggi
+    - "Stai selezionando rune di alta rarit\xE0 da smantellare. Sei sicuro di voler
+      continuare?"
+    - Non hai selezionato una runa da smantellare
+    - "Completa prima la difficolt\xE0 Normale per sbloccare i progressi di Incubo"
+    - Acquista ora
+    - Sblocca immediatamente i progressi premium e le ricompense esclusive
+    - Acquista ora per ottenere il tuo <color=#ffe960>Bonus di primo acquisto</color>
+    - Bonus per il primo acquisto
+    - <color=#ffe960>Acquista qualsiasi pacchetto</color> per ottenere questo bonus!
+    - Affrettati a prenderlo proprio durante il periodo dell'evento per ricevere
+      enormi profitti
+    - Gratis
+    - Premium
+    - Check-in {0} giorni
+    - Fase
+    - 'Tempo di fine:'
+    - "Hai gi\xE0 ricevuto questo bonus"
+    - Pacchetto Rune
+    - Acquistato
+    - "{0} difficolt\xE0 sbloccata"
+    - Eroe di prova
+    - "Questo \xE8 l'eroe predefinito per la prova"
+    - Oh... Ciao avventurieri. Stai combattendo l'Orco? Uniamoci!
+    - Ti piace questo gioco?
+    - Se ti piace Empire Defender TD, per favore votalo. Grazie mille per il tuo
+      supporto!
+    - 'Hai sbloccato il sistema Incantesimo. '
+    - Vuoi provarlo adesso?
+    - Non hai equipaggiato Incantesimo per Eroi. Vuoi equipaggiarti ora?
+    - 'Hai sbloccato il Rune. '
+    - Vuoi provarlo adesso?
+    - Non hai equipaggiato Rune per Eroi. Vuoi equipaggiarti ora?
+    - 'Rimane:'
+    - "Vuoi ottenere di pi\xF9?"
+    - Ricarica la resistenza
+    - Acquistato
+    - "Nuova modalit\xE0 giocabile sbloccata"
+    - "Hai gi\xE0 posseduto questo pacchetto"
+    - "Possiedi gi\xE0 questo eroe"
+    - "Possiedi gi\xE0 questo articolo"
+    - Hai esaurito la {0}.
+    - Vuoi acquistare ora o aspettare
+    - 'A disposizione:'
+    - "Non pi\xF9 {0} disponibile"
+    - Esaurito
+    - I risultati attuali non verranno salvati. Sei sicuro?

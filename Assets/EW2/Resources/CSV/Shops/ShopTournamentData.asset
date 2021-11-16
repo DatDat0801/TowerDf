@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d70bcda29194158b4836c70a14f3ec7, type: 3}
+  m_Name: ShopTournamentData
+  m_EditorClassIdentifier: 
+  items:
+  - shopItemId: 1
+    item:
+      type: 3
+      id: 1004
+      number: 1
+      itemType: -1
+    purchaseAvailable: 1
+    price: 35
+  - shopItemId: 2
+    item:
+      type: 2
+      id: -1
+      number: 1
+      itemType: 7
+    purchaseAvailable: 1
+    price: 25
+  - shopItemId: 3
+    item:
+      type: 2
+      id: -1
+      number: 1
+      itemType: 13
+    purchaseAvailable: 1
+    price: 25
+  - shopItemId: 4
+    item:
+      type: 2
+      id: -1
+      number: 1
+      itemType: 6
+    purchaseAvailable: 1
+    price: 12
+  - shopItemId: 5
+    item:
+      type: 2
+      id: -1
+      number: 1
+      itemType: 12
+    purchaseAvailable: 1
+    price: 12
+  - shopItemId: 6
+    item:
+      type: 0
+      id: 12
+      number: 10
+      itemType: -1
+    purchaseAvailable: 1
+    price: 4
+  - shopItemId: 7
+    item:
+      type: 0
+      id: 6
+      number: 10
+      itemType: -1
+    purchaseAvailable: 1
+    price: 4

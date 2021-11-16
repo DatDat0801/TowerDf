@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: gameplay
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - 'dmg_tag_physic '
+    - dmg_tag_magic
+    - enemy_tag_14
+    - tower_tag_barrack
+    - ingame_wave
+    - fast
+    - medium
+    - slow
+    - long_distance
+    - short_distance
+    - melee
+    - nameskillpoint
+    - name_health
+    - nameatkmax
+    - name_armor
+    - name_resistance
+    - name_movespeed
+    - name_attackspeed
+    - name_lifesteal
+    - name_critdamage
+    - name_critchance
+    - name_hpregeneration
+    - nameatkmin
+    - name_true_damage
+    - nametrain
+    - hero_levelupnow
+    - hero_unlock
+    - name_tab_skill
+    - name_tab_stats
+    - name_damage
+    - name_rangedetect
+    - build
+    - level
+    - score
+    - wave_surviver
+    - enemy_killed
+    - bestscore
+    - name_timerevive
+    - skill_cooldown_name
+    - name_cooldownreduction
+    - name_debuff_resistance
+    - gem_earned
+    - buyback_name
+    - format_dd_hh_mm_ss
+    - format_day
+    - format_week
+    - name_tab_rune
+    - name_tab_skin
+    - rune_auto_select
+    - tap_to_see_details
+    - active
+    - inactive
+    - hero_room
+    - skin_unlock_title
+    - caution_new_enemy
+    - incoming
+    - tap_to_call
+    - exp_reward
+    - upgrade_power
+    - rewards
+    - name_blockenemy
+    - name_tab_spell
+    - active_skill
+    - passive_skill
+    - common_shard
+    - unique_shard
+    - upgrade_required
+    - shard_conversion
+    - name_rarity
+    - rarity_0
+    - rarity_1
+    - rarity_2
+    - rarity_3
+    - rarity_4
+    - spell_target
+    - enemy_type_ground
+    - enemy_type_fly
+    - tower_attack_type_all
+    - specific_shard_name
+    - normal_spell_name
+    - premium_spell_name
+    - level_process
+    - spell_amount
+    - "shard_r\xE9ource"
+    - normal_rune_name
+    - premium_rune_name
+    values:
+    - "<color=yellow><\uBB3C\uB9AC \uD53C\uD574></color>"
+    - "<color=#00ffddff><\uB9C8\uBC95 \uD53C\uD574></color>"
+    - "<color=#00ffddff><\uB0A0\uC544\uB2E4\uB2C8\uB294 \uBAAC\uC2A4\uD130></color>"
+    - "<\uBCD1\uC0AC \uD6C8\uB828>"
+    - "\uC6E8\uC774\uBE0C"
+    - "\uBE60\uB984"
+    - "\uBCF4\uD1B5"
+    - "\uB290\uB9BC"
+    - "\uC6D0\uAC70\uB9AC"
+    - "\uADFC\uAC70\uB9AC"
+    - "\uADFC\uC811"
+    - "\uC2A4\uD0AC \uD3EC\uC778\uD2B8:"
+    - "\uCCB4\uB825"
+    - "\uCD5C\uB300 \uD53C\uD574"
+    - "\uBC29\uC5B4\uB825"
+    - "\uB9C8\uBC95 \uC800\uD56D\uB825"
+    - "\uC774\uB3D9 \uC18D\uB3C4"
+    - "\uACF5\uACA9 \uC18D\uB3C4"
+    - "\uC0DD\uBA85\uB825 \uAC15\uD0C8"
+    - "\uCE58\uBA85\uD0C0 \uD53C\uD574"
+    - "\uCE58\uBA85\uD0C0\uC728"
+    - "\uCCB4\uB825 \uD68C\uBCF5"
+    - "\uCD5C\uC18C \uD53C\uD574"
+    - "\uC2E4\uC81C \uB370\uBBF8\uC9C0"
+    - "\uD6C8\uB828"
+    - "\uC9C0\uAE08 \uB808\uBCA8\uC5C5!"
+    - "\uC9C0\uAE08 \uC7A0\uAE08\uD574\uC81C!"
+    - "\uC2A4\uD0AC"
+    - "\uB2A5\uB825\uCE58"
+    - "\uD53C\uD574"
+    - "\uBC94\uC704"
+    - "\uAC74\uC124"
+    - "\uB808\uBCA8"
+    - "\uC810\uC218"
+    - "\uB9C9\uC544\uB0B8 \uC6E8\uC774\uBE0C"
+    - "\uC12C\uBA78\uD55C \uC801"
+    - "\uCD5C\uACE0 \uC810\uC218"
+    - "\uBD80\uD65C \uC2DC\uAC04"
+    - "\uC2A4\uD0AC \uCFE8\uD0C0\uC784"
+    - "\uC2A4\uD0AC \uCFE8\uD0C0\uC784 \uB2E8\uCD95"
+    - "\uB514\uBC84\uD504 \uC800\uD56D\uB825"
+    - "\uD68D\uB4DD\uD55C \uBCF4\uC11D"
+    - "\uC7AC\uAD6C\uB9E4"
+    - '{0}:{1}:{2}:{3}'
+    - '{1} {0}'
+    - '{1} {0}'
+    - "\uB8EC"
+    - "\uC2A4\uD0A8 \uCF54\uC2A4\uD2AC"
+    - "\uC790\uB3D9 \uC120\uD0DD"
+    - "\uB8EC \uC815\uBCF4\uB294 \uC5EC\uAE30\uC5D0 \uD45C\uC2DC\uB429\uB2C8\uB2E4.
+      \uB8EC\uC5D0 \uD130\uCE58\uD558\uC5EC \uC790\uC138\uD55C \uC815\uBCF4\uB97C
+      \uD655\uC778\uD558\uC138\uC694."
+    - "(\uD65C\uC131\uD654)"
+    - "(\uBE44\uD65C\uC131\uD654)"
+    - "\uC601\uC6C5 \uB3C4\uAC10"
+    - "\uC774\uBCA4\uD2B8"
+    - "\uC8FC\uC758!"
+    - "\uB3C4\uCC29"
+    - "\uC804\uD22C \uC2DC\uC791"
+    - + {0} exp
+    - "\uD30C\uC6CC\uB97C \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694"
+    - "\uBCF4\uC0C1"
+    - "\uCC28\uB2E8"
+    - "\uC8FC\uBB38"
+    - "\uD65C\uC131\uD654"
+    - "\uD328\uC2DC\uBE0C"
+    - "\uC778\uAE30\uC788\uB294 \uC870\uAC01"
+    - "\uD2B9\uBCC4\uD55C \uC870\uAC01"
+    - "{0}{1}/{2} \uC5C5\uADF8\uB808\uC774\uB4DC\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4"
+    - "\uC870\uAC01 \uBCC0\uD658"
+    - "\uD76C\uADC0\uC131:{0}"
+    - "\uACF5\uD1B5"
+    - "\uBE44\uACF5\uD1B5"
+    - "\uB808\uC5B4"
+    - "\uC5D0\uD53D"
+    - "\uB808\uC804\uB354\uB9AC"
+    - "\uBAA9\uD45C:"
+    - "\uC9C0\uBA74"
+    - "\uC0C1\uACF5"
+    - "\uBAA8\uB450"
+    - "{0} \uC870\uAC01"
+    - "\uC77C\uBC18 \uC8FC\uBB38"
+    - "\uD504\uB9AC\uBBF8\uC5C4 \uC8FC\uBB38"
+    - "\uB808\uBCA8 {0}/{1}"
+    - "{0}/{1} \uC8FC\uBB38"
+    - "\uC870\uAC01"
+    - "\uC77C\uBC18 \uB8EC"
+    - "\uD504\uB9AC\uBBF8\uC5C4 \uB8EC"

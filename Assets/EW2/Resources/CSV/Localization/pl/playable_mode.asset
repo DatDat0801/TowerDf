@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: playable_mode
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_defense_name_txt
+    - defensive_point_title_txt
+    - lobby_txt
+    - best_record_waves_txt
+    - current_record_waves_txt
+    - season_end_txt
+    - trial_left_txt
+    - trial_txt
+    - reward_milestone_txt
+    - select_base_txt
+    - hero_selection_txt
+    - unlock_base_txt
+    - turn_left_txt
+    - leaderboard_txt
+    - rank_txt
+    - player_txt
+    - formation_txt
+    - new_record_txt
+    - no_more_trial_txt
+    - result_txt
+    - last_trial_notice_txt
+    - hero_required_txt
+    - hero_defense_rule
+    - buff_name_7001
+    - buff_name_7002
+    - buff_name_7003
+    - buff_name_7004
+    - buff_name_7005
+    - buff_name_7006
+    - buff_des_7001
+    - buff_des_7002
+    - buff_des_7003
+    - buff_des_7004
+    - buff_des_7005
+    - buff_des_7006
+    - defensive_point_name_8001
+    - defensive_point_name_8004
+    - defensive_point_name_8005
+    - defensive_point_skill_8001
+    - defensive_point_skill_8004
+    - defensive_point_skill_8005
+    - defensive_point_des_8001
+    - defensive_point_des_8004
+    - defensive_point_des_8005
+    - hero_defens_map_name_1
+    - hero_defens_map_name_2
+    - tournament_ban_txt
+    - tournament_nerf_txt
+    - tournament_buff_txt
+    - ban_spell_notice_txt
+    - tower_selection_txt
+    - tower_required_txt
+    - hall_of_fame_txt
+    - join_tournament_txt
+    - unrank_txt
+    - tournament_ticket_txt
+    - tournament_shop_title
+    - purchase_ticket_popup_title_txt
+    - change_buff_txt
+    - change_hero_pair_txt
+    - change_buff_status_txt
+    - change_price_alert_txt
+    - waves_cleared_record_txt
+    - ban_notice_txt
+    - ban_alert_txt
+    - congratulation_notice_txt
+    - season_rank_txt
+    - tournament_rules_title
+    - tournament_rule_map_title
+    - tournament_rule_limit_title
+    - tournament_rule_grand_title
+    - tournament_rule_season_title
+    - tournament_rule_buff_title
+    - tournament_rule_nerf_title
+    - tournament_rule_ban_title
+    - tournament_rule_map
+    - tournament_rule_limit
+    - tournament_rule_grand
+    - tournament_rule_season
+    - tournament_rule_buff
+    - tournament_rule_nerf
+    - tournament_rule_ban
+    - tournament_rank_0
+    - tournament_rank_1
+    - tournament_rank_2
+    - tournament_rank_3
+    - tournament_rank_4
+    - tournament_rank_5
+    - tournament_rank_6
+    - tournament_rank_7
+    - tournament_buff_201
+    - tournament_buff_202
+    - tournament_buff_203
+    - tournament_buff_204
+    - tournament_buff_205
+    - tournament_buff_206
+    - tournament_buff_207
+    - tournament_buff_208
+    - tournament_buff_209
+    - tournament_buff_210
+    - tournament_buff_211
+    - tournament_nerf_101
+    - tournament_nerf_102
+    - tournament_nerf_103
+    - tournament_nerf_104
+    - tournament_nerf_105
+    - tournament_nerf_106
+    - tournament_nerf_107
+    - tournament_nerf_108
+    - tournament_nerf_109
+    - tournament_nerf_110
+    - tournament_nerf_111
+    values:
+    - Obrona bohatera
+    - Baza
+    - Lobby
+    - 'Najlepszy rekord: {0} fal'
+    - 'Aktualny wynik: {0}'
+    - 'Czas sezonu:'
+    - "Wersja pr\xF3bna: {0}"
+    - "Duru\u015Fma"
+    - '{0} fal'
+    - "Wyb\xF3r bazy"
+    - "Wyb\xF3r bohatera"
+    - "Odblokuj t\u0119 baz\u0119"
+    - "Pozosta\u0142a tura: {0}"
+    - Wykresy
+    - Ranga
+    - Gracz
+    - Tworzenie
+    - Nowy rekord
+    - "Nigdy wi\u0119cej pr\xF3b"
+    - Wynik
+    - "Po prostu wykorzystujesz ostatni okres pr\xF3bny."
+    - "Potrzebujesz co najmniej 2 bohater\xF3w"
+    - "Bohaterowie s\u0105 w niebezpiecze\u0144stwie, pr\xF3buj\u0105c chroni\u0107
+      baz\u0119 przed armi\u0105 demon\xF3w. Nie ma czasu na budowanie wie\u017C,
+      musz\u0105 u\u017Cy\u0107 swojej si\u0142y, aby powstrzyma\u0107 wroga.\\n\\nW
+      tym trybie mo\u017Cesz kontrolowa\u0107 do 5 bohater\xF3w.\\n\\nMo\u017Cesz
+      kontrolowa\u0107 tylko bohater\xF3w i nie mo\u017Cesz budowa\u0107 wie\u017C.\\n\\nCelem
+      jest obrona bazy sojuszu. Kiedy baza zostanie zniszczona, gra si\u0119 ko\u0144czy.
+      Bazy pomog\u0105 ci awansowa\u0107 bohater\xF3w w samym \u015Brodku bitwy.
+      Odblokuj nowe bazy, aby wyposa\u017Cy\u0107 bohater\xF3w w umiej\u0119tno\u015Bci
+      pasywne.\\n\\nMo\u017Cesz u\u017Cy\u0107 z\u0142ota, aby ulepszy\u0107 statystyki
+      Bohatera w samej bitwie. Dotknij Bazy na mapie, aby dokona\u0107 aktualizacji.\\n\\nOtrzymasz
+      nagrody zgodnie z ka\u017Cdym kamieniem milowym osi\u0105gni\u0119cia. Bro\u0144
+      si\u0119 jak najd\u0142u\u017Cej, aby zdoby\u0107 cenniejsze nagrody.\\n\\nMapy
+      i rankingi b\u0119d\u0105 od\u015Bwie\u017Cane co sezon. Przygotuj si\u0119
+      na nowe wyzwania."
+    - Wzmocnienie ataku
+    - Wzmocnienie obrony
+    - "Ulepszenie zakl\u0119\u0107"
+    - Ulepszenie czasu odnowienia
+    - Ulepszenie krytyczne
+    - Ulepszenie HP
+    - "Zwi\u0119ksza obra\u017Cenia o {0} dla wszystkich bohater\xF3w"
+    - "Zwi\u0119ksza pancerz o {0} i odporno\u015B\u0107 na magi\u0119 o {1} dla
+      wszystkich bohater\xF3w"
+    - "Zwi\u0119ksza o {0}% obra\u017Cenia zadawane przez aktywn\u0105 umiej\u0119tno\u015B\u0107
+      zakl\u0119\u0107"
+    - "Skr\xF3\u0107 {0}% czasu odnowienia dla wszystkich bohater\xF3w"
+    - "Zwi\u0119ksza obra\u017Cenia krytyczne o {0} dla wszystkich bohater\xF3w"
+    - "Zwi\u0119ksza maksymalne HP o {0} dla wszystkich bohater\xF3w"
+    - Twierdza
+    - Bogini Natury
+    - "Wie\u017Ca Grzmotu"
+    - "Wa\u017Cne bazy nale\u017Cy chroni\u0107 za wszelk\u0105 cen\u0119."
+    - "Odzyskuje 5 HP co 6 sekund dla wszystkich bohater\xF3w"
+    - "Po ka\u017Cdych 2 atakach bohater mo\u017Ce uderzy\u0107 piorunem, kt\xF3ry
+      zadaje 3 obra\u017Cenia. B\u0142yskawica odbija do 4 innych wrog\xF3w. Obra\u017Cenia
+      za ka\u017Cde odbicie zmniejsz\u0105 si\u0119 o 5%."
+    - "Ta staro\u017Cytna forteca zosta\u0142a zbudowana przez ludzi i pozostaje
+      silna przeciwko atakom armii z\u0142a."
+    - "Tajemnicza bogini czczona przez mieszka\u0144c\xF3w natury. Wierz\u0105, \u017Ce
+      bogini ma zdolno\u015B\u0107 uzdrawiania i b\u0142ogos\u0142awienia wojownik\xF3w
+      d\u017Cungli."
+    - "Ta magiczna wie\u017Ca jest miejscem, w kt\xF3rym \u017Cyje i studiuje wielu
+      wielkich mag\xF3w. Magowie wlali swoj\u0105 moc do wie\u017Cy, aby mog\u0142a
+      pom\xF3c obro\u0144com kontrolowa\u0107 grzmot."
+    - Ostatnia linia obrony
+    - Bitwa o las
+    - "Zakaza\u0107"
+    - "Os\u0142abia\u0107"
+    - "Zwi\u0119kszy\u0107"
+    - "Zakl\u0119cie jest zabronione"
+    - "Wyb\xF3r wie\u017Cy"
+    - "Potrzebujesz co najmniej 4 wie\u017C"
+    - "Galeria S\u0142aw"
+    - "Onurlanmak i\xE7in sava\u015Fa kat\u0131l\u0131n"
+    - Nie w rankingu
+    - Bilet
+    - Sklep turniejowy
+    - Zakup biletu
+    - Reszta
+    - "Zmie\u0144 bohater\xF3w"
+    - "Zmie\u0144 status"
+    - "Cena b\u0119dzie ros\u0142a przy ka\u017Cdej zmianie"
+    - Fala
+    - "Nie mo\u017Cesz u\u017Cywa\u0107 tych przedmiot\xF3w"
+    - "Tw\xF3j bohater nie mo\u017Ce u\u017Cy\u0107 tego przedmiotu. Czy chcesz to
+      zmieni\u0107?"
+    - "Osi\u0105gn\u0105\u0142e\u015B w tym sezonie rang\u0119 {0}. Oto twoja nagroda"
+    - Sezon
+    - Turniej
+    - Turniejowe Mapy
+    - Limit odtwarzania
+    - "Galeria S\u0142aw"
+    - Sezon
+    - "Zwi\u0119kszy\u0107"
+    - "Os\u0142abia\u0107"
+    - "Zakaza\u0107"
+    - "Wszyscy gracze rywalizuj\u0105 na tych samych, nieko\u0144cz\u0105cych si\u0119
+      poziomach."
+    - "Ka\u017Cdego dnia gracze otrzymuj\u0105 {0} darmowych gier. Je\u015Bli liczba
+      darmowych spin\xF3w zostanie wyczerpana, gracz musi u\u017Cy\u0107 Klejnot
+      lub obejrze\u0107 reklam\u0119, aby uzyska\u0107 wi\u0119cej. Liczba odtworze\u0144
+      b\u0119dzie od\u015Bwie\u017Cana ka\u017Cdego dnia."
+    - "To miejsce uhonorowania najwy\u017Cszych rekord\xF3w wszechczas\xF3w. Pr\xF3buj
+      ka\u017Cdego sezonu, aby by\u0107 tutaj uhonorowanym!"
+    - "Ka\u017Cdy sezon trwa 2 tygodnie. Najwy\u017Cszy rekord, kt\xF3ry gracze zdob\u0119d\u0105
+      w ka\u017Cdym sezonie, b\u0119dzie liczony do pozycji w Galeria S\u0142aw."
+    - "Je\u015Bli twoja formacja ma 2 bohater\xF3w na \u017C\u0105danie, ka\u017Cda
+      statystyka zostanie wzmocniona. Mo\u017Cesz u\u017Cy\u0107 Kryszta\u0142y,
+      Klejnot i ogl\u0105da\u0107 reklamy, aby losowo zmieni\u0107 domy\u015Bln\u0105
+      par\u0119 bohater\xF3w i ulepszony typ statystyk."
+    - "Je\u015Bli u\u017Cyjesz os\u0142abionego bohatera w swojej formacji, jedna
+      ze statystyk tego bohatera zostanie zmniejszona. Ten bohater r\xF3wnie\u017C
+      nie pojawi si\u0119 w \u017C\u0105danej parze bohater\xF3w."
+    - "Nie b\u0119dziesz m\xF3g\u0142 korzysta\u0107 z zabronionych przedmiot\xF3w.
+      Lista przedmiot\xF3w zabronionych b\u0119dzie od\u015Bwie\u017Cana po ka\u017Cdym
+      sezonie."
+    - "Br\u0105z"
+    - Srebro
+    - "Z\u0142oto"
+    - Platyna
+    - Diament
+    - Elita
+    - Mistrz
+    - "Kr\xF3l"
+    - "Zwi\u0119ksz HP o {0}"
+    - "Zwi\u0119ksz Pancerz o {0}"
+    - "Zwi\u0119ksz Odporno\u015B\u0107 Magiczna o {0}"
+    - "Zwi\u0119ksz Obra\u017Cenia o {0}"
+    - "Zwi\u0119ksz Szybko\u015B\u0107 Ruchu o {0}%"
+    - "Zwi\u0119ksz Szybko\u015B\u0107 Ataku o {0}%"
+    - "Zwi\u0119ksz Regeneracja HP o {0}%"
+    - Zmniejsz Czas Odrodzenia o {0}%
+    - "Zwi\u0119ksz Cios Krytyczny o {0}%"
+    - "Zwi\u0119ksz Szansa na Cios Krytyczny o {0}%"
+    - Zmniejsz Czas Odnowienia Umiej. o {0}%
+    - Zmniejsz HP o {0}
+    - Zmniejsz Pancerz o {0}
+    - "Zmniejsz Odporno\u015B\u0107 Magiczna o {0}"
+    - "Zmniejsz Obra\u017Cenia o {0}"
+    - "Zmniejsz Szybko\u015B\u0107 Ruchu o {0}%"
+    - "Zmniejsz Szybko\u015B\u0107 Ataku o {0}%"
+    - Zmniejsz Regeneracja HP o {0}%
+    - "Zwi\u0119ksz Czas Odrodzenia o {0}%"
+    - Zmniejsz Cios Krytyczny o {0}%
+    - Zmniejsz Szansa na Cios Krytyczny o {0}%
+    - "Zwi\u0119ksz Czas Odnowienia Umiej. o {0}%"

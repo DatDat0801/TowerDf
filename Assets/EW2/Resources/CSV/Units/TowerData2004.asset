@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524416ce1274419489f4bb3a8db1b455, type: 3}
+  m_Name: TowerData2004
+  m_EditorClassIdentifier: 
+  id: 2004
+  statBaseBarracks:
+  - level: 1
+    soldierNumber: 3
+    rangeRally: 3
+  - level: 2
+    soldierNumber: 3
+    rangeRally: 3
+  - level: 3
+    soldierNumber: 3
+    rangeRally: 3
+  skill1:
+  - level: 1
+    chance: 0.2
+    damage: 25
+  - level: 2
+    chance: 0.3
+    damage: 30
+  - level: 3
+    chance: 0.4
+    damage: 35
+  skill2:
+  - level: 1
+    armorBonus: 0.2
+    modifierTypeArmor: 3
+    magicResBonus: 0.3
+    modifierTypeMagicRes: 3
+  dataSoldiers:
+  - id: 2004
+    level: 1
+    health: 120
+    moveSpeed: 1.5
+    attackSpeed: 1
+    armor: 10
+    resistance: 2
+    damage: 5
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 15
+    timeTriggerRegeneration: 3
+    timeRevive: 20
+    damageType: 0
+    blockEnemy: 1
+    searchTarget: 0
+    priorityTarget: 0000000002000000
+  - id: 2004
+    level: 2
+    health: 150
+    moveSpeed: 1.5
+    attackSpeed: 1
+    armor: 15
+    resistance: 4
+    damage: 5
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 15
+    timeTriggerRegeneration: 3
+    timeRevive: 18
+    damageType: 0
+    blockEnemy: 1
+    searchTarget: 0
+    priorityTarget: 0000000002000000
+  - id: 2004
+    level: 3
+    health: 180
+    moveSpeed: 1.5
+    attackSpeed: 1
+    armor: 20
+    resistance: 6
+    damage: 5
+    critChance: 0
+    critDamage: 0
+    hpRegeneration: 15
+    timeTriggerRegeneration: 3
+    timeRevive: 16
+    damageType: 0
+    blockEnemy: 1
+    searchTarget: 0
+    priorityTarget: 0000000002000000

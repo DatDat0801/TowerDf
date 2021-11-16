@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f61c612e9747f59be09cf253ae0b24, type: 3}
+  m_Name: SpellFlashSaleData
+  m_EditorClassIdentifier: 
+  shopItemDatas:
+  - productId: com.empire.warriors2.epic.tower.td.defender.rush_flash_sale_spell_1.99_local_price_increase
+    price: 1.99
+    pricePrevious: 0.99
+    consumable: 0
+    vipPoint: 0
+    rewards:
+    - type: 0
+      id: 12
+      number: 5
+      itemType: -1
+    - type: 0
+      id: 11
+      number: 10
+      itemType: -1
+    - type: 0
+      id: 1
+      number: 2500
+      itemType: -1
+    imgId: -1
+    moneyType: -1
+    saleType: -1
+    valuePrevious: 0
+  packConditions:
+  - mapUnlock: 10
+    duration: 48

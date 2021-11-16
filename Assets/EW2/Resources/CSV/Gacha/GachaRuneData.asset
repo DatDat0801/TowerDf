@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbca789defa54d1a8bf431c9e3b79f6d, type: 3}
+  m_Name: GachaRuneData
+  m_EditorClassIdentifier: 
+  gachaRuneDataBases:
+  - id: 0
+    numberKey: 1
+    moneyTypeKey: 11
+    costExchange: 20
+    moneyTypeExchange: 0
+    timeCountdownFree: 3
+    summonType: 0
+    expPerOnce: 50
+  - id: 1
+    numberKey: 10
+    moneyTypeKey: 11
+    costExchange: 20
+    moneyTypeExchange: 0
+    timeCountdownFree: 0
+    summonType: 0
+    expPerOnce: 50
+  - id: 2
+    numberKey: 1
+    moneyTypeKey: 12
+    costExchange: 60
+    moneyTypeExchange: 0
+    timeCountdownFree: 6
+    summonType: 1
+    expPerOnce: 100
+  - id: 3
+    numberKey: 10
+    moneyTypeKey: 12
+    costExchange: 54
+    moneyTypeExchange: 0
+    timeCountdownFree: 0
+    summonType: 1
+    expPerOnce: 100
+  gachaRuneRateDatas:
+  - summonType: 0
+    rarity: 0
+    rate: 0.75
+  - summonType: 0
+    rarity: 1
+    rate: 0.1875
+  - summonType: 0
+    rarity: 2
+    rate: 0.0468
+  - summonType: 0
+    rarity: 3
+    rate: 0.0157
+  - summonType: 0
+    rarity: 4
+    rate: 0
+  - summonType: 1
+    rarity: 0
+    rate: 0
+  - summonType: 1
+    rarity: 1
+    rate: 0.75
+  - summonType: 1
+    rarity: 2
+    rate: 0.1875
+  - summonType: 1
+    rarity: 3
+    rate: 0.0468
+  - summonType: 1
+    rarity: 4
+    rate: 0.0157

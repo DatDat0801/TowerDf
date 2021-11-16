@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ui
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 3515d008c4dfd724c9432389944429cf, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 63452c60b3100f743a322aafb99a250a, type: 3}
+  - {fileID: 21300000, guid: afe3eb705d7fc314fb0f7b1d1bfc2608, type: 3}
+  - {fileID: 21300000, guid: 50cf4a21b90d02644a41ab7f1398b6b0, type: 3}
+  - {fileID: 21300000, guid: 3bc13c71574e51c458f4973ac9c7d9fb, type: 3}
+  - {fileID: 21300000, guid: 465b90f1dd0776946b53d182b1437d61, type: 3}
+  - {fileID: 21300000, guid: d971ce821be555a4bba0e0fa4bde2c38, type: 3}
+  - {fileID: 21300000, guid: 15a25bc3c17c3334293376e4b1f8cd71, type: 3}
+  - {fileID: 21300000, guid: 511fa3e385c17bc4983d511608702a4c, type: 3}
+  - {fileID: 21300000, guid: 8b436f44783aa5640b16a2922128990d, type: 3}
+  - {fileID: 21300000, guid: 073f10d477f6b58478f0136d764dc802, type: 3}
+  - {fileID: 21300000, guid: 6a59922569dcfda498bb88fde2d9f3bf, type: 3}
+  - {fileID: 21300000, guid: aad62d45a3749cd49bc1546e1dccbddd, type: 3}
+  - {fileID: 21300000, guid: 0f0021470f8aaaa49a67516230c3a9f6, type: 3}
+  - {fileID: 21300000, guid: c42beb6730c14c04da6b16a2a5a0aa35, type: 3}
+  - {fileID: 21300000, guid: e48b53a7a00a562409f5a8e1df9aee30, type: 3}
+  - {fileID: 21300000, guid: aa4970d83fc9c0e42b40ebfbac2860e2, type: 3}
+  - {fileID: 21300000, guid: d3332a3ab4055e0498f08ea2c8b55cd6, type: 3}
+  - {fileID: 21300000, guid: 7ee5af8ad5fdba641b2f85d15fba12cb, type: 3}
+  - {fileID: 21300000, guid: 6b00d0aae6293c54cbca147caf00258f, type: 3}
+  - {fileID: 21300000, guid: 65eb1c3b7e3860a428b3bd62911ca2b4, type: 3}
+  - {fileID: 21300000, guid: bac399ec775625245bfb568c0e9302a9, type: 3}
+  - {fileID: 21300000, guid: ffcec56de5fce624d912f2ea7ec5e989, type: 3}
+  - {fileID: 21300000, guid: 82e506dd83f9db1418e4eba9436df734, type: 3}
+  - {fileID: 21300000, guid: 2f890daefd8e27d48909368242ca3dad, type: 3}
+  - {fileID: 21300000, guid: 40e52e4fead889348b5b9e792290a41d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - confirm_button_currency
+  - icon_plus_more
+  - icon_back_to
+  - bg_full_screen_blue
+  - bg_button_blue
+  - icon_lock
+  - icon_tick
+  - bg_popup_detail
+  - icon_hero_border
+  - icon_x_close
+  - icon_time_clock
+  - bg_popup_content_forcus_blue
+  - icon_button_close
+  - icon_tick_cyan
+  - bg_button_brown
+  - bg_button_yellow
+  - bg_button_green
+  - bg_header_detail
+  - bg_button_content_holder_green
+  - ignore_icon_notification
+  - bg_common_popup
+  - bg_button_disable
+  - bg_button_red
+  - bgr_item_preview
+  - dont_ask_again_bg_holder
+  m_Tag: Ui
+  m_IsVariant: 0

@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - enemy_name_3001
+    - enemy_name_3002
+    - enemy_name_3003
+    - enemy_name_3004
+    - enemy_name_3005
+    - enemy_name_3006
+    - enemy_name_3007
+    - enemy_name_3008
+    - enemy_name_3009
+    - enemy_name_3010
+    - enemy_name_3011
+    - enemy_name_3012
+    - enemy_name_3013
+    - enemy_name_3014
+    - enemy_name_3015
+    - enemy_name_3016
+    - enemy_name_3017
+    - enemy_name_3018
+    - enemy_name_3019
+    - enemy_name_3020
+    - enemy_des_3001
+    - enemy_des_3002
+    - enemy_des_3003
+    - enemy_des_3004
+    - enemy_des_3005
+    - enemy_des_3006
+    - enemy_des_3007
+    - enemy_des_3008
+    - enemy_des_3009
+    - enemy_des_3010
+    - enemy_des_3011
+    - enemy_des_3012
+    - enemy_des_3013
+    - enemy_des_3014
+    - enemy_des_3015
+    - enemy_des_3016
+    - enemy_des_3017
+    - enemy_des_3018
+    - enemy_des_3019
+    - enemy_des_3020
+    - enemy_skill_3005
+    - enemy_skill_3006
+    - enemy_skill_3007
+    - enemy_skill_3008
+    - enemy_skill_3009
+    - enemy_skill_3015
+    - enemy_skill_3016
+    - enemy_skill_3017
+    - enemy_skill_3020
+    - enemy_warn_3002
+    - enemy_warn_3003
+    - enemy_warn_3005
+    - enemy_warn_3006
+    - enemy_warn_3007
+    - enemy_warn_3008
+    - enemy_warn_3009
+    - enemy_warn_3010
+    - enemy_warn_3011
+    - enemy_warn_3012
+    - enemy_warn_3013
+    - enemy_warn_3014
+    - enemy_warn_3015
+    - enemy_warn_3016
+    - enemy_warn_3017
+    - enemy_warn_3020
+    values:
+    - Goblin
+    - Goblin Ranger
+    - Goblin Assassin
+    - Orc
+    - Orc Marauder
+    - Orc Shaman
+    - Orc Druid
+    - Cursed Goblin
+    - Ogre
+    - Goblin Barrel
+    - Morg
+    - Morg Rider
+    - Vliegende Duisternis
+    - Fly Goblin
+    - Ogre
+    - Cursed Goblin
+    - Corrupted Protector
+    - Little Protector
+    - Little Protector
+    - Gul'ak the Dark Eye
+    - Goblins zijn de eenvoudige infanterie in het kwade leger
+    - Deze Goblins zijn erg irritant en kunnen aanvallen vanaf grote afstanden.
+    - Pas op voor Assassins. Ze zijn snel, en moeilijk te stoppen.
+    - Orcs zijn de belangrijkste infanterie van het kwader leger. Ze zijn sterker
+      dan Goblins.
+    - Het zijn oorlogszuchtige en bloeddorstige vechtersbazen. Ze zijn geboren om
+      te vechten in de oorlog.
+    - Shamans kunnen het moraal van de Orcs verbeteren. Laat ze dus niet spelen op
+      de magische trommels.
+    - Deze rare Orcs hebben natuurlijke magie geleerd. Vernietig ze als eerste.
+    - Cursed Goblins zijn wezens met een oude vloek. Ze bevinden zich tussen leven
+      en dood in, en hebben de mogelijkheid om de doden tot leven te wekken.
+    - Ogres zijn grote maar onhandige wezens. Zij zijn de voorhoede, met veel verdediging.
+    - Dit is een raar idee van de Goblins. Ze worden gebruikt om door verdedigingslinies
+      heen te breken.
+    - De hybride wolven zijn snel en gevaarlijk. Ze zijn getemd door de Orcs.
+    - "Wolf Riders zijn \xE9\xE9n van de beste en meest gevaarlijke eenheden van
+      het kwade leger."
+    - De Vliegende Duisternis worden opgeroepen door Narazal. Ze bestaan nu nog altijd,
+      sinds de grote slag lang geleden.
+    - Dit is het aanvalsteam van de Goblins. Ze gebruiken de Vliegende Duisternis
+      om door de linies heen te glippen.
+    - Ogres zijn grote maar onhandige wezens. Zij zijn de voorhoede, met veel verdediging.
+    - Cursed Goblins zijn wezens met een oude vloek. Ze bevinden zich tussen leven
+      en dood in, en hebben de mogelijkheid om de doden tot leven te wekken.
+    - "Een oude Protector die verzegeld is door de koninklijke magi\xEBrs. Maar dankzij
+      de magie van het demonenzwaard Durandal, in bezit van Koning Java I, raakte
+      hij gecorrumpeerd en werd een dienaar van het kwaad."
+    - De Little Protectors zijn ontstaan uit fragmenten van de Corrupted Protector
+    - De Little Protectors zijn ontstaan uit fragmenten van de Corrupted Protector
+    - "Gul'ak was de jongere broer van Moggun, en was de volgende leider van de Bloodwolf-clan.
+      Hij kwam onder invloed van het demonenzwaard Durandal, en werd \xE9\xE9n van
+      de generaals in het kwade leger."
+    - Woede
+    - Aansporingsdrums
+    - Genezen
+    - Oproepen
+    - Schok-aanval
+    - Schok-aanval. Woede
+    - Oproepen. Donkere vlam
+    - Snelle steen. Splitsen
+    - Donkere kooi. Donkere doorn. Oproepen. Zielbreker
+    - '- Aanval op afstand'
+    - "- Hoge bewegingssnelheid\n - Aanval op afstand"
+    - "- Gemiddeld uithoudingsvermogen\n - Wordt Woede wanneer hitpoints opraken"
+    - "- Lage bewegingssnelheid\n - Verbeter bewegingssnelheid voor bondgenoten dichtbij"
+    - "- Geneest bondgenoten dichtbij\n - Aanval op afstand"
+    - "- Oproepen van vijanden\n - Aanval op afstand"
+    - "- Hoog uithoudingsvermogen\n - Kan tegenstanders verdoven\n - Lage bewegingssnelheid"
+    - "- Hoge bewegingssnelheid\n - Uiteen gevallen in een hoop Goblins"
+    - "- Hoge bewegingssnelheid\n - Veroorzaakt Bloeden bij tegenstander"
+    - '- Veroorzaakt Bloeden bij tegenstander'
+    - '- Vliegend monster'
+    - '- Vliegend monster'
+    - "- Hoog uithoudingsvermogen\n - Kan tegenstanders verdoven\n - Wordt Woede
+      wanneer hitpoints opraken\n - Lage bewegingssnelheid"
+    - "- Oproepen van vijanden\n - Controleert de torens\n - Aanval op afstand"
+    - "- Hoog uithoudingsvermogen\n - Kan aanvallen op afstand\n - Valt een groot
+      gebied aan\n - Kan tegenstanders verdoven"
+    - "- Oproepen van vijanden\n - Kan aanvallen op afstand\n - Valt een groot gebied
+      aan\n - Kan tegenstanders verdoven"

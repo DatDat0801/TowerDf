@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - enemy_name_3001
+    - enemy_name_3002
+    - enemy_name_3003
+    - enemy_name_3004
+    - enemy_name_3005
+    - enemy_name_3006
+    - enemy_name_3007
+    - enemy_name_3008
+    - enemy_name_3009
+    - enemy_name_3010
+    - enemy_name_3011
+    - enemy_name_3012
+    - enemy_name_3013
+    - enemy_name_3014
+    - enemy_name_3015
+    - enemy_name_3016
+    - enemy_name_3017
+    - enemy_name_3018
+    - enemy_name_3019
+    - enemy_name_3020
+    - enemy_name_3021
+    - enemy_name_3022
+    - enemy_name_3023
+    - enemy_name_3024
+    - enemy_name_3025
+    - enemy_name_3026
+    - enemy_name_3027
+    - enemy_name_3028
+    - enemy_name_3029
+    - enemy_name_3030
+    - enemy_name_3031
+    - enemy_name_3032
+    - enemy_name_3033
+    - enemy_name_3034
+    - enemy_name_3035
+    - enemy_name_3036
+    - enemy_name_3037
+    - enemy_des_3001
+    - enemy_des_3002
+    - enemy_des_3003
+    - enemy_des_3004
+    - enemy_des_3005
+    - enemy_des_3006
+    - enemy_des_3007
+    - enemy_des_3008
+    - enemy_des_3009
+    - enemy_des_3010
+    - enemy_des_3011
+    - enemy_des_3012
+    - enemy_des_3013
+    - enemy_des_3014
+    - enemy_des_3015
+    - enemy_des_3016
+    - enemy_des_3017
+    - enemy_des_3018
+    - enemy_des_3019
+    - enemy_des_3020
+    - enemy_des_3021
+    - enemy_des_3022
+    - enemy_des_3023
+    - enemy_des_3024
+    - enemy_des_3025
+    - enemy_des_3026
+    - enemy_des_3027
+    - enemy_des_3028
+    - enemy_des_3029
+    - enemy_des_3030
+    - enemy_des_3031
+    - enemy_des_3032
+    - enemy_des_3033
+    - enemy_des_3034
+    - enemy_des_3035
+    - enemy_des_3036
+    - enemy_des_3037
+    - enemy_skill_3001
+    - enemy_skill_3002
+    - enemy_skill_3003
+    - enemy_skill_3004
+    - enemy_skill_3005
+    - enemy_skill_3006
+    - enemy_skill_3007
+    - enemy_skill_3008
+    - enemy_skill_3009
+    - enemy_skill_3010
+    - enemy_skill_3011
+    - enemy_skill_3012
+    - enemy_skill_3013
+    - enemy_skill_3014
+    - enemy_skill_3015
+    - enemy_skill_3016
+    - enemy_skill_3017
+    - enemy_skill_3018
+    - enemy_skill_3019
+    - enemy_skill_3020
+    - enemy_skill_3021
+    - enemy_skill_3022
+    - enemy_skill_3023
+    - enemy_skill_3024
+    - enemy_skill_3025
+    - enemy_skill_3026
+    - enemy_skill_3027
+    - enemy_skill_3028
+    - enemy_skill_3029
+    - enemy_skill_3030
+    - enemy_skill_3031
+    - enemy_skill_3032
+    - enemy_skill_3033
+    - enemy_skill_3034
+    - enemy_skill_3035
+    - enemy_skill_3036
+    - enemy_skill_3037
+    - enemy_warn_3002
+    - enemy_warn_3003
+    - enemy_warn_3005
+    - enemy_warn_3006
+    - enemy_warn_3007
+    - enemy_warn_3008
+    - enemy_warn_3009
+    - enemy_warn_3010
+    - enemy_warn_3011
+    - enemy_warn_3012
+    - enemy_warn_3013
+    - enemy_warn_3014
+    - enemy_warn_3015
+    - enemy_warn_3016
+    - enemy_warn_3017
+    - enemy_warn_3020
+    - enemy_warn_3021
+    - enemy_warn_3022
+    - enemy_warn_3023
+    - enemy_warn_3024
+    - enemy_warn_3025
+    - enemy_warn_3026
+    - enemy_warn_3027
+    - enemy_warn_3028
+    - enemy_warn_3029
+    - enemy_warn_3030
+    - enemy_warn_3031
+    - enemy_warn_3032
+    - enemy_warn_3033
+    - enemy_warn_3034
+    - enemy_warn_3035
+    - enemy_warn_3036
+    - enemy_warn_3037
+    values:
+    - Goblin
+    - Pemanah Goblin
+    - Pembunuh Goblin
+    - Orc
+    - Perampok Orc
+    - Dukun Orc
+    - Druid Orc
+    - Goblin Terkutuk
+    - Ogre
+    - Laras Goblin
+    - Morg
+    - Morg Pengendara
+    - Kelelawar Setan
+    - Terbang Goblin
+    - Ogre
+    - Goblin Terkutuk
+    - Pelindung yang Rusak
+    - Pelindung Kecil
+    - Pelindung Kecil
+    - Gul'ak si Mata Gelap
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Goblin adalah infanteri dasar dalam pasukan jahat
+    - Goblin yang merepotkan mampu menyerang dari jarak jauh.
+    - Hati-hati dengan para pembunuh. Mereka cepat dan sulit dihentikan.
+    - Orc adalah infanteri utama pasukan jahat. Mereka lebih kuat dari Goblin.
+    - Mereka adalah pejuang yang suka berperang dan haus darah, lahir hanya untuk
+      melayani perang.
+    - Dukun mampu menginspirasi moral Orc. Jangan biarkan mereka memainkan drum ajaib.
+    - Para Orc aneh ini telah mempelajari sihir alam. Bunuh mereka dulu.
+    - Goblin Terkutuk adalah makhluk kutukan kuno. Mereka hidup di antara garis kehidupan
+      dan kematian dan mereka memiliki kemampuan untuk memanggil orang mati.
+    - Ogre adalah makhluk besar tapi konyol. Mereka adalah barisan depan dengan pertahanan
+      tinggi.
+    - Ini adalah ide aneh dari para Goblin. Mereka digunakan untuk menerobos pertahanan
+      musuh.
+    - Serigala hibrida itu cepat dan berbahaya. Mereka dijinakkan oleh para Orc.
+    - Penunggang serigala adalah salah satu pasukan elit dan berbahaya dari tentara
+      jahat.
+    - Makhluk ini dipanggil oleh Narazal. Mereka masih eksis dari pertempuran bertahun-tahun
+      lalu hingga sekarang.
+    - Ini adalah tim penyerang Goblin. Mereka menggunakan kelelawar iblis untuk menyelinap
+      melalui garis musuh.
+    - Ogre adalah makhluk besar tapi konyol. Mereka adalah barisan depan dengan pertahanan
+      tinggi.
+    - Goblin Terkutuk adalah makhluk kutukan kuno. Mereka hidup di antara garis kehidupan
+      dan kematian dan mereka memiliki kemampuan untuk memanggil orang mati.
+    - Pelindung kuno yang disegel oleh penyihir kerajaan. Namun, karena sihir dari
+      pedang iblis Durandal yang dimiliki oleh Raja Jave I, dia menjadi rusak dan
+      menjadi pelayan iblis.
+    - Pelindung kecil diciptakan dari pecahan Pelindung yang Rusak
+    - Pelindung kecil diciptakan dari pecahan Pelindung yang Rusak
+    - Gul'ak adalah adik Moggun. Dia juga pemimpin klan Serigala Darah di generasi
+      berikutnya. Dia dimanipulasi oleh pedang iblis Durandal dan menjadi salah satu
+      penguasa pasukan iblis.
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Kemarahan
+    - Drum ajaib
+    - Penyembuhan
+    - Memanggil
+    - Pukulan setrum
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Pukulan setrum. Kemarahan
+    - Memanggil. Api kegelapan
+    - Rock cepat. Merobek
+    - 
+    - 
+    - Kandang gelap. Duri hitam. Memanggil. Kehancuran jiwa
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '- Serang dari jarak jauh'
+    - '- Kecepatan gerakan tinggi\n - Serang dari jarak jauh'
+    - '- Daya tahan rata-rata\n - Menjadi kemarahan saat HP rendah'
+    - '- Kecepatan gerakan rendah\n - Kecepatan gerakan buff untuk sekutu terdekat'
+    - '- Menyembuhkan sekutu terdekat\n - Serang dari jarak jauh'
+    - '- Panggil musuh\n - Serang dari jarak jauh'
+    - '- Daya tahan tinggi\n - Bisa setrum lawannya\n - Kecepatan gerakan rendah'
+    - '- Kecepatan gerakan tinggi\n - Dipecah menjadi banyak Goblin'
+    - '- Kecepatan gerakan tinggi\n - Menimbulkan pendarahan pada lawan'
+    - '- Menimbulkan pendarahan pada lawan'
+    - '- Monster terbang'
+    - '- Monster terbang'
+    - '- Daya tahan tinggi\n - Bisa setrum lawannya\n - Menjadi kemarahan saat HP
+      rendah\n - Kecepatan gerakan rendah'
+    - '- Panggil musuh\n - Kontrol menara\n - Serang dari jarak jauh'
+    - '- Daya tahan tinggi\n - Serang dari jarak jauh\n - Menangani kerusakan di
+      area yang luas\n - Bisa setrum lawannya'
+    - '- Panggil musuh\n - Serang dari jarak jauh\n - Menangani kerusakan di area
+      yang luas\n - Bisa setrum lawannya'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

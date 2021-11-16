@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - enemy_name_3001
+    - enemy_name_3002
+    - enemy_name_3003
+    - enemy_name_3004
+    - enemy_name_3005
+    - enemy_name_3006
+    - enemy_name_3007
+    - enemy_name_3008
+    - enemy_name_3009
+    - enemy_name_3010
+    - enemy_name_3011
+    - enemy_name_3012
+    - enemy_name_3013
+    - enemy_name_3014
+    - enemy_name_3015
+    - enemy_name_3016
+    - enemy_name_3017
+    - enemy_name_3018
+    - enemy_name_3019
+    - enemy_name_3020
+    - enemy_des_3001
+    - enemy_des_3002
+    - enemy_des_3003
+    - enemy_des_3004
+    - enemy_des_3005
+    - enemy_des_3006
+    - enemy_des_3007
+    - enemy_des_3008
+    - enemy_des_3009
+    - enemy_des_3010
+    - enemy_des_3011
+    - enemy_des_3012
+    - enemy_des_3013
+    - enemy_des_3014
+    - enemy_des_3015
+    - enemy_des_3016
+    - enemy_des_3017
+    - enemy_des_3018
+    - enemy_des_3019
+    - enemy_des_3020
+    - enemy_skill_3005
+    - enemy_skill_3006
+    - enemy_skill_3007
+    - enemy_skill_3008
+    - enemy_skill_3009
+    - enemy_skill_3015
+    - enemy_skill_3016
+    - enemy_skill_3017
+    - enemy_skill_3020
+    - enemy_warn_3002
+    - enemy_warn_3003
+    - enemy_warn_3005
+    - enemy_warn_3006
+    - enemy_warn_3007
+    - enemy_warn_3008
+    - enemy_warn_3009
+    - enemy_warn_3010
+    - enemy_warn_3011
+    - enemy_warn_3012
+    - enemy_warn_3013
+    - enemy_warn_3014
+    - enemy_warn_3015
+    - enemy_warn_3016
+    - enemy_warn_3017
+    - enemy_warn_3020
+    values:
+    - "Gobli\u0144ski"
+    - "Gobli\u0144ski \u0142ucznik"
+    - "Gobli\u0144ski zab\xF3jca"
+    - Ork
+    - Ork maruderzy
+    - "Szaman Ork\xF3w"
+    - Magiczny Ork
+    - "Mroczny Gobli\u0144ski"
+    - Ogr
+    - "Beczka Gobli\u0144ski"
+    - Morg
+    - "Wilczy je\u017Adziec"
+    - "Skrzyd\u0142a Mroku"
+    - "Lataj\u0105cy Gobli\u0144ski"
+    - Ogr
+    - "Mroczny Gobli\u0144ski"
+    - "Skorumpowany Obro\u0144ca"
+    - "Ma\u0142y Obro\u0144ca"
+    - "Ma\u0142y Obro\u0144ca"
+    - Gul'ak Mroczne Oko
+    - "Goblin\xF3w to podstawowa piechota w armii z\u0142a"
+    - "Te Goblin\xF3w s\u0105 denerwuj\u0105ce i potrafi\u0105 atakowa\u0107 z du\u017Cej
+      odleg\u0142o\u015Bci."
+    - "Uwa\u017Caj na zab\xF3jc\xF3w. S\u0105 szybkie i trudne do zatrzymania."
+    - "Orkowie to g\u0142\xF3wna piechota armii z\u0142a. S\u0105 silniejsze ni\u017C
+      Gobliny."
+    - "S\u0105 silnymi i \u017C\u0105dnymi krwi wojownikami. Urodzili si\u0119, by
+      s\u0142u\u017Cy\u0107 wojnie."
+    - "Szamani potrafi\u0105 zainspirowa\u0107 ork\xF3w do morale. Nie pozw\xF3l
+      im gra\u0107 na magicznych b\u0119bnach."
+    - "Te dziwne Orki nauczy\u0142y si\u0119 naturalnej magii. Najpierw je zniszcz."
+    - "Mroczny Goblin\xF3w to istoty staro\u017Cytnej kl\u0105twy. \u017Byj\u0105
+      pomi\u0119dzy liniami \u017Cycia i \u015Bmierci i maj\u0105 zdolno\u015B\u0107
+      przywo\u0142ywania zmar\u0142ych."
+    - "Ogry to du\u017Ce, ale g\u0142upie stworzenia. S\u0105 awangard\u0105 o wysokiej
+      obronie."
+    - "To dziwny pomys\u0142 Goblin\xF3w. S\u0142u\u017C\u0105 do przebijania si\u0119
+      przez obron\u0119 wroga."
+    - "Wilki hybrydowe s\u0105 szybkie i niebezpieczne. Zosta\u0142y oswojone przez
+      Ork\xF3w."
+    - "Je\u017Adziec wilk\xF3w jest jedn\u0105 z elitarnych i niebezpiecznych si\u0142
+      armii z\u0142a."
+    - "Skrzyd\u0142a Mroku zosta\u0142y wezwane przez Narazala. Nadal istniej\u0105
+      z wielkiej bitwy wiele lat temu, a\u017C do teraz."
+    - "To jest dru\u017Cyna szturmowa Goblin\xF3w. U\u017Cywaj\u0105 Mrocznych Skrzyde\u0142,
+      aby prze\u015Blizgn\u0105\u0107 si\u0119 przez lini\u0119 wroga."
+    - "Ogry to du\u017Ce, ale g\u0142upie stworzenia. S\u0105 awangard\u0105 o wysokiej
+      obronie."
+    - "Mroczny Goblin\xF3w to istoty staro\u017Cytnej kl\u0105twy. \u017Byj\u0105
+      pomi\u0119dzy liniami \u017Cycia i \u015Bmierci i maj\u0105 zdolno\u015B\u0107
+      przywo\u0142ywania zmar\u0142ych."
+    - "Staro\u017Cytny Protektor zapiecz\u0119towany przez kr\xF3lewskich czarodziej\xF3w.
+      Jednak dzi\u0119ki magii demonicznego miecza Durandala, kt\xF3ry posiada\u0142
+      kr\xF3l Jave I, zosta\u0142 zepsuty i sta\u0142 si\u0119 s\u0142ug\u0105 diab\u0142a."
+    - "Mali obro\u0144cy zostali stworzeni z fragment\xF3w Skorumpowanego Obro\u0144cy"
+    - "Mali obro\u0144cy zostali stworzeni z fragment\xF3w Skorumpowanego Obro\u0144cy"
+    - "Gul'ak by\u0142 m\u0142odszym bratem Mogguna i kolejnym przyw\xF3dc\u0105
+      klanu Krwawych Wilk\xF3w. By\u0142 kontrolowany przez demoniczny miecz Durandala
+      i sta\u0142 si\u0119 jednym z genera\u0142\xF3w armii z\u0142a."
+    - "W\u015Bciek\u0142o\u015B\u0107"
+    - "Wezwij b\u0119ben"
+    - Gojenie
+    - "Magia przywo\u0142ania"
+    - "Uderzenie og\u0142uszaj\u0105ce"
+    - "Uderzenie og\u0142uszaj\u0105ce. W\u015Bciek\u0142o\u015B\u0107"
+    - "Magia przywo\u0142ania. Ciemny p\u0142omie\u0144"
+    - "Szybki kamie\u0144. Rozdziela\u0107"
+    - "Ciemna klatka. Ciemny cier\u0144. Magia przywo\u0142ania. \u0141amacz dusz"
+    - '- Atak z dystansu'
+    - "- Wysoka pr\u0119dko\u015B\u0107 ruchu\n- Atak z dystansu"
+    - "- \u015Arednia wytrzyma\u0142o\u015B\u0107\n- Staje si\u0119 w\u015Bciek\u0142o\u015Bci\u0105,
+      gdy HP jest niskie"
+    - "- Niska pr\u0119dko\u015B\u0107 ruchu\n- Zwi\u0119ksza pr\u0119dko\u015B\u0107
+      ruchu pobliskich sojusznik\xF3w"
+    - "- Leczenie pobliskich sojusznik\xF3w\n- Atak z dystansu"
+    - "- Przyzywanie wrog\xF3w\n- Atak z dystansu"
+    - "- Wysoka wytrzyma\u0142o\u015B\u0107\n- Mo\u017Ce og\u0142uszy\u0107 przeciwnika\n-
+      Niska pr\u0119dko\u015B\u0107 ruchu"
+    - "- Wysoka pr\u0119dko\u015B\u0107 ruchu\n- W\u0142ama\u0142 si\u0119 do wielu
+      Goblin\xF3w"
+    - "- Wysoka pr\u0119dko\u015B\u0107 ruchu\n- Wywo\u0142aj krwawienie u przeciwnika"
+    - "- Wywo\u0142aj krwawienie u przeciwnika"
+    - "- Lataj\u0105cy potw\xF3r"
+    - "- Lataj\u0105cy potw\xF3r"
+    - "- Wysoka wytrzyma\u0142o\u015B\u0107\n- Mo\u017Ce og\u0142uszy\u0107 przeciwnika\n-
+      Staje si\u0119 w\u015Bciek\u0142o\u015Bci\u0105, gdy HP jest niskie\n- Niska
+      pr\u0119dko\u015B\u0107 ruchu"
+    - "- Przyzywanie wrog\xF3w\n- Wy\u0142\u0105cz wie\u017C\u0119\n- Atak z dystansu"
+    - "- Wysoka wytrzyma\u0142o\u015B\u0107\n- Atak z dystansu\n- Powodowanie uszkodze\u0144
+      na du\u017Cym obszarze\n- Mo\u017Ce og\u0142uszy\u0107 przeciwnika"
+    - "- Przyzywanie wrog\xF3w\n- Atak z dystansu\n- Powodowanie uszkodze\u0144 na
+      du\u017Cym obszarze\n- Mo\u017Ce og\u0142uszy\u0107 przeciwnika"

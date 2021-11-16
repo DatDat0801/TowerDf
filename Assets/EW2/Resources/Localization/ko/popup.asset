@@ -1,0 +1,464 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f00afbde0ef144396043e5407464a2, type: 3}
+  m_Name: popup
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - tap_to_close
+    - profile_popup
+    - avatar_select
+    - more_game_txt
+    - support_txt
+    - community_txt
+    - giftcode_txt
+    - patch_note_txt
+    - patch_note_version
+    - setting_txt
+    - image_txt
+    - country_txt
+    - in_use_txt
+    - not_in_use_txt
+    - in_use_by_txt
+    - since_txt
+    - id_txt
+    - version_txt
+    - language_txt
+    - change_name
+    - enter_name_box
+    - letters_limit
+    - name_contain_special_characters
+    - name_too_short_or_long
+    - invalid_name
+    - already_exists_name
+    - change_successful
+    - data_save
+    - link_info
+    - last_save
+    - data_save_note
+    - linking_failed
+    - notice_txt
+    - data_save_question
+    - save_limit
+    - limit_txt
+    - save_success
+    - save_failed
+    - save_limit_notice
+    - restore_question
+    - restore_complete
+    - restore_failed
+    - graphic_txt
+    - enable_vibrate
+    - disable_vibrate
+    - enable_battery_saver
+    - disable_battery_saver
+    - enable_notice
+    - disable_notice
+    - enter_giftcode_box
+    - claim_giftcode
+    - claim_giftcode_failed
+    - used_giftcode_toast
+    - giftcode_check_internet
+    - result_check_internet
+    - error_occured
+    - giftcode_login_first
+    - require_login_first
+    - quit_notice
+    - locked_mode_notice
+    - tower_upgrade_txt
+    - upgrade_successful
+    - tower_reset_notice
+    - copy_to_clipboard
+    - hero_skill_reset_notice
+    - insufficient_skill_point
+    - skill_point_guide
+    - hero_exp_guide
+    - level_txt
+    - stamina_next
+    - stamina_full
+    - tap_to_start
+    - news_txt
+    - congratulation_txt
+    - max_level_hero_txt
+    - level_max_skill_txt
+    - stat_txt
+    - reset_successful
+    - backstory_txt
+    - need_hero_txt
+    - hero_unlocked
+    - locked_mode_normal
+    - insufficient_resource
+    - pre_register_reward_txt
+    - pre_register_thank_txt
+    - unlock_upgrade_tower
+    - replay_notice
+    - quit_game_notice
+    - warning_txt
+    - daily_reward_txt
+    - daily_quest_txt
+    - day_count_txt
+    - checkin_progress
+    - login_successful_txt
+    - no_data_found
+    - upgrade_activated
+    - upgrade_info
+    - properties_txt
+    - bonus_txt
+    - upgrade_condition_txt
+    - purchase_save_notice
+    - purchase_failed
+    - warning_iap
+    - warning_internet_save_data
+    - warning_internet_lost_data
+    - unlock_upgrade_tower_tut
+    - not_equip_spell
+    - start_battle_to_use
+    - spell_unlock_condition
+    - insuficent_shade
+    - insuficent_unique_shard
+    - insuficent_resource
+    - unlock_hero_to_equip
+    - unlock_hero_to_equip_rune
+    - normal_spell_rate
+    - premium_spell_rate
+    - normal_spell_name
+    - premium_spell_rname
+    - cannot_select_more_hero
+    - spell_upgrade_require
+    - reset_in_txt
+    - refresh_in_txt
+    - achievement_txt
+    - free_in
+    - complete_challenge_txt
+    - hero_not_been_unlock_txt
+    - defeat_boss_achievement_direction
+    - normal_rune_rate
+    - premium_rune_rate
+    - normal_rune_name
+    - premium_rune_name
+    - full_inventory_txt
+    - equip_slot_full_txt
+    - full_inventory_require_space_txt
+    - dismantle_warning_txt_1
+    - dismantle_warning_txt_2
+    - basic_attributes_txt
+    - bonus_attributes_txt
+    - set_of_pieces_txt
+    - set_required_txt
+    - enhance_successful_txt
+    - selected_rune_txt
+    - dismantle_slots_full_txt
+    - reward_ads_txt
+    - watch_ads_txt
+    - check_internet_warning_txt
+    - no_ads_available_txt
+    - go_to_shop_question_txt
+    - watch_previous_ads_first
+    - ios_loading_screen_txt
+    - loading_screen_common_txt
+    - dont_ask_again_today
+    - dismantle_warning_txt_3
+    - dismantle_warning_txt_4
+    - new_nightmare_unlock
+    - buy_now_title_txt
+    - buy_now_slogan_title_txt
+    - buy_now_1st_purchase_txt
+    - first_purchase_bonus_title_txt
+    - first_purchase_bonus_slogan_txt
+    - first_purchase_bonus_warning
+    - free_progress_txt
+    - premium_progress_txt
+    - checkin_day
+    - stage_txt
+    - end_time_txt
+    - already_receive_txt
+    - rune_pack_name_txt
+    - purchased_txt
+    - unlock_nightmare_txt
+    - hero_pre_trial_tag_txt
+    - hero_pre_trial_toast_txt
+    - hero_pre_trial_dialog_txt
+    - rating_title
+    - require_rating_txt
+    - unlock_spell_txt
+    - unlock_spell_txt_1
+    - equip_spell_remind_txt
+    - unlock_rune_txt
+    - unlock_rune_txt_1
+    - equip_rune_remind_txt
+    - remain_txt
+    - get_more_txt
+    - refill_stamina_title_txt
+    - owned_txt
+    - new_mode_unlocked_txt
+    - already_own_this_pack_txt
+    - already_own_this_hero_txt
+    - already_own_this_item_txt
+    - run_out_resource_txt
+    - buy_or_wait_txt
+    - available_txt
+    - no_more_purchase_txt
+    - out_of_stock_txt
+    - surrender_notice_txt
+    values:
+    - "\uC885\uB8CC\uD558\uB824\uBA74 \uD0ED\uD558\uC138\uC694"
+    - "\uD504\uB85C\uD544"
+    - "\uC544\uBC14\uD0C0 \uC120\uD0DD"
+    - "\uB354 \uB9CE\uC740 \uAC8C\uC784"
+    - "\uC9C0\uC6D0"
+    - "\uCEE4\uBBA4\uB2C8\uD2F0"
+    - "\uAE30\uD504\uD2B8\uCF54\uB4DC"
+    - "\uD328\uCE58 \uB178\uD2B8"
+    - "<color=#815329>\uBC84\uC804{0}</color>"
+    - "\uC124\uC815"
+    - "\uC774\uBBF8\uC9C0"
+    - "\uAD6D\uAC00"
+    - "\uC7A5\uCC29"
+    - "\uBBF8\uC7A5\uCC29"
+    - "{0}\uB85C \uC7A5\uCC29"
+    - "\uC774\uD6C4"
+    - "\uC544\uC774\uB514:"
+    - "\uBC84\uC804"
+    - "\uC5B8\uC5B4"
+    - "\uC774\uB984 \uBCC0\uACBD"
+    - "\uC5EC\uAE30\uC5D0 \uC0C8\uB85C\uC6B4 \uC774\uB984\uC744 \uC785\uB825\uD558\uC138\uC694..."
+    - "<color=#E73F44>(4-18 \uC790, \uD2B9\uC218\uBB38\uC790 \uC81C\uC678)</color>"
+    - "\uC774\uB984\uC5D0 \uD2B9\uC218\uBB38\uC790\uB97C \uC0AC\uC6A9\uD560 \uC218
+      \uC5C6\uC2B5\uB2C8\uB2E4"
+    - "4-18\uC790\uB97C \uC785\uB825\uD574\uC57C \uD569\uB2C8\uB2E4!"
+    - "\uC798\uBABB\uB41C \uC774\uB984\uC785\uB2C8\uB2E4"
+    - "\uC874\uC7AC\uD558\uB294 \uC774\uB984\uC785\uB2C8\uB2E4"
+    - "\uBCC0\uACBD\uB418\uC5C8\uC2B5\uB2C8\uB2E4"
+    - "\uB370\uC774\uD130 \uC800\uC7A5"
+    - "\uC5F0\uACB0"
+    - "\uB9C8\uC9C0\uB9C9 \uC800\uC7A5"
+    - "\uB370\uC774\uD130\uB97C \uC800\uC7A5\uD558\uB824\uBA74 \uACC4\uC815\uC5D0
+      \uC5F0\uACB0\uD558\uC138\uC694"
+    - "\uACC4\uC815 \uC5F0\uACB0 \uC2E4\uD328"
+    - "\uACF5\uC9C0"
+    - "\uB370\uC774\uD130\uB97C \uC800\uC7A5\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uC624\uB298 \uC800\uC7A5 \uAC00\uB2A5\uD55C \uD69F\uC218:{0}/{1}"
+    - "\uD55C\uACC4:"
+    - "\uB370\uC774\uD130 \uC800\uC7A5 \uC644\uB8CC"
+    - "\uB370\uC774\uD130 \uC800\uC7A5 \uC2E4\uD328"
+    - "\uC624\uB298 \uC800\uC7A5 \uAC00\uB2A5\uD55C \uCD5C\uB300 \uD69F\uC218\uC5D0
+      \uB3C4\uB2EC\uD588\uC2B5\uB2C8\uB2E4"
+    - "\uB370\uC774\uD130\uB97C \uBCF5\uC6D0\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?\n\n
+      <color=#e85253>*\uADC0\uD558\uC758 \uD604\uC7AC \uB370\uC774\uD130\uAC00 \uB36E\uC5B4\uC50C\uC5B4\uC9D1\uB2C8\uB2E4</color>"
+    - "\uBCF5\uC6D0 \uC644\uB8CC"
+    - "\uBCF5\uC6D0 \uC2E4\uD328"
+    - "\uADF8\uB798\uD53D"
+    - "\uC9C4\uB3D9 \uD65C\uC131\uD654"
+    - "\uC9C4\uB3D9 \uBE44\uD65C\uC131\uD654"
+    - "\uBC30\uD130\uB9AC \uC808\uC57D \uD65C\uC131\uD654"
+    - "\uBC30\uD130\uB9AC \uC808\uC57D \uBE44\uD65C\uC131\uD654"
+    - "\uACF5\uC9C0 \uD65C\uC131\uD654"
+    - "\uACF5\uC9C0 \uBE44\uD65C\uC131\uD654"
+    - "\uC5EC\uAE30\uC5D0 \uAE30\uD504\uD2B8\uCF54\uB4DC\uB97C \uC785\uB825\uD558\uC138\uC694..."
+    - "\uBCF4\uC0C1\uC744 \uD68D\uB4DD\uD558\uC168\uC2B5\uB2C8\uB2E4"
+    - "\uC798\uBABB\uB41C \uAE30\uD504\uD2B8\uCF54\uB4DC\uC785\uB2C8\uB2E4"
+    - "\uC0AC\uC6A9\uB418\uC5C8\uAC70\uB098 \uB9CC\uB8CC\uB41C \uAE30\uD504\uD2B8\uCF54\uB4DC\uC785\uB2C8\uB2E4.
+      \uB2E4\uB978 \uAE30\uD504\uD2B8\uCF54\uB4DC\uB97C \uC785\uB825\uD558\uC138\uC694"
+    - "\uC11C\uBC84\uC5D0 \uC5F0\uACB0\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. \uC778\uD130\uB137\uC744
+      \uD655\uC778\uD558\uC138\uC694"
+    - "\uACB0\uACFC\uB97C \uC800\uC7A5\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. \uC778\uD130\uB137\uC744
+      \uD655\uC778\uD558\uC138\uC694"
+    - "\uC5D0\uB7EC\uAC00 \uBC1C\uC0DD\uD588\uC2B5\uB2C8\uB2E4. \uC9C0\uC6D0 \uD300\uC5D0
+      \uBB38\uC758\uD558\uC138\uC694"
+    - "\uAE30\uD504\uD2B8\uCF54\uB4DC\uB97C \uC0AC\uC6A9\uD558\uB824\uBA74 \uACC4\uC815
+      \uB85C\uADF8\uC778\uC774 \uD544\uC694\uD569\uB2C8\uB2E4"
+    - "\uBA3C\uC800 \uADC0\uD558\uC758 \uACC4\uC815\uC5D0 \uB85C\uADF8\uC778\uD558\uC2ED\uC2DC\uC624"
+    - "\uD648 \uBA54\uB274\uB85C \uC774\uB3D9\uD569\uB2C8\uB2E4.\n \uC804\uD22C\uB97C
+      \uC885\uB8CC\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uD604\uC7AC \uBAA8\uB4DC\uAC00 \uC7A0\uACA8 \uC788\uC2B5\uB2C8\uB2E4. \uC7A0\uAE08\uC744
+      \uD574\uC81C\uD558\uB824\uBA74 {0} \uC2A4\uD14C\uC774\uC9C0\uC758 \uBCF4\uD1B5
+      \uC5B4\uB824\uC6C0 \uB2E8\uACC4\uC5D0\uC11C \uBCC4 3\uAC1C\uB97C \uD68D\uB4DD\uD558\uC138\uC694"
+    - "\uD0C0\uC6CC \uC5C5\uADF8\uB808\uC774\uB4DC"
+    - "\uC5C5\uADF8\uB808\uC774\uB4DC \uC644\uB8CC"
+    - "\uC5C5\uADF8\uB808\uB4DC\uB41C \uBAA8\uB4E0 \uD0C0\uC6CC\uAC00 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4
+      \uC9C4\uD589\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uD074\uB9BD\uBCF4\uB4DC\uB85C \uBCF5\uC0AC"
+    - "\uBAA8\uB4E0 \uC2A4\uD0AC \uB808\uBCA8\uC774 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4.
+      \uC9C4\uD589\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uC2A4\uD0AC \uD3EC\uC778\uD2B8 \uBD80\uC871"
+    - "\uC2A4\uD0AC \uD3EC\uC778\uD2B8\uB294 \uC2A4\uD0AC\uC744 \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uB294
+      \uB370 \uC0AC\uC6A9\uB429\uB2C8\uB2E4. \uD788\uC5B4\uB85C\uC758 \uB808\uBCA8\uC744
+      \uB192\uC774\uAE30 \uC704\uD574 \uB354 \uB9CE\uC774 \uBAA8\uC544 \uBCF4\uC138\uC694"
+    - "\uC804\uD22C\uB97C \uD558\uAC70\uB098 \uD06C\uB9AC\uC2A4\uD138\uC744 \uC0AC\uC6A9\uD558\uC5EC
+      \uD788\uC5B4\uB85C EXP\uB97C \uC5BB\uACE0 \uC989\uC2DC \uB808\uBCA8\uC744 \uC5C5\uADF8\uB808\uC774\uB4DC
+      \uD558\uC138\uC694!"
+    - "\uB808\uBCA8: {0}/{1}"
+    - "\uB2E4\uC74C \uCCB4\uB825:"
+    - "\uCD1D \uCCB4\uB825:"
+    - "\uC2DC\uC791\uD558\uB824\uBA74 \uD0ED\uD558\uC138\uC694"
+    - "\uB274\uC2A4"
+    - "\uCD95\uD558\uD569\uB2C8\uB2E4"
+    - "\uCD5C\uB300 \uB808\uBCA8 \uB3C4\uB2EC!"
+    - "\uCD5C\uB300 \uB808\uBCA8"
+    - "\uC2A4\uD0EF"
+    - "\uCD08\uAE30\uD654 \uC644\uB8CC"
+    - "\uB4B7\uC774\uC57C\uAE30"
+    - "\uC2A4\uD14C\uC774\uC9C0\uB97C \uC2DC\uC791\uD558\uB824\uBA74 \uCD5C\uC18C
+      1 \uBA85\uC758 \uD788\uC5B4\uB85C\uAC00 \uC788\uC5B4\uC57C \uD569\uB2C8\uB2E4"
+    - "{0} \uD574\uC81C"
+    - "\uC7A0\uAE08\uC744 \uD574\uC81C\uD558\uB824\uBA74 \uC774\uC804 \uC2A4\uD14C\uC774\uC9C0\uB97C
+      \uC644\uB8CC\uD574\uC57C \uD569\uB2C8\uB2E4"
+    - "{0} \uBD80\uC871."
+    - "\uC0AC\uC804 \uB4F1\uB85D \uBCF4\uC0C1"
+    - "\uC5E0\uD30C\uC774\uC5B4 \uB514\uD39C\uB354\uB97C \uC0AC\uC804 \uB4F1\uB85D\uD574
+      \uC8FC\uC154\uC11C \uAC10\uC0AC\uD569\uB2C8\uB2E4!"
+    - "\uC7A0\uAE08\uC744 \uD574\uC81C\uD558\uB824\uBA74 {0} \uC2A4\uD14C\uC774\uC9C0\uB97C
+      \uD50C\uB808\uC774\uD558\uC138\uC694"
+    - "\uB2E4\uC2DC \uD50C\uB808\uC774\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uAC8C\uC784\uC744 \uC885\uB8CC\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uACBD\uACE0"
+    - "\uC77C\uC77C \uBCF4\uC0C1"
+    - "\uC77C\uC77C \uD018\uC2A4\uD2B8"
+    - "{0} \uC77C"
+    - "\uC9C4\uD589: {0}/{1}"
+    - "\uB85C\uADF8\uC778 \uC644\uB8CC"
+    - "\uB370\uC774\uD130\uB97C \uCC3E\uC744 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4"
+    - "\uC5C5\uADF8\uB808\uC774\uB4DC"
+    - "1. <color=#eb9e15>\uC2E4\uBC84 \uC2A4\uD0C0</color>\uB294 \uAE30\uBCF8 \uC5C5\uADF8\uB808\uC774\uB4DC
+      \uB808\uBCA8\uC758 \uC7A0\uAE08\uC744 \uD574\uC81C\uD558\uB294 \uB370 \uC0AC\uC6A9\uB429\uB2C8\uB2E4.\n
+      \n 2. <color=#eb9e15>\uACE8\uB4DC \uC2A4\uD0C0</color>\uB294 \uACE0\uAE09 \uC5C5\uADF8\uB808\uC774\uB4DC
+      \uB808\uBCA8\uC758 \uC7A0\uAE08\uC744 \uD574\uC81C\uD558\uB294 \uB370 \uC0AC\uC6A9\uB429\uB2C8\uB2E4.\n
+      \n 3. <color=#eb9e15>\uBCF4\uD1B5 \uC5B4\uB824\uC6C0</color>\uB2E8\uACC4\uB85C
+      \uC2A4\uD14C\uC774\uC9C0\uB97C \uC644\uB8CC\uD558\uBA74 \uC2E4\uBC84 \uC2A4\uD0C0\uB97C
+      \uD68D\uB4DD\uD560 \uC218 \uC787\uC2B5\uB2C8\uB2E4.\n \n 4. <color=#eb9e15>\uB098\uC774\uD2B8\uBA54\uC5B4
+      \uC5B4\uB824\uC6C0</color>\uB2E8\uACC4\uB85C \uC2A4\uD14C\uC774\uC9C0\uB97C
+      \uC644\uB8CC\uD558\uBA74 \uACE8\uB4DC \uC2A4\uD0C0\uB97C \uD68D\uB4DD\uD560
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    - "\uD2B9\uC131"
+    - "\uB808\uBCA8 \uC5C5"
+    - "\uBA3C\uC800 \uC774\uC804 \uB808\uBCA8\uC744 \uC5C5\uADF8\uB808\uC774\uB4DC
+      \uD558\uC138\uC694"
+    - "\uB85C\uCEEC \uC800\uC7A5 \uB370\uC774\uD130\uAC00 \uC190\uC2E4\uB420 \uC218
+      \uC788\uC2B5\uB2C8\uB2E4. {0} \uACC4\uC815\uC5D0 \uC5F0\uACB0\uB418\uC5B4 \uC788\uB294
+      \uC9C0 \uD655\uC778\uD558\uC138\uC694"
+    - "\uAD6C\uB9E4\uD558\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4. \uC778\uD130\uB137\uC774
+      \uC548\uC815\uC801\uC778\uC9C0 \uD655\uC778\uD558\uC138\uC694"
+    - "\uAD6C\uB9E4 \uC815\uBCF4\uB97C \uB85C\uB4DC\uD558\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4.
+      \uB124\uD2B8\uC6CC\uD06C \uC5F0\uACB0 \uBC0F \uC800\uC7A5\uC18C \uC5F0\uACB0\uC744
+      \uD655\uC778\uD558\uC138\uC694."
+    - "\uB370\uC774\uD130\uB97C \uC800\uC7A5\uD558\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4.
+      \uB124\uD2B8\uC6CC\uD06C \uC5F0\uACB0\uC744 \uD655\uC778\uD558\uC2ED\uC2DC\uC624."
+    - "\uB370\uC774\uD130\uAC00 \uC190\uC2E4\uB429\uB2C8\uB2E4. \uD655\uC2E4\uD574?"
+    - "\uC7A0\uAE08\uC744 \uD574\uC81C\uD558\uB824\uBA74 \uD29C\uD1A0\uB9AC\uC5BC\uC744
+      \uACC4\uC18D \uC9C4\uD589\uD558\uC138\uC694"
+    - "\uD788\uC5B4\uB85C\uC5D0 \uC7A5\uCC29\uB41C \uC8FC\uBB38\uC774 \uC5C6\uC2B5\uB2C8\uB2E4"
+    - "\uC0AC\uC6A9\uD558\uB824\uBA74 \uC804\uD22C\uB97C \uC2DC\uC791\uD558\uC138\uC694"
+    - "\uC7A0\uAE08\uC744 \uD574\uC81C\uD558\uB824\uBA74 {0} \uC2A4\uD14C\uC774\uC9C0\uB97C
+      \uC644\uB8CC\uD558\uC138\uC694"
+    - "\uC870\uAC01\uC774 \uBD80\uC871\uD569\uB2C8\uB2E4"
+    - "{0} \uAC1C\uC758 \uC870\uAC01\uC774 \uBD80\uC871\uD569\uB2C8\uB2E4"
+    - "\uC790\uC6D0 \uBD80\uC871"
+    - "\uC8FC\uBB38\uC744 \uC7A5\uCC29\uD558\uAE30 \uC804 \uD788\uC5B4\uB85C\uB97C
+      \uD574\uC81C\uD558\uC138\uC694"
+    - "\uB8EC\uC744 \uC7A5\uCC29\uD558\uAE30 \uC804 \uD788\uC5B4\uB85C\uB97C \uD574\uC81C\uD558\uC138\uC694"
+    - "\uC77C\uBC18 \uC8FC\uBB38 \uBE44\uC728"
+    - "\uD504\uB9AC\uBBF8\uC5C4 \uC8FC\uBB38 \uBE44\uC728"
+    - "\uC77C\uBC18 \uC8FC\uBB38"
+    - "\uD504\uB9AC\uBBF8\uC5C4 \uC8FC\uBB38"
+    - "\uB300\uC5F4\uC774 \uAC00\uB4DD \uCC3C\uC2B5\uB2C8\uB2E4"
+    - "{0} \uAC1C\uC758 \uC870\uAC01\uC774 \uD544\uC694\uD569\uB2C8\uB2E4: {1}"
+    - "\uCD08\uAE30\uD654:"
+    - "\uCD08\uAE30\uD654:"
+    - "\uC131\uCDE8"
+    - "\uBB34\uB8CC:"
+    - "\uBCF4\uC0C1\uC744 \uBC1B\uC73C\uB824\uBA74 \uCC4C\uB9B0\uC9C0\uB97C \uC644\uB8CC\uD558\uC138\uC694!"
+    - "\uC544\uC9C1 \uC7A0\uACA8\uC788\uB294 \uD788\uC5B4\uB85C\uC785\uB2C8\uB2E4.
+      \uC9C0\uAE08 \uC7A0\uAE08\uC744 \uD574\uC81C\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "{0} \uC2A4\uD14C\uC774\uC9C0\uC758 \uBCF4\uC2A4\uB97C \uCC98\uCE58\uD558\uC138\uC694"
+    - "\uC77C\uBC18 \uB8EC \uBE44\uC728"
+    - "\uD504\uB9AC\uBBF8\uC5C4 \uB8EC \uBE44\uC728"
+    - "\uC77C\uBC18 \uB8EC"
+    - "\uD504\uB9AC\uBBF8\uC5C4 \uB8EC"
+    - "\uC778\uBCA4\uD1A0\uB9AC\uAC00 \uAC00\uB4DD \uCC3C\uC2B5\uB2C8\uB2E4."
+    - "{0} \uC2AC\uB86F\uC774 \uAC00\uB4DD \uCC3C\uC2B5\uB2C8\uB2E4"
+    - "\uACF5\uAC04\uC744 \uD655\uBCF4\uD558\uAE30 \uC704\uD574 \uB2E4\uB978 \uB8EC\uC744
+      \uD574\uCCB4\uD558\uC2ED\uC2DC\uC624"
+    - "\uBD84\uD574\uD558\uAE30 \uC804\uC5D0 \uB8EC\uC744 \uC81C\uAC70\uD558\uC2ED\uC2DC\uC624"
+    - "{0}\uAC1C\uB97C \uD574\uCCB4\uD558\uACE0 \uC544\uB798 \uC18C\uC7AC\uB97C \uBC1B\uC73C\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uAE30\uBCF8 \uD2B9\uC131"
+    - "\uBCF4\uB108\uC2A4 \uD2B9\uC131"
+    - "{0} \uB8EC \uC138\uD2B8:"
+    - "{0} {1}\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4"
+    - "\uAC15\uD654 \uC644\uB8CC"
+    - "\uC120\uD0DD\uB41C \uB8EC:"
+    - "\uBD84\uD574 \uC2AC\uB86F\uC774 \uAC00\uB4DD \uCC3C\uC2B5\uB2C8\uB2E4"
+    - "\uAD11\uACE0 \uBCF4\uC0C1"
+    - "\uAD11\uACE0\uB97C {0} \uD68C \uC2DC\uCCAD\uD558\uC138\uC694"
+    - "\uC778\uD130\uB137 \uC5F0\uACB0\uC744 \uD655\uC778\uD558\uC138\uC694"
+    - "\uC2DC\uCCAD\uD560 \uC218 \uC788\uB294 \uAD11\uACE0\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4"
+    - "{0} \uAC1C \uB354 \uAD6C\uB9E4\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uC774\uC804 \uAD11\uACE0\uB97C \uBA3C\uC800 \uC2DC\uCCAD\uD558\uC138\uC694"
+    - "\uB85C\uB529 \uC911 - \uCD94\uAC00 \uB370\uC774\uD130\uB97C \uB2E4\uC6B4\uB85C\uB4DC\uD560
+      \uC218 \uC5C6\uC2B5\uB2C8\uB2E4"
+    - "\uB85C\uB529 \uC911"
+    - "\uC624\uB298\uC740 \uB2E4\uC2DC \uBB3B\uC9C0 \uB9C8\uC138\uC694"
+    - "\uBD84\uD574\uD560 \uB8EC\uC5D0 \uD76C\uADC0 \uB8EC\uC774 \uD3EC\uD568\uB418\uC5B4
+      \uC788\uC2B5\uB2C8\uB2E4. \uACC4\uC18D \uC9C4\uD589\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uBD84\uD574\uD560 \uB8EC\uC744 \uC120\uD0DD\uD558\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4"
+    - "\uB098\uC774\uD2B8 \uBA54\uC5B4 \uC9C4\uD589\uC744 \uD574\uC81C\uD558\uB824\uBA74
+      \uBA3C\uC800 \uC77C\uBC18 \uC5B4\uB824\uC6C0 \uBAA8\uB4DC\uB97C \uC644\uB8CC\uD558\uC138\uC694"
+    - "\uC9C0\uAE08 \uAD6C\uB9E4"
+    - "\uD504\uB9AC\uBBF8\uC5C4 \uC9C4\uD589 \uC989\uC2DC \uC7A0\uAE08 \uD574\uC81C
+      \uBC0F \uB3C5\uC810\uC801\uC778 \uBCF4\uC0C1"
+    - "\uC9C0\uAE08 \uAD6C\uB9E4\uD558\uACE0 <color=#ffe960>\uCCAB \uAD6C\uB9E4 \uBCF4\uB108\uC2A4</color>\uB97C
+      \uBC1B\uC73C\uC138\uC694"
+    - "\uCCAB \uAD6C\uB9E4 \uBCF4\uB108\uC2A4"
+    - "<color=#ffe960>\uD328\uD0A4\uC9C0 \uC911 \uD558\uB098\uB97C \uAD6C\uB9E4\uD558\uACE0</color>
+      \uC774 \uBCF4\uB108\uC2A4\uB97C \uBC1B\uC73C\uC138\uC694!"
+    - "\uC11C\uB450\uB974\uC138\uC694, \uC774\uBCA4\uD2B8 \uC2DC\uAC04 \uB0B4\uC5D0
+      \uAD6C\uB9E4\uD558\uBA74 \uD070 \uBCF4\uC0C1\uC744 \uC5BB\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    - "\uBB34\uB8CC"
+    - "\uD504\uB9AC\uBBF8\uC5C4"
+    - "{0} \uC77C \uCD9C\uC11D"
+    - "\uC2A4\uD14C\uC774\uC9C0"
+    - "\uC885\uB8CC \uC2DC\uAC04:"
+    - "\uC774\uBBF8 \uC774 \uBCF4\uB108\uC2A4\uB97C \uBC1B\uC73C\uC168\uC2B5\uB2C8\uB2E4"
+    - "\uB8EC \uD328\uD0A4\uC9C0"
+    - "\uAD6C\uB9E4"
+    - "{0} \uC5B4\uB824\uC6C0 \uC7A0\uAE08 \uD574\uC81C"
+    - "\uC2DC\uD5D8 \uC601\uC6C5"
+    - "\uC774\uAC83\uC740 \uD3C9\uAC00\uD310\uC758 \uAE30\uBCF8 \uC601\uC6C5\uC785\uB2C8\uB2E4."
+    - "\uC624... \uBAA8\uD5D8\uAC00 \uC5EC\uB7EC\uBD84. \uC624\uD06C\uC640 \uC2F8\uC6B0\uACE0
+      \uC788\uC2B5\uB2C8\uAE4C? \uAC00\uC785\uD569\uC2DC\uB2E4!"
+    - "\uC774 \uAC8C\uC784\uC774 \uB9C8\uC74C\uC5D0 \uB4DC\uC2DC\uB098\uC694?"
+    - "\uC81C\uAD6D \uC218\uBE44\uC218TD\uAC00 \uB9C8\uC74C\uC5D0 \uB4DC\uC168\uB2E4\uBA74
+      \uD3C9\uAC00\uD574 \uC8FC\uC138\uC694.\n\uC9C0\uC6D0\uD574\uC8FC\uC154\uC11C
+      \uC815\uB9D0 \uAC10\uC0AC\uB4DC\uB9BD\uB2C8\uB2E4!"
+    - "\uC8FC\uBB38\uC2DC\uC2A4\uD15C\uC744 \uC7A0\uAE08 \uD574\uC81C\uD588\uC2B5\uB2C8\uB2E4. "
+    - "\uC9C0\uAE08 \uC2DC\uB3C4\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uC601\uC6C5\uC5D0 \uB300\uD55C \uC8FC\uBB38\uC744 \uC7A5\uCC29\uD558\uC9C0
+      \uC54A\uC558\uC2B5\uB2C8\uB2E4. \uC9C0\uAE08 \uC7A5\uBE44\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uB8EC\uC2DC\uC2A4\uD15C\uC744 \uC7A0\uAE08 \uD574\uC81C\uD588\uC2B5\uB2C8\uB2E4. "
+    - "\uC9C0\uAE08 \uC2DC\uB3C4\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uC601\uC6C5\uC5D0 \uB300\uD55C \uB8EC\uC744 \uC7A5\uCC29\uD558\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4.
+      \uC9C0\uAE08 \uC7A5\uBE44\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uB0A8\uC544\uC788\uB2E4:"
+    - "\uB354 \uBC1B\uACE0 \uC2F6\uC73C\uC2E0\uAC00\uC694?"
+    - "\uCCB4\uB825 \uBCF4\uCDA9"
+    - "\uBCF4\uC720"
+    - "\uC0C8\uB85C\uC6B4 \uD50C\uB808\uC774 \uAC00\uB2A5 \uBAA8\uB4DC \uC7A0\uAE08
+      \uD574\uC81C"
+    - "\uC774\uBBF8 \uC774 \uD329\uC744 \uC18C\uC720\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
+    - "\uC774\uBBF8 \uC774 \uC601\uC6C5\uC744 \uC18C\uC720\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
+    - "\uC774 \uD56D\uBAA9\uC744 \uC774\uBBF8 \uC18C\uC720\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
+    - "{0}\uAC00 \uBD80\uC871\uD569\uB2C8\uB2E4."
+    - "\uC9C0\uAE08 \uC0AC\uC2DC\uACA0\uC2B5\uB2C8\uAE4C \uC544\uB2C8\uBA74 \uAE30\uB2E4\uB9AC\uC2DC\uACA0\uC2B5\uB2C8\uAE4C"
+    - "\uC0AC\uC6A9 \uAC00\uB2A5:"
+    - "\uB354 \uC774\uC0C1 {0}\uB97C \uC0AC\uC6A9\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4."
+    - "\uD488\uC808"
+    - "\uD604\uC7AC \uACB0\uACFC\uB294 \uC800\uC7A5\uB418\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.
+      \uD655\uC2E4\uD574?"

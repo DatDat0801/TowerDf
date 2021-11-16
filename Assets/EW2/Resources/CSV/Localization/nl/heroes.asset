@@ -1,0 +1,300 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3f75c678ac01d4a803f6adfa4edcde, type: 3}
+  m_Name: heroes
+  m_EditorClassIdentifier: 
+  data:
+    keys:
+    - hero_class_assassin
+    - hero_class_melee
+    - hero_class_ranged
+    - hero_class_tank
+    - hero_class_summoner
+    - hero_class_aoe
+    - hero_class_control
+    - hero_class_buff
+    - hero_class_debuff
+    - hero_name_1001
+    - hero_name_1002
+    - hero_name_1003
+    - hero_name_1004
+    - hero_name_1005
+    - hero_name_1006
+    - hero_name_1007
+    - hero_name_1008
+    - hero_name_1009
+    - hero_name_1010
+    - hero_name_1011
+    - hero_name_1012
+    - hero_name_1013
+    - hero_tag_1001
+    - hero_tag_1002
+    - hero_tag_1003
+    - hero_tag_1004
+    - hero_tag_1005
+    - hero_tag_1006
+    - hero_tag_1007
+    - hero_tag_1008
+    - hero_tag_1009
+    - hero_tag_1010
+    - hero_tag_1011
+    - hero_tag_1012
+    - hero_tag_1013
+    - hero_nameskill1001_0
+    - hero_nameskill1001_1
+    - hero_nameskill1001_2
+    - hero_nameskill1001_3
+    - hero_nameskill1002_0
+    - hero_nameskill1002_1
+    - hero_nameskill1002_2
+    - hero_nameskill1002_3
+    - hero_nameskill1003_0
+    - hero_nameskill1003_1
+    - hero_nameskill1003_2
+    - hero_nameskill1003_3
+    - hero_nameskill1004_0
+    - hero_nameskill1004_1
+    - hero_nameskill1004_2
+    - hero_nameskill1004_3
+    - hero_nameskill1005_0
+    - hero_nameskill1005_1
+    - hero_nameskill1005_2
+    - hero_nameskill1005_3
+    - hero_nameskill1006_0
+    - hero_nameskill1006_1
+    - hero_nameskill1006_2
+    - hero_nameskill1006_3
+    - hero_nameskill1007_0
+    - hero_nameskill1007_1
+    - hero_nameskill1007_2
+    - hero_nameskill1007_3
+    - hero_nameskill1008_0
+    - hero_nameskill1008_1
+    - hero_nameskill1008_2
+    - hero_nameskill1008_3
+    - hero_nameskill1009_0
+    - hero_nameskill1009_1
+    - hero_nameskill1009_2
+    - hero_nameskill1009_3
+    - hero_skill1001_des_0
+    - hero_skill1001_des_1
+    - hero_skill1001_des_2
+    - hero_skill1001_des_3
+    - hero_skill1002_des_0
+    - hero_skill1002_des_1
+    - hero_skill1002_des_2
+    - hero_skill1002_des_3
+    - hero_skill1003_des_0
+    - hero_skill1003_des_1
+    - hero_skill1003_des_2
+    - hero_skill1003_des_3
+    - hero_skill1004_des_0
+    - hero_skill1004_des_1
+    - hero_skill1004_des_2
+    - hero_skill1004_des_3
+    - hero_skill1005_des_0
+    - hero_skill1005_des_1
+    - hero_skill1005_des_2
+    - hero_skill1005_des_3
+    - hero_skill1006_des_0
+    - hero_skill1006_des_1
+    - hero_skill1006_des_2
+    - hero_skill1006_des_3
+    - hero_skill1007_des_0
+    - hero_skill1007_des_1
+    - hero_skill1007_des_2
+    - hero_skill1007_des_3
+    - hero_skill1008_des_0
+    - hero_skill1008_des_1
+    - hero_skill1008_des_2
+    - hero_skill1008_des_3
+    - hero_skill1009_des_0
+    - hero_skill1009_des_1
+    - hero_skill1009_des_2
+    - hero_skill1009_des_3
+    - hero_story_1001
+    - hero_story_1002
+    - hero_story_1003
+    - hero_story_1004
+    - hero_story_1005
+    - hero_story_1006
+    - hero_story_1007
+    - hero_story_1008
+    - hero_story_1009
+    - hero_story_1010
+    - hero_story_1011
+    - hero_story_1012
+    - hero_story_1013
+    values:
+    - Assassin
+    - Melee
+    - Afstand
+    - Tank
+    - Summoner
+    - Gebied
+    - Crowd-control
+    - Voordeel
+    - Nadeel
+    - Claudia
+    - Arius
+    - "Ne\u2019taan"
+    - Marco
+    - Nerocat
+    - Akashi
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Prinses Commandant
+    - Bewaker van Yggdrasil
+    - Afstammelingen van Blood Wolves
+    - Mysterieuze Kruidkundige
+    - De demente heks
+    - De onzichtbare zwaardvechter
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Totale aanval
+    - Voorhoede-breker
+    - Dapper hart
+    - Protector
+    - Regen van brandende pijlen
+    - Snelle pijlen
+    - Verbeterd zicht
+    - Uitbarsting van pijlen
+    - Chaos afkomst
+    - Uitdagen
+    - Woedend maken
+    - Bloedzuiger
+    - Gif-bombardement
+    - Plakkerige troep
+    - Dom drankje
+    - Helende kruiden
+    - Hyper Explosie!
+    - Vaarwel ontploffing
+    - Oneindigheid explosie
+    - Duizelig explosief
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Claudia springt naar de doellocatie, en brengt {0} fysieke schade aan bij vijanden
+      in de buurt, en verdooft ze voor {2} seconden.
+    - Normale aanvallen van Claudia kunnen gebiedsschade aanrichten die gelijk is
+      aan {0}% van haar basisschade aan nabije vijanden
+    - Vermindert {0}% van de fysieke schade die Claudia ontvangt.
+    - "Claudia cre\xEBert een beschermend schild dat tot {0} schade kan absorberen
+      en het fysieke pantser voor zichzelf en haar bondgenoten met {1}% verhoogt."
+    - Arius schiet 4 pijlen in het doelgebied. De eerste burst-pijlen brengen schade
+      toe die gelijk is aan {0}% Arius' fysieke schade. De andere bursts richten
+      schade aan die gelijk is aan {1}% van de eerste burst. De grond ontbrandde
+      en veroorzaakte de status van voorbijgaande vijanden. De status duurt {2} seconden
+      en richt {3} schade aan per {4} seconden.
+    - De normale aanvallen van Arius hebben {0}% kans om {1} pijlen tegelijk in het
+      doel te schieten.
+    - Vergroot het bereik van Arius met {0}%.
+    - Arius mikte op een vijand op een afstand die gelijk was aan {0} keer zijn bereik.
+      Hij vuurt een pijl af die {1}% gebiedsschade toebrengt aan het doelwit en de
+      omringende vijanden.
+    - Ne'taan verandert in chaos, waarbij hij meteen {0}% van zijn maximale hitpoints
+      terugkrijgt. In deze vorm doen basis-aanvallen fysieke bonus-schade van{1}%
+      van maximale hitpoints.
+    - Wanneer hij wordt aangevallen met een basis-aanval, heeft Ne'taan een kans
+      van {0}% om Uitdagen te activeren, en {1}% aan pantser voor {2} seconden krijgt.
+      Uitdagen zorgt ervoor dat alle vijanden in een gebied Stil worden en hem aanvallen.
+      Vliegende vijanden zijn immuun voor Uitdagen.
+    - 'Wanneer hij wordt aangevallen met een basis-aanval, heeft Ne''taan een kans
+      van {0}% voor een Tegenaanval, per aanval die hij krijgt. '
+    - Ne'taan geneest {0} hitpoints voor elke vijand die hij doodt.
+    - Marco gebruikt Pomp om een grote poel gif te maken, die {0} schade per seconde
+      doet aan alle vijanden in het gebied. De gifpoel blijft {1} seconden bestaan
+    - De gifpoel van gif-bombardement vermindert de bewegingssnelheid van vijanden
+      met {0}%
+    - Marco heeft een kans van {0}% om een speciaal drankje te gooien dat vijanden
+      in een gebied Stil maakt. De stilte duurt {1} seconden
+    - Pomp spuugt kruiden uit die {0} HP per seconde herstellen voor alle Helden
+      binnen bereik. Kruiden verbeteren de aanvalssnelheid van die Helden met {1}%
+      voor {2} seconden
+    - Nerocat lanceert een energiebol die {0} schade toebrengt aan een gebied. Hyper
+      Explosie! wordt verminderd met {1} seconde voor elke vijand die door deze spreuk
+      wordt vernietigd
+    - Voor elke vijand die door Nerocat wordt gedood, is er een {0}% om een explosie
+      te veroorzaken {1} schade. De explosie kan worden gekoppeld als de vijanden
+      continu worden vernietigd.
+    - Na het gebruik van Hyper Explosie! kan de normale aanval van Nerocat schade
+      aanrichten in een gebied en haar aanvalssnelheid verhogen tot {0}%. De vaardigheid
+      duurde {1} seconden
+    - Hyper Explosie! van Nerocat kan vijanden verdoven en duurde {0} seconden.
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Claudia is de dochter van de heer van de Elzas. Haar vader stierf op Crescent
+      Island toen het leger van het kwaad plotseling het koninkrijk aanviel. Ze bood
+      aan om het leger te leiden om haar vader te wreken en de samenzwering achter
+      de terugkeer van het kwaad te ontdekken.
+    - Arius is een vriend van Arryn en een bewaker van Yggdrasil. Toen het demonenleger
+      Yggdrasil aanviel, stak hij zijn hand uit naar Claudia en vroeg haar om een
+      alliantie met de mensen, in ruil daarvoor zou hij haar helpen de samenzwering
+      van deze onverwachte invasie te achterhalen.
+    - "Ne'taan is een hybride orc, een zoon van de leider van de Bloodwolf clan en
+      een magi\xEBr. Zijn oom, Gul'ak, heeft zijn moeder vermoord en zijn erfrecht
+      gestolen, en heeft de hele clan onderworpen aan het kwaad. Ne'taan is vastberaden
+      om wraak te nemen op Gul'ak en het kwaad te verslaan, om zijn clan te bevrijden."
+    - Marco is een weesjongen die in het zuidelijke woud van Ionia woont. Marco vond
+      zijn hagedisvriend Pomp in de buurt van het Grijze Moeras. Ze leefden vreedzaam
+      totdat de Orks arriveerden en het bos vernietigden. Marco en Pomp kwamen in
+      opstand tegen de Orks om hun bos te beschermen.
+    - Nerocat was oorspronkelijk een adellijke dame in Endia. Op jonge leeftijd werd
+      ze gestuurd naar de Royal Magic Academy. Ze stond bekend als een getalenteerde
+      maar arrogante en onhandelbare heks. Na haar afstuderen temde ze een lieftallige
+      kat genaamd Mew en daagde ze iedereen uit om zichzelf te bewijzen als de sterkste
+      heks van alle leeftijden.
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
